@@ -1,20 +1,34 @@
 \contentsline {chapter}{}{iii}{}%
 \contentsline {chapter}{Acknowledgment}{v}{}%
 \contentsline {chapter}{Abstract}{vii}{}%
-\contentsline {chapter}{List of Figures}{xi}{}%
-\contentsline {chapter}{List of Tables}{xiii}{}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
-\contentsline {chapter}{\numberline {2}Bluetooth Module Design}{3}{}%
-\contentsline {section}{\numberline {2.1}Introduction}{3}{}%
-\contentsline {section}{\numberline {2.2}Antenna Basics :}{3}{}%
-\contentsline {subsection}{\numberline {2.2.1}Antenna Types:}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.a}Wire Antenna :}{5}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.b} PCB Antenna :}{5}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.c} Chip Antenna :}{5}{}%
-\contentsline {subsection}{\numberline {2.2.2}Antenna Parameters}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.a}Return loss :}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.b}Bandwidth :}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.c}Radiation efficiency: }{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.d}Radiation pattern:}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.e}Gain :}{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}PCB Meandered Inverted-F Antenna (PIFA)}{8}{}%
+\contentsline {chapter}{\numberline {1}Preface}{ix}{}%
+\contentsline {chapter}{List of Figures}{xiii}{}%
+\contentsline {chapter}{List of Tables}{xv}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{1}{}%
+\contentsline {chapter}{\numberline {3}Bluetooth Module Design}{3}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{3}{}%
+\contentsline {section}{\numberline {3.2}Antenna Basics :}{3}{}%
+\contentsline {subsection}{\numberline {3.2.1}Antenna Types:}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.a}Wire Antenna :}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.b} PCB Antenna :}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.c} Chip Antenna :}{5}{}%
+\contentsline {subsection}{\numberline {3.2.2}Antenna Parameters}{6}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.a}Return loss :}{6}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.b}Bandwidth :}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.c}Radiation efficiency: }{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.d}Radiation pattern:}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.e}Gain :}{8}{}%
+\contentsline {section}{\numberline {3.3}Motivation for Designing BLE Modules }{8}{}%
+\contentsline {subsection}{\numberline {3.3.1}PCB Meandered Inverted-F Antenna (PIFA/MIFA)}{10}{}%
+\contentsline {subsubsection}{\numberline {3.3.1.a}Antenna used in Inventvm BLE modules :}{11}{}%
+\contentsline {subsubsection}{\numberline {3.3.1.b}S11 of the MIFA/PIFA antenna}{12}{}%
+\contentsline {subsubsection}{\numberline {3.3.1.c}MIFA/PIFA antennas 3D pattern :}{12}{}%
+\contentsline {section}{\numberline {3.4}Inverterd-F Antenna:}{12}{}%
+\contentsline {section}{\numberline {3.5}BLE Schematic and PCB layout}{13}{}%
+\contentsline {subsection}{\numberline {3.5.1}BluEnergy-355MC}{14}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.a}BluEnergy-355MC RF Schematic:}{14}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.b}BluEnergy-355MC RF Layout:}{15}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.c}Power Supply Decoupling Layout Considerations\cite {AN91445}}{19}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.d}BluEnergy-355MC RF Matching Circuit Layout:}{20}{}%
+\contentsline {subsection}{\numberline {3.5.2}Summery of the RF layout Design guidelines :}{20}{}%
+\contentsline {section}{\numberline {3.6}Conclusion of the Chapter 3}{22}{}%

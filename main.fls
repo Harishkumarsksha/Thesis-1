@@ -1029,6 +1029,23 @@ INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
@@ -1105,6 +1122,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\graphics\rotating.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\rotating.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
@@ -1141,9 +1169,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
-INPUT .\FrontPages.aux
-INPUT FrontPages.aux
-INPUT FrontPages.aux
 OUTPUT main.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
@@ -1230,17 +1255,15 @@ INPUT Chap00\Abstract.tex
 INPUT .\Chap00\Abstract.tex
 INPUT .\Chap00\Abstract.tex
 INPUT Chap00\Abstract.tex
-INPUT .\main.toc
-INPUT main.toc
-INPUT main.toc
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT Chap00\Preface.tex
 OUTPUT main.toc
-INPUT .\main.lof
-INPUT main.lof
-INPUT main.lof
 OUTPUT main.lof
-INPUT .\main.lot
-INPUT main.lot
-INPUT main.lot
 OUTPUT main.lot
 INPUT .\Chap01\Chap01.tex
 INPUT .\Chap01\Chap01.tex
@@ -1277,13 +1300,96 @@ INPUT Chap03\Figures\Antenna_Bandwidth.PNG
 INPUT .\Chap03\Figures\Antenna_Radiation_Pattren.PNG
 INPUT .\Chap03\Figures\Antenna_Radiation_Pattren.PNG
 INPUT Chap03\Figures\Antenna_Radiation_Pattren.PNG
+INPUT .\Chap03\Figures\MIFA_Antenna_radiation_direction.PNG
+INPUT .\Chap03\Figures\MIFA_Antenna_radiation_direction.PNG
+INPUT Chap03\Figures\MIFA_Antenna_radiation_direction.PNG
 INPUT .\Chap03\Figures\MIFA_Antenna.PNG
 INPUT .\Chap03\Figures\MIFA_Antenna.PNG
 INPUT Chap03\Figures\MIFA_Antenna.PNG
-INPUT .\main.bbl
-INPUT main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
+INPUT .\Chap03\Figures\mifa_antenna_pcb_example.PNG
+INPUT .\Chap03\Figures\mifa_antenna_pcb_example.PNG
+INPUT Chap03\Figures\mifa_antenna_pcb_example.PNG
+INPUT .\Chap03\Figures\MIFA_Antenna_S11.PNG
+INPUT .\Chap03\Figures\MIFA_Antenna_S11.PNG
+INPUT Chap03\Figures\MIFA_Antenna_S11.PNG
+INPUT .\Chap03\Figures\mifa_Antenna_gain_pattern_phi_90.PNG
+INPUT .\Chap03\Figures\mifa_Antenna_gain_pattern_phi_90.PNG
+INPUT Chap03\Figures\mifa_Antenna_gain_pattern_phi_90.PNG
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\Chap03\Figures\mifa_Antenna_gain_pattern_phi_0.PNG
+INPUT .\Chap03\Figures\mifa_Antenna_gain_pattern_phi_0.PNG
+INPUT Chap03\Figures\mifa_Antenna_gain_pattern_phi_0.PNG
+INPUT .\Chap03\Figures\mifa_antenna_3d.PNG
+INPUT .\Chap03\Figures\mifa_antenna_3d.PNG
+INPUT Chap03\Figures\mifa_antenna_3d.PNG
+INPUT .\Chap03\Figures\mifa_antenna_effieciency.PNG
+INPUT .\Chap03\Figures\mifa_antenna_effieciency.PNG
+INPUT Chap03\Figures\mifa_antenna_effieciency.PNG
+INPUT .\Chap03\Figures\IFA_antenna.PNG
+INPUT .\Chap03\Figures\IFA_antenna.PNG
+INPUT Chap03\Figures\IFA_antenna.PNG
+INPUT .\Chap03\Figures\IFA_antenna_reflecctions.PNG
+INPUT .\Chap03\Figures\IFA_antenna_reflecctions.PNG
+INPUT Chap03\Figures\IFA_antenna_reflecctions.PNG
+INPUT .\Chap03\Figures\IFA_S11_Change.PNG
+INPUT .\Chap03\Figures\IFA_S11_Change.PNG
+INPUT Chap03\Figures\IFA_S11_Change.PNG
+INPUT .\Chap03\Chap03_01_AntennaLayout.tex
+INPUT .\Chap03\Chap03_01_AntennaLayout.tex
+INPUT .\Chap03\Chap03_01_AntennaLayout.tex
+INPUT Chap03\Chap03_01_AntennaLayout.tex
+INPUT .\Chap03\Chap03_01_AntennaLayout.tex
+INPUT .\Chap03\Chap03_01_AntennaLayout.tex
+INPUT Chap03\Chap03_01_AntennaLayout.tex
+INPUT .\Chap03\Figures\Nordic_ST_modules.PNG
+INPUT .\Chap03\Figures\Nordic_ST_modules.PNG
+INPUT Chap03\Figures\Nordic_ST_modules.PNG
+INPUT .\Chap03\Figures\STM_BLE_Schematic.PNG
+INPUT .\Chap03\Figures\STM_BLE_Schematic.PNG
+INPUT Chap03\Figures\STM_BLE_Schematic.PNG
+INPUT .\Chap03\Figures\nordic_module_grounding.PNG
+INPUT .\Chap03\Figures\nordic_module_grounding.PNG
+INPUT Chap03\Figures\nordic_module_grounding.PNG
+INPUT .\Chap03\Figures\Nordic_module_power_plane.PNG
+INPUT .\Chap03\Figures\Nordic_module_power_plane.PNG
+INPUT Chap03\Figures\Nordic_module_power_plane.PNG
+INPUT .\Chap03\Figures\Antenna_Feed.PNG
+INPUT .\Chap03\Figures\Antenna_Feed.PNG
+INPUT Chap03\Figures\Antenna_Feed.PNG
+INPUT .\Chap03\Figures\PGND_GNDRF_Isolation.PNG
+INPUT .\Chap03\Figures\PGND_GNDRF_Isolation.PNG
+INPUT Chap03\Figures\PGND_GNDRF_Isolation.PNG
+INPUT .\Chap03\Figures\Regular_Antenna_feed.PNG
+INPUT .\Chap03\Figures\Regular_Antenna_feed.PNG
+INPUT Chap03\Figures\Regular_Antenna_feed.PNG
+INPUT .\Chap03\Figures\Irregular_antenna_feed.PNG
+INPUT .\Chap03\Figures\Irregular_antenna_feed.PNG
+INPUT Chap03\Figures\Irregular_antenna_feed.PNG
+INPUT .\Chap03\Figures\Top_vias.PNG
+INPUT .\Chap03\Figures\Top_vias.PNG
+INPUT Chap03\Figures\Top_vias.PNG
+INPUT .\Chap03\Figures\Bottom_vias.PNG
+INPUT .\Chap03\Figures\Bottom_vias.PNG
+INPUT Chap03\Figures\Bottom_vias.PNG
+INPUT .\Chap03\Figures\power_supply_coupling.PNG
+INPUT .\Chap03\Figures\power_supply_coupling.PNG
+INPUT Chap03\Figures\power_supply_coupling.PNG
+INPUT .\Chap03\Figures\matching_network_layout.PNG
+INPUT .\Chap03\Figures\matching_network_layout.PNG
+INPUT Chap03\Figures\matching_network_layout.PNG
+INPUT .\Chap03\Figures\matching_network_circuit.PNG
+INPUT .\Chap03\Figures\matching_network_circuit.PNG
+INPUT Chap03\Figures\matching_network_circuit.PNG
 INPUT .\main.ind
 INPUT main.ind
 INPUT .\main.ind

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.13)  15 SEP 2022 13:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.19)  19 SEP 2022 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -716,7 +716,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count349
 \c@blind@pangrammax=\count350
 ) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+Package: csquotes 2022-09-09 v5.2m context-sensitive quotations (JAW)
  (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count351
@@ -729,7 +729,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count357
 \csq@ltx@everypar=\toks42
  (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+File: csquotes.def 2022-09-09 v5.2m csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -775,7 +775,12 @@ Package: todonotes 2021/06/04
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@@todonotes@numberoftodonotes=\count364
-) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip88
 \multirow@cntb=\count365
@@ -831,6 +836,13 @@ Package ctable Warning:
 \@CToldrule=\dimen355
 \CT@t=\box139
 \@CTcurftwidth=\dimen356
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count369
+\float@exts=\toks46
+\float@box=\box140
+\@float@everytoks=\toks47
+\@floatcapt=\box141
 ) (C:\Program Files\MiKTeX\tex/latex/background\background.sty
 Package: background 2014/03/04 v2.1 background material
  (C:\Program Files\MiKTeX\tex/latex/everypage\everypage.sty
@@ -853,101 +865,101 @@ Package everypage Warning: You appear to be running a version of LaTeX
 
 ) (C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks46
-\AP@partial=\box140
-\AP@footins=\box141
+\AP@output=\toks48
+\AP@partial=\box142
+\AP@footins=\box143
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (main.aux (FrontPages.aux))
+ (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 82.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 74.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 74.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 82.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 82.
  (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 82.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 74.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 74.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 74.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 74.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 74.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 74.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 74.
-LaTeX Font Info:    Redeclaring math accent \check on input line 74.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 74.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 74.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 74.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 74.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
+LaTeX Font Info:    Redeclaring math accent \check on input line 82.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 74.
+(Font)              `operators' in the math version `normal' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 74.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 74.
+(Font)              `operators' in the math version `bold' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 74.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 74.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 74.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 74.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 74.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 74.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -985,6 +997,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `FrontPages.aux'.
@@ -1023,15 +1036,15 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 86.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 94.
  (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1049,7 +1062,7 @@ File: sdm_symbol.png Graphic file (type bmp)
 ] [2
 
 ]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 87--87
+Overfull \hbox (12.0pt too wide) in paragraph at lines 95--95
  [] 
  []
 
@@ -1073,7 +1086,7 @@ Underfull \hbox (badness 1281) in paragraph at lines 4--9
  []
 
 )
-Underfull \hbox (badness 2990) in paragraph at lines 14--96
+Underfull \hbox (badness 2990) in paragraph at lines 14--105
 \TU/TimesNewRoman(0)/b/it/12 Keywords\TU/TimesNewRoman(0)/b/n/12 : \TU/TimesNewRoman(0)/b/it/12 BMS\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 SOC\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 SOH\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 BLE\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 Coloumb-Count\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 Kalman Filter\TU/TimesNewRoman(0)/b/n/12 ; \TU/TimesNewRoman(0)/b/it/12 Battery
  []
 
@@ -1082,41 +1095,63 @@ Underfull \hbox (badness 2990) in paragraph at lines 14--96
 
 ] [8
 
-] (main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
+] (Chap00/Preface.tex
+Chapter 1.
+Chap00/Preface.tex:5: Undefined control sequence.
+<recently read> \indentBefore 
+                              
+l.5 \indentBefore
+                  my Master's, I worked with Analog Device Inc as IoT applic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Underfull \vbox (badness 1303) has occurred while \output is active []
 
  [9
 
-] [10
+] [10]
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
-] (main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+[11
 
- [11
 
 ] [12
 
-] (main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+]
+No file main.lof.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
- [13
+[13
 
 ] [14
 
+]
+No file main.lot.
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+[15
+
+] [16
+
 ] (Chap01/Chap01.tex
-Chapter 1.
+Chapter 2.
 ) [1
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 120.
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 134.
  [2
 
 ] (Chap03/Chap03.tex
-Chapter 2.
+Chapter 3.
 [3
 
 ]
@@ -1132,20 +1167,36 @@ File: Chap03/Figures/PCB_Antenna.PNG Graphic file (type bmp)
 File: Chap03/Figures/Chip_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Chip_Antenna.PNG>
  [5]
+
+LaTeX Warning: Reference `fig:ANTENNA_RETUNRNLOSS' on page 6 undefined on input line 91.
+
+
+Package natbib Warning: Citation `AN91445' on page 6 undefined on input line 91.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Package caption Warning: \label without proper reference on input line 111.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `eq:Antenna_Returnloss' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Reference `fig:ANTENNA_RETUNRNLOSS' on page 6 undefined on input line 94.
 
 
 LaTeX Warning: Reference `tb:ANTENNA_RETURNlOSS_TABLE' on page 6 undefined on input line 94.
 
+
+Package natbib Warning: Citation `AN91445' on page 6 undefined on input line 95.
+
 [6]
 File: Chap03/Figures/Antenna_ReturnLoss.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_ReturnLoss.PNG>
+
+
+Package natbib Warning: Citation `AN91445' on page 7 undefined on input line 132.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
@@ -1156,42 +1207,355 @@ File: Chap03/Figures/Antenna_Bandwidth.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:ANTENNA_BANDWIDTH' on page 7 undefined on input line 141.
+
+
+Package natbib Warning: Citation `AN91445' on page 7 undefined on input line 144.
+
+
+LaTeX Warning: Reference `eq:Antenna_Returnloss' on page 7 undefined on input line 148.
+
+
+Package natbib Warning: Citation `AN91445' on page 7 undefined on input line 151.
+
 [7]
+
+Package natbib Warning: Citation `AN91445' on page 8 undefined on input line 155.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
+
+
+LaTeX Warning: Reference `fig:ANTENNA_RADIATION_PATTERN' on page 8 undefined on input line 159.
+
+
+Package natbib Warning: Citation `AN91445' on page 8 undefined on input line 161.
 
 
 Underfull \hbox (badness 3449) in paragraph at lines 158--162
 []\TU/TimesNewRoman(0)/m/n/12 An isotropic dipole antenna radiates equally in all directions in the plane
  []
 
+
+Package natbib Warning: Citation `AN91445' on page 8 undefined on input line 167.
+
 File: Chap03/Figures/Antenna_Radiation_Pattren.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_Radiation_Pattren.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 8 undefined on input line 178.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 8 undefined on input line 178.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 8 undefined on input line 179.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_SOFTWARESTACK_GUIDE' on page 8 undefined on input line 179.
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 178--183
+[]\TU/TimesNewRoman(0)/m/n/12 Nordic nRF52840[\TU/TimesNewRoman(0)/b/n/12 ? \TU/TimesNewRoman(0)/m/n/12 ] is another Bluetooth hardware similar to the
+ []
+
 [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 10 undefined on input line 187.
+
+File: Chap03/Figures/MIFA_Antenna_radiation_direction.PNG Graphic file (type bmp)
+<Chap03/Figures/MIFA_Antenna_radiation_direction.PNG>
+
+LaTeX Warning: Reference `fig:MIFA_RADIATION_DIRECTION' on page 10 undefined on input line 197.
+
+
+Package natbib Warning: Citation `PIFA2017Cheuk' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 10 undefined on input line 199.
+
+[10]
 File: Chap03/Figures/MIFA_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna.PNG>
-) [9] [10
 
-] (main.bbl) [11
 
-] [12
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 11 undefined on input line 205.
 
-]
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 11 undefined on input line 205.
+
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 11 undefined on input line 210.
+
+
+Package natbib Warning: Citation `NXPBLE_Antenna_Guide' on page 11 undefined on input line 210.
+
+File: Chap03/Figures/mifa_antenna_pcb_example.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_pcb_example.PNG>
+
+LaTeX Warning: Reference `tb:MIFA_ANTENNA_SIMULATION_PARAMETERS' on page 11 undefined on input line 219.
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 11 undefined on input line 246.
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 11 undefined on input line 246.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:MIFA_S11' on page 11 undefined on input line 251.
+
+[11]
+File: Chap03/Figures/MIFA_Antenna_S11.PNG Graphic file (type bmp)
+<Chap03/Figures/MIFA_Antenna_S11.PNG>
+File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG>
+File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]\TU/TimesNewRoman(0)/m/n/10 (b) MIFA antenna Gain Radiation
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/mifa_antenna_3d.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_3d.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/mifa_antenna_effieciency.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_effieciency.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:IFA_Antenna_1' on page 12 undefined on input line 284.
+
+
+LaTeX Warning: Reference `tb:MIFA_ANTENNA_SIMULATION_PARAMETERS' on page 12 undefined on input line 284.
+
+File: Chap03/Figures/IFA_antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_antenna.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:IFA_Antenna_reflection' on page 12 undefined on input line 293.
+
+File: Chap03/Figures/IFA_antenna_reflecctions.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_antenna_reflecctions.PNG>
+
+LaTeX Warning: Reference `fig:IFA_S11_Change' on page 12 undefined on input line 300.
+
+
+LaTeX Warning: Reference `fig:IFA_Antenna_1' on page 12 undefined on input line 300.
+
+File: Chap03/Figures/IFA_S11_Change.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_S11_Change.PNG>
+[12]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(Chap03/Chap03_01_AntennaLayout.tex
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 13 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:Nordic_ST_modules' on page 13 undefined on input line 4.
+
+File: Chap03/Figures/Nordic_ST_modules.PNG Graphic file (type bmp)
+<Chap03/Figures/Nordic_ST_modules.PNG>
+[13]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 14 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 14 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 14 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 14 undefined on input line 15.
+
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 14 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 14 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 14 undefined on input line 18.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_BOM' on page 14 undefined on input line 18.
+
+File: Chap03/Figures/STM_BLE_Schematic.PNG Graphic file (type bmp)
+<Chap03/Figures/STM_BLE_Schematic.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 14 undefined on input line 28.
+
+[14]
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 15 undefined on input line 36.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+File: Chap03/Figures/nordic_module_grounding.PNG Graphic file (type bmp)
+<Chap03/Figures/nordic_module_grounding.PNG>
+File: Chap03/Figures/Nordic_module_power_plane.PNG Graphic file (type bmp)
+<Chap03/Figures/Nordic_module_power_plane.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:Antenna_Feed_clearence' on page 16 undefined on input line 49.
+
+File: Chap03/Figures/Antenna_Feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Antenna_Feed.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/PGND_GNDRF_Isolation.PNG Graphic file (type bmp)
+<Chap03/Figures/PGND_GNDRF_Isolation.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `en:RFGND_isolation_benifits' on page 16 undefined on input line 70.
+
+
+LaTeX Warning: Reference `fig:PGND_GNDRF_Isolation' on page 16 undefined on input line 70.
+
+[16]
+
+LaTeX Warning: Reference `fig:Antenna_Feed_Shape' on page 17 undefined on input line 71.
+
+File: Chap03/Figures/Regular_Antenna_feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Regular_Antenna_feed.PNG>
+File: Chap03/Figures/Irregular_antenna_feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Irregular_antenna_feed.PNG>
+
+Underfull \hbox (badness 2189) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Irregular Antenna shape and
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+File: Chap03/Figures/Top_vias.PNG Graphic file (type bmp)
+<Chap03/Figures/Top_vias.PNG>
+File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
+<Chap03/Figures/Bottom_vias.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 18 undefined on input line 97.
+
+
+Package natbib Warning: Citation `AN91445' on page 18 undefined on input line 100.
+
+[18]
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 103.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 104.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 105.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 107.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 108.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 109.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 110.
+
+
+Package natbib Warning: Citation `AN91445' on page 19 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:Power_Supply_Decoupling' on page 19 undefined on input line 111.
+
+File: Chap03/Figures/power_supply_coupling.PNG Graphic file (type bmp)
+<Chap03/Figures/power_supply_coupling.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:Antenna_matching_network' on page 19 undefined on input line 123.
+
+
+LaTeX Warning: Reference `fig:Antenna_matching_network' on page 19 undefined on input line 124.
+
+[19]
+File: Chap03/Figures/matching_network_layout.PNG Graphic file (type bmp)
+<Chap03/Figures/matching_network_layout.PNG>
+File: Chap03/Figures/matching_network_circuit.PNG Graphic file (type bmp)
+<Chap03/Figures/matching_network_circuit.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20] [21])) [22]
+No file main.bbl.
 runsystem(makeindex main.idx)...executed safely (allowed).
 
- (main.ind) (main.aux (FrontPages.aux))
+(main.ind)
+
+Package natbib Warning: There were undefined citations.
+
+(main.aux (FrontPages.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 26224 strings out of 410536
- 561166 string characters out of 2817655
- 1031529 words of memory out of 3000000
- 46858 multiletter control sequences out of 15000+600000
- 474462 words of font info for 79 fonts, out of 8000000 for 9000
+ 26551 strings out of 410536
+ 571835 string characters out of 2817655
+ 1038496 words of memory out of 3000000
+ 47146 multiletter control sequences out of 15000+600000
+ 479510 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,15n,117p,796b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 87i,15n,117p,1632b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (28 pages, 162016 bytes).
+Output written on main.xdv (40 pages, 358572 bytes).

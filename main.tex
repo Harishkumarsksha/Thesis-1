@@ -28,9 +28,15 @@
 %\usepackage{subcaption}
 \usepackage{todonotes}
 % \usepackage{subfig}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}  
 \usepackage{multirow}
 \usepackage{makecell}
 \usepackage{ctable} %For special rule
+\usepackage{float}
+
+% \usepackage[demo]{graphicx}
+% \usepackage{subfig}
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % \usepackage{mmap}
@@ -69,6 +75,8 @@ contents={%
 %\usepackage{verbatim}
 %\usepackage{wrapfig}
 %\usepackage{multirow}
+
+
 %% % % % % % %
 \onehalfspacing
 \begin{document}
@@ -92,8 +100,14 @@ contents={%
 
 \dedication
 % \declaration
+
 \acknowledgment
 \abstract
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+\input{Chap00/Preface}
+\thispagestyle{empty}
+\cleardoublepage
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \tableofcontents

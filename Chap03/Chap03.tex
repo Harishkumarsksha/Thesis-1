@@ -27,7 +27,7 @@ An Antenna is a piece of metal exposed to free space. A piece of conductor behav
 	\label{BASIC_ANTENNA}
 \end{figure}
 
-Fig.1  shows the diploe antenna whose length is  $\lambda/2$ and the fed has an input impedance of $50\omega$.
+Fig.1  shows the diploe antenna whose length is  $\lambda/2$ and the fed has an input impedance of $50\Omega $.
 Dipole antennas are the most basic antennas that have been used for broadcasting.
 In the Millennial age of technology, dipole antennas have been bulky and heavy, thanks to the PCB technology, which made diploe antennas extremely simple in construction and this became the center of attraction for the Bluetooth application in the modern era.
 Although diploe antennas are extremely comfortable for PCB we still face hurdles to manage proper grounding for the antenna..which can be addressed through quarter-wave antennas.
@@ -43,7 +43,7 @@ Since the eccentric part of this chapter discusses the Bluetooth antenna design 
 
 \subsubsection{Wire Antenna :}
 These types of antennas are just a piece of wire extended over the PCB in open space, whose length is matched to $\dfrac{\lambda}{4}$ on the ground plane.
-In general, these antennas are fed by a $50\omega$ matching transmission line, a Wire antenna gives a top-notch performance and supports a wide range of frequencies because of its three-dimensional exposure in open space.
+In general, these antennas are fed by a $50\Omega  $ matching transmission line, a Wire antenna gives a top-notch performance and supports a wide range of frequencies because of its three-dimensional exposure in open space.
 The shape of the wire antennas can be loop, wire, or helix.. depending on the application the shape is changed.
 
 \begin{figure}[h]
@@ -108,7 +108,6 @@ A return loss of 10 dB signifies that $90\%$ of the incident power goes into the
 \end{figure}
 
 \begin{table}[h]
-	\label{tb:ANTENNA_RETURNlOSS_TABLE}
 	\begin{tabular}{|c|c|c|c| }
 		\hline 
 		S11 (dB) & Return Loss (dB) & Preflected/Pincident $(\%)$ & Pradiated/Pincident (\%) \\ 
@@ -123,6 +122,7 @@ A return loss of 10 dB signifies that $90\%$ of the incident power goes into the
 		\hline
 	\end{tabular}
 	\caption{Return Loss and Power reflected from antenna}
+	\label{tb:ANTENNA_RETURNlOSS_TABLE}
 \end{table}
 
 
@@ -166,28 +166,143 @@ Gain indicates the radiation in the direction of interest compared to the isotro
 uniformly in all directions. This is expressed in terms of dBi—how strong the radiation field is compared to an ideal 
 isotropic antenna \cite{AN91445}.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.65\textwidth]{Chap03/Figures/Antenna_Radiation_Pattren.PNG}
 	\caption{Antenna Radiation Pattren}
 	\label{fig:ANTENNA_RADIATION_PATTERN}
 \end{figure}
 
-% \input{Chap03/Chap03_sub_MIFA}
 
+\section{Motivation for Designing BLE Modules }
+One of the core ideas of the Inventvm BMS team is to make the BMS project in a wireless communication environment, therefore the team has decided to use Bluetooth as the communication tool. Hence finding the big sharks in the Bluetooth world took quite some time after a long investigation we concluded to pick two important pies in the Bluetooth cake such as STM BleEnergy-355mc \cite{BLNRG355_STEVAL_GUIDE} and Nordic nRF52840 \cite{NORDIC_nrf52840_USERGUIDE}. BlueEnergy-355mc is the jewel of our projects because it owes the advantages of very low power consumption: 3.4 mA, Receiver sensitivity, Bluetooth low energy data extensions, high data rate so on... despite having these many advantages STM does not manufacture the Bluetooth modules other than eval boards. Henceforth team has been paralyzed to outsource the required Bluetooth modules, later in the same path we found MDARTRONICS the company that manufactures the Bluetooth modules using the STM BleEnergy-355mc hardware named STORMY. Stormy is a such cutie pie, at least it helps at some extent in R and D to prove the Wireless communication BMS architecture, but in the long run, we have experienced some the discomforts such as lack of documentation and market supply...to overcome all these issues team has decided to make inventive proprietary level Bluetooth modules fr BMS project. This gave me the perfect timing to opportunity design RF Bluetooth modules for the project as part of my thesis which is dedicated to wireless communication BMS.\\
+\indent Nordic nRF52840\cite{NORDIC_nrf52840_USERGUIDE} is another Bluetooth hardware similar to the BlueEnergy-355Mc reason behind picking the Nordic is the open BLE stack and Robust hardware. Nordic is much more comfortable is different data rates, on-chip power converters, 32-bit ARM Cortex M4F @64MHz so and forth. Nordic has also a dedicated BLE stack \cite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE} that handles all power management resources on-chip, which attracts low-power automobile applications. In a much broader sense, Nordic is additional Bluetooth hardware that we can provide to the customer according to the application's need.\\
+\indent Though picking the Bluetooth hardware and stack is a boiling task, choosing the antenna and RF layout also takes prime place. Though are plenty of antennas for the 2.4GHz band, most Bluetooth manufacturers recommend two types of PCB antennas, meanders inverted antennas (MIFA) and inverted-F antenna (IFA), which are characterized and simulated exclusively for the low-power Bluetooth applications. MIFA (PIFA) however is peculiar for most automobile applications because of its pointed directional properties.\\
+\indent However, we can choose any type of antenna and hardware for Bluetooth, admittedly the antenna, hardware, and RF layout design described in the following modules are classified for the BMS project.\\
+\indent The Low Data rate and bandwidth requirement in Bluetooth applications make IFA and MIFA make these two antennas most attractive for BLE.  Manufacturing these antennas is extremely easy because they are part of the PCB design. Certainly, these antennas are inexpensive as they are part of PCB and they provide good bandwidth in ranges for BLE in terms of 150 to 250 MHZ.MIFA is most preferable for smaller form factor PCBs such as a wireless mouse, wearable watches, handy IoT devices.... etc. IFA antennas are recommended for applications such as one of the dimensions is needed to be smaller than the other for example heart rate monitor.
 
-\subsection{PCB Meandered Inverted-F Antenna (PIFA)}
+\subsection{PCB Meandered Inverted-F Antenna (PIFA/MIFA)}
 
-PIFA antennas are much more popular in Bluetooth Low Energy stack because of the small size low profile and cost-effective compared to the conventional dipole and ceramic chip antennas.
-The proposed structure of the PIFA antenna is routed to gain all these advantages.
+PIFA antennas are much more popular in Bluetooth Low Energy stack because of the small size, low profile and cost-effective compared to the conventional dipole and ceramic chip antennas.
+The proposed structure (PIFA/MIFA) Figure \ref{fig:MIFA_Antenna_1} of the PIFA antenna is routed to gain all these advantages.
 Replacing the conventional PCB line in PIFA with the meandering line and meandering shorting strip
-improves the efficiency of the PIFA as well as the bandwidth. As a case study, the design and measurement results of the
-proposed PIFA are presented \cite{PIFA2017Cheuk} in Figure\ref{fig:PIFA_Antenna_1}.
+improves the efficiency of the PIFA as well as the bandwidth. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Chap03/Figures/MIFA_Antenna_radiation_direction.PNG}
+	\caption{MIFA/PIFA antenna radiation direction}
+	\label{fig:MIFA_RADIATION_DIRECTION}
+\end{figure}
+
+Taking the meandered shape on one side and connecting meandered terminal to the ground makes the radiation lobe a more directional Figure\ref{fig:MIFA_RADIATION_DIRECTION} that implicates the radiation of the meandered antenna.Meandered side of the antenna radiates very less power because the Menderes terminal is connected to the ground which nullifies most of the radiation on the backward side. This kind of feature is highly needed in extremely noisy environments such as automobiles, power grid applications, data servers....etc.
+As a case study, the design and measurement results of the
+proposed MIFA/PIFA are presented \cite{PIFA2017Cheuk} in Figure\ref{fig:MIFA_Antenna_1}.
 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.65\textwidth]{Chap03/Figures/MIFA_Antenna.PNG}
-	\caption{PCB Inverted Meandered F type Antenna }
-	\label{fig:PIFA_Antenna_1}
+	\caption{PCB Inverted Meandered F type Antenna \cite{NXP_AN11994_Antenna_Guide} }
+	\label{fig:MIFA_Antenna_1}
 \end{figure}
+
+\subsubsection{Antenna used in Inventvm BLE modules :}
+\indent I got an opportunity complete the Inventvm BLE module antenna simulation Figure\ref{fig:MIFA_Antenna_1} to depict the typical board shape and the antenna placement \cite{NXPBLE_Antenna_Guide}. The RF shield housing has been removed for testing purposes, usually, Bluetooth modules provide RF housing to protect the BLE from external interference.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Chap03/Figures/mifa_antenna_pcb_example.PNG}
+	\caption{BLE module PCB with the MIFA/PIFA antenna placement}
+	\label{fig:fig:PIFA_Antenna_PCB}
+\end{figure}
+
+Some MIFA/PIFA antenna and PCB parameters that are used for the simulation are shown in the table \ref{tb:MIFA_ANTENNA_SIMULATION_PARAMETERS}.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c| }
+		\hline 
+		\textbf{Antenna parameters} & \textbf{Value} & \textbf{Unit} \\ 
+		\hline
+		PCB substrate permittivity & 4.6 & — \\
+		\hline
+		PCB substrate H & 1.0 & mm \\
+		\hline
+		Length of PCB substrate & 35.5 &mm\\
+		\hline
+		Width of PCB substrate &14 &mm\\
+		\hline
+		Length of TOP PCB ground & 25.5& mm\\
+		\hline
+		Width of TOP PCB ground& 14& mm\\
+		\hline
+		Length of BOT PCB grounD &25.5 &mm\\
+		\hline
+		Width of BOT PCB ground &14 &mm\\
+		\hline
+		Width of antenna trace &0.5 &mm\\
+		\hline
+	\end{tabular}
+	\caption{MIFA/PIFA antenna simulation parameters \cite{NXP_AN11994_Antenna_Guide}}
+	\label{tb:MIFA_ANTENNA_SIMULATION_PARAMETERS}
+\end{table}
+
+\subsubsection{S11 of the MIFA/PIFA antenna}
+Figure\ref{fig:MIFA_S11} shows the MIFA/PIFA antenna s11 parameter simulation results. The Bluetooth frequency bandwidth ranges from 2402 to 2483.5 MHz. The return loss of the antenna in the Bluetooth frequency band is less than the -10db.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Chap03/Figures/MIFA_Antenna_S11.PNG}
+	\caption{MIFA/PIFA antenna S11 return loss}
+	\label{fig:MIFA_S11}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =90\deg$]{\includegraphics[scale=.5]{Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG}}
+	\qquad
+	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =0\deg$]{\includegraphics[scale=.5]{Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG}}
+	\caption{MIFA Antenna Gain Radiation Pattren}
+	\label{SNR_GBW1}
+\end{figure}
+\subsubsection{MIFA/PIFA antennas 3D pattern :}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Chap03/Figures/mifa_antenna_3d.PNG}
+	\caption{MIFA/PIFA antenna 3D radiation Pattren}
+	\label{fig:MIFA_3D}
+\end{figure}
+
+% \subsubsection{MIFA/PIFA antenna efficiency Simulation Results :}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap03/Figures/mifa_antenna_effieciency.PNG}
+	\caption{MIFA/PIFA antenna efficiency Simulation Results}
+	\label{fig:MIFA_antenna_effieciency}
+\end{figure}
+
+\section{Inverterd-F Antenna:}
+The inverted F antenna is also one of the popular antennae, recommended for the Low power stack BLE applications. IFA antennas host similar features to what MIFA/PIFA antennas offer but MIFA antennas are more recommended where is a space constraint and power radiation is in one direction. IFA antennas have bidirectional power radiation rather than mono-directional. Nordic Recommends in all designs to use the IFA antennas. Figure \ref{fig:IFA_Antenna_1} educates the typical design of the IFA antenna and simulation parameters are pretty much the same as it is used for the MIFA antenna Table \ref{tb:MIFA_ANTENNA_SIMULATION_PARAMETERS}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap03/Figures/IFA_antenna.PNG}
+	\caption{IFA antenna design and the placement}
+	\label{fig:IFA_Antenna_1}
+\end{figure}
+
+By the constructional nature of the IFA antennas are easy to match we can see that in the Figure \ref{fig:IFA_Antenna_reflection} IFA antenna is very well-matched at 2.4GHz. The S11 is quite impressive because it has a reflection coefficient at 2.4GHz is -27db and bandwidth at -9db is 160MHz.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap03/Figures/IFA_antenna_reflecctions.PNG}
+	\caption{IFA antenna S11 and S22}
+	\label{fig:IFA_Antenna_reflection}
+\end{figure}
+IFA antenna matching can be further tuned by varying the hinges, and length of the antennas, on contrary we need to compromise with power and resonant frequencies. Figure \ref{fig:IFA_S11_Change}shows the relative length and hinge width changes of the design Figure \ref{fig:IFA_Antenna_1} caused different frequency shfit, but they keep giving the best performance in matching.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap03/Figures/IFA_S11_Change.PNG}
+	\caption{IFA antenna S11 Variation by changing the length and hinge width}
+	\label{fig:IFA_S11_Change}
+\end{figure}
+
+\input{Chap03/Chap03_01_AntennaLayout}
