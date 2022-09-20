@@ -1,22 +1,22 @@
 # Fdb version 3
-["bibtex main"] 1663671104 "main.aux" "main.bbl" "main" 1663671119
+["bibtex main"] 1663671931 "main.aux" "main.bbl" "main" 1663671946
   "./Ref/IEEEtran.bst" 1660815198 59214 a90e64071cc7185c225b4d6ec93de903 ""
-  "FrontPages.aux" 1663671110 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
+  "FrontPages.aux" 1663671937 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
   "Ref/SampleReferences.bib" 1663670137 9092 c3384447a4c5eebc9d6f8dbc60107be5 ""
-  "main.aux" 1663671113 12903 4f7a9896ec1779ae8611cb6660e1cff3 "xelatex"
+  "main.aux" 1663671940 13075 3c893b63c0df695bda20c8c464c70d2f "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1663671119
+["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1663671946
   "main.idx" 0 -1 0 "xelatex"
   (generated)
   "main.ilg"
   "main.ind"
-["xdvipdfmx"] 1663671114 "main.xdv" "main.pdf" "main" 1663671119
-  "main.xdv" 1663671113 426320 5be9ae6eef651954f482a02bb1f14d71 "xelatex"
+["xdvipdfmx"] 1663671941 "main.xdv" "main.pdf" "main" 1663671946
+  "main.xdv" 1663671940 459324 302a8821955c630f760f657b264f266a "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1663671105 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1663671119
+["xelatex"] 1663671932 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1663671946
   "BLE.PNG" 1663664628 70051 653228063c7dffa540821d96381457eb ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233955448 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -220,8 +220,9 @@
   "Chap00/Abstract.tex" 1662986133 774 dd46fed573b014e4f5b76caca869b43e ""
   "Chap00/Acknowledge.tex" 1663664834 2873 0161389d2a4ed67ac8f09c3081e2f2a8 ""
   "Chap00/Dedication.tex" 1661244713 562 59ee6f7acbb2f99b894509d3bee3f959 ""
+  "Chap00/Preface.tex" 1663671909 3017 ec23ea3acc9c3ec570b4e85b22a5dc72 ""
   "Chap01/Chap01.tex" 1662980079 101 e3a8481c1e2535bb29e4900519655a33 ""
-  "Chap03/Chap03.tex" 1663670470 22296 905f44de5bdbf9904db028a1a8ed7111 ""
+  "Chap03/Chap03.tex" 1663671560 22297 8ab4409031379d629029327fe1f11835 ""
   "Chap03/Chap03_01_AntennaLayout.tex" 1663670138 14251 91e8a55307267127c2f6b095a95d538f ""
   "Chap03/Figures/Antenna_Bandwidth.PNG" 1663146431 47535 26449f3e901c7e1e7e92e6e2c751a91d ""
   "Chap03/Figures/Antenna_Feed.PNG" 1663587528 27495 a2e6ebea504ed446305788ea1b027128 ""
@@ -265,17 +266,17 @@
   "Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER2.PNG" 1663665768 45098 51199a048047dff17d879a53f07e2a3c ""
   "Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG" 1663665490 70051 653228063c7dffa540821d96381457eb ""
   "Chap_Miselleneous/Chap_Misellaneous.tex" 1663671069 132 b8ed8330e2babf21679903890b35f3a2 ""
-  "FrontPages.aux" 1663671110 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
+  "FrontPages.aux" 1663671937 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
   "FrontPages.tex" 1663015306 1982 a2aca8d3939e889732002ab372170791 ""
   "NITR.cls" 1660815198 23742 48a561bc9b0c555c70e914557b721348 ""
-  "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1663670996 5659 dc7564e093bbba321822369beb5c074b ""
-  "main.aux" 1663671113 12903 4f7a9896ec1779ae8611cb6660e1cff3 "xelatex"
-  "main.bbl" 1663671105 4132 76badf4992361e0be32c5517209dc9ec "bibtex main"
+  "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1663671858 5830 8b0724ef345983252f2e1d78d692a99e ""
+  "main.aux" 1663671940 13075 3c893b63c0df695bda20c8c464c70d2f "xelatex"
+  "main.bbl" 1663671932 4132 76badf4992361e0be32c5517209dc9ec "bibtex main"
   "main.ind" 0 -1 0 "makeindex main.idx"
-  "main.lof" 1663671113 3305 1a80a4ef9346ffbc7f5ad1e47e37023f "xelatex"
-  "main.lot" 1663671113 318 acff32db0dc8a6ec92c8f3a9bb770385 "xelatex"
-  "main.tex" 1663670996 5659 dc7564e093bbba321822369beb5c074b ""
-  "main.toc" 1663671113 2774 bd8157d72e56385a1caf153c764bbc96 "xelatex"
+  "main.lof" 1663671940 3327 90edb38f83a539a125be6471e86a25fd "xelatex"
+  "main.lot" 1663671940 338 4a98bf5c4f54d41b3f7486f66f61f539 "xelatex"
+  "main.tex" 1663671858 5830 8b0724ef345983252f2e1d78d692a99e ""
+  "main.toc" 1663671940 2825 020f84b59e9e71f23608ba74667eadf2 "xelatex"
   "unipv_logo.jpg" 1660815198 86573 3c340fad648ba4aa0b2082a54ef3441a ""
   (generated)
   "FrontPages.aux"

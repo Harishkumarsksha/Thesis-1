@@ -1271,6 +1271,13 @@ INPUT .\main.lot
 INPUT main.lot
 INPUT main.lot
 OUTPUT main.lot
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT .\Chap00\Preface.tex
+INPUT Chap00\Preface.tex
 INPUT .\Chap01\Chap01.tex
 INPUT .\Chap01\Chap01.tex
 INPUT .\Chap01\Chap01.tex

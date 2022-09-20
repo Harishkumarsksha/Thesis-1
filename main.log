@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.20)  20 SEP 2022 12:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.20)  20 SEP 2022 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1135,37 +1135,45 @@ Underfull \hbox (badness 2990) in paragraph at lines 14--106
 
 ] [14
 
-] (Chap01/Chap01.tex
+] (Chap00/Preface.tex
 Chapter 1.
-) [1
+)
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [1
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 135.
- [2
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 136.
+ [2] (Chap01/Chap01.tex
+Chapter 2.
+) [3
+
+
+] [4
 
 ] (Chap03/Chap03.tex
-Chapter 2.
-[3
+Chapter 3.
+[5
 
 ]
 File: Chap03/Figures/Basic_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Basic_Antenna.PNG>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/sl' in size <12> not available
 (Font)              Font shape `TU/TimesNewRoman(0)/b/it' tried instead on input line 48.
- [4]
+ [6]
 File: Chap03/Figures/Wire_antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Wire_antenna.PNG>
 File: Chap03/Figures/PCB_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/PCB_Antenna.PNG>
 File: Chap03/Figures/Chip_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Chip_Antenna.PNG>
- [5]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-[6]
+[8]
 File: Chap03/Figures/Antenna_ReturnLoss.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_ReturnLoss.PNG>
 
@@ -1178,7 +1186,7 @@ File: Chap03/Figures/Antenna_Bandwidth.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
@@ -1213,13 +1221,13 @@ Underfull \hbox (badness 1038) in paragraph at lines 178--184
 []\TU/TimesNewRoman(0)/m/n/12 , However, we can choose any type of antenna and hardware for Bluetooth,
  []
 
-[8]
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [11]
 File: Chap03/Figures/MIFA_Antenna_radiation_direction.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna_radiation_direction.PNG>
- [10]
+ [12]
 File: Chap03/Figures/MIFA_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna.PNG>
 File: Chap03/Figures/mifa_antenna_pcb_example.PNG Graphic file (type bmp)
@@ -1228,7 +1236,7 @@ File: Chap03/Figures/mifa_antenna_pcb_example.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11]
+[13]
 File: Chap03/Figures/MIFA_Antenna_S11.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna_S11.PNG>
 File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG Graphic file (type bmp)
@@ -1262,7 +1270,7 @@ File: Chap03/Figures/IFA_antenna_reflecctions.PNG Graphic file (type bmp)
 <Chap03/Figures/IFA_antenna_reflecctions.PNG>
 File: Chap03/Figures/IFA_S11_Change.PNG Graphic file (type bmp)
 <Chap03/Figures/IFA_S11_Change.PNG>
-[12]
+[14]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1272,7 +1280,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 (Chap03/Chap03_01_AntennaLayout.tex
 File: Chap03/Figures/Nordic_ST_modules.PNG Graphic file (type bmp)
 <Chap03/Figures/Nordic_ST_modules.PNG>
- [13]
+ [15]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1281,10 +1289,10 @@ File: Chap03/Figures/STM_BLE_Schematic.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [17]
 File: Chap03/Figures/nordic_module_grounding.PNG Graphic file (type bmp)
 <Chap03/Figures/nordic_module_grounding.PNG>
 File: Chap03/Figures/Nordic_module_power_plane.PNG Graphic file (type bmp)
@@ -1303,7 +1311,7 @@ File: Chap03/Figures/PGND_GNDRF_Isolation.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
+[18]
 File: Chap03/Figures/Regular_Antenna_feed.PNG Graphic file (type bmp)
 <Chap03/Figures/Regular_Antenna_feed.PNG>
 File: Chap03/Figures/Irregular_antenna_feed.PNG Graphic file (type bmp)
@@ -1316,7 +1324,7 @@ Underfull \hbox (badness 2189) in paragraph at lines 78--78
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[19]
 File: Chap03/Figures/Top_vias.PNG Graphic file (type bmp)
 <Chap03/Figures/Top_vias.PNG>
 File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
@@ -1325,14 +1333,14 @@ File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
+[20]
 File: Chap03/Figures/power_supply_coupling.PNG Graphic file (type bmp)
 <Chap03/Figures/power_supply_coupling.PNG>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19]
+[21]
 File: Chap03/Figures/matching_network_layout.PNG Graphic file (type bmp)
 <Chap03/Figures/matching_network_layout.PNG>
 File: Chap03/Figures/matching_network_circuit.PNG Graphic file (type bmp)
@@ -1344,8 +1352,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20] [21])) [22] (Chap_Miselleneous/Chap_Misellaneous.tex
-Chapter 3.
+ [22] [23])) [24] (Chap_Miselleneous/Chap_Misellaneous.tex
+Chapter 4.
 (Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG>
@@ -1362,7 +1370,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [25
 
 
 ]
@@ -1380,21 +1388,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG>
-)) [24] [25] [26
+)) [26] [27] [28
 
-] (main.bbl [27
+] (main.bbl [29
 
-]) [28]
+]) [30]
 runsystem(makeindex main.idx)...executed safely (allowed).
 
  (main.ind) (main.aux (FrontPages.aux)) ) 
 Here is how much of TeX's memory you used:
- 26683 strings out of 410536
- 577458 string characters out of 2817655
- 1040851 words of memory out of 3000000
- 47254 multiletter control sequences out of 15000+600000
+ 26689 strings out of 410536
+ 577571 string characters out of 2817655
+ 1040853 words of memory out of 3000000
+ 47257 multiletter control sequences out of 15000+600000
  479510 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,15n,117p,1668b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (44 pages, 426320 bytes).
+Output written on main.xdv (46 pages, 459324 bytes).

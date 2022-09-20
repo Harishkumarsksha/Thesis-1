@@ -182,7 +182,7 @@ One of the core ideas of the Inventvm BMS team is to make the BMS project in a w
 \indent The Low Data rate and bandwidth requirement in Bluetooth applications make IFA and MIFA make these two antennas most attractive for BLE.  Manufacturing these antennas is extremely easy because they are part of the PCB design. Certainly, these antennas are inexpensive as they are part of PCB and they provide good bandwidth in ranges for BLE in terms of 150 to 250 MHZ.MIFA is most preferable for smaller form factor PCBs such as a wireless mouse, wearable watches, handy IoT devices.... etc. IFA antennas are recommended for applications such as one of the dimensions is needed to be smaller than the other for example heart rate monitor.
 following modules explain MIFA and IFA antennas construction and functionalities:
 
-\subsection{PCB Meandered Inverted-F Antenna (PIFA/MIFA)}
+\section{PCB Meandered Inverted-F Antenna (PIFA/MIFA)}
 
 PIFA antennas are much more popular in Bluetooth Low Energy stack because of the small size, low profile and cost-effective compared to the conventional dipole and ceramic chip antennas.
 The proposed structure (PIFA/MIFA) Figure \ref{fig:MIFA_Antenna_1} of the PIFA antenna is routed to gain all these advantages.
@@ -207,7 +207,7 @@ proposed MIFA/PIFA are presented \cite{PIFA2017Cheuk} in Figure\ref{fig:MIFA_Ant
 	\label{fig:MIFA_Antenna_1}
 \end{figure}
 
-\subsubsection{Antenna used in Inventvm BLE modules :}
+\subsection{Antenna used in Inventvm BLE modules :}
 \indent I got an opportunity complete the Inventvm BLE module antenna simulation Figure\ref{fig:MIFA_Antenna_1} to depict the typical board shape and the antenna placement \cite{NXPBLE_Antenna_Guide}. The RF shield housing has been removed for testing purposes, usually, Bluetooth modules provide RF housing to protect the BLE from external interference.
 
 \begin{figure}[h]
@@ -248,7 +248,7 @@ Some MIFA/PIFA antenna and PCB parameters that are used for the simulation are s
 	\label{tb:MIFA_ANTENNA_SIMULATION_PARAMETERS}
 \end{table}
 
-\subsubsection{S11 of the MIFA/PIFA antenna}
+\subsection{S11 of the MIFA/PIFA antenna}
 Figure\ref{fig:MIFA_S11} shows the MIFA/PIFA antenna s11 parameter simulation results. The Bluetooth frequency bandwidth ranges from 2402 to 2483.5 MHz. The return loss of the antenna in the Bluetooth frequency band is less than the -10db.
 
 \begin{figure}[h]
@@ -265,7 +265,7 @@ Figure\ref{fig:MIFA_S11} shows the MIFA/PIFA antenna s11 parameter simulation re
 	\caption{MIFA Antenna Gain Radiation Pattren}
 	\label{fig:MIFA_Antenna_Gain_Radiation_Pattren}
 \end{figure}
-\subsubsection{MIFA/PIFA antennas 3D pattern :}
+\subsection{MIFA/PIFA antennas 3D pattern :}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chap03/Figures/mifa_antenna_3d.PNG}
@@ -308,7 +308,7 @@ IFA antenna matching can be further tuned by varying the hinges, and length of t
 
 \input{Chap03/Chap03_01_AntennaLayout}
 
-\section{Conclusion of the Chapter 3}
+\section{Conclusion of the Chapter \ref{chap:BLE}}
 The simulation and design of both the MIFA and IFA antennas are successful the results have been presented in Chapter\ref{chap:BLE}.  
 Both the MIFa and IFa antennas are well performed in the sense of the results and design, because of the industry standards and Bluetooth stack recommendations, from vendors I have opted MIFA for Inventvm Bluetooth modules. 
 The Layout is also quite impressive considering all norms of RF PCB layout guidelines, which are mentioned in the chapter\ref{chap:BLE}.
