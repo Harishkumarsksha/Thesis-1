@@ -1,29 +1,34 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Basic Diploe Antenna\relax }}{4}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Wire Antenna\relax }}{5}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces PCB Antenna\relax }}{5}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Chip Antenna\relax }}{6}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Antenna Return loss\relax }}{7}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Antenna Bandwidth\relax }}{8}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Antenna Radiation Pattren\relax }}{9}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces MIFA/PIFA antenna radiation direction\relax }}{10}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces PCB Inverted Meandered F type Antenna \cite {NXP_AN11994_Antenna_Guide} \relax }}{11}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces BLE module PCB with the MIFA/PIFA antenna placement\relax }}{11}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces MIFA/PIFA antenna S11 return loss\relax }}{12}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces MIFA Antenna Gain Radiation Pattren\relax }}{13}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces MIFA/PIFA antenna 3D radiation Pattren\relax }}{13}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces MIFA/PIFA antenna efficiency Simulation Results\relax }}{14}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces IFA antenna design and the placement\relax }}{15}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces IFA antenna S11 and S22\relax }}{16}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces IFA antenna S11 Variation by changing the length and hinge width\relax }}{17}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces BluEnergy-355MC(right) and Nordic Modules(left) \relax }}{17}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces BluEnergy-355MC Module Core circuit \relax }}{18}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces BLE PCB ground and power planes\relax }}{18}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Antenna Feed Line clearence\relax }}{19}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Power Ground and RF Ground Isolated with Inductor\relax }}{19}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Antenna Feed Shape\relax }}{20}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Vias placement on BLE board\relax }}{20}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Power Supply Decoupling\relax }}{21}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces BLE Antenna Matching Network\relax }}{21}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic Diploe Antenna\relax }}{4}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Wire Antenna\relax }}{5}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces PCB Antenna\relax }}{5}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Chip Antenna\relax }}{6}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Antenna Return loss\relax }}{7}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Antenna Bandwidth\relax }}{8}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Antenna Radiation Pattren\relax }}{9}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces MIFA/PIFA antenna radiation direction\relax }}{10}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces PCB Inverted Meandered F type Antenna \cite {NXP_AN11994_Antenna_Guide} \relax }}{11}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces BLE module PCB with the MIFA/PIFA antenna placement\relax }}{11}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces MIFA/PIFA antenna S11 return loss\relax }}{12}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces MIFA Antenna Gain Radiation Pattren\relax }}{13}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces MIFA/PIFA antenna 3D radiation Pattren\relax }}{13}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces MIFA/PIFA antenna efficiency Simulation Results\relax }}{14}{}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces IFA antenna design and the placement\relax }}{15}{}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces IFA antenna S11 and S22\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces IFA antenna S11 Variation by changing the length and hinge width\relax }}{17}{}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces BluEnergy-355MC(right) and Nordic Modules(left) \relax }}{17}{}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces BluEnergy-355MC Module Core circuit \relax }}{18}{}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces BLE PCB ground and power planes\relax }}{18}{}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Antenna Feed Line clearence\relax }}{19}{}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Power Ground and RF Ground Isolated with Inductor\relax }}{19}{}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Antenna Feed Shape\relax }}{20}{}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Vias placement on BLE board\relax }}{20}{}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Power Supply Decoupling\relax }}{21}{}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces BLE Antenna Matching Network\relax }}{21}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{23}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{24}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{24}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{25}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{25}{}%

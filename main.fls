@@ -1133,6 +1133,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\rotating.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\background\background.sty
@@ -1169,6 +1170,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
+INPUT .\FrontPages.aux
+INPUT FrontPages.aux
+INPUT FrontPages.aux
 OUTPUT main.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmr.fd
@@ -1224,12 +1228,12 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT .\unipv_logo.jpg
 INPUT .\unipv_logo.jpg
 INPUT unipv_logo.jpg
-INPUT .\sdm_symbol.png
-INPUT .\sdm_symbol.png
-INPUT sdm_symbol.png
-INPUT .\sdm_symbol.png
-INPUT .\sdm_symbol.png
-INPUT sdm_symbol.png
+INPUT .\BLE.PNG
+INPUT .\BLE.PNG
+INPUT BLE.PNG
+INPUT .\BLE.PNG
+INPUT .\BLE.PNG
+INPUT BLE.PNG
 OUTPUT main.xdv
 INPUT .\unipv_logo.jpg
 INPUT .\unipv_logo.jpg
@@ -1255,15 +1259,17 @@ INPUT Chap00\Abstract.tex
 INPUT .\Chap00\Abstract.tex
 INPUT .\Chap00\Abstract.tex
 INPUT Chap00\Abstract.tex
-INPUT .\Chap00\Preface.tex
-INPUT .\Chap00\Preface.tex
-INPUT .\Chap00\Preface.tex
-INPUT Chap00\Preface.tex
-INPUT .\Chap00\Preface.tex
-INPUT .\Chap00\Preface.tex
-INPUT Chap00\Preface.tex
+INPUT .\main.toc
+INPUT main.toc
+INPUT main.toc
 OUTPUT main.toc
+INPUT .\main.lof
+INPUT main.lof
+INPUT main.lof
 OUTPUT main.lof
+INPUT .\main.lot
+INPUT main.lot
+INPUT main.lot
 OUTPUT main.lot
 INPUT .\Chap01\Chap01.tex
 INPUT .\Chap01\Chap01.tex
@@ -1390,6 +1396,51 @@ INPUT Chap03\Figures\matching_network_layout.PNG
 INPUT .\Chap03\Figures\matching_network_circuit.PNG
 INPUT .\Chap03\Figures\matching_network_circuit.PNG
 INPUT Chap03\Figures\matching_network_circuit.PNG
+INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT Chap_Miselleneous\Chap_Misellaneous.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT Chap_Miselleneous\Chap03_Mise\Chap03_Mise.tex
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_TOP.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_TOP.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_TOP.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_BOTTOM.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_BOTTOM.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_BOTTOM.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER1.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER1.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER1.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER2.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER2.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_LAYER2.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_TOP.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_TOP.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\Nordic_TOP.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_BOTTOM.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_BOTTOM.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\Nordic_BOTTOM.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER1.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER1.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER1.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER2.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER2.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\Nordic_LAYER2.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_Schematic.PNG
+INPUT .\Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_Schematic.PNG
+INPUT Chap_Miselleneous\Chap03_Mise\Figures\BLUeNRG_Schematic.PNG
+INPUT .\main.bbl
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT .\main.ind
 INPUT main.ind
 INPUT .\main.ind

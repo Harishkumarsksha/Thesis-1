@@ -1,5 +1,5 @@
 
-\chapter{Bluetooth Module Design}
+\chapter{Bluetooth Module Design}\label{chap:BLE}
 % \stepcounter{chapter}\addcontentsline{toc}{chapter}{Incremental Sigma-Delta Modulator}
 
 \section{Introduction}
@@ -175,17 +175,18 @@ isotropic antenna \cite{AN91445}.
 
 
 \section{Motivation for Designing BLE Modules }
-One of the core ideas of the Inventvm BMS team is to make the BMS project in a wireless communication environment, therefore the team has decided to use Bluetooth as the communication tool. Hence finding the big sharks in the Bluetooth world took quite some time after a long investigation we concluded to pick two important pies in the Bluetooth cake such as STM BleEnergy-355mc \cite{BLNRG355_STEVAL_GUIDE} and Nordic nRF52840 \cite{NORDIC_nrf52840_USERGUIDE}. BlueEnergy-355mc is the jewel of our projects because it owes the advantages of very low power consumption: 3.4 mA, Receiver sensitivity, Bluetooth low energy data extensions, high data rate so on... despite having these many advantages STM does not manufacture the Bluetooth modules other than eval boards. Henceforth team has been paralyzed to outsource the required Bluetooth modules, later in the same path we found MDARTRONICS the company that manufactures the Bluetooth modules using the STM BleEnergy-355mc hardware named STORMY. Stormy is a such cutie pie, at least it helps at some extent in R and D to prove the Wireless communication BMS architecture, but in the long run, we have experienced some the discomforts such as lack of documentation and market supply...to overcome all these issues team has decided to make inventive proprietary level Bluetooth modules fr BMS project. This gave me the perfect timing to opportunity design RF Bluetooth modules for the project as part of my thesis which is dedicated to wireless communication BMS.\\
-\indent Nordic nRF52840\cite{NORDIC_nrf52840_USERGUIDE} is another Bluetooth hardware similar to the BlueEnergy-355Mc reason behind picking the Nordic is the open BLE stack and Robust hardware. Nordic is much more comfortable is different data rates, on-chip power converters, 32-bit ARM Cortex M4F @64MHz so and forth. Nordic has also a dedicated BLE stack \cite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE} that handles all power management resources on-chip, which attracts low-power automobile applications. In a much broader sense, Nordic is additional Bluetooth hardware that we can provide to the customer according to the application's need.\\
-\indent Though picking the Bluetooth hardware and stack is a boiling task, choosing the antenna and RF layout also takes prime place. Though are plenty of antennas for the 2.4GHz band, most Bluetooth manufacturers recommend two types of PCB antennas, meanders inverted antennas (MIFA) and inverted-F antenna (IFA), which are characterized and simulated exclusively for the low-power Bluetooth applications. MIFA (PIFA) however is peculiar for most automobile applications because of its pointed directional properties.\\
-\indent However, we can choose any type of antenna and hardware for Bluetooth, admittedly the antenna, hardware, and RF layout design described in the following modules are classified for the BMS project.\\
+One of the core ideas of the Inventvm BMS team is to make the BMS project in a wireless communication environment, therefore the team has decided to use Bluetooth as the communication tool. Hence finding the big sharks (Bluetooth Hardware and stack) in the Bluetooth world took quite some time, after a long investigation; we concluded to pick two important pies in the Bluetooth cake such as STM BLUeNRG-355mc \cite{BLNRG355_STEVAL_GUIDE} and Nordic nRF52840 \cite{NORDIC_nrf52840_USERGUIDE}. BlueEnergy-355mc is the jewel of our projects because it owes the advantages of very low power consumption: 3.4 mA, Receiver sensitivity, Bluetooth low energy data extensions, high data rate so on... despite having these many advantages STM does not manufacture the Bluetooth modules other than eval boards. Henceforth team has been paralyzed to outsource the required Bluetooth modules, later in the same path we found MDARTRONICS the company that manufactures the Bluetooth modules using the STM BLUeNRGgy-355mc hardware named STORMY. Stormy is a such cutie pie, at least it helps at some extent in R and D to prove the Wireless communication BMS architecture, but in the long run, we have experienced some the discomforts such as lack of documentation and market supply...to overcome all these issues team has decided to make inventive proprietary level Bluetooth modules fr BMS project. This gave me the perfect timing and to opportunity design RF Bluetooth modules for the project, as part of my thesis which is dedicated to wireless communication BMS.\\
+\indent Nordic nRF52840\cite{NORDIC_nrf52840_USERGUIDE} is another Bluetooth hardware similar to the BlueEnergy-355Mc reason behind picking the Nordic is the open BLE stack and Robust hardware. Nordic is much more comfortable in terms of different data rates, on-chip power converters, 32-bit ARM Cortex M4F @64MHz so and forth. Nordic has also a dedicated BLE stack \cite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE} that handles all power management resources on-chip, which attracts low-power automobile applications. In a much broader sense, Nordic is additional Bluetooth hardware that we can provide to the customer according to the application's need.\\
+\indent Though picking the Bluetooth hardware and stack is a boiling task, choosing the antenna and RF layout also takes prime place. Though, There are plenty of antennas for the 2.4GHz band, most Bluetooth manufacturers recommend two types of PCB antennas, meanders inverted antennas (MIFA) and inverted-F antenna (IFA), which are characterized and simulated exclusively for the low-power Bluetooth applications.However, MIFA (PIFA) is peculiar for most automobile applications because of its pointed directional properties.\\
+\indent, However, we can choose any type of antenna and hardware for Bluetooth, admittedly the antenna, hardware, and RF layout design described in the following modules are classified for the BMS project.\\
 \indent The Low Data rate and bandwidth requirement in Bluetooth applications make IFA and MIFA make these two antennas most attractive for BLE.  Manufacturing these antennas is extremely easy because they are part of the PCB design. Certainly, these antennas are inexpensive as they are part of PCB and they provide good bandwidth in ranges for BLE in terms of 150 to 250 MHZ.MIFA is most preferable for smaller form factor PCBs such as a wireless mouse, wearable watches, handy IoT devices.... etc. IFA antennas are recommended for applications such as one of the dimensions is needed to be smaller than the other for example heart rate monitor.
+following modules explain MIFA and IFA antennas construction and functionalities:
 
 \subsection{PCB Meandered Inverted-F Antenna (PIFA/MIFA)}
 
 PIFA antennas are much more popular in Bluetooth Low Energy stack because of the small size, low profile and cost-effective compared to the conventional dipole and ceramic chip antennas.
 The proposed structure (PIFA/MIFA) Figure \ref{fig:MIFA_Antenna_1} of the PIFA antenna is routed to gain all these advantages.
-Replacing the conventional PCB line in PIFA with the meandering line and meandering shorting strip
+Replacing the conventional PCB trace in PIFA with the meandering line and meandering shorting strip
 improves the efficiency of the PIFA as well as the bandwidth. 
 \begin{figure}[h]
 	\centering
@@ -194,7 +195,7 @@ improves the efficiency of the PIFA as well as the bandwidth.
 	\label{fig:MIFA_RADIATION_DIRECTION}
 \end{figure}
 
-Taking the meandered shape on one side and connecting meandered terminal to the ground makes the radiation lobe a more directional Figure\ref{fig:MIFA_RADIATION_DIRECTION} that implicates the radiation of the meandered antenna.Meandered side of the antenna radiates very less power because the Menderes terminal is connected to the ground which nullifies most of the radiation on the backward side. This kind of feature is highly needed in extremely noisy environments such as automobiles, power grid applications, data servers....etc.
+Figure \ref{fig:MIFA_Antenna_1} Taking the meandered shape on one side and connecting meandered terminal to the ground makes the radiation lobe a more directional Figure\ref{fig:MIFA_RADIATION_DIRECTION} that implicates the radiation of the meandered antenna.Meandered side of the antenna radiates very less power because the Menderes terminal is connected to the ground which nullifies most of the radiation on the backward side. This kind of feature is highly needed in extremely noisy environments such as automobiles, power grid applications, data servers....etc.
 As a case study, the design and measurement results of the
 proposed MIFA/PIFA are presented \cite{PIFA2017Cheuk} in Figure\ref{fig:MIFA_Antenna_1}.
 
@@ -262,7 +263,7 @@ Figure\ref{fig:MIFA_S11} shows the MIFA/PIFA antenna s11 parameter simulation re
 	\qquad
 	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =0\deg$]{\includegraphics[scale=.5]{Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG}}
 	\caption{MIFA Antenna Gain Radiation Pattren}
-	\label{SNR_GBW1}
+	\label{fig:MIFA_Antenna_Gain_Radiation_Pattren}
 \end{figure}
 \subsubsection{MIFA/PIFA antennas 3D pattern :}
 \begin{figure}[h]
@@ -306,3 +307,12 @@ IFA antenna matching can be further tuned by varying the hinges, and length of t
 \end{figure}
 
 \input{Chap03/Chap03_01_AntennaLayout}
+
+\section{Conclusion of the Chapter 3}
+The simulation and design of both the MIFA and IFA antennas are successful the results have been presented in Chapter\ref{chap:BLE}.  
+Both the MIFa and IFa antennas are well performed in the sense of the results and design, because of the industry standards and Bluetooth stack recommendations, from vendors I have opted MIFA for Inventvm Bluetooth modules. 
+The Layout is also quite impressive considering all norms of RF PCB layout guidelines, which are mentioned in the chapter\ref{chap:BLE}.
+In the chapter\ref{chap:BLE} I have not stressed the theoretical calculation for the MIFA/IFA antenna because the calculations are pretty much the same as the standard MIFA and IFA antennas, 
+The goal is to bring up the sophisticated RF BLE layout according to the application with a standard approach. Yet reference papers [\cite{MIFA_Design_Losito},\cite{MIFA_IFA_difference_Kanan}] give more insight into the theocratical design of the MIFA / IFA antenna and 
+I have taken fewer opportunities to explain the nordic architecture, because of the RF layout out-wise and in the antenna sense, I have followed the same guidelines as I did for the BLUeNRG-355mc.
+The Complete layout of the BLUeNRG and Nordic is attached in the chapter\ref{chap:miselleneous} , Figures (\ref{fig:BLUeNRG-355mc_BLE_Layout},\ref{fig:Nordic_nrf52840_BLE_Layout}).

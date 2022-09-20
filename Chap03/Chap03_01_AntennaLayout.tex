@@ -81,7 +81,7 @@ The BLE module designed for the BMS application in Inventvm is the four-layer PC
 					\label{fig:Antenna_Feed_Shape}
 				\end{figure}
 			\end{itemize}
-	\item \textbf{Grounding Via's :} Keep always clean ground and this can be achieved by placing as many vias from the top layer to the dedicated RF/Analog ground in the bottom layer. It is recommended in the PCB design to place the Vias with equal distance, Figure refers to Vias placement from the top layer to the bottom layer with equal distance. There should not be any ground under the RF antenna, because the ground under the RF antenna again makes, Antenna just an RF trace instead of allowing open radiation.
+	\item \textbf{Grounding Via's :} Keep always clean ground and this can be achieved by placing as many vias from the top layer to the dedicated RF/Analog ground in the bottom layer. It is recommended in the PCB design to place the Vias with equal distance, Figure \ref{fig:Antenna_Feed_Shape} refers to Vias placement from the top layer to the bottom layer with equal distance. There should not be any ground under the RF antenna, because the ground under the RF antenna again makes, Antenna just an RF trace instead of allowing open radiation.
 	\begin{itemize}
 		\item 
 		\begin{figure}[h]
@@ -91,7 +91,7 @@ The BLE module designed for the BMS application in Inventvm is the four-layer PC
 			\subfigure[Bottom Layer Vias]{\includegraphics[scale=.5]{Chap03/Figures/Bottom_vias.PNG}}
 			\caption{Vias placement on BLE board}
 			\centering
-			\label{fig:Antenna_Feed_Shape}
+			\label{fig:BLE_Module_Vias_Placement}
 		\end{figure}
 	\end{itemize} 
 	\item \textbf{Antenna placement :} Do not place any component in the Antenna Keep out area, make the strict keep-out area for the antenna to prevent any external components' noise interference. It is always good placement to avoid any of the plastic components around the antenna because the plastic can behave like a dielectric and this will change the antenna characteristics. Antenna placement on they should end of the PCB where the PCB notch is pointed out. See Figure\ref{fig:BLE_PCB_ground_and_power_planes} the antenna has been placed on the edge of the PCB and there are no plastic or high-frequency switching circuits around it.
@@ -155,4 +155,3 @@ We can place the components even overruling the component outline. Until we do n
 	\item When using the passive matching circuit try to have multiple components matching this can help at the debugging stage to tune the matching circuit.
 \end{enumerate}
 
-\section{Conclusion of the Chapter 3}
