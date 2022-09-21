@@ -1,0 +1,50 @@
+\contentsline {chapter}{}{iii}{}%
+\contentsline {chapter}{Acknowledgment}{v}{}%
+\contentsline {chapter}{Abstract}{vii}{}%
+\contentsline {chapter}{List of Figures}{xi}{}%
+\contentsline {chapter}{List of Tables}{xiii}{}%
+\contentsline {chapter}{\numberline {1}Preface}{1}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{3}{}%
+\contentsline {chapter}{\numberline {3}Bluetooth Module Design}{5}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{5}{}%
+\contentsline {section}{\numberline {3.2}Antenna Basics :}{5}{}%
+\contentsline {subsection}{\numberline {3.2.1}Antenna Types:}{6}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.a}Wire Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.b} PCB Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.c} Chip Antenna :}{7}{}%
+\contentsline {subsection}{\numberline {3.2.2}Antenna Parameters}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.a}Return loss :}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.b}Bandwidth :}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.c}Radiation efficiency: }{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.d}Radiation pattern:}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.e}Gain :}{10}{}%
+\contentsline {section}{\numberline {3.3}Motivation for Designing BLE Modules }{10}{}%
+\contentsline {section}{\numberline {3.4}PCB Meandered Inverted-F Antenna (PIFA/MIFA)}{12}{}%
+\contentsline {subsection}{\numberline {3.4.1}Antenna used in Inventvm BLE modules :}{13}{}%
+\contentsline {subsection}{\numberline {3.4.2}S11 of the MIFA/PIFA antenna}{14}{}%
+\contentsline {subsection}{\numberline {3.4.3}MIFA/PIFA antennas 3D pattern :}{14}{}%
+\contentsline {section}{\numberline {3.5}Inverterd-F Antenna:}{14}{}%
+\contentsline {section}{\numberline {3.6}BLE Schematic and PCB layout}{15}{}%
+\contentsline {subsection}{\numberline {3.6.1}BluEnergy-355MC}{16}{}%
+\contentsline {subsubsection}{\numberline {3.6.1.a}BluEnergy-355MC RF Schematic:}{16}{}%
+\contentsline {subsubsection}{\numberline {3.6.1.b}BluEnergy-355MC RF Layout:}{17}{}%
+\contentsline {subsubsection}{\numberline {3.6.1.c}Power Supply Decoupling Layout Considerations\cite {AN91445}}{21}{}%
+\contentsline {subsubsection}{\numberline {3.6.1.d}BluEnergy-355MC RF Matching Circuit Layout:}{22}{}%
+\contentsline {subsection}{\numberline {3.6.2}Summery of the RF layout Design guidelines :}{23}{}%
+\contentsline {section}{\numberline {3.7}Conclusion of the Chapter \ref {chap:BLE}}{24}{}%
+\contentsline {chapter}{\numberline {4}Architecture of Active Balancing Wireless Communication BMS}{25}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{25}{}%
+\contentsline {section}{\numberline {4.2}Active Balancing Methods}{25}{}%
+\contentsline {section}{\numberline {4.3}Overview of Active balancing BMS Architecture}{25}{}%
+\contentsline {section}{\numberline {4.4}Hardware Implementation}{25}{}%
+\contentsline {subsubsection}{\numberline {4.4.0.a}Multiphase Bidirectional DC/DC Current Controller LM5170-Q1}{25}{}%
+\contentsline {paragraph}{\numberline {4.4.0.a.1}Definition of IC Operation Modes:}{26}{}%
+\contentsline {paragraph}{\numberline {4.4.0.a.2}Bench setup and operation of the DC/DC Converter :}{26}{}%
+\contentsline {paragraph}{\numberline {4.4.0.a.3}The operation of the DC converter is as follows (The Figure \ref {fig:LM5170_DC_DC_Converter_Operation_Setup}) :}{27}{}%
+\contentsline {paragraph}{\numberline {4.4.0.a.4}Summery of the DC/DC Converter:}{28}{}%
+\contentsline {subsubsection}{\numberline {4.4.0.b}Switch Matrix :}{28}{}%
+\contentsline {paragraph}{\numberline {4.4.0.b.1}The initiative understanding behind choosing the switch matrix MOSFET:}{29}{}%
+\contentsline {chapter}{\numberline {5}Misellaneous}{31}{}%
+\contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{31}{}%
+\contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{31}{}%
+\contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{32}{}%
