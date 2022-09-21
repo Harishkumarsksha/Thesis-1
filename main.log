@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.20)  21 SEP 2022 15:56
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.20)  22 SEP 2022 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,14 +871,7 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (main.aux (FrontPages.aux)
-
-LaTeX Warning: Label `fig:BLUeNRG-355mc_BLE_Complete_Schematic' multiply defined.
-
-
-LaTeX Warning: Label `fig:BLUeNRG-355mc_BLE_Complete_Schematic' multiply defined.
-
-)
+ (main.aux (FrontPages.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -1398,17 +1391,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []|\TU/TimesNewRoman(0)/m/n/12 Static drain-source
  []
 
-))
-Overfull \hbox (217.05508pt too wide) in paragraph at lines 26--158
-[][]
+
+Overfull \hbox (199.05508pt too wide) in paragraph at lines 26--41
+ [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--158
-
- []
-
-[29] [30
+)) [29] [30
 
 ] (Chap_Miselleneous/Chap_Misellaneous.tex
 Chapter 5.
@@ -1450,25 +1438,46 @@ File: Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG Graphic fi
 <Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG>
 File: Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG>
-)) [32] [33] [34] [35] [36
+File: Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG>
 
-] (main.bbl [37
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
-]) [38]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33])) [34] [35] [36] [37] [38
+
+] (main.bbl [39
+
+]) [40]
 runsystem(makeindex main.idx)...executed safely (allowed).
 
- (main.ind) (main.aux (FrontPages.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ (main.ind) (main.aux (FrontPages.aux)) ) 
 Here is how much of TeX's memory you used:
- 26762 strings out of 410536
- 580399 string characters out of 2817655
- 1041003 words of memory out of 3000000
- 47311 multiletter control sequences out of 15000+600000
+ 26785 strings out of 410536
+ 581196 string characters out of 2817655
+ 1041110 words of memory out of 3000000
+ 47333 multiletter control sequences out of 15000+600000
  479510 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,15n,117p,1668b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (54 pages, 577744 bytes).
+Output written on main.xdv (56 pages, 599124 bytes).

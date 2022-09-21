@@ -122,7 +122,17 @@ SNVSAQ6D, ``Lm5170 multiphase bidirectional current controller,'' \emph{TI
 \BIBentrySTDinterwordspacing
 
 \bibitem{Switch_MatrixFET_STD20NF06L}
+\BIBentryALTinterwordspacing
 S.~Applications, ``Std20nf06l datasheet,'' \emph{ST PowerManagement and
-  Discrete Components}, vol. Rev 1.0, 29 Apr 2022.
+  Discrete Components}, vol. Rev 1.0, 29 Apr 2022. [Online]. Available:
+  \url{https://www.st.com/en/power-transistors/std20nf06l.html#documentation}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LTC4231_User_Datasheet}
+\BIBentryALTinterwordspacing
+A.~Applications, ``Ltc4231 micropower hot swap controller,'' \emph{ADI and LT
+  PMIC}, vol. Rev B, 2018. [Online]. Available:
+  \url{https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4231.pdf}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

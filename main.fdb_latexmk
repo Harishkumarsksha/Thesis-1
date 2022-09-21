@@ -1,22 +1,22 @@
 # Fdb version 3
-["bibtex main"] 1663768262 "main.aux" "main.bbl" "main" 1663768275
+["bibtex main"] 1663797904 "main.aux" "main.bbl" "main" 1663797919
   "./Ref/IEEEtran.bst" 1660815198 59214 a90e64071cc7185c225b4d6ec93de903 ""
-  "FrontPages.aux" 1663768267 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
-  "Ref/SampleReferences.bib" 1663766100 11263 d8df343fff153e5120ead34a5680fcf9 ""
-  "main.aux" 1663768270 16796 f45ce0c56dbba219dd80990af32f0f59 "xelatex"
+  "FrontPages.aux" 1663797910 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
+  "Ref/SampleReferences.bib" 1663797680 11694 ce1ab9b3ed744831419ccec0a8cb03c6 ""
+  "main.aux" 1663797912 18041 6f2fe64b00b27d1da798c87fb2fef82e "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1663768275
+["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1663797919
   "main.idx" 0 -1 0 "xelatex"
   (generated)
   "main.ilg"
   "main.ind"
-["xdvipdfmx"] 1663768271 "main.xdv" "main.pdf" "main" 1663768275
-  "main.xdv" 1663768270 574808 adb7a6148f2422f439d62bfc091b6f5e "xelatex"
+["xdvipdfmx"] 1663797913 "main.xdv" "main.pdf" "main" 1663797919
+  "main.xdv" 1663797912 599124 0f877c1372e6a38f83930fd452545668 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1663768263 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1663768275
+["xelatex"] 1663797905 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1663797919
   "BLE.PNG" 1663664628 70051 653228063c7dffa540821d96381457eb ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233955448 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -255,11 +255,11 @@
   "Chap03/Figures/mifa_antenna_pcb_example.PNG" 1663253173 6989 a9fcc0f7c21715c2c1d60bc1febadc33 ""
   "Chap03/Figures/nordic_module_grounding.PNG" 1663584593 24300 8da8991a73db899722065c9ae3da7c0e ""
   "Chap03/Figures/power_supply_coupling.PNG" 1663595247 27736 f44f8d66a1c9295b7bd5f76524b041fd ""
-  "Chap04/Chap04.tex" 1663767070 340 67aa6c6a91ce78592d75dcea086913ba ""
+  "Chap04/Chap04.tex" 1663794040 383 e40253332dd93f6efb4b05173f8b75d0 ""
   "Chap04/Chap04_DC_DC_Converter.tex" 1663761670 7095 16bda3b0111f57f5a6ce05d14e5a7d89 ""
-  "Chap04/Chap04_SwitchMatrix.tex" 1663768224 3391 ebbc9a0cac7d08b13de1a502eb301626 ""
+  "Chap04/Chap04_SwitchMatrix.tex" 1663768880 3416 59a20cbd9fcd28b802c62edcf9b53778 ""
   "Chap04/Figures/DC_DC_Converter_bench_setup.PNG" 1663687314 23183 6c11c28b017d130bc4a11d8e2c4170e6 ""
-  "Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex" 1663670698 1787 b40f203298dfd4f477c28350f7086f16 ""
+  "Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex" 1663795187 1791 81523b3d286fd3434b054f7f32aafbb3 ""
   "Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_BOTTOM.PNG" 1663666472 24340 83a5199e691aa96fd9bb334261b73d09 ""
   "Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER1.PNG" 1663666416 26198 4a4769864b284875a314479f4a517a54 ""
   "Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER2.PNG" 1663666447 33185 da1374a079d8b539dfcdf2d15af7276e ""
@@ -269,20 +269,22 @@
   "Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER1.PNG" 1663665799 41901 4a38d3a0beadcc928448efced932cfad ""
   "Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER2.PNG" 1663665768 45098 51199a048047dff17d879a53f07e2a3c ""
   "Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG" 1663665490 70051 653228063c7dffa540821d96381457eb ""
-  "Chap_Miselleneous/Chap04_Mise/Chap04_Mise.tex" 1663686243 286 5fe7f05000b6f4251ad2c4d240f74675 ""
+  "Chap_Miselleneous/Chap04_Mise/Chap04_Mise.tex" 1663797833 3845 df30ad92782136513d0839c05d85c282 ""
   "Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG" 1663686090 94129 c71aa87fb1a1122ac411d1c1ff2040cf ""
-  "Chap_Miselleneous/Chap_Misellaneous.tex" 1663686242 183 9247d7fdc30b540c13eefeb4fbf0c3dd ""
-  "FrontPages.aux" 1663768267 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
+  "Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG" 1663770766 121135 cd221620586708e4ae16efc59940a599 ""
+  "Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG" 1663768476 218189 d7457badab02d20510db6b1c0ab4d898 ""
+  "Chap_Miselleneous/Chap_Misellaneous.tex" 1663795335 245 35399bebe8e132b7563b0fe8b1d31ab5 ""
+  "FrontPages.aux" 1663797910 1186 9baf255d8fb2d8f26d9ab9c196547a55 "xelatex"
   "FrontPages.tex" 1663015306 1982 a2aca8d3939e889732002ab372170791 ""
   "NITR.cls" 1660815198 23742 48a561bc9b0c555c70e914557b721348 ""
   "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1663767146 6107 29903a04f5173db6e83981c05387ca0d ""
-  "main.aux" 1663768270 16796 f45ce0c56dbba219dd80990af32f0f59 "xelatex"
-  "main.bbl" 1663768263 5602 2d8ec02897dc9489b2b5ffedce8498c1 "bibtex main"
+  "main.aux" 1663797912 18041 6f2fe64b00b27d1da798c87fb2fef82e "xelatex"
+  "main.bbl" 1663797904 6075 b84a92b5e7c683c4e78783219ff35b31 "bibtex main"
   "main.ind" 0 -1 0 "makeindex main.idx"
-  "main.lof" 1663768270 3803 9a5b67144578b2e68fd1e55e0976cfd1 "xelatex"
-  "main.lot" 1663768270 358 35d472afd80158e496a751fc90aa6dae "xelatex"
+  "main.lof" 1663797912 4054 cc8ab00c5ff40fcad1e1028eee5078e1 "xelatex"
+  "main.lot" 1663797912 358 35d472afd80158e496a751fc90aa6dae "xelatex"
   "main.tex" 1663767146 6107 29903a04f5173db6e83981c05387ca0d ""
-  "main.toc" 1663768270 4016 a7273be005ae40941ca9129112009cdc "xelatex"
+  "main.toc" 1663797912 4222 ad8eecd80a26b29a8172e51479721708 "xelatex"
   "unipv_logo.jpg" 1660815198 86573 3c340fad648ba4aa0b2082a54ef3441a ""
   (generated)
   "FrontPages.aux"

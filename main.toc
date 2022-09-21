@@ -48,3 +48,5 @@
 \contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{31}{}%
 \contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{31}{}%
 \contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{32}{}%
+\contentsline {section}{\numberline {5.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{32}{}%
+\contentsline {subsubsection}{\numberline {5.2.0.a} Design Example for the LTC4321 Gate Driver :}{32}{}%
