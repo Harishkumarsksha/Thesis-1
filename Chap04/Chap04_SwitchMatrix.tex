@@ -1,14 +1,14 @@
-\subsubsection{Switch Matrix :}
+\subsection{Switch Matrix :}
 Automotive BMS applications demand sophisticated and robust switch matrices, as in the market there are no switch matrix will available according to the application. There has been specific knowledge used to pick this switching component. Switching components are more unlikely than the conventional components, such a vote for picking the switching components always registered for the high power MOSFETs because of various technological advantages over conventional electro-mechanical switches. Since the component choice is entirely left to the design engineer, it is always a good practice to design these switch matrix boards from scratch to have full control over the system. The following sections will give more insights into the switch matrix.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Chap04/Figures/DC_DC_Converter_bench_setup.PNG}
+	\includegraphics[width=0.8\textwidth]{Chap04/Figures/switch_matrix.PNG}
 	\caption{Typical Mosfet switch matrix for 8 batteries \cite{Active_Balancing_Thesis_Raber} }
 	\label{fig:Mosfet_Switch_Matrix}
 \end{figure}
 \indent Single or double back-to-back FETS are used for the switch matrix, back to back MOSFETS are two MOSFETs housed in a single package or externally by connecting the gates of FETs are common. The Figure\ref{fig:Mosfet_Switch_Matrix} implicates one such example of a switch matrix using the back-to-back MOSFETs.
 
-\paragraph{The initiative understanding behind choosing the switch matrix MOSFET:}
+\subsubsection{The initiative understanding behind choosing the switch matrix MOSFET:}
 \begin{itemize}
     \item Low Rds ON; low on-state resistance implicates that MOSFET can carry high DC with lower dissipation.
     \item High Blocking voltage; High blocking voltage between the drain and the source ensures the breakdown safety of the MOSFET against the full Battery pack voltage.
@@ -23,7 +23,7 @@ for more insights into the component refer to the MOSFET Datasheet \cite{Switch_
 
 
 \begin{center}
-\begin{tabular}{ |p{5cm}|p{5cm}|p{5cm}|p{5cm}|  }
+\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{4cm}|  }
 \hline
 \multicolumn{4}{|c|}{STD20NF06L Datasheet} \\
 \hline
