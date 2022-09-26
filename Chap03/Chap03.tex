@@ -5,8 +5,8 @@
 \section{Introduction}
 
 
-An Antenna design and analysis are crucial in a wireless network that transmits and receives information through electromagnetic wave radiation in open space.
-Modern Antenna and RF design techniques more often testified against size, power, flexibility, radiation patterns, efficiency, etc...
+Antenna design and analysis are crucial in a wireless network that transmits and receives information through electromagnetic wave radiation in open space.
+Modern Antenna and RF design techniques are more often testified against size, power, flexibility, radiation patterns, efficiency, etc...
 It is very unusual to use a wide variety of RF fundamental design techniques even though the usage of silicon and power is different because the fundamentals of RF design are most rigorous and robust from decades, hence RF fundamentals and design techniques remain intact. Nevertheless, modern RF applications demand to emphasize efficiency and power requirements, so this requirement needs some special RF Design treatments.
 Chapter .3 gives the extravagance of PCB antenna design practices, general guidelines for grounding, PCB stacking, spacings and via holes, etc. Matching networks in RF design are extremely important to increase the efficiency of the Antenna and RF line, so it is also explored in the same chapter how to pick the passive components for RF Antenna matching such as capacitors and inductors.
 
@@ -23,23 +23,23 @@ An Antenna is a piece of metal exposed to free space. A piece of conductor behav
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chap03/Figures/Basic_Antenna.PNG}
-	\caption{Basic Diploe Antenna}
+	\caption{Basic dipole Antenna}
 	\label{BASIC_ANTENNA}
 \end{figure}
 
-Fig.1  shows the diploe antenna whose length is  $\lambda/2$ and the fed has an input impedance of $50\Omega $.
+Fig.1  shows the dipole antenna whose length is  $\lambda/2$ and the fed has an input impedance of $50\Omega $.
 Dipole antennas are the most basic antennas that have been used for broadcasting.
-In the Millennial age of technology, dipole antennas have been bulky and heavy, thanks to the PCB technology, which made diploe antennas extremely simple in construction and this became the center of attraction for the Bluetooth application in the modern era.
-Although diploe antennas are extremely comfortable for PCB we still face hurdles to manage proper grounding for the antenna..which can be addressed through quarter-wave antennas.
-The quarter-wave antennas have half of the length of the dipole antennas  $\lambda/4$ their popularity became exponential because of the fed which can be single-ended.
+In the Millennial age of technology, dipole antennas have been bulky and heavy, thanks to the PCB technology, which made dipole antennas extremely simple in construction and this became the center of attraction for the Bluetooth application in the modern era.
+Although dipole antennas are extremely comfortable for PCB we still face hurdles to manage proper grounding for the antenna..which can be addressed through quarter-wave antennas.
+The quarter-wave antennas have half of the length of the dipole antennas  $\lambda/4$, their popularity became exponential because of the fed which can be single-ended.
 A single-ended feed to the antenna made life much easier to make a wide range of ground planes and better matching.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Antenna Types:}
 
 As discussed in the previous section quarter wavelength antennas can be more effective on the PCB because of their fed and ground plane management on PCB.
-Depending on the antenna dimensions and the shape antennas fall into different technologies namely FM, AM, Bluetooth, and wifi son on.
-Since the eccentric part of this chapter discusses the Bluetooth antenna design and guidelines, we can broadly classify three types of antennas. as Follows :
+Depending on the antenna dimensions and the shape of antennas fall into different technologies namely FM, AM, Bluetooth, Wi-Fi and so on.
+Since the eccentric part of this chapter discusses the Bluetooth antenna design and guidelines, we can broadly classify three types of antennas. As follows :
 
 \subsubsection{Wire Antenna :}
 These types of antennas are just a piece of wire extended over the PCB in open space, whose length is matched to $\dfrac{\lambda}{4}$ on the ground plane.
@@ -72,7 +72,7 @@ In short manufacturing comfortability and its wireless range is ravishing for Bl
 These antennas are handier in terms of space management on the board and internally their impendence is very well managed.
 A chip antenna can also take an advantage of three-dimensional freedom for radiation similar to wire antennas.
 Refer to figure 10 for the Nordic Bluetooth module having a chip antenna.
-It's true that chip antennas can gain upper hand in size and radion pattern on the contrary power handling capacity of the chip antenna is very minimal.
+Chip antennas can indeed gain upper hand in size and radion pattern on the contrary power handling capacity of the chip antenna is very minimal.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.4\textwidth]{Chap03/Figures/Chip_Antenna.PNG}
@@ -88,7 +88,7 @@ The following section gives some key antenna performance parameters.
 
 \subsubsection{Return loss :}
 
-The return loss of an antenna signifies how well the antenna is matched to the 50-Ω transmission line (TL), shown as a signal feed in Figure \ref{fig:ANTENNA_RETUNRNLOSS}. The TL characteristic impedance is typically 50 Ω, although it could be a different value. The industry standard for commercial antennas and testing equipment is 50-Ω impedance, so it is most convenient to use this value \cite{AN91445}. \\
+The return loss of an antenna signifies how well the antenna is matched to the 50-Ω transmission line (TL), shown as a signal feed in Figure \ref{fig: ANTENNA_RETUNRNLOSS}. The TL characteristic impedance is typically 50 Ω, although it could be a different value. The industry standard for commercial antennas and testing equipment is 50-Ω impedance, so it is most convenient to use this value \cite{AN91445}. \\
 	
 \indent  Return loss indicates how much of the incident power is reflected by the antenna due to mismatch (Equation \ref{eq:Antenna_Returnloss}).
 An ideal antenna when perfectly matched will radiate the entire energy without any reflection. If the return loss is infinite, the antenna is said to be perfectly matched to the TL, as shown in Figure \ref{fig:ANTENNA_RETUNRNLOSS}. S11 is the negative return loss expressed in decibels. In most cases, a return loss ≥ 10 dB (equivalently, S11 ≤ –10 dB) is considered sufficient. Table \ref{tb:ANTENNA_RETURNlOSS_TABLE} relates the return loss (dB) to the power reflected from the antenna (percent). 
@@ -110,7 +110,7 @@ A return loss of 10 dB signifies that $90\%$ of the incident power goes into the
 \begin{table}[h]
 	\begin{tabular}{|c|c|c|c| }
 		\hline 
-		S11 (dB) & Return Loss (dB) & Preflected/Pincident $(\%)$ & Pradiated/Pincident (\%) \\ 
+		S11 (dB) & Return Loss (dB) & $\varGamma_{ref}$/$\varGamma_{inc}$t $(\%)$ & $\varGamma_{rad}$/$\varGamma_{inc}$ (\%) \\ 
 		\hline
 		–20 &20 &1 &99\\
 		\hline
@@ -175,12 +175,12 @@ isotropic antenna \cite{AN91445}.
 
 
 \section{Motivation for Designing BLE Modules }
-One of the core ideas of the Inventvm BMS team is to make the BMS project in a wireless communication environment, therefore the team has decided to use Bluetooth as the communication tool. Hence finding the big sharks (Bluetooth Hardware and stack) in the Bluetooth world took quite some time, after a long investigation; we concluded to pick two important pies in the Bluetooth cake such as STM BLUeNRG-355mc \cite{BLNRG355_STEVAL_GUIDE} and Nordic nRF52840 \cite{NORDIC_nrf52840_USERGUIDE}. BlueEnergy-355mc is the jewel of our projects because it owes the advantages of very low power consumption: 3.4 mA, Receiver sensitivity, Bluetooth low energy data extensions, high data rate so on... despite having these many advantages STM does not manufacture the Bluetooth modules other than eval boards. Henceforth team has been paralyzed to outsource the required Bluetooth modules, later in the same path we found MDARTRONICS the company that manufactures the Bluetooth modules using the STM BLUeNRGgy-355mc hardware named STORMY. Stormy is a such cutie pie, at least it helps at some extent in R and D to prove the Wireless communication BMS architecture, but in the long run, we have experienced some the discomforts such as lack of documentation and market supply...to overcome all these issues team has decided to make inventive proprietary level Bluetooth modules fr BMS project. This gave me the perfect timing and to opportunity design RF Bluetooth modules for the project, as part of my thesis which is dedicated to wireless communication BMS.\\
+One of the core ideas of the Inventvm BMS team is to make the BMS project in a wireless communication environment, therefore the team has decided to use Bluetooth as the communication tool. Hence, finding the big sharks (Bluetooth Hardware and stack) in the Bluetooth world took quite some time, after a long investigation; we concluded to pick two important pies in the Bluetooth cake such as STM BLUeNRG-355mc \cite{BLNRG355_STEVAL_GUIDE} and Nordic nRF52840 \cite{NORDIC_nrf52840_USERGUIDE}. BlueEnergy-355mc is the jewel of our projects because it owes the advantages of very low power consumption: 3.4 mA, Receiver sensitivity, Bluetooth low energy data extensions, high data rate so on... despite having these many advantages STM does not manufacture the Bluetooth modules other than eval boards. Henceforth team has been paralyzed to outsource the required Bluetooth modules, later in the same path we found MIDARTRONICS the company that manufactures the Bluetooth modules using the STM BLUeNRGgy-355mc hardware named STORMY. Stormy is a such cutie pie, at least it helps at some extent in R \and D to prove the Wireless communication BMS architecture, but in the long run, we have experienced some the discomforts such as lack of documentation and market supply...to overcome all these issues team has decided to make inventive proprietary level Bluetooth modules fr BMS project. This gave me the perfect timing and to opportunity design RF Bluetooth modules for the project, as part of my thesis which is dedicated to wireless communication BMS.\\
 \indent Nordic nRF52840\cite{NORDIC_nrf52840_USERGUIDE} is another Bluetooth hardware similar to the BlueEnergy-355Mc reason behind picking the Nordic is the open BLE stack and Robust hardware. Nordic is much more comfortable in terms of different data rates, on-chip power converters, 32-bit ARM Cortex M4F @64MHz so and forth. Nordic has also a dedicated BLE stack \cite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE} that handles all power management resources on-chip, which attracts low-power automobile applications. In a much broader sense, Nordic is additional Bluetooth hardware that we can provide to the customer according to the application's need.\\
-\indent Though picking the Bluetooth hardware and stack is a boiling task, choosing the antenna and RF layout also takes prime place. Though, There are plenty of antennas for the 2.4GHz band, most Bluetooth manufacturers recommend two types of PCB antennas, meanders inverted antennas (MIFA) and inverted-F antenna (IFA), which are characterized and simulated exclusively for the low-power Bluetooth applications.However, MIFA (PIFA) is peculiar for most automobile applications because of its pointed directional properties.\\
+\indent Though picking the Bluetooth hardware and stack is a boiling task, choosing the antenna and RF layout also takes prime place. Though, there are plenty of antennas for the 2.4GHz band, most Bluetooth manufacturers recommend two types of PCB antennas, meanders inverted antennas (MIFA) and inverted-F antenna (IFA), which are characterized and simulated exclusively for the low-power Bluetooth applications.However, MIFA (PIFA) is peculiar for most automobile applications because of its pointed directional properties.\\
 \indent, However, we can choose any type of antenna and hardware for Bluetooth, admittedly the antenna, hardware, and RF layout design described in the following modules are classified for the BMS project.\\
-\indent The Low Data rate and bandwidth requirement in Bluetooth applications make IFA and MIFA make these two antennas most attractive for BLE.  Manufacturing these antennas is extremely easy because they are part of the PCB design. Certainly, these antennas are inexpensive as they are part of PCB and they provide good bandwidth in ranges for BLE in terms of 150 to 250 MHZ.MIFA is most preferable for smaller form factor PCBs such as a wireless mouse, wearable watches, handy IoT devices.... etc. IFA antennas are recommended for applications such as one of the dimensions is needed to be smaller than the other for example heart rate monitor.
-following modules explain MIFA and IFA antennas construction and functionalities:
+\indent The Low Data rate and bandwidth requirement in Bluetooth applications make IFA and MIFA the two most atractive antennas for BLE.  Manufacturing these antennas is extremely easy because they are part of the PCB design. Certainly, these antennas are inexpensive as they are part of PCB and they provide good bandwidth in ranges for BLE in terms of 150 to 250 MHZ.MIFA is most preferable for smaller form factor PCBs such as a wireless mouse, wearable watches, handy IoT devices.... etc. IFA antennas are recommended for applications such as one of the dimensions is needed to be smaller than the other for example heart rate monitor.
+The following modules explain MIFA and IFA antennas construction and functionalities:
 
 \section{PCB Meandered Inverted-F Antenna (PIFA/MIFA)}
 

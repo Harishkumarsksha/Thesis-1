@@ -4,7 +4,7 @@
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1663936538 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.pdf" "main" 1663936538
+["pdflatex"] 1664182185 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.pdf" "main" 1664182185
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty" 1644000708 492 1994775aa15b0d1289725a0b1bbc2d4c ""
   "C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -31,12 +31,12 @@
   "C:/Program Files/MiKTeX/tex/latex/tools/array.sty" 1636713860 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "C:/Users/Smplab/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1663660049 10775449 2419e51e3f3ea410b77d1f680a5fc1db ""
+  "C:/Users/Smplab/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1663944327 10775449 6973e3813a267932afd61b560df553a1 ""
   "NITR.cls" 1660815198 23742 48a561bc9b0c555c70e914557b721348 ""
-  "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1663859373 6136 e80756823ef70b7f65acd7349bfc3a15 ""
-  "main.aux" 1663936538 34 3985256e7290058c681f74d7a3565a19 ""
+  "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1663944320 6136 e80756823ef70b7f65acd7349bfc3a15 ""
+  "main.aux" 1664182185 34 3985256e7290058c681f74d7a3565a19 ""
   "main.ind" 0 -1 0 "makeindex main.idx"
-  "main.tex" 1663859373 6136 e80756823ef70b7f65acd7349bfc3a15 ""
+  "main.tex" 1663944320 6136 e80756823ef70b7f65acd7349bfc3a15 ""
   (generated)
   "main.idx"
   "main.log"
