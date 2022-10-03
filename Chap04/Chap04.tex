@@ -23,7 +23,7 @@ Figure\ref{fig:BMS Architecture} shows the overview of the Inventvm wireless BMS
 	\label{fig:BMS Architecture}
 \end{figure}
 \begin{itemize}
-	\item The CMUs of each battery contain Bluetooth modules, for our applications we have used BLUeNRG-355mc which will sense the live battery voltage and the temperature of the battery(using NTC).
+	\item The CMUs of each battery contains Bluetooth modules, for our applications we have used BLUeNRG-355mc which will sense the live battery voltage and the temperature of the battery(using NTC).
 	\item CMUs will synchronize with the master present on the MMU. According to the master request, all the CMUs Bluetooth will send the data to the Master in the given time slot.
 	\item On request of the controller, the master(BLE on MMU) will collect packets from all the slaves(CMUs) and hand over the decoded data (Voltages of the Batteries and Temperature measurements) to the Controller on the MMU.
 	\item The controller in this project is the PC, it could be a microcontroller also. The controller will be responsible for running all the BMS algorithms and detecting which node needs to be balanced depending on the CMU's battery voltages.
