@@ -90,3 +90,27 @@
 		\caption{Put your caption here}
 		\label{fig:fig}
 		\end{figure}
+
+\begin{algorithm}[H]
+			\DontPrintSemicolon
+			\SetAlgoLined
+			\KwData{$D$ = $<u,i,r>$}
+			\SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+			\Input{feat, iters, $\lambda$, $\eta$}
+			\Output{$A$, $B$}
+			\init{
+			\For{$u \in Users(D)$}{
+				$A_u \leftarrow$ Vector(size: $feat)
+			}
+			\For{count $\leftarrow 1$ \KwTo iters}{
+				$D \leftarrow$ Shuffle($D$) \;
+				\For{$<u,i,r> \in D$}{
+					$err_{ui} \leftarrow r - A_uB_i^T$ \;
+					$A_u \leftarrow A_u + \eta(err_{ui}B_i - \lambda A_u)$ \;
+					$B_i \leftarrow B_i + \eta(err_{ui}A_u - \lambda B_i)$ \;
+				}
+			}
+			\caption{Stochastic Gradient Descent}
+			\end{algorithm}
+			
+\end{document}

@@ -1,84 +1,98 @@
-\contentsline {chapter}{}{iii}{section*.1}%
-\contentsline {chapter}{Acknowledgment}{v}{section*.3}%
-\contentsline {chapter}{Abstract}{vii}{section*.5}%
-\contentsline {chapter}{List of Figures}{xi}{chapter*.7}%
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.8}%
-\contentsline {chapter}{\numberline {1}Bluetooth Module Design}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Antenna Basics :}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Antenna Types:}{6}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.1.a}Wire Antenna :}{7}{subsubsection.1.2.1.1}%
-\contentsline {subsubsection}{\numberline {1.2.1.b} PCB Antenna :}{7}{subsubsection.1.2.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1.c} Chip Antenna :}{7}{subsubsection.1.2.1.3}%
-\contentsline {subsection}{\numberline {1.2.2}Antenna Parameters}{8}{subsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.2.a}Return loss :}{8}{subsubsection.1.2.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2.b}Bandwidth :}{9}{subsubsection.1.2.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.2.c}Radiation efficiency: }{9}{subsubsection.1.2.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.2.d}Radiation pattern:}{10}{subsubsection.1.2.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.2.e}Gain :}{10}{subsubsection.1.2.2.5}%
-\contentsline {section}{\numberline {1.3}Motivation for Designing BLE Modules }{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}PCB Meandered Inverted-F Antenna (PIFA/MIFA)}{12}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Antenna used in Inventvm BLE modules :}{13}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}S11 of the MIFA/PIFA antenna}{14}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}MIFA/PIFA antennas 3D pattern :}{14}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Inverterd-F Antenna:}{14}{section.1.5}%
-\contentsline {section}{\numberline {1.6}BLE Schematic and PCB layout}{15}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}BluEnergy-355MC}{16}{subsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.1.a}BluEnergy-355MC RF Schematic:}{16}{subsubsection.1.6.1.1}%
-\contentsline {subsubsection}{\numberline {1.6.1.b}BluEnergy-355MC RF Layout:}{17}{subsubsection.1.6.1.2}%
-\contentsline {subsubsection}{\numberline {1.6.1.c}Power Supply Decoupling Layout Considerations\cite {AN91445}}{21}{subsubsection.1.6.1.3}%
-\contentsline {subsubsection}{\numberline {1.6.1.d}BluEnergy-355MC RF Matching Circuit Layout:}{22}{subsubsection.1.6.1.4}%
-\contentsline {subsection}{\numberline {1.6.2}Summary of the RF layout Design guidelines :}{23}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Conclusion of the Chapter \ref {chap:BLE}}{24}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Architecture of Wireless Communication Active Balancing BMS}{25}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{25}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Active Balancing Topologies for BMS }{25}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}\textit {Type Ia} : Combination of Buck and Boost Converter}{25}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}\textit {Type Ia} : Combination of the Buck/Boost Converter :}{25}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}\textit {Type Ib} : \textit {Type Ia} with a bidirectional converter :}{27}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}\textit {Type IIa} : Buck-boost converter :}{28}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}\textit {Type IIb} : Bidirectional buck-boost converter :}{29}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}\textit {Type IIIa} : High - and low-side buck-boost converters :}{29}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Proposed Active Balancing Method}{31}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Overview of Active balancing BMS Architecture}{32}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Retrospect of BMS Hardware}{33}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Multiphase Bidirectional DC/DC Current Controller LM5170-Q1}{33}{subsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.a}Definition of IC LM5170 Operation Modes:}{34}{subsubsection.2.5.1.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.b}Bench setup and operation of the DC/DC Converter :}{34}{subsubsection.2.5.1.2}%
-\contentsline {subsubsection}{\numberline {2.5.1.c}The operation of the DC converter is as follows (The Figure \ref {fig:LM5170_DC_DC_Converter_Operation_Setup}) :}{35}{subsubsection.2.5.1.3}%
-\contentsline {subsubsection}{\numberline {2.5.1.d}Summary of the DC/DC Converter:}{36}{subsubsection.2.5.1.4}%
-\contentsline {subsection}{\numberline {2.5.2}Switch Matrix :}{36}{subsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.2.a}The initiative understanding behind choosing the switch matrix MOSFET:}{36}{subsubsection.2.5.2.1}%
-\contentsline {subsection}{\numberline {2.5.3}Matrix Switch Gate Driver :}{38}{subsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.3.a}LTC4231 :}{38}{subsubsection.2.5.3.1}%
-\contentsline {subsubsection}{\numberline {2.5.3.b}Inrush Current Control by LTC4231 :}{39}{subsubsection.2.5.3.2}%
-\contentsline {subsection}{\numberline {2.5.4}Current Sense :}{40}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Wireless Communication Hardware :}{40}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Summary of Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{40}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Synchronization of Current and Voltage Measurements for Calculating the SoC}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Current Sensing}{43}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Hall Effect Current Sensors }{43}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.a}TMCS1107xx Sensors :}{44}{subsubsection.3.1.1.1}%
-\contentsline {chapter}{\numberline {4}Battery Modeling and Emulation}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Battery Modeling}{48}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{48}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}IR Model :}{49}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}One-Time Constant Model }{50}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Two-Time Constant Model }{50}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{51}{subsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{51}{subsubsection.4.1.5.1}%
-\contentsline {paragraph}{\numberline {4.1.5.a.1}Ohmic Resistance :}{52}{paragraph.4.1.5.1.1}%
-\contentsline {paragraph}{\numberline {4.1.5.a.2}Estimation of the OTC Model Parameters :}{53}{paragraph.4.1.5.1.2}%
-\contentsline {paragraph}{\numberline {4.1.5.a.3}Estimation of the TTC Model Parameters :}{53}{paragraph.4.1.5.1.3}%
-\contentsline {subsection}{\numberline {4.1.6}Experimental and Computational Results of SLPB120216216}{55}{subsection.4.1.6}%
-\contentsline {section}{\numberline {4.2}Battery Emulation}{55}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Fundamental Instruments For Battery Emulation }{55}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.a}Chroma :}{56}{subsubsection.4.2.1.1}%
-\contentsline {paragraph}{\numberline {4.2.1.a.1}Sepcifications of the Chroma :}{56}{paragraph.4.2.1.1.1}%
-\contentsline {paragraph}{\numberline {4.2.1.a.2}Programing the Chroma:}{57}{paragraph.4.2.1.1.2}%
-\contentsline {chapter}{\numberline {5}Misellaneous}{63}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{63}{section.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{63}{subsubsection.5.1.0.1}%
-\contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{64}{subsubsection.5.1.0.2}%
-\contentsline {section}{\numberline {5.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{64}{section.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.0.a} Design Example for the LTC4321 Gate Driver :}{64}{subsubsection.5.2.0.1}%
+\contentsline {chapter}{}{iii}{}%
+\contentsline {chapter}{Acknowledgment}{v}{}%
+\contentsline {chapter}{Abstract}{vii}{}%
+\contentsline {chapter}{List of Figures}{xi}{}%
+\contentsline {chapter}{List of Tables}{xiii}{}%
+\contentsline {chapter}{\numberline {1}Bluetooth Module Design}{5}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{5}{}%
+\contentsline {section}{\numberline {1.2}Antenna Basics :}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Antenna Types:}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.a}Wire Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.b} PCB Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.c} Chip Antenna :}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}Antenna Parameters}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.a}Return loss :}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.b}Bandwidth :}{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.c}Radiation efficiency: }{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.d}Radiation pattern:}{10}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.e}Gain :}{10}{}%
+\contentsline {section}{\numberline {1.3}Motivation for Designing BLE Modules }{10}{}%
+\contentsline {section}{\numberline {1.4}PCB Meandered Inverted-F Antenna (PIFA/MIFA)}{12}{}%
+\contentsline {subsection}{\numberline {1.4.1}Antenna used in Inventvm BLE modules :}{13}{}%
+\contentsline {subsection}{\numberline {1.4.2}S11 of the MIFA/PIFA antenna}{14}{}%
+\contentsline {subsection}{\numberline {1.4.3}MIFA/PIFA antennas 3D pattern :}{14}{}%
+\contentsline {section}{\numberline {1.5}Inverterd-F Antenna:}{14}{}%
+\contentsline {section}{\numberline {1.6}BLE Schematic and PCB layout}{15}{}%
+\contentsline {subsection}{\numberline {1.6.1}BluEnergy-355MC}{16}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.a}BluEnergy-355MC RF Schematic:}{16}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.b}BluEnergy-355MC RF Layout:}{17}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.c}Power Supply Decoupling Layout Considerations\cite {AN91445}}{21}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.d}BluEnergy-355MC RF Matching Circuit Layout:}{22}{}%
+\contentsline {subsection}{\numberline {1.6.2}Summary of the RF layout Design guidelines :}{23}{}%
+\contentsline {section}{\numberline {1.7}Conclusion of the Chapter \ref {chap:BLE}}{24}{}%
+\contentsline {chapter}{\numberline {2}Architecture of Wireless Communication Active Balancing BMS}{25}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{25}{}%
+\contentsline {section}{\numberline {2.2}Active Balancing Topologies for BMS }{25}{}%
+\contentsline {subsection}{\numberline {2.2.1}\textit {Type Ia} : Combination of Buck and Boost Converter}{25}{}%
+\contentsline {subsection}{\numberline {2.2.2}\textit {Type Ia} : Combination of the Buck/Boost Converter :}{25}{}%
+\contentsline {subsection}{\numberline {2.2.3}\textit {Type Ib} : \textit {Type Ia} with a bidirectional converter :}{27}{}%
+\contentsline {subsection}{\numberline {2.2.4}\textit {Type IIa} : Buck-boost converter :}{28}{}%
+\contentsline {subsection}{\numberline {2.2.5}\textit {Type IIb} : Bidirectional buck-boost converter :}{29}{}%
+\contentsline {subsection}{\numberline {2.2.6}\textit {Type IIIa} : High - and low-side buck-boost converters :}{29}{}%
+\contentsline {section}{\numberline {2.3}Proposed Active Balancing Method}{31}{}%
+\contentsline {section}{\numberline {2.4}Overview of Active balancing BMS Architecture}{32}{}%
+\contentsline {section}{\numberline {2.5}Retrospect of BMS Hardware}{33}{}%
+\contentsline {subsection}{\numberline {2.5.1}Multiphase Bidirectional DC/DC Current Controller LM5170-Q1}{33}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.a}Definition of IC LM5170 Operation Modes:}{34}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.b}Bench setup and operation of the DC/DC Converter :}{34}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.c}The operation of the DC converter is as follows (The Figure \ref {fig:LM5170_DC_DC_Converter_Operation_Setup}) :}{35}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.d}Summary of the DC/DC Converter:}{36}{}%
+\contentsline {subsection}{\numberline {2.5.2}Switch Matrix :}{36}{}%
+\contentsline {subsubsection}{\numberline {2.5.2.a}The initiative understanding behind choosing the switch matrix MOSFET:}{36}{}%
+\contentsline {subsection}{\numberline {2.5.3}Matrix Switch Gate Driver :}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.3.a}LTC4231 :}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.3.b}Inrush Current Control by LTC4231 :}{39}{}%
+\contentsline {subsection}{\numberline {2.5.4}Current Sense :}{40}{}%
+\contentsline {subsection}{\numberline {2.5.5}Wireless Communication Hardware :}{40}{}%
+\contentsline {section}{\numberline {2.6}Summary of Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{40}{}%
+\contentsline {chapter}{\numberline {3}Synchronization of Current and Voltage Measurements for Calculating the SoC}{43}{}%
+\contentsline {section}{\numberline {3.1}Current Sensing}{43}{}%
+\contentsline {subsection}{\numberline {3.1.1}Hall Effect Current Sensors }{43}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.a}TMCS1107xx Sensors :}{44}{}%
+\contentsline {chapter}{\numberline {4}Battery Modeling and Emulation}{47}{}%
+\contentsline {section}{\numberline {4.1}Battery Modeling}{48}{}%
+\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{48}{}%
+\contentsline {subsection}{\numberline {4.1.2}IR Model :}{49}{}%
+\contentsline {subsection}{\numberline {4.1.3}One-Time Constant Model }{50}{}%
+\contentsline {subsection}{\numberline {4.1.4}Two-Time Constant Model }{50}{}%
+\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{51}{}%
+\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{51}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.1}Ohmic Resistance :}{52}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.2}Estimation of the OTC Model Parameters :}{53}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.3}Estimation of the TTC Model Parameters :}{53}{}%
+\contentsline {subsection}{\numberline {4.1.6}Experimental and Computational Results of SLPB120216216}{55}{}%
+\contentsline {section}{\numberline {4.2}Battery Emulation}{55}{}%
+\contentsline {subsection}{\numberline {4.2.1}Fundamental Instruments For Battery Emulation }{55}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.a}Chroma :}{56}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.1}Sepcifications of the Chroma :}{56}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.2}Output Wiring of the Chroma :}{57}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.3}Programing the Chroma:}{57}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.4}Response Time of the Chroma :}{59}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.b}Load/Charger :}{59}{}%
+\contentsline {paragraph}{\numberline {4.2.1.b.1} Keysight N6705 DC Power Analyzer :}{59}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.c}Meter View :}{61}{}%
+\contentsline {paragraph}{\numberline {4.2.1.c.1}Digital Multimeters 34460A :}{61}{}%
+\contentsline {subsection}{\numberline {4.2.2} Battery Modeling :}{63}{}%
+\contentsline {subsection}{\numberline {4.2.3}Battery Pack Modeling :}{64}{}%
+\contentsline {subsection}{\numberline {4.2.4}Power Analyzer Modeling}{67}{}%
+\contentsline {section}{\numberline {4.3}Results Discussion of The Battery Modeling}{68}{}%
+\contentsline {chapter}{\numberline {5}Misellaneous}{73}{}%
+\contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{73}{}%
+\contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{73}{}%
+\contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{74}{}%
+\contentsline {section}{\numberline {5.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{74}{}%
+\contentsline {subsubsection}{\numberline {5.2.0.a} Design Example for the LTC4321 Gate Driver :}{74}{}%
+\contentsline {section}{\numberline {5.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{76}{}%
+\contentsline {subsection}{\numberline {5.3.1}Chroma SCPI Commands Example Programs}{76}{}%
+\contentsline {paragraph}{\numberline {5.3.1..1}Example 1:}{76}{}%
+\contentsline {paragraph}{\numberline {5.3.1..2}Example 2:}{77}{}%
