@@ -1,4 +1,4 @@
-\section{Results Discussion of The Battery Modeling}
+\section{Discussion of The Battery Modeling Results}
 The results from the power analyzer have been satisfactory and the robustness of the power analyzer architecture allows for the simulation of various BMS tests, such as low battery voltage, high battery voltage protection, and soc estimation.
 Batteries can be imbalanced for testing different battery balancing algorithms in the battery pack module by passing different initial SoC values. In the practical sense, low and high battery voltage testing takes tons of time with batteries. Achieving fast charging and discharging with the batteries needs a high sink/source current, which could be a limitation in many instruments. Thanks to the PowerAnalyzer, it allows emulating fast charging and discharging of batteries by adding some bias current(only added in the script) with the actual current that is flowing in the battery emulator. The actual battery emulator does not know anything it is not smart enough to realize what is going on with the current flowing in the system. On contrary, the script can emulate this behavior and set a new terminal voltage to each channel of the battery emulator, every time the PowerAnalyzer sample the current flowing in the battery emulator.
 
@@ -45,25 +45,41 @@ The following code, snippet illustrates the biased current simulation. "$current
 
 
 % \input{Chap06/Code/test.tex}
-% \begin{figure}[h]
-%     \begin{center}
-%         \includegraphics[width=1\textwidth]{Chap06/Code/test.png}
-%     \end{center}
-%     \caption{A PGF histogram from \texttt{matplotlib}.}
-% \end{figure}
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=1\textwidth]{Chap06/Code/test.png}
+    \end{center}
+    \caption{A PGF histogram from \texttt{matplotlib}.}
+\end{figure}
 
 % This file was created with tikzplotlib v0.10.1.
 
+% \input{Chap06/Code/Batt_Charging_Voltage_SOC.tex}
 
-\begin{figure}
-    \centering
-    \resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}
-\end{figure}
+% \begin{figure}
+%     \centering
+%     \resizebox{0.8\textwidth}{!}{\input{Chap06/Code/Batt_Charging_Voltage_SOC.tex}}
+% \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =90\deg$]{\resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}}
+	\subfigure[MIFA ]{\includegraphics[scale=.4]{Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png}}
 	\qquad
-	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =0\deg$]{\resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}}
+	\subfigure[MIFA]{\includegraphics[scale=.4]{Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png}}
 	\caption{MIFA Antenna Gain Radiation Pattren}
 \end{figure}
+
+% \begin{tikzpicture}
+%     \begin{axis}[legend entries={ChvBatt0},
+%     %legend style={
+%     %at={(0.5,-0.2)},
+%     %anchor=north,
+%     %legend columns=1,
+%     %cells={anchor=west},
+%     %font=\footnotesize,
+%     %rounded corners=2pt,
+%     %}, 
+%     \addplot table [x=Index, y=ChvBatt0, col sep=comma] {Chap06/Code/Batt.csv};
+
+%     \end{axis}
+% \end{tikzpicture}
