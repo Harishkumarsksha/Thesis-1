@@ -1,1 +1,69 @@
 \section{Results Discussion of The Battery Modeling}
+The results from the power analyzer have been satisfactory and the robustness of the power analyzer architecture allows for the simulation of various BMS tests, such as low battery voltage, high battery voltage protection, and soc estimation.
+Batteries can be imbalanced for testing different battery balancing algorithms in the battery pack module by passing different initial SoC values. In the practical sense, low and high battery voltage testing takes tons of time with batteries. Achieving fast charging and discharging with the batteries needs a high sink/source current, which could be a limitation in many instruments. Thanks to the PowerAnalyzer, it allows emulating fast charging and discharging of batteries by adding some bias current(only added in the script) with the actual current that is flowing in the battery emulator. The actual battery emulator does not know anything it is not smart enough to realize what is going on with the current flowing in the system. On contrary, the script can emulate this behavior and set a new terminal voltage to each channel of the battery emulator, every time the PowerAnalyzer sample the current flowing in the battery emulator.
+
+The following code, snippet illustrates the biased current simulation. "$currents = self.batEmulator.BateryEmulatorCellCurrent$" will fetch the actual current that is flowing in the battery emulator; for the "$currents$" array the "$ibattBias$" biased current is added and calculated as new open circuit voltage "$batEmulator.batteryEmulatorVoltageSet(cellNo=i,cellVoltage=VOC)$", and SoC is the updated open circuit voltage set to the battery emulator terminal voltage(each channel respectively).
+\begin{lstlisting}[language=Python, caption=Emulating Sudo BiasCurrent in the PowerAnalyzer ]
+    def batVoltageSOC(self):
+        batVoltSOC =dict()
+        currents = self.batEmulator.BateryEmulatorCellCurrent
+        
+        biasedCurrent = []
+        # print(f'Current that flowinf in Chroma {currents}')
+        
+        #add the sudo bias current 
+        for i in range(0,len(self.SOC0)):
+            biasedCurrent.append(currents[i]+self.ibattBias)
+                
+        for i in range(0,len(self.SOC0)):
+            [batVlot,VOC] = self.Batt[i].battVoltage(biasedCurrent[i])
+            batVoltSOC[batVlot] = self.Batt[i].CoulombSOC
+            self.batEmulator.batteryEmulatorVoltageSet(cellNo=i,
+                                    cellVoltage=VOC)
+            
+        return batVoltSOC
+\end{lstlisting}
+
+% \begin{figure}[h]
+% 	\centering
+% 	\subfigure[Single Battery Charging (blue)/Discharging (orange) Voltage  Vs Cycles]{\includegraphics[scale=.5]{Chap06/Figures/Singlebatt_charge_discharge_voltage.PNG}}
+% 	\qquad
+% 	\subfigure[Single Battery Charging (blue)/Discharging (orange) SoC  Vs Cycles]{\includegraphics[scale=.5]{Chap06/Figures/Singlebatt_charge_discharge_voltage_SoC.PNG}}
+% 	\qquad
+% 	\subfigure[Single Battery Charging (blue)/Discharging (orange) Voltage  Vs SoC]{\includegraphics[scale=.5]{Chap06/Figures/Untitled.png}}
+% 	\caption{Single Battery Charging and Discharging Behavior}
+% 	\label{fig:Single_Batt_charge_discharge}
+% \end{figure}
+
+
+
+% \begin{tikzpicture}
+%     \begin{axis}[scale only axis, xlabel = x, ylabel = y,  ytick pos=left]
+%     \addplot table[x=x,y=y] {./Chap06/Code/test.xlsx};
+%      \end{axis}
+% \end{tikzpicture}
+
+
+% \input{Chap06/Code/test.tex}
+% \begin{figure}[h]
+%     \begin{center}
+%         \includegraphics[width=1\textwidth]{Chap06/Code/test.png}
+%     \end{center}
+%     \caption{A PGF histogram from \texttt{matplotlib}.}
+% \end{figure}
+
+% This file was created with tikzplotlib v0.10.1.
+
+
+\begin{figure}
+    \centering
+    \resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =90\deg$]{\resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}}
+	\qquad
+	\subfigure[MIFA antenna Gain Radiation pattern $@ \phi =0\deg$]{\resizebox{0.8\textwidth}{!}{\input{Chap06/Code/test.tex}}}
+	\caption{MIFA Antenna Gain Radiation Pattren}
+\end{figure}

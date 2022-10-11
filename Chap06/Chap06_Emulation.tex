@@ -439,5 +439,6 @@ The battery pack module will instantiate the $BattModel$ \ref{algo:Battery_Model
     \caption{Power Analyzer Modeling Algorithm}
 \end{algorithm}
 
+
 Power Analyzer will integrate the complete setup \ref{fig:Battery_Pack_modeling_Architec}, which includes meter-views, battery packs, and data collection.  The loop in the power analyzer will continuously run until the batteries enter the safety of operation. The loop will be iterated by delaying every $dt$ for calculating soc and measuring the battery parameters (chroma).
 The PowerAnalyzer module will parallelly execute the DataCollection Module to log the DC/DC Converter input/output current, Battery Voltages, and SoC of the batteries. In the algorithm, I have collected shunt voltages instead of collecting directly current because in the system the shunt resistance values are known, and also measuring current needs to break the circuit loops or needed expense current probes.
