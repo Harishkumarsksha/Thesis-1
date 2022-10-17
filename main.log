@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  11 OCT 2022 23:37
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  17 OCT 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -528,79 +528,143 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Program Files\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen285
+\TX@old@table=\dimen286
+\TX@old@col=\dimen287
+\TX@target=\dimen288
+\TX@delta=\dimen289
+\TX@cols=\count317
+\TX@ftn=\toks41
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box116
+)
+\tc@llx=\dimen290
+\tc@lly=\dimen291
+\tc@urx=\dimen292
+\tc@ury=\dimen293
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen294
+\adjbox@Height=\dimen295
+\adjbox@Depth=\dimen296
+\adjbox@Totalheight=\dimen297
+\adjbox@pwidth=\dimen298
+\adjbox@pheight=\dimen299
+\adjbox@pdepth=\dimen300
+\adjbox@ptotalheight=\dimen301
+ (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count318
+) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box117
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen302
+\@vwid@roff=\dimen303
+)) (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen304
+\lightrulewidth=\dimen305
+\cmidrulewidth=\dimen306
+\belowrulesep=\dimen307
+\belowbottomsep=\dimen308
+\aboverulesep=\dimen309
+\abovetopsep=\dimen310
+\cmidrulesep=\dimen311
+\cmidrulekern=\dimen312
+\defaultaddspace=\dimen313
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen314
+\@belowrulesep=\dimen315
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen316
 ) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks41
-\t@pgfplots@tokb=\toks42
-\t@pgfplots@tokc=\toks43
-\pgfplots@tmpa=\dimen285
-\c@pgfplots@coordindex=\count317
-\c@pgfplots@scanlineindex=\count318
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
+\pgfplots@tmpa=\dimen317
+\c@pgfplots@coordindex=\count324
+\c@pgfplots@scanlineindex=\count325
  (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count319
+\c@pgfplotsarray@tmp=\count326
 ) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count320
-\t@pgfplotstable@a=\toks44
+\c@pgfplotstable@counta=\count327
+\t@pgfplotstable@a=\toks45
 ) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count321
+\c@pgfplotslibrarysurf@no=\count328
  (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-xetex.def (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
-\c@pgfplotslibrarysurf@streamlen=\count322
+\c@pgfplotslibrarysurf@streamlen=\count329
 )))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen286
-\pgfdecoratedremainingdistance=\dimen287
-\pgfdecoratedinputsegmentcompleteddistance=\dimen288
-\pgfdecoratedinputsegmentremainingdistance=\dimen289
-\pgf@decorate@distancetomove=\dimen290
-\pgf@decorate@repeatstate=\count323
-\pgfdecorationsegmentamplitude=\dimen291
-\pgfdecorationsegmentlength=\dimen292
+\pgfdecoratedcompleteddistance=\dimen318
+\pgfdecoratedremainingdistance=\dimen319
+\pgfdecoratedinputsegmentcompleteddistance=\dimen320
+\pgfdecoratedinputsegmentremainingdistance=\dimen321
+\pgf@decorate@distancetomove=\dimen322
+\pgf@decorate@repeatstate=\count330
+\pgfdecorationsegmentamplitude=\dimen323
+\pgfdecorationsegmentlength=\dimen324
 )
-\tikz@lib@dec@box=\box116
+\tikz@lib@dec@box=\box118
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count324
-\pgfplots@xmin@reg=\dimen293
-\pgfplots@xmax@reg=\dimen294
-\pgfplots@ymin@reg=\dimen295
-\pgfplots@ymax@reg=\dimen296
-\pgfplots@zmin@reg=\dimen297
-\pgfplots@zmax@reg=\dimen298
+\pgfplots@numplots=\count331
+\pgfplots@xmin@reg=\dimen325
+\pgfplots@xmax@reg=\dimen326
+\pgfplots@ymin@reg=\dimen327
+\pgfplots@ymax@reg=\dimen328
+\pgfplots@zmin@reg=\dimen329
+\pgfplots@zmax@reg=\dimen330
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.groupplots.code.tex
-\pgfplots@group@current@plot=\count325
-\pgfplots@group@current@row=\count326
-\pgfplots@group@current@column=\count327
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.groupplots.code.tex
+\pgfplots@group@current@plot=\count332
+\pgfplots@group@current@row=\count333
+\pgfplots@group@current@column=\count334
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.dateplot.code.tex (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count328
-\pgf@cal@easter@Y=\count329
-\pgf@cal@easter@G=\count330
-\pgf@cal@easter@C=\count331
-\pgf@cal@easter@X=\count332
-\pgf@cal@easter@Z=\count333
-\pgf@cal@easter@D=\count334
-\pgf@cal@easter@E=\count335
-\pgf@cal@easter@N=\count336
-\pgf@cal@easter@M=\count337
-\pgf@cal@easter@julianday=\count338
+\pgfcalendarcurrentjulian=\count335
+\pgf@cal@easter@Y=\count336
+\pgf@cal@easter@G=\count337
+\pgf@cal@easter@C=\count338
+\pgf@cal@easter@X=\count339
+\pgf@cal@easter@Z=\count340
+\pgf@cal@easter@D=\count341
+\pgf@cal@easter@E=\count342
+\pgf@cal@easter@N=\count343
+\pgf@cal@easter@M=\count344
+\pgf@cal@easter@julianday=\count345
 ))) (C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip69
 \subfigcapskip=\skip70
-\subfigcaptopadj=\dimen299
+\subfigcaptopadj=\dimen331
 \subfigbottomskip=\skip71
-\subfigcapmargin=\dimen300
+\subfigcapmargin=\dimen332
 \subfiglabelskip=\skip72
-\c@subfigure=\count339
-\c@lofdepth=\count340
-\c@subtable=\count341
-\c@lotdepth=\count342
+\c@subfigure=\count346
+\c@lofdepth=\count347
+\c@subtable=\count348
+\c@lotdepth=\count349
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -632,46 +696,27 @@ File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box117
-\pgfnodeparttwobox=\box118
-\pgfnodepartthreebox=\box119
-\pgfnodepartfourbox=\box120
-\pgfnodeparttwentybox=\box121
-\pgfnodepartnineteenbox=\box122
-\pgfnodeparteighteenbox=\box123
-\pgfnodepartseventeenbox=\box124
-\pgfnodepartsixteenbox=\box125
-\pgfnodepartfifteenbox=\box126
-\pgfnodepartfourteenbox=\box127
-\pgfnodepartthirteenbox=\box128
-\pgfnodeparttwelvebox=\box129
-\pgfnodepartelevenbox=\box130
-\pgfnodeparttenbox=\box131
-\pgfnodepartninebox=\box132
-\pgfnodeparteightbox=\box133
-\pgfnodepartsevenbox=\box134
-\pgfnodepartsixbox=\box135
-\pgfnodepartfivebox=\box136
-))) (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen301
-\lightrulewidth=\dimen302
-\cmidrulewidth=\dimen303
-\belowrulesep=\dimen304
-\belowbottomsep=\dimen305
-\aboverulesep=\dimen306
-\abovetopsep=\dimen307
-\cmidrulesep=\dimen308
-\cmidrulekern=\dimen309
-\defaultaddspace=\dimen310
-\@cmidla=\count343
-\@cmidlb=\count344
-\@aboverulesep=\dimen311
-\@belowrulesep=\dimen312
-\@thisruleclass=\count345
-\@lastruleclass=\count346
-\@thisrulewidth=\dimen313
-) (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
+\pgfnodepartlowerbox=\box119
+\pgfnodeparttwobox=\box120
+\pgfnodepartthreebox=\box121
+\pgfnodepartfourbox=\box122
+\pgfnodeparttwentybox=\box123
+\pgfnodepartnineteenbox=\box124
+\pgfnodeparteighteenbox=\box125
+\pgfnodepartseventeenbox=\box126
+\pgfnodepartsixteenbox=\box127
+\pgfnodepartfifteenbox=\box128
+\pgfnodepartfourteenbox=\box129
+\pgfnodepartthirteenbox=\box130
+\pgfnodeparttwelvebox=\box131
+\pgfnodepartelevenbox=\box132
+\pgfnodeparttenbox=\box133
+\pgfnodepartninebox=\box134
+\pgfnodeparteightbox=\box135
+\pgfnodepartsevenbox=\box136
+\pgfnodepartsixbox=\box137
+\pgfnodepartfivebox=\box138
+))) (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
  (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
@@ -685,31 +730,31 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count347
-\Gm@cntv=\count348
-\c@Gm@tempcnt=\count349
-\Gm@bindingoffset=\dimen314
-\Gm@wd@mp=\dimen315
-\Gm@odd@mp=\dimen316
-\Gm@even@mp=\dimen317
-\Gm@layoutwidth=\dimen318
-\Gm@layoutheight=\dimen319
-\Gm@layouthoffset=\dimen320
-\Gm@layoutvoffset=\dimen321
-\Gm@dimlist=\toks45
+\Gm@cnth=\count350
+\Gm@cntv=\count351
+\c@Gm@tempcnt=\count352
+\Gm@bindingoffset=\dimen333
+\Gm@wd@mp=\dimen334
+\Gm@odd@mp=\dimen335
+\Gm@even@mp=\dimen336
+\Gm@layoutwidth=\dimen337
+\Gm@layoutheight=\dimen338
+\Gm@layouthoffset=\dimen339
+\Gm@layoutvoffset=\dimen340
+\Gm@dimlist=\toks46
  (C:\Users\Smplab\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/layaureo\layaureo.sty
 Package: layaureo 2004/09/16 v0.2
  (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count350
-\calc@Bcount=\count351
-\calc@Adimen=\dimen322
-\calc@Bdimen=\dimen323
+\calc@Acount=\count353
+\calc@Bcount=\count354
+\calc@Adimen=\dimen341
+\calc@Bdimen=\dimen342
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count352
+\calc@Ccount=\count355
 \calc@Cskip=\skip77
 )
 \LA@MargineRilegatura=\skip78
@@ -722,77 +767,42 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (679.57123pt) is ignored.
 
-) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
-Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
- (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box137
-)
-\tc@llx=\dimen324
-\tc@lly=\dimen325
-\tc@urx=\dimen326
-\tc@ury=\dimen327
-Package trimclip Info: Using driver 'tc-xetex.def'.
- (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
-))
-\adjbox@Width=\dimen328
-\adjbox@Height=\dimen329
-\adjbox@Depth=\dimen330
-\adjbox@Totalheight=\dimen331
-\adjbox@pwidth=\dimen332
-\adjbox@pheight=\dimen333
-\adjbox@pdepth=\dimen334
-\adjbox@ptotalheight=\dimen335
- (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count353
-) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box138
-\sift@deathcycles=\count354
-\@vwid@loff=\dimen336
-\@vwid@roff=\dimen337
-)) (C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
+) (C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count355
-\c@Blindtext=\count356
-\c@blind@countparstart=\count357
-\blind@countxx=\count358
-\blindtext@numBlindtext=\count359
-\blind@countyy=\count360
-\c@blindlist=\count361
-\c@blindlistlevel=\count362
-\c@blindlist@level=\count363
-\blind@listitem=\count364
-\c@blind@listcount=\count365
-\c@blind@levelcount=\count366
-\blind@mathformula=\count367
-\blind@Mathformula=\count368
-\c@blind@randomcount=\count369
-\c@blind@randommax=\count370
-\c@blind@pangramcount=\count371
-\c@blind@pangrammax=\count372
+\c@blindtext=\count356
+\c@Blindtext=\count357
+\c@blind@countparstart=\count358
+\blind@countxx=\count359
+\blindtext@numBlindtext=\count360
+\blind@countyy=\count361
+\c@blindlist=\count362
+\c@blindlistlevel=\count363
+\c@blindlist@level=\count364
+\blind@listitem=\count365
+\c@blind@listcount=\count366
+\c@blind@levelcount=\count367
+\blind@mathformula=\count368
+\blind@Mathformula=\count369
+\c@blind@randomcount=\count370
+\c@blind@randommax=\count371
+\c@blind@pangramcount=\count372
+\c@blind@pangrammax=\count373
 ) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
  (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count373
+\etb@tempcnta=\count374
 )
-\csq@reset=\count374
-\csq@gtype=\count375
-\csq@glevel=\count376
-\csq@qlevel=\count377
-\csq@maxlvl=\count378
-\csq@tshold=\count379
-\csq@ltx@everypar=\toks46
+\csq@reset=\count375
+\csq@gtype=\count376
+\csq@glevel=\count377
+\csq@qlevel=\count378
+\csq@maxlvl=\count379
+\csq@tshold=\count380
+\csq@ltx@everypar=\toks47
  (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
@@ -804,19 +814,19 @@ File: csquotes.cfg
 Package: subfig 2005/06/28 ver: 1.3 subfig package
  (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen338
-\captionmargin=\dimen339
-\caption@leftmargin=\dimen340
-\caption@rightmargin=\dimen341
-\caption@width=\dimen342
-\caption@indent=\dimen343
-\caption@parindent=\dimen344
-\caption@hangindent=\dimen345
+\caption@tempdima=\dimen343
+\captionmargin=\dimen344
+\caption@leftmargin=\dimen345
+\caption@rightmargin=\dimen346
+\caption@width=\dimen347
+\caption@indent=\dimen348
+\caption@parindent=\dimen349
+\caption@hangindent=\dimen350
 Package caption Info: Standard document class detected.
 )
-\c@KVtest=\count380
+\c@KVtest=\count381
 \sf@farskip=\skip83
-\sf@captopadj=\dimen346
+\sf@captopadj=\dimen351
 \sf@capskip=\skip84
 \sf@nearskip=\skip85
 \sf@top=\skip86
@@ -825,13 +835,13 @@ Package caption Info: Standard document class detected.
 Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count381
-\l__lipsum_a_int=\count382
-\l__lipsum_b_int=\count383
+\g__lipsum_par_int=\count382
+\l__lipsum_a_int=\count383
+\l__lipsum_b_int=\count384
  (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
-\c@caption@flags=\count384
-\c@continuedfloat=\count385
+\c@caption@flags=\count385
+\c@continuedfloat=\count386
 Package caption Info: subfigure package is loaded.
 ) (C:\Program Files\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
@@ -839,7 +849,7 @@ Package: todonotes 2021/06/04
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\c@@todonotes@numberoftodonotes=\count386
+\c@@todonotes@numberoftodonotes=\count387
 ) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
@@ -848,27 +858,18 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip88
-\multirow@cntb=\count387
+\multirow@cntb=\count388
 \multirow@dima=\skip89
-\bigstrutjot=\dimen347
+\bigstrutjot=\dimen352
 ) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen348
-\c@nlinenum=\count388
-\TeXr@lab=\toks47
+\rotheadsize=\dimen353
+\c@nlinenum=\count389
+\TeXr@lab=\toks48
 ) (C:\Program Files\MiKTeX\tex/latex/ctable\ctable.sty
 Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of table and figure floats using key/value directives
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen349
-\TX@old@table=\dimen350
-\TX@old@col=\dimen351
-\TX@target=\dimen352
-\TX@delta=\dimen353
-\TX@cols=\count389
-\TX@ftn=\toks48
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count390
@@ -1257,25 +1258,27 @@ Underfull \hbox (badness 2990) in paragraph at lines 4--9
 
 ] (main.toc [9
 
-])
+] [10])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [10] (main.lof [11
+ [11] [12
 
+] (main.lof [13
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [12] (main.lot)
+ [14] [15] [16
+
+] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [13
+ [17
 
-
-] [14
+] [18
 
 ] (Chap00/Preface.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1625,27 +1628,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [37]) (Chap04/Chap04_Switch_GateDriver.tex [38]
 File: Chap04/Figures/Inrsuh_current_of_LTC4321.PNG Graphic file (type bmp)
 <Chap04/Figures/Inrsuh_current_of_LTC4321.PNG>
-) (Chap04/Chap04_Current_Sense.tex [39]) (Chap04/Chap04_WirelessCommunication.tex
-Underfull \hbox (badness 7595) in paragraph at lines 5--1
-[]\TU/TimesNewRoman(0)/m/n/12 For Inventvm active balancing BMS application, The team has selected
- []
-
-)) [40] [41] [42
+) (Chap04/Chap04_Current_Sense.tex [39]) (Chap04/Chap04_WirelessCommunication.tex)) [40] [41] [42
 
 ] (Chap05/Chap05.tex
 Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|\TU/TimesNewRoman(0)/b/n/24.88 Current Measurement For SoC
+ []
+
 (Chap05/Chap05_CurrentSensing.tex [43
 
 ]
 File: Chap05/Figures/TMCS1107_HallSensor.PNG Graphic file (type bmp)
 <Chap05/Figures/TMCS1107_HallSensor.PNG>
+ [44]
+File: Chap05/Figures/INA_high_side_currentsense.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_high_side_currentsense.PNG>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [44] [45] [46
 
-] (Chap06/Chap06.tex
+Underfull \vbox (badness 6445) has occurred while \output is active []
+
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+[]\TU/TimesNewRoman(0)/m/n/12 The INA238 can be utilized in accurate systems without undergoing
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 41--43
+\TU/TimesNewRoman(0)/m/n/12 multi-temperature calibration during production thanks to its low offset and gain
+ []
+
+File: Chap05/Figures/INA238_Simplified_Block_diagram.PNG Graphic file (type bmp)
+<Chap05/Figures/INA238_Simplified_Block_diagram.PNG>
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+ [46]
+Underfull \hbox (badness 1242) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/12 memory of the device, indicates the memory status. When the gadget is
+ []
+
+[47]
+File: Chap05/Figures/INA238_multi_alert.PNG Graphic file (type bmp)
+<Chap05/Figures/INA238_multi_alert.PNG>
+) (Chap05/Chap05_CurrentReadingSynchronization.tex
+Underfull \hbox (badness 2012) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 it is the main pillar in this project to acquire current measurements and other
+ []
+
+File: Chap05/Figures/INA_MultiWrite.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_MultiWrite.PNG>
+[48]
+File: Chap05/Figures/INA_synchronization_alert.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_synchronization_alert.PNG>
+
+Underfull \hbox (badness 3568) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(0)/m/n/12 The INA238 conversion can be delayed to synchronize with other system
+ []
+
+[49] [50]
+File: Chap05/Figures/ShuntCurrent.png Graphic file (type bmp)
+<Chap05/Figures/ShuntCurrent.png>
+))
+Underfull \hbox (badness 1558) in paragraph at lines 8--203
+\TU/TimesNewRoman(0)/m/n/12 analysis finally we landed with INA2xx series sensors. In section 3.4[], I took
+ []
+
+[51] [52] (Chap06/Chap06.tex
 Chapter 4.
 (Chap06/Chap06_BatteryModeling.tex
 Underfull \hbox (badness 1173) in paragraph at lines 2--9
@@ -1655,7 +1708,8 @@ Underfull \hbox (badness 1173) in paragraph at lines 2--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [53
+
 
 ]
 File: Chap06/Figures/Batt_Ckt.PNG Graphic file (type bmp)
@@ -1664,7 +1718,7 @@ File: Chap06/Figures/Batt_Ckt.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48]
+[54]
 Underfull \hbox (badness 5189) in paragraph at lines 29--31
 []$[]$\TU/TimesNewRoman(0)/b/it/12 : \TU/TimesNewRoman(0)/m/n/12 Transient response in this model is
  []
@@ -1674,19 +1728,19 @@ File: Chap06/Figures/Batt_OCV_SOC.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49]
+[55]
 
-LaTeX Warning: Reference `eq:Discrete_OTC_Batt_Voltage ' on page 50 undefined on input line 77.
+LaTeX Warning: Reference `eq:Discrete_OTC_Batt_Voltage ' on page 56 undefined on input line 77.
 
-[50] [51]
+[56] [57]
 File: Chap06/Figures/Batt_Pulsed_current_char.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_Pulsed_current_char.PNG>
- [52]
+ [58]
 Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
-[53]
+[59]
 Overfull \hbox (61.65562pt too wide) detected at line 232
 [][]
  []
@@ -1704,7 +1758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--261
 
 Underfull \vbox (badness 3029) has occurred while \output is active []
 
- [54]
+ [60]
 File: Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG>
 
@@ -1788,105 +1842,94 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Chap06/Figures/Chroma.PNG Graphic file (type bmp)
 <Chap06/Figures/Chroma.PNG>
-[55]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[56]
 File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
 <Chap06/Figures/Chroma_Output_wiring.PNG>
-
+[61]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+[62] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [57]
-Underfull \hbox (badness 1014) in paragraph at lines 93--94
+) [63]
+Underfull \hbox (badness 1014) in paragraph at lines 95--96
 []\TU/TimesNewRoman(0)/m/n/12 The following code explores the basic programming of the chroma for BMS
  []
 
-[58]
+[64]
 File: Chap06/Figures/Chroma_Packet_delay.png Graphic file (type bmp)
 <Chap06/Figures/Chroma_Packet_delay.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 1953) in paragraph at lines 168--169
-[] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.b.1  Keysight N6705 DC Power Analyzer :[] \TU/TimesNewRoman(0)/m/n/12 The Keysight N6705 DC
- []
-
-[59]
+[65]
 File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
 <Chap06/Figures/keysight_n6705.PNG>
 
+Underfull \hbox (badness 2903) in paragraph at lines 176--176
+[]\TU/TimesNewRoman(0)/m/n/10 (a) 4 Channel keysight N6705 Power
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[60]
 File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
 <Chap06/Figures/DMM_34460A.PNG>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 [] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.c.1 Digital Multimeters 34460A :[] \TU/TimesNewRoman(0)/m/n/12 The only completely drop-in,
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 228--230
+Underfull \hbox (badness 2418) in paragraph at lines 232--234
 \TU/TimesNewRoman(0)/m/n/12 SCPI-compatible alternative to the 34401A DMM in the market is the Digital
  []
 
 
-Overfull \hbox (6.00433pt too wide) in paragraph at lines 233--234
+Overfull \hbox (6.00433pt too wide) in paragraph at lines 237--238
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-[61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[67]
+Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [62]
-Overfull \hbox (34.46011pt too wide) in paragraph at lines 334--335
+ [68]
+Overfull \hbox (34.46011pt too wide) in paragraph at lines 338--339
 []$\OML/cmm/m/it/12 Batt$ \TU/TimesNewRoman(0)/m/n/12 module name which will take $\OML/cmm/m/it/12 < Q[]; dt; SOC[]; i[]; BattModelParams\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SoC\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >$
  []
 
-[63]
-Underfull \hbox (badness 1005) in paragraph at lines 352--388
+[69]
+Underfull \hbox (badness 1005) in paragraph at lines 356--392
 \TU/TimesNewRoman(0)/m/n/12 the updated battery voltages, calculating SoC, measuring batteries current). The
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 352--388
+Underfull \hbox (badness 2221) in paragraph at lines 356--392
 \TU/TimesNewRoman(0)/m/n/12 algorithm describes the implementation of the battery pack for 8 batteries, we
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 352--388
+Underfull \hbox (badness 1496) in paragraph at lines 356--392
 \TU/TimesNewRoman(0)/m/n/12 can extend even further just by changing the initial SoC array for the module.
  []
 
-[64] [65]
-Overfull \hbox (67.5092pt too wide) in paragraph at lines 410--410
+[70] [71]
+Overfull \hbox (67.5092pt too wide) in paragraph at lines 414--414
 \OML/cmm/m/it/12 BattPack\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; LoadCharger\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; MeterView\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; DataCollection\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; dt; SOC\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 [] \OML/cmm/m/it/12 >$  
  []
 
 
-Overfull \hbox (1.46675pt too wide) in paragraph at lines 439--439
+Overfull \hbox (1.46675pt too wide) in paragraph at lines 443--443
 []|[]$\OML/cmm/m/it/12 DataCollection\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SOC\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; DCDCoutI; DCDCinI; ChargingI\OT1/cmr/m/n/12 )$  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]) (Chap06/Chap06_BatteryModeling_Results.tex
+ [72]) (Chap06/Chap06_BatteryModeling_Results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [73]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []\TU/TimesNewRoman(0)/m/n/12 The following code, snippet illustrates the biased current simulation.
  []
@@ -1901,21 +1944,68 @@ Underfull \hbox (badness 1521) in paragraph at lines 5--6
 \TU/TimesNewRoman(0)/m/n/12 ”$\OML/cmm/m/it/12 ibattBias$\TU/TimesNewRoman(0)/m/n/12 ” biased current is added and calculated as new open circuit voltage
  []
 
-[68]
-File: Chap06/Code/test.png Graphic file (type bmp)
-<Chap06/Code/test.png>
+[74]
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Voltage_SOC.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Voltage_SOC.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_Voltage_Cycles.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png Graphic file (type bmp)
-<Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png>
-File: Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png Graphic file (type bmp)
-<Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\TU/TimesNewRoman(0)/m/n/10 (a) Battery Pack Voltages Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Battery Pack Voltages Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_SOC_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\TU/TimesNewRoman(0)/m/n/10 (e) Battery Pack SOCs Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]\TU/TimesNewRoman(0)/m/n/10 (f) Battery Pack SOCs Vs Cycles
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [69] [70] [71] [72] [73] [74
+
+Underfull \hbox (badness 6032) in paragraph at lines 55--59
+[]\TU/TimesNewRoman(0)/m/n/12 The results in 4.9[] will enrich the battery modeling and power analyzer
+ []
+
+)
+Underfull \hbox (badness 1019) in paragraph at lines 11--13
+\TU/TimesNewRoman(0)/m/n/12 seen in Part II, implementing battery models with the script and emulating with
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]) [76] [77] [78] [79] [80] [81] [82
 
 ] (Chap_Miselleneous/Chap_Misellaneous.tex
 Chapter 5.
@@ -1935,7 +2025,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75
+ [83
 
 ]
 File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG Graphic file (type bmp)
@@ -1969,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[76]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
@@ -1982,7 +2072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [85]
 File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2a_ABMS.PNG>
 
@@ -2016,7 +2106,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--37
 
  []
 
-[78]))
+[86]))
 Underfull \hbox (badness 1466) in paragraph at lines 39--215
 [] []|\TU/TimesNewRoman(0)/b/n/12 5.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
  []
@@ -2031,21 +2121,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--215
 
  []
 
-[79] [80] [81] [82] [83] [84
+[87] [88] [89] [90] [91] [92
 
 ] (main.bbl
-Underfull \hbox (badness 3019) in paragraph at lines 54--57
+Underfull \hbox (badness 3019) in paragraph at lines 62--65
 \TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
  []
 
-[85
+[93
 
-] [86]
+] [94]
 Underfull \hbox (badness 2809) in paragraph at lines 184--186
 []\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
  []
 
-) [87] [88
+) [95] [96
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2059,12 +2149,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39989 strings out of 410532
- 983045 string characters out of 2817561
- 2062668 words of memory out of 3000000
- 60290 multiletter control sequences out of 15000+600000
+ 40125 strings out of 410532
+ 991184 string characters out of 2817561
+ 2088727 words of memory out of 3000000
+ 60409 multiletter control sequences out of 15000+600000
  479566 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,15n,117p,1676b,1885s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 87i,15n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (104 pages, 1462072 bytes).
+Output written on main.xdv (116 pages, 1666612 bytes).

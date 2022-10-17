@@ -16,11 +16,13 @@ Figure \ref{fig:Battery_Pack_modeling_Architec} shows the architecture of the Ba
 \subsubsection{Chroma :}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma.PNG}
+	\subfigure[16CH Battery Cell Simulator 87001]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma.PNG}}
+    \qquad
+	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}}
 	\caption{16CH Battery Cell Simulator 87001}
 	\label{fig:Chroma}
 \end{figure}
-The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge and discharge behavior for BMS testing. It can simulate up to 480 battery cells in series with voltage and current measurement functions. It can receive IPC's commands in real-time, store the measured values temporarily and return them to the IPC \cite{Chroma_UserManual}.Chroma has two communication one through the ethernet and CAN bus, for facilitating the modular and easy communication I preferred ethernet for this particular project, we can also use the can bus when we test the emulator with the real-time vehicle setup. Figure \ref{fig:Chroma} shows the 16CH chroma which I have used in the lab.
+The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge and discharge behavior for BMS testing. It can simulate up to 480 battery cells in series with voltage and current measurement functions. It can receive IPC's commands in real-time, store the measured values temporarily and return them to the IPC \cite{Chroma_UserManual}.Chroma has two communication one through the ethernet and CAN bus, for facilitating the modular and easy communication I preferred ethernet for this particular project, we can also use the can bus when we test the emulator with the real-time vehicle setup. Figure \ref{fig:Chroma}(a) shows the 16CH chroma which I have used in the lab.
 
 \paragraph{Sepcifications of the Chroma :}
 
@@ -28,7 +30,7 @@ The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge an
     \item This simulator has built a DC Power Supply with 1Φ110~220V±10$\%$VLN input power.
     \item Each unit has 16 channels output that can set parameters, start and end time respectively.
     \item The channel can be a constant voltage source with a constant current function.
-    \item Maximum 30 sets of 87001 simulators can be connected in series for use, and able to simulate the battery cell voltage of a 480-cell battery pack (2000V/4.2V) in series.
+    \item Maximum 30 sets of 87001 simulators can be connected in series for use and can simulate the battery cell voltage of a 480-cell battery pack (2000V/4.2V) in series.
     \item High-precision output and measurement that are used in laboratories for testing product specifications and characteristics.
     \item No display panel and operation buttons but using LED lights to indicate the standalone unit status.
     \item Each channel has 2 current ranges (2 Current: (-5A~+5A, -0.5A~+0.5A) ).
@@ -39,10 +41,10 @@ The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge an
             \begin{itemize}
                 \item The CC automatically switches to the proper range according to the set current.
                 \item The CV automatically switches to the mapping range according to the upper limit current.
-            \end{itemize} 
+            \end{itemize} \ref{fig:Chroma}(a)
     \item \textbf{Current Range Select }
             \begin{itemize}
-                \item When 5A is in use, performing CC charge for 500uA may have a bigger error.
+                \item When 5A is in use, performing CC(Constant Current) charge for 500uA may have a bigger error.
                 \item When 500mA is in use, performing CC charge for 5A will prompt a warning and stop execution.
             \end{itemize}
 
@@ -51,19 +53,19 @@ The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge an
 \end{itemize}
 
 \paragraph{Output Wiring of the Chroma :}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}
-	\caption{Chroma Output Wiring to the BMS} 
-	\label{fig:Chroma_Output_wiring}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}
+% 	\caption{Chroma Output Wiring to the BMS} 
+% 	\label{fig:Chroma_Output_wiring}
+% \end{figure}
 
 \begin{itemize}
-    \item The figure below is the parallel connection diagram of two simulators \cite{Chroma_UserManual}. (Same for serial connection.)
+    \item The figure \ref{fig:Chroma}(b) is the parallel connection diagram of two simulators \cite{Chroma_UserManual}. (Same for serial connection.)
     \item The 87001 is a 4-wire measurement. The SENSE wire and BMS connection point should be as close as possible to the BMS input terminal to avoid voltage differences due to line losses.
 \end{itemize}
 
-\paragraph{Programing the Chroma:}
+\paragraph{Configuring the Chroma:}
 
 For Programing the Chroma I took the help of the pyvisa library, which can use to interface with instruments using different protocols. The first setup is the NI (National Instrument) driver in PC to identify the instrument (install NI Max application in PC), through the NI driver, pyvisa can communicate through the VISA virtual port. The piece of code shows how to configure the visa port for the chroma(or any battery emulator commands that are more generalized) \cite{Chroma_UserManual}.
 
@@ -165,15 +167,17 @@ In the setup\ref{fig:Battery_Pack_modeling_Architec} load or charger is used acr
 
 \paragraph{ Keysight N6705 DC Power Analyzer :}
 
-The Keysight N6705 DC Power Analyzer is a multipurpose power system that combines the capabilities of an oscilloscope, a data logger, and a DC voltage source with numerous outputs \cite{Keysight_N6705_DC_Power_Analyzer}.
+The Keysight N6705 Figure \ref{fig:keysight_n6705_DMM_34460A}(a) DC Power Analyzer is a multipurpose power system that combines the capabilities of an oscilloscope, a data logger, and a DC voltage source with numerous outputs \cite{Keysight_N6705_DC_Power_Analyzer}.
 
 The Keysight N6705 has up to four programmable outputs as a multiple-output DC source. The power levels of the available power modules range from 20 W to 500 W, with different voltage and current combinations, and they offer a wide range of performance capabilities. Additionally, each output can generate arbitrary (Arb) waveforms, allowing you to program. Standardized voltage and current waveforms, or create your own. With Keysight N678xA SMUs (Source/Measure Units) have a multi-quadrant power mesh with distinct voltage and sources of current priority \cite{Keysight_N6705_DC_Power_Analyzer}.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{Chap06/Figures/keysight_n6705.PNG}
-	\caption{4 Channel keysight N6705 Power Supply }
-	\label{fig:keysight_n6705}
+	\subfigure[4 Channel keysight N6705 Power Supply]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/keysight_n6705.PNG}}
+    \qquad
+	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}}
+	\caption{ keysight N6705 Power Supply and DMM 34460A }
+	\label{fig:keysight_n6705_DMM_34460A}
 \end{figure}
 
 The Keysight N6705's Meter View shows the average output voltage and current as a measurement system. Scope View, which you can modify using the vertical and horizontal sliders, displays waveforms. The Data Logger View records average and peak voltage and current measurements over a long period and plots the data \cite{Keysight_N6705_DC_Power_Analyzer}.
@@ -214,16 +218,16 @@ The above program is just an example of programming channel 1 and channel 3, we 
 
 \subsubsection{Meter View :}
 The proposed architecture \ref{fig:Battery_Pack_modeling_Architec} encounters a meter view, which meter view allows the collaboration of various measuring instruments which can be directly controlled. A meter view in the architecture is directly controlled by the power analyzer module. Measurements include DC/DC converter input/output current measurements, and battery pack current measurements. The current measurement setup in the system is very much critical, hence we can measure the shunt voltage, and we can calculate the current flow (if shunt resistance is known). Measurement view is so much modular that we can have as many measuring instruments in the setup, and we log the data without disturbing the setup.
-In the architecture, keysight 34470A DMM  \ref{fig:keysight_DMM_34460A} has been employed for shunt voltage measurements (Battery Pack Current, DC/DC input/output current; Fig \ref{fig:BMS Architecture}). The following sections will give more detailed information about the multimeter and configuration.
+In the architecture, keysight 34470A DMM  \ref{fig:keysight_n6705_DMM_34460A}(b) has been employed for shunt voltage measurements (Battery Pack Current, DC/DC input/output current; Fig \ref{fig:BMS Architecture}). The following sections will give more detailed information about the multimeter and configuration.
 
 \paragraph{Digital Multimeters 34460A :}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}
-	\caption{Keysight Technologies Digital Multimeters 34460A}
-	\label{fig:keysight_DMM_34460A}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}
+% 	\caption{Keysight Technologies Digital Multimeters 34460A}
+% 	\label{fig:keysight_DMM_34460A}
+% \end{figure}
 
 The only completely drop-in, SCPI-compatible alternative to the 34401A DMM in the market is the Digital Multimeters 34461A \cite{Keysight_34460A_DMM}. Although some other DMMs claim to be 34401A SCPI compatible, they only support a limited number of SCPI commands. The same design team that produced the 34401A also produced the Truevolt DMMs. When developing the Truevolt family of DMMs, the team kept 34401A measures, dependability, and familiarity in mind. Consequently, people may use it without having to spend hours learning how.
 The following basic programming for DMM gives more insights into communication and configuration for measurement setup :
@@ -328,7 +332,7 @@ The above sections have described the hardware and instrument setup in the Batte
 
 The section shows the basic battery modeling algorithm, the explanation is as follows:
 \begin{equation}\label{eq:coulomb_soc}
-    SoC(k+1) =  SoC(k+1) \frac{+}{-} dt\times \frac{i_{batt(k)}}{Q_{tot}}
+    SoC(k+1) =  SoC(k)  \pm dt\times \frac{i_{batt(k)}}{Q_{tot}}
 \end{equation}
 \begin{itemize}
     \item $Batt$ module name which will take  $<Q_{tot},dt,SOC_0,i_{batt},BattModelParams(SoC)>$ inputs and produces $V_{batt},V_{OC},SoC>$ as the outputs
@@ -397,7 +401,7 @@ The battery pack module will instantiate the $BattModel$ \ref{algo:Battery_Model
         \begin{itemize}
             \item Measure $i_{batt}[k]$ of $k^{th}$ battery from chroma; $Chroma.Currents[k]$ can provide the current flowing in the $k^{th}$ of the chroma
             \item $k^{th}$ battery model instance function $Batt[k].battVoltage(i_{batt}[k])$ newly calculated battery voltage and $SoC(k)$ corresponding open circuit voltage $V_{OC}$
-            \item $SoC[k] = Batt[k].CoulombSOC()$ will calculate the updated SoC by the newly aquired $i_{batt}(k)$
+            \item $SoC[k] = Batt[k].CoulombSOC()$ will calculate the updated SoC by the newly acquired $i_{batt}(k)$
             \item Set the $k^{th}$ battery/channel voltage of the chroma to newly estimated $V_{OC}$
         \end{itemize}
     \item The loop will return  $N_{Batt}$ batteries updated $SOC[]$ and $V_{batt}[]$

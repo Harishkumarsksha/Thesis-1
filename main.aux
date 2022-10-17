@@ -7,16 +7,17 @@
 \@writefile{toc}{\contentsline {chapter}{Acknowledgment}{v}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{Abstract}{vii}{}\protected@file@percent }
 \citation{NXP_AN11994_Antenna_Guide}
-\@writefile{toc}{\contentsline {chapter}{List of Figures}{xi}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{List of Figures}{xiii}{}\protected@file@percent }
 \citation{TI_LM5170_BatteryTesting_Solution}
 \citation{TI_LM5170_EVM_User_Guide}
 \citation{Active_Balancing_Thesis_Raber}
+\citation{INA238_User_Datasheet}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{NXP_AN11994_Antenna_Guide}
-\@writefile{toc}{\contentsline {chapter}{List of Tables}{xiii}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{List of Tables}{xvii}{}\protected@file@percent }
 \newlabel{intro}{{}{3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Bluetooth Module Design}{5}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -235,211 +236,245 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Wireless Communication Hardware :}{40}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}Summary of Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{40}{}\protected@file@percent }
 \citation{TI_Current_Sensing}
-\citation{TI_Hall_Current_Sensing_TMCS1107}
-\citation{TI_Hall_Current_Sensing_TMCS1107}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Synchronization of Current and Voltage Measurements for Calculating the SoC}{43}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Current Measurement For SoC Estimation}{43}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{ch:Synchronization of Current and Voltage Measurements for Calculating the SoC}{{3}{43}}
+\newlabel{ch:Current_Measurement}{{3}{43}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Current Sensing}{43}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Hall Effect Current Sensors }{43}{}\protected@file@percent }
 \citation{TI_Hall_Current_Sensing_TMCS1107}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.a}TMCS1107xx Sensors :}{44}{}\protected@file@percent }
+\citation{TI_Hall_Current_Sensing_TMCS1107}
+\citation{TI_Hall_Current_Sensing_TMCS1107}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Hall Effect Current Sensors }{44}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}TMCS1107xx Sensors :}{44}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces TMCS1107xx Hall sensor Block diagram\relax }}{45}{}\protected@file@percent }
 \newlabel{fig:TMCS1107xx Hall sensor Block diagram}{{3.1}{45}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Shunt Resistors for Battery Current Measurement}{45}{}\protected@file@percent }
+\citation{INA238_User_Datasheet}
+\citation{INA238_User_Datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces  INA238 High-Side Shunt Current Sensing\relax }}{46}{}\protected@file@percent }
+\newlabel{fig:INA_high_side_currentsense}{{3.2}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}INA238/INA2xx}{46}{}\protected@file@percent }
+\newlabel{sec:INA238}{{3.4}{46}}
+\newlabel{fig:INA238_Simplified_Block_diagram}{{\caption@xref {fig:INA238_Simplified_Block_diagram}{ on input line 47}}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces INA238 Simplified Block diagram \cite  {INA238_User_Datasheet}\relax }}{46}{}\protected@file@percent }
+\citation{INA238_User_Datasheet}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces INA238 Multi-Alert Configuration\relax }}{48}{}\protected@file@percent }
+\newlabel{fig:INA238_multi_alert}{{3.4}{48}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Current Measurements Synchronization}{48}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Simultaneous Write and Sequential Read :}{48}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces INA2xx Simultaneous Write and Sequential Read\relax }}{49}{}\protected@file@percent }
+\newlabel{fig:INA2xx_Simultaneous_Write_and_Sequential_Read}{{3.5}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces INA2xx Delayed Synchronization\relax }}{49}{}\protected@file@percent }
+\newlabel{fig:INA_synchronization_alert}{{3.6}{49}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Synchronizing by Delayed Measurements }{49}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.5.2..1}Implementation of Synchronizing by Delayed Measurements Algorithm:}{50}{}\protected@file@percent }
+\newlabel{sec:INA2XX_synch_delayed_method}{{3.5.2..1}{50}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Balancing Current Measurement}{50}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Battery Balancing Current\relax }}{51}{}\protected@file@percent }
+\newlabel{fig:Battery_Balancing_Current}{{3.7}{51}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}Summery of Chapter \ref {ch:Current_Measurement}}{51}{}\protected@file@percent }
 \citation{UKEMPT_AHMAD2012}
 \citation{UniPadua_Giacomo}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Battery Modeling and Emulation}{47}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Battery Modeling and Emulation}{53}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{ch:Battery_Modeling_Emulation}{{4}{47}}
+\newlabel{ch:Battery_Modeling_Emulation}{{4}{53}}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{Batt_Modeling_Kharisma}
 \citation{Batt_Modeling_Kharisma}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Battery Modeling}{48}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{48}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Battery Modeling}{54}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{54}{}\protected@file@percent }
 \citation{Batt_Modeling_Kharisma}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Battery equivalent circuit diagrams. (a) internal resistance model (IR), (b) one-time constant model (OTC), (c) two time constants model (TTC) \cite  {UKEMPT_AHMAD2012},\cite  {UKEMPT_AHMAD2012} \relax }}{49}{}\protected@file@percent }
-\newlabel{fig:Battery_Equivalent_circuit}{{4.1}{49}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}IR Model :}{49}{}\protected@file@percent }
-\newlabel{eq:Batt_IR_equation}{{4.1}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Battery equivalent circuit diagrams. (a) internal resistance model (IR), (b) one-time constant model (OTC), (c) two time constants model (TTC) \cite  {UKEMPT_AHMAD2012},\cite  {UKEMPT_AHMAD2012} \relax }}{55}{}\protected@file@percent }
+\newlabel{fig:Battery_Equivalent_circuit}{{4.1}{55}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}IR Model :}{55}{}\protected@file@percent }
+\newlabel{eq:Batt_IR_equation}{{4.1}{55}}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UniPadua_Giacomo}
 \citation{UKEMPT_AHMAD2012}
 \citation{UniPadua_Giacomo}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Battery OCV Vs Soc for SLPB120216216 Cell \cite  {UKEMPT_AHMAD2012}\relax }}{50}{}\protected@file@percent }
-\newlabel{fig:Battery_OCV_Vs_Soc}{{4.2}{50}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}One-Time Constant Model }{50}{}\protected@file@percent }
-\newlabel{eq:OTC_Voltage }{{4.2}{50}}
-\newlabel{eq:OTC_Batt_Voltage }{{4.3}{50}}
-\newlabel{eq:Discrete_OTC_Voltage }{{4.4}{50}}
-\newlabel{eq:Discrete_eOTC_Batt_Voltage }{{4.5}{50}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Two-Time Constant Model }{50}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Battery OCV Vs Soc for SLPB120216216 Cell \cite  {UKEMPT_AHMAD2012}\relax }}{56}{}\protected@file@percent }
+\newlabel{fig:Battery_OCV_Vs_Soc}{{4.2}{56}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}One-Time Constant Model }{56}{}\protected@file@percent }
+\newlabel{eq:OTC_Voltage }{{4.2}{56}}
+\newlabel{eq:OTC_Batt_Voltage }{{4.3}{56}}
+\newlabel{eq:Discrete_OTC_Voltage }{{4.4}{56}}
+\newlabel{eq:Discrete_eOTC_Batt_Voltage }{{4.5}{56}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Two-Time Constant Model }{56}{}\protected@file@percent }
 \citation{UKEMPT_AHMAD2012}
 \citation{UniPadua_Giacomo}
-\newlabel{eq:TTC_Voltage1 }{{4.6}{51}}
-\newlabel{eq:TTC_Voltage2 }{{4.7}{51}}
-\newlabel{eq:TTC_Batt_Voltage }{{4.8}{51}}
-\newlabel{eq:Discrete_TTC_Voltage1 }{{4.9}{51}}
-\newlabel{eq:Discrete_TTC_Voltage2 }{{4.10}{51}}
-\newlabel{eq:Discrete_TTC_Batt_Voltage }{{4.11}{51}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{51}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{51}{}\protected@file@percent }
+\newlabel{eq:TTC_Voltage1 }{{4.6}{57}}
+\newlabel{eq:TTC_Voltage2 }{{4.7}{57}}
+\newlabel{eq:TTC_Batt_Voltage }{{4.8}{57}}
+\newlabel{eq:Discrete_TTC_Voltage1 }{{4.9}{57}}
+\newlabel{eq:Discrete_TTC_Voltage2 }{{4.10}{57}}
+\newlabel{eq:Discrete_TTC_Batt_Voltage }{{4.11}{57}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{57}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{57}{}\protected@file@percent }
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{Internal_Resistance_LIPO_Batt_Gogoana}
 \citation{Internal_Resistance_LIPO_Batt_Gogoana}
 \citation{UKEMPT_AHMAD2012}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Characteristic waveforms for battery output voltage and current during charging and discharging of lithium-ion cells.\relax }}{52}{}\protected@file@percent }
-\newlabel{fig:Battery_Current_Pulse}{{4.3}{52}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.1}Ohmic Resistance :}{52}{}\protected@file@percent }
-\newlabel{eq:Batt_Ohmic_Resistance}{{4.12}{52}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.2}Estimation of the OTC Model Parameters :}{53}{}\protected@file@percent }
-\newlabel{eq:Batt_OTC_Diff_Eq_Sol}{{4.13}{53}}
-\newlabel{eq:Batt_OTC_Least_Square_solution}{{4.14}{53}}
-\newlabel{eq:Batt_OTC_T_charge_discharge}{{4.15}{53}}
-\newlabel{eq:Batt_OTC_R_OTC}{{4.16}{53}}
-\newlabel{eq:Batt_OTC_C_OTC}{{4.17}{53}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.3}Estimation of the TTC Model Parameters :}{53}{}\protected@file@percent }
-\newlabel{eq:Batt_TTC_Diff_Eq_Sol}{{4.18}{54}}
-\newlabel{tb:SLPB120216216_Cell_Data }{{\caption@xref {tb:SLPB120216216_Cell_Data }{ on input line 235}}{54}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces SLPB120216216 Cell Data \relax }}{54}{}\protected@file@percent }
-\newlabel{tab:multicol}{{\caption@xref {tab:multicol}{ on input line 253}}{54}}
-\newlabel{eq:Batt_OTC_Least_Square_solution}{{4.20}{54}}
-\newlabel{eq:Batt_TTC_R_TTC1}{{4.21}{54}}
-\newlabel{eq:Batt_TTC_R_TTC2}{{4.22}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Characteristic waveforms for battery output voltage and current during charging and discharging of lithium-ion cells.\relax }}{58}{}\protected@file@percent }
+\newlabel{fig:Battery_Current_Pulse}{{4.3}{58}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.1}Ohmic Resistance :}{58}{}\protected@file@percent }
+\newlabel{eq:Batt_Ohmic_Resistance}{{4.12}{58}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.2}Estimation of the OTC Model Parameters :}{59}{}\protected@file@percent }
+\newlabel{eq:Batt_OTC_Diff_Eq_Sol}{{4.13}{59}}
+\newlabel{eq:Batt_OTC_Least_Square_solution}{{4.14}{59}}
+\newlabel{eq:Batt_OTC_T_charge_discharge}{{4.15}{59}}
+\newlabel{eq:Batt_OTC_R_OTC}{{4.16}{59}}
+\newlabel{eq:Batt_OTC_C_OTC}{{4.17}{59}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.5.a.3}Estimation of the TTC Model Parameters :}{59}{}\protected@file@percent }
+\newlabel{eq:Batt_TTC_Diff_Eq_Sol}{{4.18}{60}}
+\newlabel{tb:SLPB120216216_Cell_Data }{{\caption@xref {tb:SLPB120216216_Cell_Data }{ on input line 235}}{60}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces SLPB120216216 Cell Data \relax }}{60}{}\protected@file@percent }
+\newlabel{tab:multicol}{{\caption@xref {tab:multicol}{ on input line 253}}{60}}
+\newlabel{eq:Batt_OTC_Least_Square_solution}{{4.20}{60}}
+\newlabel{eq:Batt_TTC_R_TTC1}{{4.21}{60}}
+\newlabel{eq:Batt_TTC_R_TTC2}{{4.22}{60}}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
-\newlabel{eq:Batt_TTC_C_TTC}{{4.23}{55}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.6}Experimental and Computational Results of SLPB120216216}{55}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Battery Emulation}{55}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Fundamental Instruments For Battery Emulation }{55}{}\protected@file@percent }
+\newlabel{eq:Batt_TTC_C_TTC}{{4.23}{61}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.6}Experimental and Computational Results of SLPB120216216}{61}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Battery Emulation}{61}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Fundamental Instruments For Battery Emulation }{61}{}\protected@file@percent }
 \citation{Chroma_UserManual}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.a}Chroma :}{56}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.1}Sepcifications of the Chroma :}{56}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.a}Chroma :}{62}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.1}Sepcifications of the Chroma :}{62}{}\protected@file@percent }
 \citation{Chroma_UserManual}
 \citation{Chroma_UserManual}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.2}Output Wiring of the Chroma :}{57}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.3}Programing the Chroma:}{57}{}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces VISA parameters set for Chroma}}{57}{}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces Basic BMS Program for Chroma}}{58}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.2}Output Wiring of the Chroma :}{63}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.3}Configuring the Chroma:}{63}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces VISA parameters set for Chroma}}{63}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces Basic BMS Program for Chroma}}{64}{}\protected@file@percent }
 \citation{Chroma_UserManual}
 \citation{Keysight_N6705_DC_Power_Analyzer}
 \citation{Keysight_N6705_DC_Power_Analyzer}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.4}Response Time of the Chroma :}{59}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.b}Load/Charger :}{59}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.b.1} Keysight N6705 DC Power Analyzer :}{59}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.a.4}Response Time of the Chroma :}{65}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.b}Load/Charger :}{65}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.b.1} Keysight N6705 DC Power Analyzer :}{65}{}\protected@file@percent }
 \citation{Keysight_N6705_DC_Power_Analyzer}
 \citation{Keysight_N6705_DC_Power_Analyzer}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Load/Charger Configuration for Keysight N6705's}}{60}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Load/Charger Configuration for Keysight N6705's}}{66}{}\protected@file@percent }
 \citation{Keysight_34460A_DMM}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.c}Meter View :}{61}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.c.1}Digital Multimeters 34460A :}{61}{}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces DMM Keysight 34401A's Meauring/Configuration}}{61}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2} Battery Modeling :}{63}{}\protected@file@percent }
-\newlabel{algo:Battery_Modeling}{{1}{63}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Battery Modeling Algorithm\relax }}{63}{}\protected@file@percent }
-\newlabel{eq:coulomb_soc}{{4.24}{63}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Battery Pack Modeling :}{64}{}\protected@file@percent }
-\newlabel{algo:Battery_Pack_Modeling}{{2}{65}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Battery Pack Modeling Algorithm\relax }}{65}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Power Analyzer Modeling}{67}{}\protected@file@percent }
-\newlabel{algo:PowerAnalyzer_Modeling}{{3}{67}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Power Analyzer Modeling Algorithm\relax }}{67}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Discussion of The Battery Modeling Results}{68}{}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}{\ignorespaces Emulating Sudo BiasCurrent in the PowerAnalyzer}}{68}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces LIPo Battery SLPB120216216 Simulated Results \cite  {UKEMPT_AHMAD2012} \relax }}{70}{}\protected@file@percent }
-\newlabel{fig:LIPO_Batt_SLPB120216216_Results}{{4.4}{70}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture of the Battery Pack Modeling/Emulation For BMS\relax }}{71}{}\protected@file@percent }
-\newlabel{fig:Battery_Pack_modeling_Architec}{{4.5}{71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{71}{}\protected@file@percent }
-\newlabel{fig:Chroma}{{4.6}{71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Chroma Output Wiring to the BMS\relax }}{71}{}\protected@file@percent }
-\newlabel{fig:Chroma_Output_wiring}{{4.7}{71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Chroma Response Time for Voltage and Current Request \relax }}{72}{}\protected@file@percent }
-\newlabel{fig:Chroma_Packet_delay}{{4.8}{72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 4 Channel keysight N6705 Power Supply \relax }}{72}{}\protected@file@percent }
-\newlabel{fig:keysight_n6705}{{4.9}{72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Keysight Technologies Digital Multimeters 34460A\relax }}{72}{}\protected@file@percent }
-\newlabel{fig:keysight_DMM_34460A}{{4.10}{72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces A PGF histogram from \texttt  {matplotlib}.\relax }}{73}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces MIFA Antenna Gain Radiation Pattren\relax }}{73}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Misellaneous}{75}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1.c}Meter View :}{67}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {4.2.1.c.1}Digital Multimeters 34460A :}{67}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces DMM Keysight 34401A's Meauring/Configuration}}{67}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2} Battery Modeling :}{69}{}\protected@file@percent }
+\newlabel{algo:Battery_Modeling}{{1}{69}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Battery Modeling Algorithm\relax }}{69}{}\protected@file@percent }
+\newlabel{eq:coulomb_soc}{{4.24}{69}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Battery Pack Modeling :}{70}{}\protected@file@percent }
+\newlabel{algo:Battery_Pack_Modeling}{{2}{71}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Battery Pack Modeling Algorithm\relax }}{71}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Power Analyzer Modeling}{73}{}\protected@file@percent }
+\newlabel{algo:PowerAnalyzer_Modeling}{{3}{73}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Power Analyzer Modeling Algorithm\relax }}{73}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Discussion of The Battery Modeling Results}{74}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}{\ignorespaces Emulating Sudo BiasCurrent in the PowerAnalyzer}}{74}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summery of Chapter \ref {ch:Battery_Modeling_Emulation}}{76}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces LIPo Battery SLPB120216216 Simulated Results \cite  {UKEMPT_AHMAD2012} \relax }}{77}{}\protected@file@percent }
+\newlabel{fig:LIPO_Batt_SLPB120216216_Results}{{4.4}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture of the Battery Pack Modeling/Emulation For BMS\relax }}{78}{}\protected@file@percent }
+\newlabel{fig:Battery_Pack_modeling_Architec}{{4.5}{78}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{78}{}\protected@file@percent }
+\newlabel{fig:Chroma}{{4.6}{78}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Chroma Response Time for Voltage and Current Request \relax }}{79}{}\protected@file@percent }
+\newlabel{fig:Chroma_Packet_delay}{{4.7}{79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces  keysight N6705 Power Supply and DMM 34460A \relax }}{79}{}\protected@file@percent }
+\newlabel{fig:keysight_n6705_DMM_34460A}{{4.8}{79}}
+\newlabel{fig:Batt_Charging_Voltage_SOC}{{\caption@xref {fig:Batt_Charging_Voltage_SOC}{ on input line 29}}{80}}
+\newlabel{fig:Batt_Discharging_Voltage_SOC}{{\caption@xref {fig:Batt_Discharging_Voltage_SOC}{ on input line 31}}{80}}
+\newlabel{fig:Batt_Discharging_Charging_SOC_Cycles}{{\caption@xref {fig:Batt_Discharging_Charging_SOC_Cycles}{ on input line 33}}{80}}
+\newlabel{fig:Batt_Discharging_Charging_Voltage_Cycles}{{\caption@xref {fig:Batt_Discharging_Charging_Voltage_Cycles}{ on input line 35}}{80}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Single Battery Modeling Characteristics with PowerAnalyzer \relax }}{80}{}\protected@file@percent }
+\newlabel{fig:Single_Batt_Modeling_Results}{{4.9}{80}}
+\newlabel{fig:Batt_Pack_Charging_Voltage_Cycles}{{\caption@xref {fig:Batt_Pack_Charging_Voltage_Cycles}{ on input line 41}}{81}}
+\newlabel{fig:Batt_Pack_Discharging_Voltage_Cycles}{{\caption@xref {fig:Batt_Pack_Discharging_Voltage_Cycles}{ on input line 43}}{81}}
+\newlabel{fig:Batt_Pack_Charging_SOC_Cycles}{{\caption@xref {fig:Batt_Pack_Charging_SOC_Cycles}{ on input line 45}}{81}}
+\newlabel{fig:Batt_Pack_Discharging_SOC_Cycles}{{\caption@xref {fig:Batt_Pack_Discharging_SOC_Cycles}{ on input line 47}}{81}}
+\newlabel{fig:Batt_Pack_Diff_SOC_Charging_SOC_Cycles}{{\caption@xref {fig:Batt_Pack_Diff_SOC_Charging_SOC_Cycles}{ on input line 49}}{81}}
+\newlabel{fig:Batt_Pack_Diff_SOC_Charging_Voltage_Cycles}{{\caption@xref {fig:Batt_Pack_Diff_SOC_Charging_Voltage_Cycles}{ on input line 51}}{81}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Battery Pack Modeling Characteristics with PowerAnalyzer(3 Cells) \relax }}{81}{}\protected@file@percent }
+\newlabel{fig:Batt_Pack_Modeling_Results}{{4.10}{81}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Misellaneous}{83}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:miselleneous}{{5}{75}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{75}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{75}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{75}{}\protected@file@percent }
-\newlabel{fig:BLUeNRG-355mc_BLE_Layout}{{5.1}{75}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{76}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{76}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{76}{}\protected@file@percent }
-\newlabel{fig:Nordic_nrf52840_BLE_Layout}{{5.3}{76}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{76}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.0.a} Design Example for the LTC4321 Gate Driver :}{76}{}\protected@file@percent }
-\newlabel{eq:LTC_Rsense}{{5.1}{76}}
+\newlabel{chap:miselleneous}{{5}{83}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Chapter \ref {chap:BLE}}{83}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.0.a}BLUeNRG-355mc BLE module Layout :}{83}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{83}{}\protected@file@percent }
+\newlabel{fig:BLUeNRG-355mc_BLE_Layout}{{5.1}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{84}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.0.b}Nordic nrf52840 BLE module Layout :}{84}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{84}{}\protected@file@percent }
+\newlabel{fig:Nordic_nrf52840_BLE_Layout}{{5.3}{84}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{84}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.0.a} Design Example for the LTC4321 Gate Driver :}{84}{}\protected@file@percent }
+\newlabel{eq:LTC_Rsense}{{5.1}{84}}
 \citation{LTC4231_User_Datasheet}
 \citation{LTC4231_User_Datasheet}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{77}{}\protected@file@percent }
-\newlabel{eq:LTC_Ilimit_min}{{5.2}{77}}
-\newlabel{eq:LTC_Ilimit_max}{{5.3}{77}}
-\newlabel{eq:LTC_Tcharge_max}{{5.4}{77}}
-\newlabel{eq:LTC_Pdissp}{{5.5}{77}}
-\newlabel{eq:LTC_Ct}{{5.6}{77}}
-\newlabel{eq:LTC_Cg}{{5.7}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{85}{}\protected@file@percent }
+\newlabel{eq:LTC_Ilimit_min}{{5.2}{85}}
+\newlabel{eq:LTC_Ilimit_max}{{5.3}{85}}
+\newlabel{eq:LTC_Tcharge_max}{{5.4}{85}}
+\newlabel{eq:LTC_Pdissp}{{5.5}{85}}
+\newlabel{eq:LTC_Ct}{{5.6}{85}}
+\newlabel{eq:LTC_Cg}{{5.7}{85}}
 \citation{Chroma_UserManual}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{78}{}\protected@file@percent }
-\newlabel{fig:BLUeNRG-355mc_BLE_Complete_Schematic}{{5.5}{78}}
-\newlabel{eq:LTC_Tcharge}{{5.8}{78}}
-\newlabel{eq:LTC_Pdissp_average}{{5.9}{78}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{78}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Chroma SCPI Commands Example Programs}{78}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1..1}Example 1:}{78}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1..2}Example 2:}{79}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{81}{}\protected@file@percent }
-\newlabel{fig:Typical Bidirectional circuit of the LM5170}{{5.6}{81}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{82}{}\protected@file@percent }
-\newlabel{fig:STD20NF06L Application typical circuit and package}{{5.7}{82}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{83}{}\protected@file@percent }
-\newlabel{fig: LTC4231 Application circuit and the Operational waveform }{{5.8}{83}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit  {Type Ib} Active Balancing Circuit\relax }}{83}{}\protected@file@percent }
-\newlabel{fig:Type1b Active Balancing Circuit }{{5.9}{83}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{83}{}\protected@file@percent }
-\newlabel{fig:Typical Schematics of the Low side and High Side buck boost Converter}{{5.10}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{86}{}\protected@file@percent }
+\newlabel{fig:BLUeNRG-355mc_BLE_Complete_Schematic}{{5.5}{86}}
+\newlabel{eq:LTC_Tcharge}{{5.8}{86}}
+\newlabel{eq:LTC_Pdissp_average}{{5.9}{86}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{86}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Chroma SCPI Commands Example Programs}{86}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1..1}Example 1:}{86}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1..2}Example 2:}{87}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{89}{}\protected@file@percent }
+\newlabel{fig:Typical Bidirectional circuit of the LM5170}{{5.6}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{90}{}\protected@file@percent }
+\newlabel{fig:STD20NF06L Application typical circuit and package}{{5.7}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{91}{}\protected@file@percent }
+\newlabel{fig: LTC4231 Application circuit and the Operational waveform }{{5.8}{91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit  {Type Ib} Active Balancing Circuit\relax }}{91}{}\protected@file@percent }
+\newlabel{fig:Type1b Active Balancing Circuit }{{5.9}{91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{91}{}\protected@file@percent }
+\newlabel{fig:Typical Schematics of the Low side and High Side buck boost Converter}{{5.10}{91}}
 \bibstyle{Ref/IEEEtran}
 \bibdata{Ref/SampleReferences}
 \bibcite{NXP_AN11994_Antenna_Guide}{{1}{}{{}}{{}}}
 \bibcite{TI_LM5170_BatteryTesting_Solution}{{2}{}{{}}{{}}}
 \bibcite{TI_LM5170_EVM_User_Guide}{{3}{}{{}}{{}}}
 \bibcite{Active_Balancing_Thesis_Raber}{{4}{}{{}}{{}}}
-\bibcite{UKEMPT_AHMAD2012}{{5}{}{{}}{{}}}
-\bibcite{AN91445}{{6}{}{{}}{{}}}
-\bibcite{BLNRG355_STEVAL_GUIDE}{{7}{}{{}}{{}}}
-\bibcite{NORDIC_nrf52840_USERGUIDE}{{8}{}{{}}{{}}}
-\bibcite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE}{{9}{}{{}}{{}}}
-\bibcite{PIFA2017Cheuk}{{10}{}{{}}{{}}}
-\bibcite{NXPBLE_Antenna_Guide}{{11}{}{{}}{{}}}
-\bibcite{BLNRG355_STEVAL_BOM}{{12}{}{{}}{{}}}
-\bibcite{MIFA_Design_Losito}{{13}{}{{}}{{}}}
-\bibcite{MIFA_IFA_difference_Kanan}{{14}{}{{}}{{}}}
-\bibcite{TI_LM5170_User_Datasheet}{{15}{}{{}}{{}}}
-\bibcite{Switch_MatrixFET_STD20NF06L}{{16}{}{{}}{{}}}
-\bibcite{LTC4231_User_Datasheet}{{17}{}{{}}{{}}}
-\bibcite{INA238_User_Datasheet}{{18}{}{{}}{{}}}
+\bibcite{INA238_User_Datasheet}{{5}{}{{}}{{}}}
+\bibcite{UKEMPT_AHMAD2012}{{6}{}{{}}{{}}}
+\bibcite{AN91445}{{7}{}{{}}{{}}}
+\bibcite{BLNRG355_STEVAL_GUIDE}{{8}{}{{}}{{}}}
+\bibcite{NORDIC_nrf52840_USERGUIDE}{{9}{}{{}}{{}}}
+\bibcite{NORDIC_nrf52840_SOFTWARESTACK_GUIDE}{{10}{}{{}}{{}}}
+\bibcite{PIFA2017Cheuk}{{11}{}{{}}{{}}}
+\bibcite{NXPBLE_Antenna_Guide}{{12}{}{{}}{{}}}
+\bibcite{BLNRG355_STEVAL_BOM}{{13}{}{{}}{{}}}
+\bibcite{MIFA_Design_Losito}{{14}{}{{}}{{}}}
+\bibcite{MIFA_IFA_difference_Kanan}{{15}{}{{}}{{}}}
+\bibcite{TI_LM5170_User_Datasheet}{{16}{}{{}}{{}}}
+\bibcite{Switch_MatrixFET_STD20NF06L}{{17}{}{{}}{{}}}
+\bibcite{LTC4231_User_Datasheet}{{18}{}{{}}{{}}}
 \bibcite{TI_Current_Sensing}{{19}{}{{}}{{}}}
 \bibcite{TI_Hall_Current_Sensing_TMCS1107}{{20}{}{{}}{{}}}
 \bibcite{UniPadua_Giacomo}{{21}{}{{}}{{}}}
@@ -449,4 +484,4 @@
 \bibcite{Keysight_N6705_DC_Power_Analyzer}{{25}{}{{}}{{}}}
 \bibcite{Keysight_34460A_DMM}{{26}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{104}
+\gdef \@abspage@last{116}

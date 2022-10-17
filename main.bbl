@@ -50,6 +50,14 @@ M.~Räber, ``New active charge balancing methods and algorithms for lithium-ion
   24-Jan-2019. [Online]. Available: \url{https://doi.org/10.21256/zhaw-17244}
 \BIBentrySTDinterwordspacing
 
+\bibitem{INA238_User_Datasheet}
+\BIBentryALTinterwordspacing
+SLY025A, ``Ina238 85-v, 16-bit, high-precision power monitor with i2c
+  interface,'' \emph{TI Current/Voltage/Power Monitors}, vol. Rev 2.0, MAY
+  2022. [Online]. Available:
+  \url{https://www.ti.com/lit/ds/slys025a/slys025a.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{UKEMPT_AHMAD2012}
 A.~B. Ahmad~Rahmoun, ``Modelling of {Li}-{ion} {batteries} using {equivalent}
   {circuit} {diagrams},'' \emph{PRZEGLĄD ELEKTROTECHNICZNY (Electrical
@@ -138,14 +146,6 @@ S.~Applications, ``Std20nf06l datasheet,'' \emph{ST PowerManagement and
 A.~Applications, ``Ltc4231 micropower hot swap controller,'' \emph{ADI and LT
   PMIC}, vol. Rev B, 2018. [Online]. Available:
   \url{https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4231.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{INA238_User_Datasheet}
-\BIBentryALTinterwordspacing
-SLY025A, ``Ina238 85-v, 16-bit, high-precision power monitor with i2c
-  interface,'' \emph{TI Current/Voltage/Power Monitors}, vol. Rev 2.0, MAY
-  2022. [Online]. Available:
-  \url{https://www.ti.com/lit/ds/slys025a/slys025a.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{TI_Current_Sensing}
