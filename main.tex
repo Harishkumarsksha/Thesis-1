@@ -16,7 +16,15 @@
 \usepackage{pgf}
 
 \usepackage{subfigure}
-\usetikzlibrary{trees,shapes}
+\usepackage{makecell}%
+\usetikzlibrary{trees,shapes,shapes.geometric, arrows,automata,positioning}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process1} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{process2} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
 \usepackage{booktabs}
 \usepackage{textgreek}
 \usepackage[a4paper, width=140mm, top=25mm, bottom=25mm, bindingoffset=6mm]{geometry}
@@ -111,6 +119,7 @@ contents={%
 %\usepackage{subfigure}
 \usepackage[ruled,linesnumbered,slide,vlined]{algorithm2e}
 \SetKwProg{Init}{init}{}{}
+
 %\usepackage{verbatim}
 %\usepackage{wrapfig}
 %\usepackage{multirow}
@@ -206,6 +215,11 @@ contents={%
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \input{Chap06/Chap06}
+\thispagestyle{empty}
+\cleardoublepage
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+\input{Chap07/Chap07}
 \thispagestyle{empty}
 \cleardoublepage
 % % % % % % % % % % % % % % % % % % % % % % % % % % %

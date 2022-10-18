@@ -52,19 +52,22 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Characteristic waveforms for battery output voltage and current during charging and discharging of lithium-ion cells.\relax }}{58}{}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces LIPo Battery SLPB120216216 Simulated Results \cite {UKEMPT_AHMAD2012} \relax }}{77}{}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture of the Battery Pack Modeling/Emulation For BMS\relax }}{78}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{78}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Chroma Response Time for Voltage and Current Request \relax }}{79}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces keysight N6705 Power Supply and DMM 34460A \relax }}{79}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Single Battery Modeling Characteristics with PowerAnalyzer \relax }}{80}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Battery Pack Modeling Characteristics with PowerAnalyzer(3 Cells) \relax }}{81}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Chroma Response Time for Voltage and Current Request \relax }}{78}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Single Battery Modeling Characteristics with PowerAnalyzer \relax }}{79}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Battery Pack Modeling Characteristics with PowerAnalyzer(3 Cells) \relax }}{80}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{83}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{84}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{84}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{85}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{86}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{89}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{90}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{91}{}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {Type Ib} Active Balancing Circuit\relax }}{91}{}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{91}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Discrete Kalman Filter Algorithm Flow Chart\relax }}{84}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Kalman Filter Principle\relax }}{86}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{87}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{88}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{88}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{89}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{90}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{94}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{95}{}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{96}{}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \textit {Type Ib} Active Balancing Circuit\relax }}{96}{}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{96}{}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces keysight N6705 Power Supply and DMM 34460A \relax }}{96}{}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{97}{}%

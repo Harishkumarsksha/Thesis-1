@@ -913,6 +913,18 @@ INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytrees.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytrees.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
@@ -941,6 +953,14 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzl
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryautomata.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryautomata.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\textgreek\textgreek.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\textgreek\textgreek.sty
@@ -1145,8 +1165,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
@@ -1177,17 +1195,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\makecell\makecell.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ctable\ctable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ctable\ctable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ctable\ctable.sty
@@ -1746,12 +1753,6 @@ INPUT Chap06\Chap06_Emulation.tex
 INPUT .\Chap06\Figures\Battery_Pack_modeling_Architec.PNG
 INPUT .\Chap06\Figures\Battery_Pack_modeling_Architec.PNG
 INPUT Chap06\Figures\Battery_Pack_modeling_Architec.PNG
-INPUT .\Chap06\Figures\Chroma.PNG
-INPUT .\Chap06\Figures\Chroma.PNG
-INPUT Chap06\Figures\Chroma.PNG
-INPUT .\Chap06\Figures\Chroma_Output_wiring.PNG
-INPUT .\Chap06\Figures\Chroma_Output_wiring.PNG
-INPUT Chap06\Figures\Chroma_Output_wiring.PNG
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -1759,12 +1760,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT .\Chap06\Figures\Chroma_Packet_delay.png
 INPUT .\Chap06\Figures\Chroma_Packet_delay.png
 INPUT Chap06\Figures\Chroma_Packet_delay.png
-INPUT .\Chap06\Figures\keysight_n6705.PNG
-INPUT .\Chap06\Figures\keysight_n6705.PNG
-INPUT Chap06\Figures\keysight_n6705.PNG
-INPUT .\Chap06\Figures\DMM_34460A.PNG
-INPUT .\Chap06\Figures\DMM_34460A.PNG
-INPUT Chap06\Figures\DMM_34460A.PNG
 INPUT .\Chap06\Chap06_BatteryModeling_Results.tex
 INPUT .\Chap06\Chap06_BatteryModeling_Results.tex
 INPUT .\Chap06\Chap06_BatteryModeling_Results.tex
@@ -1802,6 +1797,30 @@ INPUT Chap06\Figures\PowerAnalyzerResults\Batt_Pack_Diff_SOC_Charging_SOC_Cycles
 INPUT .\Chap06\Figures\PowerAnalyzerResults\Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png
 INPUT .\Chap06\Figures\PowerAnalyzerResults\Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png
 INPUT Chap06\Figures\PowerAnalyzerResults\Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png
+INPUT .\Chap07\Chap07.tex
+INPUT .\Chap07\Chap07.tex
+INPUT .\Chap07\Chap07.tex
+INPUT Chap07\Chap07.tex
+INPUT .\Chap07\Chap07.tex
+INPUT .\Chap07\Chap07.tex
+INPUT Chap07\Chap07.tex
+INPUT .\Chap07\Chap07_KalmanFilter.tex
+INPUT .\Chap07\Chap07_KalmanFilter.tex
+INPUT .\Chap07\Chap07_KalmanFilter.tex
+INPUT Chap07\Chap07_KalmanFilter.tex
+INPUT .\Chap07\Chap07_KalmanFilter.tex
+INPUT .\Chap07\Chap07_KalmanFilter.tex
+INPUT Chap07\Chap07_KalmanFilter.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
+INPUT .\Chap07\Figures\Kalman_principle.PNG
+INPUT .\Chap07\Figures\Kalman_principle.PNG
+INPUT Chap07\Figures\Kalman_principle.PNG
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
@@ -1875,6 +1894,25 @@ INPUT Chap_Miselleneous\Chap06_Mise\Chap06_Mise.tex
 INPUT .\Chap_Miselleneous\Chap06_Mise\Chap06_Mise.tex
 INPUT .\Chap_Miselleneous\Chap06_Mise\Chap06_Mise.tex
 INPUT Chap_Miselleneous\Chap06_Mise\Chap06_Mise.tex
+INPUT .\Chap06\Figures\keysight_n6705.PNG
+INPUT .\Chap06\Figures\keysight_n6705.PNG
+INPUT Chap06\Figures\keysight_n6705.PNG
+INPUT .\Chap06\Figures\DMM_34460A.PNG
+INPUT .\Chap06\Figures\DMM_34460A.PNG
+INPUT Chap06\Figures\DMM_34460A.PNG
+INPUT .\Chap06\Figures\Chroma.PNG
+INPUT .\Chap06\Figures\Chroma.PNG
+INPUT Chap06\Figures\Chroma.PNG
+INPUT .\Chap06\Figures\Chroma_Output_wiring.PNG
+INPUT .\Chap06\Figures\Chroma_Output_wiring.PNG
+INPUT Chap06\Figures\Chroma_Output_wiring.PNG
+INPUT .\Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT .\Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT .\Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT .\Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT .\Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
+INPUT Chap_Miselleneous\Chap07_Mise\Chap07_Mise.tex
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\main.bbl

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  17 OCT 2022 16:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  18 OCT 2022 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,6 +672,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 (C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip73
 \subfig@bottom=\skip74
+) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen333
+\c@nlinenum=\count350
+\TeXr@lab=\toks46
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
@@ -716,7 +721,16 @@ File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodepartsevenbox=\box136
 \pgfnodepartsixbox=\box137
 \pgfnodepartfivebox=\box138
-))) (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen334
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
  (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
@@ -730,31 +744,31 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count350
-\Gm@cntv=\count351
-\c@Gm@tempcnt=\count352
-\Gm@bindingoffset=\dimen333
-\Gm@wd@mp=\dimen334
-\Gm@odd@mp=\dimen335
-\Gm@even@mp=\dimen336
-\Gm@layoutwidth=\dimen337
-\Gm@layoutheight=\dimen338
-\Gm@layouthoffset=\dimen339
-\Gm@layoutvoffset=\dimen340
-\Gm@dimlist=\toks46
+\Gm@cnth=\count351
+\Gm@cntv=\count352
+\c@Gm@tempcnt=\count353
+\Gm@bindingoffset=\dimen335
+\Gm@wd@mp=\dimen336
+\Gm@odd@mp=\dimen337
+\Gm@even@mp=\dimen338
+\Gm@layoutwidth=\dimen339
+\Gm@layoutheight=\dimen340
+\Gm@layouthoffset=\dimen341
+\Gm@layoutvoffset=\dimen342
+\Gm@dimlist=\toks47
  (C:\Users\Smplab\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/layaureo\layaureo.sty
 Package: layaureo 2004/09/16 v0.2
  (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count353
-\calc@Bcount=\count354
-\calc@Adimen=\dimen341
-\calc@Bdimen=\dimen342
+\calc@Acount=\count354
+\calc@Bcount=\count355
+\calc@Adimen=\dimen343
+\calc@Bdimen=\dimen344
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count355
+\calc@Ccount=\count356
 \calc@Cskip=\skip77
 )
 \LA@MargineRilegatura=\skip78
@@ -772,37 +786,37 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count356
-\c@Blindtext=\count357
-\c@blind@countparstart=\count358
-\blind@countxx=\count359
-\blindtext@numBlindtext=\count360
-\blind@countyy=\count361
-\c@blindlist=\count362
-\c@blindlistlevel=\count363
-\c@blindlist@level=\count364
-\blind@listitem=\count365
-\c@blind@listcount=\count366
-\c@blind@levelcount=\count367
-\blind@mathformula=\count368
-\blind@Mathformula=\count369
-\c@blind@randomcount=\count370
-\c@blind@randommax=\count371
-\c@blind@pangramcount=\count372
-\c@blind@pangrammax=\count373
+\c@blindtext=\count357
+\c@Blindtext=\count358
+\c@blind@countparstart=\count359
+\blind@countxx=\count360
+\blindtext@numBlindtext=\count361
+\blind@countyy=\count362
+\c@blindlist=\count363
+\c@blindlistlevel=\count364
+\c@blindlist@level=\count365
+\blind@listitem=\count366
+\c@blind@listcount=\count367
+\c@blind@levelcount=\count368
+\blind@mathformula=\count369
+\blind@Mathformula=\count370
+\c@blind@randomcount=\count371
+\c@blind@randommax=\count372
+\c@blind@pangramcount=\count373
+\c@blind@pangrammax=\count374
 ) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
  (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count374
+\etb@tempcnta=\count375
 )
-\csq@reset=\count375
-\csq@gtype=\count376
-\csq@glevel=\count377
-\csq@qlevel=\count378
-\csq@maxlvl=\count379
-\csq@tshold=\count380
-\csq@ltx@everypar=\toks47
+\csq@reset=\count376
+\csq@gtype=\count377
+\csq@glevel=\count378
+\csq@qlevel=\count379
+\csq@maxlvl=\count380
+\csq@tshold=\count381
+\csq@ltx@everypar=\toks48
  (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
@@ -814,19 +828,19 @@ File: csquotes.cfg
 Package: subfig 2005/06/28 ver: 1.3 subfig package
  (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen343
-\captionmargin=\dimen344
-\caption@leftmargin=\dimen345
-\caption@rightmargin=\dimen346
-\caption@width=\dimen347
-\caption@indent=\dimen348
-\caption@parindent=\dimen349
-\caption@hangindent=\dimen350
+\caption@tempdima=\dimen345
+\captionmargin=\dimen346
+\caption@leftmargin=\dimen347
+\caption@rightmargin=\dimen348
+\caption@width=\dimen349
+\caption@indent=\dimen350
+\caption@parindent=\dimen351
+\caption@hangindent=\dimen352
 Package caption Info: Standard document class detected.
 )
-\c@KVtest=\count381
+\c@KVtest=\count382
 \sf@farskip=\skip83
-\sf@captopadj=\dimen351
+\sf@captopadj=\dimen353
 \sf@capskip=\skip84
 \sf@nearskip=\skip85
 \sf@top=\skip86
@@ -835,21 +849,18 @@ Package caption Info: Standard document class detected.
 Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count382
-\l__lipsum_a_int=\count383
-\l__lipsum_b_int=\count384
+\g__lipsum_par_int=\count383
+\l__lipsum_a_int=\count384
+\l__lipsum_b_int=\count385
  (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
-\c@caption@flags=\count385
-\c@continuedfloat=\count386
+\c@caption@flags=\count386
+\c@continuedfloat=\count387
 Package caption Info: subfigure package is loaded.
 ) (C:\Program Files\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
 Package: todonotes 2021/06/04
- (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-\c@@todonotes@numberoftodonotes=\count387
+\c@@todonotes@numberoftodonotes=\count388
 ) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
@@ -858,14 +869,9 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip88
-\multirow@cntb=\count388
+\multirow@cntb=\count389
 \multirow@dima=\skip89
-\bigstrutjot=\dimen352
-) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen353
-\c@nlinenum=\count389
-\TeXr@lab=\toks48
+\bigstrutjot=\dimen354
 ) (C:\Program Files\MiKTeX\tex/latex/ctable\ctable.sty
 Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of table and figure floats using key/value directives
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
@@ -882,26 +888,26 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package ctable Warning: 
 (ctable)                Transparency disabled: pdfTeX is not running in PDF mode .
 
-\@CTframesep=\dimen354
-\@dfltCTframesep=\dimen355
-\@CTframerule=\dimen356
-\@dfltCTframerule=\dimen357
-\@CTwidth=\dimen358
-\@dfltCTwidth=\dimen359
-\@CTcaptionskip=\dimen360
-\@dfltCTcaptionskip=\dimen361
-\@CTmaxwidth=\dimen362
-\@dfltCTmaxwidth=\dimen363
-\@CTmincapwidth=\dimen364
-\@dfltCTmincapwidth=\dimen365
-\@CTfooterwidth=\dimen366
-\@dfltCTfooterwidth=\dimen367
-\@CTw=\dimen368
-\@CTfloatwidth=\dimen369
-\@CToldsep=\dimen370
-\@CToldrule=\dimen371
+\@CTframesep=\dimen355
+\@dfltCTframesep=\dimen356
+\@CTframerule=\dimen357
+\@dfltCTframerule=\dimen358
+\@CTwidth=\dimen359
+\@dfltCTwidth=\dimen360
+\@CTcaptionskip=\dimen361
+\@dfltCTcaptionskip=\dimen362
+\@CTmaxwidth=\dimen363
+\@dfltCTmaxwidth=\dimen364
+\@CTmincapwidth=\dimen365
+\@dfltCTmincapwidth=\dimen366
+\@CTfooterwidth=\dimen367
+\@dfltCTfooterwidth=\dimen368
+\@CTw=\dimen369
+\@CTfloatwidth=\dimen370
+\@CToldsep=\dimen371
+\@CToldrule=\dimen372
 \CT@t=\box140
-\@CTcurftwidth=\dimen372
+\@CTcurftwidth=\dimen373
 ) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count391
@@ -914,14 +920,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \lst@gtempboxa=\box143
 \lst@token=\toks52
 \lst@length=\count393
-\lst@currlwidth=\dimen373
+\lst@currlwidth=\dimen374
 \lst@column=\count394
 \lst@pos=\count395
-\lst@lostspace=\dimen374
-\lst@width=\dimen375
+\lst@lostspace=\dimen375
+\lst@width=\dimen376
 \lst@newlines=\count396
 \lst@lineno=\count397
-\lst@maxwidth=\dimen376
+\lst@maxwidth=\dimen377
  (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count398
@@ -974,12 +980,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip98
 \algomargin=\skip99
 \skipalgocfslide=\skip100
-\algowidth=\dimen377
-\inoutsize=\dimen378
-\inoutindent=\dimen379
-\interspacetitleruled=\dimen380
-\interspacealgoruled=\dimen381
-\interspacetitleboxruled=\dimen382
+\algowidth=\dimen378
+\inoutsize=\dimen379
+\inoutindent=\dimen380
+\interspacetitleruled=\dimen381
+\interspacealgoruled=\dimen382
+\interspacetitleboxruled=\dimen383
 \algocf@ruledwidth=\skip101
 \algocf@inoutbox=\box147
 \algocf@inputbox=\box148
@@ -1011,95 +1017,101 @@ LaTeX Warning: Label `eq:Type1_cell_current' multiply defined.
 
 LaTeX Warning: Label `eq:Batt_OTC_Least_Square_solution' multiply defined.
 
+
+LaTeX Warning: Label `algo:PowerAnalyzer_Modeling' multiply defined.
+
+
+LaTeX Warning: Label `algo:PowerAnalyzer_Modeling' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 121.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 130.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 121.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 121.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 130.
  (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    ... okay on input line 130.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 121.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 121.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 121.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 121.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 121.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 121.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 121.
-LaTeX Font Info:    Redeclaring math accent \check on input line 121.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 121.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 121.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 121.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 121.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 130.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 130.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 130.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 130.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 130.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 130.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 130.
+LaTeX Font Info:    Redeclaring math accent \check on input line 130.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 130.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 130.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 130.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 130.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 121.
+(Font)              `operators' in the math version `normal' on input line 130.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 121.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 130.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 121.
+(Font)              `operators' in the math version `bold' on input line 130.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 121.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 130.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 121.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 121.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 121.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 121.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 121.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 130.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 121.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 121.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 121.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 121.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 130.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
@@ -1180,15 +1192,15 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 133.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 142.
  (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1206,7 +1218,7 @@ File: BMS_Architecture_border-modified.PNG Graphic file (type bmp)
 ] [2
 
 ]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 134--134
+Overfull \hbox (12.0pt too wide) in paragraph at lines 143--143
  [] 
  []
 
@@ -1266,11 +1278,11 @@ Underfull \hbox (badness 2990) in paragraph at lines 4--9
 
 ] (main.lof [13
 
-])
+] [14])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [14] [15] [16
+ [15] [16
 
 ] (main.lot)
 \tf@lot=\write7
@@ -1287,7 +1299,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 174.
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 183.
  [2] (Chap01/Chap01.tex) [3
 
 
@@ -1694,7 +1706,7 @@ Underfull \hbox (badness 3568) in paragraph at lines 25--26
 File: Chap05/Figures/ShuntCurrent.png Graphic file (type bmp)
 <Chap05/Figures/ShuntCurrent.png>
 ))
-Underfull \hbox (badness 1558) in paragraph at lines 8--203
+Underfull \hbox (badness 1558) in paragraph at lines 8--212
 \TU/TimesNewRoman(0)/m/n/12 analysis finally we landed with INA2xx series sensors. In section 3.4[], I took
  []
 
@@ -1840,15 +1852,7 @@ File: Chap06/Figures/Battery_Pack_modeling_Architec.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Chap06/Figures/Chroma.PNG Graphic file (type bmp)
-<Chap06/Figures/Chroma.PNG>
-File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
-<Chap06/Figures/Chroma_Output_wiring.PNG>
-[61]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[62] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+[61] [62] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [63]
 Underfull \hbox (badness 1014) in paragraph at lines 95--96
@@ -1862,20 +1866,12 @@ File: Chap06/Figures/Chroma_Packet_delay.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65]
-File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
-<Chap06/Figures/keysight_n6705.PNG>
 
-Underfull \hbox (badness 2903) in paragraph at lines 176--176
-[]\TU/TimesNewRoman(0)/m/n/10 (a) 4 Channel keysight N6705 Power
+Underfull \hbox (badness 1789) in paragraph at lines 170--171
+\TU/TimesNewRoman(0)/m/n/12 6.11[](a) DC Power Analyzer is a multipurpose power system that combines the
  []
 
-File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
-<Chap06/Figures/DMM_34460A.PNG>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[66]
+[65] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 232--234
 [] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.c.1 Digital Multimeters 34460A :[] \TU/TimesNewRoman(0)/m/n/12 The only completely drop-in,
  []
@@ -1891,14 +1887,14 @@ Overfull \hbox (6.00433pt too wide) in paragraph at lines 237--238
  []
 
 [67]
-Underfull \vbox (badness 1122) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [68] [69]
 Overfull \hbox (34.46011pt too wide) in paragraph at lines 338--339
 []$\OML/cmm/m/it/12 Batt$ \TU/TimesNewRoman(0)/m/n/12 module name which will take $\OML/cmm/m/it/12 < Q[]; dt; SOC[]; i[]; BattModelParams\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SoC\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >$
  []
 
-[69]
+
 Underfull \hbox (badness 1005) in paragraph at lines 356--392
 \TU/TimesNewRoman(0)/m/n/12 the updated battery voltages, calculating SoC, measuring batteries current). The
  []
@@ -1994,7 +1990,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 6032) in paragraph at lines 55--59
-[]\TU/TimesNewRoman(0)/m/n/12 The results in 4.9[] will enrich the battery modeling and power analyzer
+[]\TU/TimesNewRoman(0)/m/n/12 The results in 4.7[] will enrich the battery modeling and power analyzer
  []
 
 )
@@ -2005,10 +2001,30 @@ Underfull \hbox (badness 1019) in paragraph at lines 11--13
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]) [76] [77] [78] [79] [80] [81] [82
-
-] (Chap_Miselleneous/Chap_Misellaneous.tex
+ [75]) [76] [77] [78] [79] [80] (Chap07/Chap07.tex
 Chapter 5.
+(Chap07/Chap07_KalmanFilter.tex
+Underfull \hbox (badness 3375) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/12 This section outlines the fundamental design of a Kalman filter, which takes
+ []
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 8.
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [81
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82] [83] [84]
+File: Chap07/Figures/Kalman_principle.PNG Graphic file (type bmp)
+<Chap07/Figures/Kalman_principle.PNG>
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85] [86] (Chap_Miselleneous/Chap_Misellaneous.tex
+Chapter 6.
 (Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG>
@@ -2025,7 +2041,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83
+ [87
+
 
 ]
 File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG Graphic file (type bmp)
@@ -2059,7 +2076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[84]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
@@ -2072,7 +2089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [89]
 File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2a_ABMS.PNG>
 
@@ -2093,7 +2110,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Chap_Miselleneous/Chap06_Mise/Chap06_Mise.tex
 Underfull \hbox (badness 1466) in paragraph at lines 4--37
-[] []|\TU/TimesNewRoman(0)/b/n/12 5.3.1..1 Example 1:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 1 simulate a BMS
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..1 Example 1:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 1 simulate a BMS
  []
 
 
@@ -2106,36 +2123,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--37
 
  []
 
-[86]))
-Underfull \hbox (badness 1466) in paragraph at lines 39--215
-[] []|\TU/TimesNewRoman(0)/b/n/12 5.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
+[90]
+Underfull \hbox (badness 1466) in paragraph at lines 39--67
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--215
+Underfull \hbox (badness 10000) in paragraph at lines 39--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--215
+Underfull \hbox (badness 10000) in paragraph at lines 39--67
 
  []
 
-[87] [88] [89] [90] [91] [92
+[91]
+File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
+<Chap06/Figures/keysight_n6705.PNG>
+File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
+<Chap06/Figures/DMM_34460A.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap06/Figures/Chroma.PNG Graphic file (type bmp)
+<Chap06/Figures/Chroma.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/m/n/10 (a) 16CH Battery Cell
+ []
+
+File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
+<Chap06/Figures/Chroma_Output_wiring.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [92])) [93] [94] [95] [96] [97] [98
 
 ] (main.bbl
 Underfull \hbox (badness 3019) in paragraph at lines 62--65
 \TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
  []
 
-[93
+[99
 
-] [94]
+] [100]
 Underfull \hbox (badness 2809) in paragraph at lines 184--186
 []\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
  []
 
-) [95] [96
+
+Underfull \hbox (badness 1237) in paragraph at lines 216--218
+[]\TU/TimesNewRoman(0)/m/n/12 A. Rahmoun and H. Biechl, “Parameters identification of equivalent circuit
+ []
+
+) [101] [102
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2149,12 +2192,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40125 strings out of 410532
- 991184 string characters out of 2817561
- 2088727 words of memory out of 3000000
- 60409 multiletter control sequences out of 15000+600000
- 479566 words of font info for 102 fonts, out of 8000000 for 9000
+ 40922 strings out of 410532
+ 1012352 string characters out of 2817561
+ 2102139 words of memory out of 3000000
+ 61180 multiletter control sequences out of 15000+600000
+ 480274 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,15n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (116 pages, 1666612 bytes).
+Output written on main.xdv (122 pages, 1774952 bytes).

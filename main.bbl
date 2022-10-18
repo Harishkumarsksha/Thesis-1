@@ -200,4 +200,20 @@ keysight.com/, ``Keysight n6705c dc power analyzer,'' \emph{Keysight N6705C
   \url{https://www.keysight.com/it/en/assets/7018-03846/data-sheets/5991-1983}
 \BIBentrySTDinterwordspacing
 
+\bibitem{SOC_Estimation_KalmanFilter_Ahmad}
+A.~Rahmoun, H.~Biechl, and A.~Rosin, ``Soc estimation for li-ion batteries
+  based on equivalent circuit diagrams and the application of a kalman
+  filter,'' in \emph{2012 Electric Power Quality and Supply Reliability}, 2012,
+  pp. 1--4.
+
+\bibitem{SOC_Estimation_KalmanFilter_Liu}
+M.~Liu, N.~Cui, S.~Liu, C.~Wang, C.~Zhang, and S.~Gong, ``Adaptive strong
+  tracking unscented kalman filter based soc estimation for lithium-ion
+  battery,'' in \emph{2017 Chinese Automation Congress (CAC)}, 2017, pp.
+  1437--1441.
+
+\bibitem{LIPO_Batt_Parameters_identification_Rahmoun}
+A.~Rahmoun and H.~Biechl, ``Parameters identification of equivalent circuit
+  diagrams for li-ion batteries,'' 01 2012.
+
 \end{thebibliography}

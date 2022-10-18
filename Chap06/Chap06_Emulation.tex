@@ -14,14 +14,14 @@
 Figure \ref{fig:Battery_Pack_modeling_Architec} shows the architecture of the Battery modeling and the emulation, for the external view the architecture looks very clumsy and dusky, but I have followed the modular approach in this architecture to extend the model to a one-time constant or two-time constant even three. The proposed architecture can handle multiple current sourcing, sinking, and measuring instruments without disturbing the overall system. Before diving into the architecture and modular approach, it is good to understand what kind of instruments can be used. And their specifications for the BMS applications. The following section can give brief information on the instruments and their configurations.
 
 \subsubsection{Chroma :}
-\begin{figure}[h]
-	\centering
-	\subfigure[16CH Battery Cell Simulator 87001]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma.PNG}}
-    \qquad
-	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}}
-	\caption{16CH Battery Cell Simulator 87001}
-	\label{fig:Chroma}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\subfigure[16CH Battery Cell Simulator 87001]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma.PNG}}
+%     \qquad
+% 	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}}
+% 	\caption{16CH Battery Cell Simulator 87001}
+% 	\label{fig:Chroma}
+% \end{figure}
 The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge and discharge behavior for BMS testing. It can simulate up to 480 battery cells in series with voltage and current measurement functions. It can receive IPC's commands in real-time, store the measured values temporarily and return them to the IPC \cite{Chroma_UserManual}.Chroma has two communication one through the ethernet and CAN bus, for facilitating the modular and easy communication I preferred ethernet for this particular project, we can also use the can bus when we test the emulator with the real-time vehicle setup. Figure \ref{fig:Chroma}(a) shows the 16CH chroma which I have used in the lab.
 
 \paragraph{Sepcifications of the Chroma :}
@@ -171,14 +171,14 @@ The Keysight N6705 Figure \ref{fig:keysight_n6705_DMM_34460A}(a) DC Power Analyz
 
 The Keysight N6705 has up to four programmable outputs as a multiple-output DC source. The power levels of the available power modules range from 20 W to 500 W, with different voltage and current combinations, and they offer a wide range of performance capabilities. Additionally, each output can generate arbitrary (Arb) waveforms, allowing you to program. Standardized voltage and current waveforms, or create your own. With Keysight N678xA SMUs (Source/Measure Units) have a multi-quadrant power mesh with distinct voltage and sources of current priority \cite{Keysight_N6705_DC_Power_Analyzer}.
 
-\begin{figure}[h]
-	\centering
-	\subfigure[4 Channel keysight N6705 Power Supply]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/keysight_n6705.PNG}}
-    \qquad
-	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}}
-	\caption{ keysight N6705 Power Supply and DMM 34460A }
-	\label{fig:keysight_n6705_DMM_34460A}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\subfigure[4 Channel keysight N6705 Power Supply]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/keysight_n6705.PNG}}
+%     \qquad
+% 	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}}
+% 	\caption{ keysight N6705 Power Supply and DMM 34460A }
+% 	\label{fig:keysight_n6705_DMM_34460A}
+% \end{figure}
 
 The Keysight N6705's Meter View shows the average output voltage and current as a measurement system. Scope View, which you can modify using the vertical and horizontal sliders, displays waveforms. The Data Logger View records average and peak voltage and current measurements over a long period and plots the data \cite{Keysight_N6705_DC_Power_Analyzer}.
 
