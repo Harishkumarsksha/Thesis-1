@@ -200,6 +200,12 @@ keysight.com/, ``Keysight n6705c dc power analyzer,'' \emph{Keysight N6705C
   \url{https://www.keysight.com/it/en/assets/7018-03846/data-sheets/5991-1983}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Coulomb_Counting_SOC_Estimation}
+M.~B. Lazreg, I.~Baccouche, S.~Jemmali, B.~Manai, and M.~Hamouda, ``Soc
+  estimation of li-ion battery pack for light electric vehicles using enhanced
+  coulomb counting algorithm,'' in \emph{2019 10th International Renewable
+  Energy Congress (IREC)}, 2019, pp. 1--6.
+
 \bibitem{SOC_Estimation_KalmanFilter_Ahmad}
 A.~Rahmoun, H.~Biechl, and A.~Rosin, ``Soc estimation for li-ion batteries
   based on equivalent circuit diagrams and the application of a kalman
@@ -215,5 +221,32 @@ M.~Liu, N.~Cui, S.~Liu, C.~Wang, C.~Zhang, and S.~Gong, ``Adaptive strong
 \bibitem{LIPO_Batt_Parameters_identification_Rahmoun}
 A.~Rahmoun and H.~Biechl, ``Parameters identification of equivalent circuit
   diagrams for li-ion batteries,'' 01 2012.
+
+\bibitem{ADIJ_MARTIN2017}
+\BIBentryALTinterwordspacing
+A.~G. Martin~Murnane, ``A closer look at state of charge (soc) and state of
+  health (soh) estimation techniques for batteries,'' \emph{ADI Media Annual
+  Conference journals}, 2017. [Online]. Available: \url{https://ez.analog.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Comparision_EKF_UKF_He}
+\BIBentryALTinterwordspacing
+H.~He, H.~Qin, X.~Sun, and Y.~Shui, ``Comparison study on the battery soc
+  estimation with ekf and ukf algorithms,'' \emph{Energies}, vol.~6, no.~10,
+  pp. 5088--5100, 2013. [Online]. Available:
+  \url{https://www.mdpi.com/1996-1073/6/10/5088}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Adaptive_UKF_for_SOC_Estimation}
+M.~Liu, N.~Cui, S.~Liu, C.~Wang, C.~Zhang, and S.~Gong, ``Adaptive strong
+  tracking unscented kalman filter based soc estimation for lithium-ion
+  battery,'' in \emph{2017 Chinese Automation Congress (CAC)}, 2017, pp.
+  1437--1441.
+
+\bibitem{LIPO_AUKF_Meng}
+J.~Meng, G.~Luo, and F.~Gao, ``Lithium polymer battery state-of-charge
+  estimation based on adaptive unscented kalman filter and support vector
+  machine,'' \emph{IEEE Transactions on Power Electronics}, vol.~31, no.~3, pp.
+  2226--2238, 2016.
 
 \end{thebibliography}

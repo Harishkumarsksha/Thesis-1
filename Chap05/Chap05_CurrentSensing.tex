@@ -48,7 +48,7 @@ The device supports samples averaging from 1x to 1024x and adjustable ADC conver
 	\caption{INA238 Simplified Block diagram \cite{INA238_User_Datasheet}}
 \end{figure}
 
-The INA238 has a multifunctional, open-drain ALERT output pin that can be utilized to report various problems or as a sign that the ADC conversion is finished while the device is functioning in both triggered and continuous conversion mode. Every time an output value under continuous monitoring exceeds its corresponding out-of-range threshold, the diagnostics mentioned in Table 7 can be transmitted via the ALERT pin.
+The INA238 has a multifunctional, open-drain ALERT output pin that can be utilized to report various problems or as a sign that the ADC conversion is finished while the device is functioning in both triggered and continuous conversion mode. Every time an output value under continuous monitoring exceeds its corresponding out-of-range threshold, the diagnostics mentioned in Table 7 in the user datasheet of INA238 \cite{INA238_User_Datasheet}  can be transmitted via the ALERT pin.
 
 % \begin{table}[h]
 %     \centering
@@ -64,7 +64,7 @@ The INA238 has a multifunctional, open-drain ALERT output pin that can be utiliz
 %     \end{tabular}
 % \end{table}
 
-The diagnosis that prompted the ALERT pin can be identified by reading the DIAG ALRT register. In addition to configuring some ALERT pin functions, this register, which is depicted in Table 7, is also utilized to monitor other related diagnostics.
+The diagnosis that prompted the ALERT pin can be identified by reading the DIAG ALRT register. In addition to configuring some ALERT pin functions, this register, which is depicted in Table 7 (user datasheet of INA238 \cite{INA238_User_Datasheet}), is also utilized to monitor other related diagnostics.
 
 \begin{itemize}
 	\item Alert latch enables — In the event that the ALERT pin is activated, this feature will maintain the pin's value even after all diagnostic circumstances have been resolved. The status of the ALERT pin is reset by reading the DIAG ALRT register. By setting the ALATCH bit, this function is made available.

@@ -252,12 +252,14 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Shunt Resistors for Battery Current Measurement}{45}{}\protected@file@percent }
 \citation{INA238_User_Datasheet}
 \citation{INA238_User_Datasheet}
+\citation{INA238_User_Datasheet}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces  INA238 High-Side Shunt Current Sensing\relax }}{46}{}\protected@file@percent }
 \newlabel{fig:INA_high_side_currentsense}{{3.2}{46}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}INA238/INA2xx}{46}{}\protected@file@percent }
 \newlabel{sec:INA238}{{3.4}{46}}
 \newlabel{fig:INA238_Simplified_Block_diagram}{{\caption@xref {fig:INA238_Simplified_Block_diagram}{ on input line 47}}{46}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces INA238 Simplified Block diagram \cite  {INA238_User_Datasheet}\relax }}{46}{}\protected@file@percent }
+\citation{INA238_User_Datasheet}
 \citation{INA238_User_Datasheet}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces INA238 Multi-Alert Configuration\relax }}{48}{}\protected@file@percent }
 \newlabel{fig:INA238_multi_alert}{{3.4}{48}}
@@ -288,6 +290,7 @@
 \citation{Batt_Modeling_Kharisma}
 \citation{Batt_Modeling_Kharisma}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}Battery Modeling}{54}{}\protected@file@percent }
+\newlabel{sec:Batt_Modeling}{{4.1}{54}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{54}{}\protected@file@percent }
 \citation{Batt_Modeling_Kharisma}
 \citation{UKEMPT_AHMAD2012}
@@ -320,6 +323,7 @@
 \newlabel{eq:Discrete_TTC_Voltage2 }{{4.10}{57}}
 \newlabel{eq:Discrete_TTC_Batt_Voltage }{{4.11}{57}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{57}{}\protected@file@percent }
+\newlabel{sec:Batt_model_parameters_estimation}{{4.1.5}{57}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{57}{}\protected@file@percent }
 \citation{UKEMPT_AHMAD2012}
 \citation{UKEMPT_AHMAD2012}
@@ -407,95 +411,140 @@
 \newlabel{fig:Batt_Pack_Diff_SOC_Charging_Voltage_Cycles}{{\caption@xref {fig:Batt_Pack_Diff_SOC_Charging_Voltage_Cycles}{ on input line 51}}{80}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Battery Pack Modeling Characteristics with PowerAnalyzer(3 Cells) \relax }}{80}{}\protected@file@percent }
 \newlabel{fig:Batt_Pack_Modeling_Results}{{4.8}{80}}
-\citation{SOC_Estimation_KalmanFilter_Ahmad}
-\citation{SOC_Estimation_KalmanFilter_Liu}
-\citation{LIPO_Batt_Parameters_identification_Rahmoun}
+\citation{Coulomb_Counting_SOC_Estimation}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Battery SOC Estimation Algorithms}{81}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \newlabel{ch:Battery_SOC_Estimation_Algorithms}{{5}{81}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Kalman Filter}{81}{}\protected@file@percent }
-\newlabel{sec:KalamanFilter}{{5.1}{81}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}The Discrete Kalam Filter}{81}{}\protected@file@percent }
-\newlabel{sec:Discrete_Kalam_Filter}{{5.1.1}{81}}
-\newlabel{eq:Discrete_State_Equation}{{5.1}{81}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Coulomb Counting Algorithm (CC)}{81}{}\protected@file@percent }
+\newlabel{eq:batt_SOC_def}{{5.1}{82}}
+\newlabel{eq:batt_SOC_CC}{{5.2}{82}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Kalman Filter}{82}{}\protected@file@percent }
+\newlabel{sec:KalamanFilter}{{5.2}{82}}
 \citation{SOC_Estimation_KalmanFilter_Ahmad}
+\citation{SOC_Estimation_KalmanFilter_Liu}
+\citation{LIPO_Batt_Parameters_identification_Rahmoun}
 \citation{SOC_Estimation_KalmanFilter_Ahmad}
-\newlabel{eq:Discrete_Measurement_Output_Equation}{{5.2}{82}}
-\newlabel{eq:Discrete_Noise_Covariance}{{5.3}{82}}
-\newlabel{algo:PowerAnalyzer_Modeling}{{4}{83}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces General Discrete Kalman Filter Algorithm\relax }}{83}{}\protected@file@percent }
-\newlabel{algo:PowerAnalyzer_Modeling}{{5}{83}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {5}{\ignorespaces General Discrete Kalman Filter Algorithm\relax }}{83}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}The Discrete Kalam Filter}{83}{}\protected@file@percent }
+\newlabel{sec:Discrete_Kalam_Filter}{{5.2.1}{83}}
+\newlabel{eq:Discrete_State_Equation}{{5.3}{83}}
+\newlabel{eq:Discrete_Measurement_Output_Equation}{{5.4}{83}}
+\citation{SOC_Estimation_KalmanFilter_Ahmad}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Discrete Kalman Filter Algorithm Flow Chart\relax }}{84}{}\protected@file@percent }
 \newlabel{algo:Discrete_Kalman_Filter_Algorithm_Flow_Chart}{{5.1}{84}}
-\newlabel{eq:Discrete_Prior_State_Equation}{{5.4}{84}}
-\newlabel{eq:Discrete_Prior_Covariance_Equation}{{5.5}{84}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Extended Kalman Filter }{84}{}\protected@file@percent }
-\newlabel{eq:Batt_Kalman_State_function}{{5.8}{85}}
-\newlabel{eq:Batt_Kalaman_output_function}{{5.9}{85}}
-\newlabel{eq:Batt_Kalman_State_function_tylor_expansion}{{5.10}{85}}
-\newlabel{eq:Batt_Kalaman_output_function_tylor_expansion}{{5.11}{85}}
-\newlabel{eq:Batt_Kalman_function_tylor_expansion_Ak}{{5.12}{85}}
-\newlabel{eq:Batt_Kalman_function_tylor_expansion_Bk}{{5.13}{85}}
-\newlabel{eq:Batt_Kalman_function_tylor_expansion_Ck}{{5.14}{85}}
-\newlabel{eq:Batt_Kalman_function_tylor_expansion_Dk}{{5.15}{85}}
-\newlabel{eq:Batt_Kalman_State_Prediction}{{5.16}{85}}
-\newlabel{eq:Batt_Kalman_Output_Prediction}{{5.17}{85}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Kalman Filter Principle\relax }}{86}{}\protected@file@percent }
-\newlabel{fig:Kalman_Filter_Principle}{{5.2}{86}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Misellaneous}{87}{}\protected@file@percent }
+\newlabel{eq:Discrete_Noise_Covariance}{{5.5}{84}}
+\newlabel{eq:Discrete_Prior_State_Equation}{{5.6}{84}}
+\newlabel{eq:Discrete_Prior_Covariance_Equation}{{5.7}{84}}
+\citation{ADIJ_MARTIN2017}
+\newlabel{eq:Kalam_state_and_covaraince_initialize}{{5.8}{85}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Extended Kalman Filter}{85}{}\protected@file@percent }
+\newlabel{eq:Batt_Kalman_State_function}{{5.11}{86}}
+\newlabel{eq:Batt_Kalaman_output_function}{{5.12}{86}}
+\newlabel{eq:Batt_Kalaman_Terminal_Voltage}{{5.13}{86}}
+\newlabel{eq:Batt_Kalman_State_function_tylor_expansion}{{5.14}{86}}
+\newlabel{eq:Batt_Kalaman_output_function_tylor_expansion}{{5.15}{86}}
+\newlabel{eq:Batt_Kalman_function_tylor_expansion_Ak}{{5.16}{86}}
+\newlabel{eq:Batt_Kalman_function_tylor_expansion_Bk}{{5.17}{86}}
+\newlabel{eq:Batt_Kalman_function_tylor_expansion_Ck}{{5.18}{86}}
+\newlabel{eq:Batt_Kalman_function_tylor_expansion_Dk}{{5.19}{86}}
+\newlabel{eq:Batt_Kalman_State_Prediction}{{5.20}{86}}
+\newlabel{eq:Batt_Kalman_Output_Prediction}{{5.21}{86}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Kalman Filter Principle\relax }}{87}{}\protected@file@percent }
+\newlabel{fig:Kalman_Filter_Principle}{{5.2}{87}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Extended Kalman Filter Results Discussion}{87}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Charging Mode of the LIPO Batteries :}{87}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Sampling Time $dt$ :}{87}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Charging Battery Kalman Filter Results\relax }}{88}{}\protected@file@percent }
+\newlabel{fig:Charging_Battery_Kalman_Filter_Results}{{5.3}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Charging Profile of the LIPO Batteries\relax }}{88}{}\protected@file@percent }
+\newlabel{fig:Charging_Profile_of_the _LIPO_Batteries}{{5.4}{88}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}SOC estimation by Kalman Filter:}{89}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Charging Battery Kalman Filter Results Smaplingtime $dt$ = 1mS\relax }}{89}{}\protected@file@percent }
+\newlabel{fig:Charging_Battery_Kalman_Filter_Results_SamplingTime_1mS}{{5.5}{89}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Limitations of the Kalman Filter for SoC Estimation }{89}{}\protected@file@percent }
+\citation{Comparision_EKF_UKF_He}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Future of the Kalman Filter}{90}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Unscented Kalman Filter}{90}{}\protected@file@percent }
+\citation{Comparision_EKF_UKF_He}
+\newlabel{eq:UKF_state_initialization}{{5.22}{91}}
+\newlabel{eq:UKF_y_results}{{5.23}{91}}
+\newlabel{eq:UKF_covariance_initialization}{{5.24}{91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces UKF UT Transformation \relax }}{91}{}\protected@file@percent }
+\newlabel{fig:UKF_UT_Transformation}{{5.6}{91}}
+\citation{Adaptive_UKF_for_SOC_Estimation}
+\newlabel{eq:UKF_initialization}{{5.25}{92}}
+\newlabel{eq:UKF_State_estimate_time_update}{{5.26}{92}}
+\newlabel{eq:UKF_Error_covariance_time_update}{{5.27}{92}}
+\newlabel{eq:UKF_Output_estimate_time_update}{{5.28}{92}}
+\newlabel{eq:UKF_Estimator gain matrix}{{5.29}{92}}
+\newlabel{eq:UKF_State_estimate_update}{{5.30}{92}}
+\newlabel{eq:UKF_Error_covariance_measurement_update}{{5.31}{92}}
+\citation{LIPO_AUKF_Meng}
+\citation{Comparision_EKF_UKF_He}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces SoC estimation based on UKF \relax }}{93}{}\protected@file@percent }
+\newlabel{fig:SoC_estimation_based_on_UKF}{{5.7}{93}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Adaptive Unscented Kalman Filter}{93}{}\protected@file@percent }
+\newlabel{eq:AUKF_fadding_factor}{{5.32}{94}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Comparision of Kalman Algorithms Results}{95}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.0.a}Convergence of Kalman Algorithms :}{95}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Summer of the Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{95}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Kalman Algorithms Battery Charing SOC Comparision\relax }}{97}{}\protected@file@percent }
+\newlabel{fig:Kalman_Algorithms_Battery_Charing_SOC_Comparision}{{5.8}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Kalman Algorithms Convergence \relax }}{98}{}\protected@file@percent }
+\newlabel{fig:Kalman_Algorithms_Convergence}{{5.9}{98}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Misellaneous}{99}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:miselleneous}{{6}{87}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Chapter \ref {chap:BLE}}{87}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.0.a}BLUeNRG-355mc BLE module Layout :}{87}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{87}{}\protected@file@percent }
-\newlabel{fig:BLUeNRG-355mc_BLE_Layout}{{6.1}{87}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{88}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.0.b}Nordic nrf52840 BLE module Layout :}{88}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{88}{}\protected@file@percent }
-\newlabel{fig:Nordic_nrf52840_BLE_Layout}{{6.3}{88}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{88}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.0.a} Design Example for the LTC4321 Gate Driver :}{88}{}\protected@file@percent }
-\newlabel{eq:LTC_Rsense}{{6.1}{88}}
+\newlabel{chap:miselleneous}{{6}{99}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Chapter \ref {chap:BLE}}{99}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.0.a}BLUeNRG-355mc BLE module Layout :}{99}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{99}{}\protected@file@percent }
+\newlabel{fig:BLUeNRG-355mc_BLE_Layout}{{6.1}{99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{100}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.0.b}Nordic nrf52840 BLE module Layout :}{100}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{100}{}\protected@file@percent }
+\newlabel{fig:Nordic_nrf52840_BLE_Layout}{{6.3}{100}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{100}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.0.a} Design Example for the LTC4321 Gate Driver :}{100}{}\protected@file@percent }
+\newlabel{eq:LTC_Rsense}{{6.1}{100}}
 \citation{LTC4231_User_Datasheet}
 \citation{LTC4231_User_Datasheet}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{89}{}\protected@file@percent }
-\newlabel{eq:LTC_Ilimit_min}{{6.2}{89}}
-\newlabel{eq:LTC_Ilimit_max}{{6.3}{89}}
-\newlabel{eq:LTC_Tcharge_max}{{6.4}{89}}
-\newlabel{eq:LTC_Pdissp}{{6.5}{89}}
-\newlabel{eq:LTC_Ct}{{6.6}{89}}
-\newlabel{eq:LTC_Cg}{{6.7}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{101}{}\protected@file@percent }
+\newlabel{eq:LTC_Ilimit_min}{{6.2}{101}}
+\newlabel{eq:LTC_Ilimit_max}{{6.3}{101}}
+\newlabel{eq:LTC_Tcharge_max}{{6.4}{101}}
+\newlabel{eq:LTC_Pdissp}{{6.5}{101}}
+\newlabel{eq:LTC_Ct}{{6.6}{101}}
+\newlabel{eq:LTC_Cg}{{6.7}{101}}
 \citation{Chroma_UserManual}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{90}{}\protected@file@percent }
-\newlabel{fig:BLUeNRG-355mc_BLE_Complete_Schematic}{{6.5}{90}}
-\newlabel{eq:LTC_Tcharge}{{6.8}{90}}
-\newlabel{eq:LTC_Pdissp_average}{{6.9}{90}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{90}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Chroma SCPI Commands Example Programs}{90}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {6.3.1..1}Example 1:}{90}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {6.3.1..2}Example 2:}{91}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{92}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}}{92}{}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {6.1}{\ignorespaces Extended Kalaman Filter Script}}{92}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{94}{}\protected@file@percent }
-\newlabel{fig:Typical Bidirectional circuit of the LM5170}{{6.6}{94}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{95}{}\protected@file@percent }
-\newlabel{fig:STD20NF06L Application typical circuit and package}{{6.7}{95}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{96}{}\protected@file@percent }
-\newlabel{fig: LTC4231 Application circuit and the Operational waveform }{{6.8}{96}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces \textit  {Type Ib} Active Balancing Circuit\relax }}{96}{}\protected@file@percent }
-\newlabel{fig:Type1b Active Balancing Circuit }{{6.9}{96}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{96}{}\protected@file@percent }
-\newlabel{fig:Typical Schematics of the Low side and High Side buck boost Converter}{{6.10}{96}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.11}{\ignorespaces  keysight N6705 Power Supply and DMM 34460A \relax }}{96}{}\protected@file@percent }
-\newlabel{fig:keysight_n6705_DMM_34460A}{{6.11}{96}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{97}{}\protected@file@percent }
-\newlabel{fig:Chroma}{{6.12}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{102}{}\protected@file@percent }
+\newlabel{fig:BLUeNRG-355mc_BLE_Complete_Schematic}{{6.5}{102}}
+\newlabel{eq:LTC_Tcharge}{{6.8}{102}}
+\newlabel{eq:LTC_Pdissp_average}{{6.9}{102}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{102}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Chroma SCPI Commands Example Programs}{102}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {6.3.1..1}Example 1:}{102}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {6.3.1..2}Example 2:}{103}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{104}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Extended Kaman Filter Implementation}{104}{}\protected@file@percent }
+\newlabel{sec:Extended Kaman Filter Implementation}{{6.4.1}{104}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6.1}{\ignorespaces Extended Kalaman Filter Script}}{104}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{106}{}\protected@file@percent }
+\newlabel{fig:Typical Bidirectional circuit of the LM5170}{{6.6}{106}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{107}{}\protected@file@percent }
+\newlabel{fig:STD20NF06L Application typical circuit and package}{{6.7}{107}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{108}{}\protected@file@percent }
+\newlabel{fig: LTC4231 Application circuit and the Operational waveform }{{6.8}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces \textit  {Type Ib} Active Balancing Circuit\relax }}{108}{}\protected@file@percent }
+\newlabel{fig:Type1b Active Balancing Circuit }{{6.9}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{108}{}\protected@file@percent }
+\newlabel{fig:Typical Schematics of the Low side and High Side buck boost Converter}{{6.10}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.11}{\ignorespaces  keysight N6705 Power Supply and DMM 34460A \relax }}{108}{}\protected@file@percent }
+\newlabel{fig:keysight_n6705_DMM_34460A}{{6.11}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{109}{}\protected@file@percent }
+\newlabel{fig:Chroma}{{6.12}{109}}
 \bibstyle{Ref/IEEEtran}
 \bibdata{Ref/SampleReferences}
 \bibcite{NXP_AN11994_Antenna_Guide}{{1}{}{{}}{{}}}
@@ -524,8 +573,13 @@
 \bibcite{Chroma_UserManual}{{24}{}{{}}{{}}}
 \bibcite{Keysight_N6705_DC_Power_Analyzer}{{25}{}{{}}{{}}}
 \bibcite{Keysight_34460A_DMM}{{26}{}{{}}{{}}}
-\bibcite{SOC_Estimation_KalmanFilter_Ahmad}{{27}{}{{}}{{}}}
-\bibcite{SOC_Estimation_KalmanFilter_Liu}{{28}{}{{}}{{}}}
-\bibcite{LIPO_Batt_Parameters_identification_Rahmoun}{{29}{}{{}}{{}}}
+\bibcite{Coulomb_Counting_SOC_Estimation}{{27}{}{{}}{{}}}
+\bibcite{SOC_Estimation_KalmanFilter_Ahmad}{{28}{}{{}}{{}}}
+\bibcite{SOC_Estimation_KalmanFilter_Liu}{{29}{}{{}}{{}}}
+\bibcite{LIPO_Batt_Parameters_identification_Rahmoun}{{30}{}{{}}{{}}}
+\bibcite{ADIJ_MARTIN2017}{{31}{}{{}}{{}}}
+\bibcite{Comparision_EKF_UKF_He}{{32}{}{{}}{{}}}
+\bibcite{Adaptive_UKF_for_SOC_Estimation}{{33}{}{{}}{{}}}
+\bibcite{LIPO_AUKF_Meng}{{34}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{122}
+\gdef \@abspage@last{134}

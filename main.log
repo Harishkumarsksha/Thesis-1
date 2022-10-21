@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  18 OCT 2022 16:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  21 OCT 2022 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,12 +1017,6 @@ LaTeX Warning: Label `eq:Type1_cell_current' multiply defined.
 
 LaTeX Warning: Label `eq:Batt_OTC_Least_Square_solution' multiply defined.
 
-
-LaTeX Warning: Label `algo:PowerAnalyzer_Modeling' multiply defined.
-
-
-LaTeX Warning: Label `algo:PowerAnalyzer_Modeling' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -2003,27 +1997,146 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]) [76] [77] [78] [79] [80] (Chap07/Chap07.tex
 Chapter 5.
-(Chap07/Chap07_KalmanFilter.tex
-Underfull \hbox (badness 3375) in paragraph at lines 6--7
+
+Underfull \hbox (badness 2065) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 The Lithium-ion batteries are the most popular varieties. Due to their safety,
+ []
+
+(Chap07/Chap07_CoulmbCounting.tex [81
+
+
+]) (Chap07/Chap07_KalmanFilter.tex [82]
+Underfull \hbox (badness 3375) in paragraph at lines 12--13
 \TU/TimesNewRoman(0)/m/n/12 This section outlines the fundamental design of a Kalman filter, which takes
  []
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 8.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 14.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [81
+) [83] [84] [85]
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
+ []
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82] [83] [84]
 File: Chap07/Figures/Kalman_principle.PNG Graphic file (type bmp)
 <Chap07/Figures/Kalman_principle.PNG>
-))
+[86]
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingCurrent.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingCurrent.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[87]
+File: Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85] [86] (Chap_Miselleneous/Chap_Misellaneous.tex
+ [88]
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png>
+
+Underfull \hbox (badness 1997) in paragraph at lines 244--247
+\TU/TimesNewRoman(0)/m/n/12 Undoubtedly Kalman filter is the most robust and well-assimilated approach to
+ []
+
+[89] [90]
+File: Chap07/Figures/UKF_UT.PNG Graphic file (type bmp)
+<Chap07/Figures/UKF_UT.PNG>
+
+Underfull \hbox (badness 1845) in paragraph at lines 285--294
+[]\TU/TimesNewRoman(0)/m/n/12 Where $\OML/cmm/m/it/12 W[]; W[]$ \TU/TimesNewRoman(0)/m/n/12 separately the weight factors of the mean value and the
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+File: Chap07/Figures/SoC_estimation_based_on_UKF.PNG Graphic file (type bmp)
+<Chap07/Figures/SoC_estimation_based_on_UKF.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.png>
+
+Underfull \hbox (badness 2426) in paragraph at lines 404--404
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Kalman Algorithms Battery Charing SOC Estimation Error
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) [95] [96] [97] [98] (Chap_Miselleneous/Chap_Misellaneous.tex
 Chapter 6.
 (Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG Graphic file (type bmp)
@@ -2041,7 +2154,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87
+ [99
 
 
 ]
@@ -2076,7 +2189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[88]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
@@ -2089,7 +2202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [101]
 File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2a_ABMS.PNG>
 
@@ -2123,7 +2236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--37
 
  []
 
-[90]
+[102]
 Underfull \hbox (badness 1466) in paragraph at lines 39--67
 [] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
  []
@@ -2138,7 +2251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--67
 
  []
 
-[91]
+[103]
 File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
 <Chap06/Figures/keysight_n6705.PNG>
 File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
@@ -2159,28 +2272,26 @@ File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [92])) [93] [94] [95] [96] [97] [98
+) (Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [104])) [105] [106] [107] [108] [109] [110
 
 ] (main.bbl
 Underfull \hbox (badness 3019) in paragraph at lines 62--65
 \TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
  []
 
-[99
+[111
 
-] [100]
+] [112]
 Underfull \hbox (badness 2809) in paragraph at lines 184--186
 []\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 216--218
+Underfull \hbox (badness 1237) in paragraph at lines 222--224
 []\TU/TimesNewRoman(0)/m/n/12 A. Rahmoun and H. Biechl, “Parameters identification of equivalent circuit
  []
 
-) [101] [102
-
-]
+[113]) [114]
 runsystem(makeindex main.idx)...executed safely (allowed).
 
  (main.ind) (main.aux (FrontPages.aux))
@@ -2192,12 +2303,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40922 strings out of 410532
- 1012352 string characters out of 2817561
- 2102139 words of memory out of 3000000
- 61180 multiletter control sequences out of 15000+600000
- 480274 words of font info for 105 fonts, out of 8000000 for 9000
+ 41081 strings out of 410532
+ 1020268 string characters out of 2817561
+ 2102531 words of memory out of 3000000
+ 61320 multiletter control sequences out of 15000+600000
+ 482885 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,15n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 87i,17n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (122 pages, 1774952 bytes).
+Output written on main.xdv (134 pages, 2028384 bytes).

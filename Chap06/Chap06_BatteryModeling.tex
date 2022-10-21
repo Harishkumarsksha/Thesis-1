@@ -1,4 +1,4 @@
-\section{Battery Modeling}
+\section{Battery Modeling}\label{sec:Batt_Modeling}
 This section explains the principles of a technique for calculating the state of charge (SOC) of lithium-ion batteries using two different equivalent circuit designs. It discusses how to use typical measurements to determine these circuits' parameters. The comparison of measurement and computation results reveals good agreement. The first step ignores the effects of temperature and battery age on these parameters \cite{UKEMPT_AHMAD2012}.
 \\
 The Ampere-counting (Columb counting) method can be used to identify the state of charge (SOC) of a battery if a defined full charge occurs regularly. This technique is based on the amount of charge that is put into or taken out of the battery. The error in the SOC estimation can grow too big and a better solution needs to be discovered in cases where a defined full charge of the battery cannot occur frequently.
@@ -117,10 +117,10 @@ The TTC model equations' description in discrete time is given by Equations \ref
 \end{equation}
 
 
-\subsection{Estimation of the Model Parameters}
+\subsection{Estimation of the Model Parameters}\label{sec:Batt_model_parameters_estimation}
 This section demonstrates the process for estimating model parameters based on battery readings. First, the effects of temperature and aging are disregarded. At a constant temperature of 25°C, the experimental parameter identification of the battery was carried out using recently manufactured, unused cells. Figure \ref{fig:Battery_Current_Pulse} shows the typical Battery Charging and discharging behavior for the large current pulse. A continuation of this work will take into account the effects of temperature and aging.
 \subsubsection{Charging and Discharging :}
-Figure 2 displays the voltage and current output characteristic curves of a battery during charging and discharging. 
+Figure \ref{fig:Battery_Current_Pulse} displays the voltage and current output characteristic curves of a battery during charging and discharging. 
 Following is a description of the various curve subintervals:
 
 \begin{itemize}
@@ -130,8 +130,8 @@ Following is a description of the various curve subintervals:
 	voltage value $V_{OC}(SOC_0)$, and while the output current is 
 	zero the SOC value is constant \cite{UKEMPT_AHMAD2012},\cite{UniPadua_Giacomo}.
 	\item \textbf{Subinterval $S_1 (t_0 \leq t \leq  t_1 )$ :}  In this subinterval the battery 
-	is discharged with a constant current $I_{discharge} > 0$, first a 
-	steep decrease in the battery output voltage can be seen 
+	is discharged with a constant current $I_{discharge} > 0$, first  
+	a steep decrease in the battery output voltage can be seen 
 	due to the internal resistance R0, and then it continues to 
 	decrease exponentially controlled by the OCV (as the SOC 
 	is decreasing)\cite{UKEMPT_AHMAD2012}. 

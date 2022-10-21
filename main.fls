@@ -1804,6 +1804,13 @@ INPUT Chap07\Chap07.tex
 INPUT .\Chap07\Chap07.tex
 INPUT .\Chap07\Chap07.tex
 INPUT Chap07\Chap07.tex
+INPUT .\Chap07\Chap07_CoulmbCounting.tex
+INPUT .\Chap07\Chap07_CoulmbCounting.tex
+INPUT .\Chap07\Chap07_CoulmbCounting.tex
+INPUT Chap07\Chap07_CoulmbCounting.tex
+INPUT .\Chap07\Chap07_CoulmbCounting.tex
+INPUT .\Chap07\Chap07_CoulmbCounting.tex
+INPUT Chap07\Chap07_CoulmbCounting.tex
 INPUT .\Chap07\Chap07_KalmanFilter.tex
 INPUT .\Chap07\Chap07_KalmanFilter.tex
 INPUT .\Chap07\Chap07_KalmanFilter.tex
@@ -1821,6 +1828,53 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
 INPUT .\Chap07\Figures\Kalman_principle.PNG
 INPUT .\Chap07\Figures\Kalman_principle.PNG
 INPUT Chap07\Figures\Kalman_principle.PNG
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingVoltage.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingVoltage.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingVoltage.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingCurrent.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingCurrent.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingCurrent.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\Charging-curve-for-Lithium-polymer-battery.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\Charging-curve-for-Lithium-polymer-battery.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\Charging-curve-for-Lithium-polymer-battery.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_dt0_01.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_dt0_01.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_dt0_01.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm5.tfm
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_dt0_01.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_dt0_01.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_dt0_01.png
+INPUT .\Chap07\Figures\UKF_UT.PNG
+INPUT .\Chap07\Figures\UKF_UT.PNG
+INPUT Chap07\Figures\UKF_UT.PNG
+INPUT .\Chap07\Figures\SoC_estimation_based_on_UKF.PNG
+INPUT .\Chap07\Figures\SoC_estimation_based_on_UKF.PNG
+INPUT Chap07\Figures\SoC_estimation_based_on_UKF.PNG
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_Comparriosn.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_Comparriosn.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOC_Comparriosn.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_Comparrison.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_Comparrison.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\BatteryChargingSOCError_Comparrison.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\KalmanAlgorithms_convergence.png
+INPUT .\Chap07\pyKalmanFilter\Python\Figures\KalmanAlgorithms_convergence.png
+INPUT Chap07\pyKalmanFilter\Python\Figures\KalmanAlgorithms_convergence.png
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex
 INPUT .\Chap_Miselleneous\Chap_Misellaneous.tex

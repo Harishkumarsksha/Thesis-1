@@ -1,0 +1,19 @@
+\section{Coulomb Counting Algorithm (CC)}
+
+State of Charge (SoC) is the most crucial characteristic to keep an eye on to prevent overcharging and deep drain, which can harm the battery's internal structure and even hurt safety.
+For estimating the SoC of the lithium-ion battery, several methodologies have been put out in the literature. Both direct and indirect techniques are included in this category. The Coulomb Counting (CC) approach, which takes into account an initial value of SoC (SoC0), and updates it by integrating the current over the nominal capacity, is one example of a direct method that we notice. The CC algorithm has some drawbacks, and the Enhanced CC (ECC) fixes those drawbacks. Using information extracted from the SoC-OCV curve, the open circuit voltage (OCV) estimation is performed.
+
+There are several strategies for indirect methods that can be divided into model-based methods, such as electrical and electrochemical models, and adaptive models, such as the Kalman filter, neural network, or fuzzy logic.
+For the model-based ones, certain techniques need for the characterization of the model parameters from a fresh battery, which is expensive and time-consuming. Some of these techniques also can't be used online and call for an understanding of the battery's chemical composition. Due to their great complexity, adaptive models struggle with battery model efficiency and require a significant amount of data training.
+
+The ratio of the nominal capacity to the current capacity is known as the SoC. The CC approach involves taking into account a starting SoC0 value and then updating it by integrating the current over time.
+The CC approach has some inefficiencies. In actuality, the SoC0 value is not predetermined, and this method does not take into account the aging factor that influences the Qnom value or the self-discharge phenomenon after extended storage. An ECC approach is suggested as a solution to these problems.
+To determine the SoC0 value at each cycle and subsequently update the $100\%$ SoC value, this algorithm takes into account the self-discharging losses and presents a recalibration method for battery propriety at a fully charged state and an empty state.
+
+\begin{equation}\label{eq:batt_SOC_def}
+    SOC = \frac{Q_{act}}{Q_{nom}}
+\end{equation}
+
+\begin{equation}\label{eq:batt_SOC_CC}
+    SOC = SOC_0 + \int_{t_0}^{t_0 + dt} \frac{i_{batt}}{Q_{nom}} 
+\end{equation}

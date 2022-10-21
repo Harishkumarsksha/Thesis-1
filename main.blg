@@ -20,45 +20,45 @@ Warning--empty year in NORDIC_nrf52840_USERGUIDE
 Warning--empty booktitle in LIPO_Batt_Parameters_identification_Rahmoun
 
 Done.
-You've used 29 entries,
+You've used 34 entries,
             4024 wiz_defined-function locations,
-            1009 strings with 13678 characters,
-and the built_in function-call counts, 14965 in all, are:
-= -- 1299
-> -- 226
-< -- 62
-+ -- 120
-- -- 47
-* -- 726
-:= -- 2771
-add.period$ -- 58
-call.type$ -- 29
-change.case$ -- 29
-chr.to.int$ -- 93
-cite$ -- 32
-duplicate$ -- 1198
-empty$ -- 1307
-format.name$ -- 54
-if$ -- 3292
+            1039 strings with 14768 characters,
+and the built_in function-call counts, 19262 in all, are:
+= -- 1645
+> -- 337
+< -- 101
++ -- 184
+- -- 66
+* -- 936
+:= -- 3399
+add.period$ -- 68
+call.type$ -- 34
+change.case$ -- 34
+chr.to.int$ -- 186
+cite$ -- 37
+duplicate$ -- 1496
+empty$ -- 1646
+format.name$ -- 77
+if$ -- 4296
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 209
-newline$ -- 148
-num.names$ -- 29
-pop$ -- 442
+int.to.str$ -- 34
+missing$ -- 260
+newline$ -- 167
+num.names$ -- 34
+pop$ -- 559
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1223
+skip$ -- 1560
 stack$ -- 0
-substring$ -- 258
-swap$ -- 797
-text.length$ -- 31
+substring$ -- 480
+swap$ -- 1049
+text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 29
+type$ -- 34
 warning$ -- 3
-while$ -- 45
-width$ -- 31
-write$ -- 340
+while$ -- 63
+width$ -- 36
+write$ -- 394
 (There were 3 warnings)
