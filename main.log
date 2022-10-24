@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.11)  24 OCT 2022 11:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  24 OCT 2022 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -13,15 +13,15 @@ Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -67,6 +67,10 @@ TextBlockOrigin set to 0pt x 0pt
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen146
@@ -81,7 +85,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip60
 \bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count194
+\c@NAT@ctr=\count190
 ) (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box55
@@ -105,7 +109,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
-\XKV@depth=\count195
+\XKV@depth=\count191
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -115,14 +119,14 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count196
+\c@tracingmulticols=\count192
 \mult@box=\box56
 \multicol@leftmargin=\dimen153
-\c@unbalance=\count197
-\c@collectmore=\count198
-\doublecol@number=\count199
-\multicoltolerance=\count266
-\multicolpretolerance=\count267
+\c@unbalance=\count193
+\c@collectmore=\count194
+\doublecol@number=\count195
+\multicoltolerance=\count196
+\multicolpretolerance=\count197
 \full@width=\dimen154
 \page@free=\dimen155
 \premulticols=\dimen156
@@ -172,15 +176,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
-\c@minrows=\count268
-\c@columnbadness=\count269
-\c@finalcolumnbadness=\count270
+\c@minrows=\count198
+\c@columnbadness=\count199
+\c@finalcolumnbadness=\count266
 \last@try=\dimen159
 \multicolovershoot=\dimen160
 \multicolundershoot=\dimen161
 \mult@nat@firstbox=\box99
 \colbreak@box=\box100
-\mc@col@check@num=\count271
+\mc@col@check@num=\count267
 ))
 \main@idxfile=\write3
 \openout3 = `main.idx'.
@@ -189,52 +193,2114 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 Writing index file main.idx
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-09-28 L3 programming layer (loader) 
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2022-09-28 L3 backend support: XeTeX
+\g__graphics_track_int=\count268
 \l__pdf_internal_box=\box101
+\g__pdf_backend_object_int=\count269
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
 ))
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
+\l__fontspec_tmpa_dim=\dimen162
+\l__fontspec_tmpb_dim=\dimen163
+\l__fontspec_tmpc_dim=\dimen164
+ (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg)))) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen165
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box102
+\strutbox@=\box103
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks25
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks26
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks27
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Program Files\MiKTeX\tex/generic/mathdots\mathdots.sty
+Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in math.
+\MDo@unit=\dimen174
+\MDo@dotsbox=\box104
+\MDoprekern=\muskip18
+\MDopostkern=\muskip19
+\MDodotkern=\muskip20
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Program Files\MiKTeX\tex/latex/yfonts\yfonts.sty
+Package: yfonts 2019/04/04 v1.4 (WaS&NP)
+LaTeX Info: Composite with undeclared \" in encoding LYG on input line 58.
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+\stockwidth=\dimen175
+\stockheight=\dimen176
+))
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box105
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count299
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count300
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count303
+\pgfmath@box=\box106
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count304
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box107
+\pgf@hbox=\box108
+\pgf@layerbox@main=\box109
+\pgf@picture@serial@count=\count305
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen266
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen270
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box110
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box111
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box112
+\tikz@figbox@bg=\box113
+\tikz@tempbox=\box114
+\tikz@tempbox@bg=\box115
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Program Files\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen285
+\TX@old@table=\dimen286
+\TX@old@col=\dimen287
+\TX@target=\dimen288
+\TX@delta=\dimen289
+\TX@cols=\count317
+\TX@ftn=\toks41
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box116
+)
+\tc@llx=\dimen290
+\tc@lly=\dimen291
+\tc@urx=\dimen292
+\tc@ury=\dimen293
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen294
+\adjbox@Height=\dimen295
+\adjbox@Depth=\dimen296
+\adjbox@Totalheight=\dimen297
+\adjbox@pwidth=\dimen298
+\adjbox@pheight=\dimen299
+\adjbox@pdepth=\dimen300
+\adjbox@ptotalheight=\dimen301
+ (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count318
+) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box117
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen302
+\@vwid@roff=\dimen303
+)) (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen304
+\lightrulewidth=\dimen305
+\cmidrulewidth=\dimen306
+\belowrulesep=\dimen307
+\belowbottomsep=\dimen308
+\aboverulesep=\dimen309
+\abovetopsep=\dimen310
+\cmidrulesep=\dimen311
+\cmidrulekern=\dimen312
+\defaultaddspace=\dimen313
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen314
+\@belowrulesep=\dimen315
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen316
+) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
+\pgfplots@tmpa=\dimen317
+\c@pgfplots@coordindex=\count324
+\c@pgfplots@scanlineindex=\count325
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count326
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count327
+\t@pgfplotstable@a=\toks45
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count328
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-xetex.def (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count329
+)))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen318
+\pgfdecoratedremainingdistance=\dimen319
+\pgfdecoratedinputsegmentcompleteddistance=\dimen320
+\pgfdecoratedinputsegmentremainingdistance=\dimen321
+\pgf@decorate@distancetomove=\dimen322
+\pgf@decorate@repeatstate=\count330
+\pgfdecorationsegmentamplitude=\dimen323
+\pgfdecorationsegmentlength=\dimen324
+)
+\tikz@lib@dec@box=\box118
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count331
+\pgfplots@xmin@reg=\dimen325
+\pgfplots@xmax@reg=\dimen326
+\pgfplots@ymin@reg=\dimen327
+\pgfplots@ymax@reg=\dimen328
+\pgfplots@zmin@reg=\dimen329
+\pgfplots@zmax@reg=\dimen330
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.groupplots.code.tex
+\pgfplots@group@current@plot=\count332
+\pgfplots@group@current@row=\count333
+\pgfplots@group@current@column=\count334
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.dateplot.code.tex (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+\pgfcalendarcurrentjulian=\count335
+\pgf@cal@easter@Y=\count336
+\pgf@cal@easter@G=\count337
+\pgf@cal@easter@C=\count338
+\pgf@cal@easter@X=\count339
+\pgf@cal@easter@Z=\count340
+\pgf@cal@easter@D=\count341
+\pgf@cal@easter@E=\count342
+\pgf@cal@easter@N=\count343
+\pgf@cal@easter@M=\count344
+\pgf@cal@easter@julianday=\count345
+))) (C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip69
+\subfigcapskip=\skip70
+\subfigcaptopadj=\dimen331
+\subfigbottomskip=\skip71
+\subfigcapmargin=\dimen332
+\subfiglabelskip=\skip72
+\c@subfigure=\count346
+\c@lofdepth=\count347
+\c@subtable=\count348
+\c@lotdepth=\count349
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip73
+\subfig@bottom=\skip74
+) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen333
+\c@nlinenum=\count350
+\TeXr@lab=\toks46
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box119
+\pgfnodeparttwobox=\box120
+\pgfnodepartthreebox=\box121
+\pgfnodepartfourbox=\box122
+\pgfnodeparttwentybox=\box123
+\pgfnodepartnineteenbox=\box124
+\pgfnodeparteighteenbox=\box125
+\pgfnodepartseventeenbox=\box126
+\pgfnodepartsixteenbox=\box127
+\pgfnodepartfifteenbox=\box128
+\pgfnodepartfourteenbox=\box129
+\pgfnodepartthirteenbox=\box130
+\pgfnodeparttwelvebox=\box131
+\pgfnodepartelevenbox=\box132
+\pgfnodeparttenbox=\box133
+\pgfnodepartninebox=\box134
+\pgfnodeparteightbox=\box135
+\pgfnodepartsevenbox=\box136
+\pgfnodepartsixbox=\box137
+\pgfnodepartfivebox=\box138
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen334
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
+ (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
+File: lgrenc.def 2022/06/14 2.1 LGR Greek font encoding definitions
+ (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
+File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
+) (C:\Users\Smplab\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count351
+\Gm@cntv=\count352
+\c@Gm@tempcnt=\count353
+\Gm@bindingoffset=\dimen335
+\Gm@wd@mp=\dimen336
+\Gm@odd@mp=\dimen337
+\Gm@even@mp=\dimen338
+\Gm@layoutwidth=\dimen339
+\Gm@layoutheight=\dimen340
+\Gm@layouthoffset=\dimen341
+\Gm@layoutvoffset=\dimen342
+\Gm@dimlist=\toks47
+ (C:\Users\Smplab\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/layaureo\layaureo.sty
+Package: layaureo 2004/09/16 v0.2
+ (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count354
+\calc@Bcount=\count355
+\calc@Adimen=\dimen343
+\calc@Bdimen=\dimen344
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count356
+\calc@Cskip=\skip77
+)
+\LA@MargineRilegatura=\skip78
+\LA@LarghezzaTesto=\skip79
+\LA@AltezzaTesto=\skip80
+\LA@MargineSinistro=\skip81
+\LA@MargineSuperiore=\skip82
 
 
-C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty:45: Fatal Package fontspec Error: The fontspec package requires either XeTeX or
-(fontspec)                      LuaTeX.
-(fontspec)                      
-(fontspec)                      You must change your typesetting engine to,
-(fontspec)                      e.g., "xelatex" or "lualatex" instead of
-(fontspec)                      "latex" or "pdflatex".
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (679.57123pt) is ignored.
 
-Type <return> to continue.
- ...                                              
-                                                  
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
+) (C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count357
+\c@Blindtext=\count358
+\c@blind@countparstart=\count359
+\blind@countxx=\count360
+\blindtext@numBlindtext=\count361
+\blind@countyy=\count362
+\c@blindlist=\count363
+\c@blindlistlevel=\count364
+\c@blindlist@level=\count365
+\blind@listitem=\count366
+\c@blind@listcount=\count367
+\c@blind@levelcount=\count368
+\blind@mathformula=\count369
+\blind@Mathformula=\count370
+\c@blind@randomcount=\count371
+\c@blind@randommax=\count372
+\c@blind@pangramcount=\count373
+\c@blind@pangrammax=\count374
+) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+ (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count375
+)
+\csq@reset=\count376
+\csq@gtype=\count377
+\csq@glevel=\count378
+\csq@qlevel=\count379
+\csq@maxlvl=\count380
+\csq@tshold=\count381
+\csq@ltx@everypar=\toks48
+ (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Program Files\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen345
+\captionmargin=\dimen346
+\caption@leftmargin=\dimen347
+\caption@rightmargin=\dimen348
+\caption@width=\dimen349
+\caption@indent=\dimen350
+\caption@parindent=\dimen351
+\caption@hangindent=\dimen352
+Package caption Info: Standard document class detected.
+)
+\c@KVtest=\count382
+\sf@farskip=\skip83
+\sf@captopadj=\dimen353
+\sf@capskip=\skip84
+\sf@nearskip=\skip85
+\sf@top=\skip86
+\sf@bottom=\skip87
+) (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count383
+\l__lipsum_a_int=\count384
+\l__lipsum_b_int=\count385
+ (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+\c@caption@flags=\count386
+\c@continuedfloat=\count387
+Package caption Info: subfigure package is loaded.
+) (C:\Program Files\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+\c@@todonotes@numberoftodonotes=\count388
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip88
+\multirow@cntb=\count389
+\multirow@dima=\skip89
+\bigstrutjot=\dimen354
+) (C:\Program Files\MiKTeX\tex/latex/ctable\ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of table and figure floats using key/value directives
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count390
+\rotFPtop=\skip90
+\rotFPbot=\skip91
+\rot@float@box=\box139
+\rot@mess@toks=\toks49
+)
 
-LaTeX does not know anything more about this error, sorry.
+Package ctable Warning: 
+(ctable)                Transparency disabled: pdfTeX is not running in PDF mode .
 
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
+\@CTframesep=\dimen355
+\@dfltCTframesep=\dimen356
+\@CTframerule=\dimen357
+\@dfltCTframerule=\dimen358
+\@CTwidth=\dimen359
+\@dfltCTwidth=\dimen360
+\@CTcaptionskip=\dimen361
+\@dfltCTcaptionskip=\dimen362
+\@CTmaxwidth=\dimen363
+\@dfltCTmaxwidth=\dimen364
+\@CTmincapwidth=\dimen365
+\@dfltCTmincapwidth=\dimen366
+\@CTfooterwidth=\dimen367
+\@dfltCTfooterwidth=\dimen368
+\@CTw=\dimen369
+\@CTfloatwidth=\dimen370
+\@CToldsep=\dimen371
+\@CToldrule=\dimen372
+\CT@t=\box140
+\@CTcurftwidth=\dimen373
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count391
+\float@exts=\toks50
+\float@box=\box141
+\@float@everytoks=\toks51
+\@floatcapt=\box142
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count392
+\lst@gtempboxa=\box143
+\lst@token=\toks52
+\lst@length=\count393
+\lst@currlwidth=\dimen374
+\lst@column=\count394
+\lst@pos=\count395
+\lst@lostspace=\dimen375
+\lst@width=\dimen376
+\lst@newlines=\count396
+\lst@lineno=\count397
+\lst@maxwidth=\dimen377
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count398
+\lst@skipnumbers=\count399
+\lst@framebox=\box144
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Program Files\MiKTeX\tex/latex/background\background.sty
+Package: background 2014/03/04 v2.1 background material
+ (C:\Program Files\MiKTeX\tex/latex/everypage\everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
 
-This is a fatal error: LaTeX will abort.
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks53
+\AP@partial=\box145
+\AP@footins=\box146
+)) (C:\Program Files\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 550 replaced by U+FFFD.
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count400
+\algocf@hangindent=\skip92
+ (C:\Program Files\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip93
+\skiplinenumber=\skip94
+\skiprule=\skip95
+\skiphlne=\skip96
+\skiptext=\skip97
+\skiplength=\skip98
+\algomargin=\skip99
+\skipalgocfslide=\skip100
+\algowidth=\dimen378
+\inoutsize=\dimen379
+\inoutindent=\dimen380
+\interspacetitleruled=\dimen381
+\interspacealgoruled=\dimen382
+\interspacetitleboxruled=\dimen383
+\algocf@ruledwidth=\skip101
+\algocf@inoutbox=\box147
+\algocf@inputbox=\box148
+\AlCapSkip=\skip102
+\AlCapHSkip=\skip103
+\algoskipindent=\skip104
+\algocf@nlbox=\box149
+\algocf@hangingbox=\box150
+\algocf@untilbox=\box151
+\algocf@skipuntil=\skip105
+\algocf@capbox=\box152
+\algocf@lcaptionbox=\skip106
+\algoheightruledefault=\skip107
+\algoheightrule=\skip108
+\algotitleheightruledefault=\skip109
+\algotitleheightrule=\skip110
+\c@algocfline=\count401
+\c@algocfproc=\count402
+\c@algocf=\count403
+\algocf@algoframe=\box153
+\algocf@algobox=\box154
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+ (main.aux (FrontPages.aux)
+
+LaTeX Warning: Label `eq:Type1_cell_current' multiply defined.
+
+
+LaTeX Warning: Label `eq:Batt_OTC_Least_Square_solution' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 130.
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 130.
+ (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 130.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 130.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 130.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 130.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 130.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 130.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 130.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 130.
+LaTeX Font Info:    Redeclaring math accent \check on input line 130.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 130.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 130.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 130.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 130.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 130.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 130.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 130.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 130.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 130.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 130.
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(67.80325pt, 420.0pt, 109.70462pt)
+* v-part:(T,H,B)=(68.5425pt, 705.37247pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=420.0pt
+* \textheight=705.37247pt
+* \oddsidemargin=-4.46674pt
+* \evensidemargin=37.43463pt
+* \topmargin=-46.4066pt
+* \headheight=28.45274pt
+* \headsep=14.22636pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count404
+\openout2 = `FrontPages.aux'.
+
+(FrontPages.tex
+
+Package fontspec Warning: Ignored LuaTeX-only feature:
+(fontspec)                'Renderer=Full/Basic/Node/Base/HarfBuzz'.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Renderer=Basic,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 142.
+ (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: unipv_logo.jpg Graphic file (type bmp)
+<unipv_logo.jpg>
+File: BMS_Architecture_border-modified.PNG Graphic file (type bmp)
+<BMS_Architecture_border-modified.PNG>
+File: BMS_Architecture_border-modified.PNG Graphic file (type bmp)
+<BMS_Architecture_border-modified.PNG>
+ [1
 
 
 
-C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty:45: Emergency stop.
-<read *> 
-         
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-*** (cannot \read from terminal in nonstop modes)
 
- 
+] [2
+
+]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 143--143
+ [] 
+ []
+
+File: unipv_logo.jpg Graphic file (type bmp)
+<unipv_logo.jpg>
+[1] [2
+
+] (Chap00/Dedication.tex) [3
+
+
+] [4
+
+] (Chap00/Acknowledge.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+
+Underfull \vbox (badness 4036) has occurred while \output is active []
+
+ [5
+
+
+]) [6] (Chap00/Abstract.tex
+Underfull \hbox (badness 1281) in paragraph at lines 4--9
+\TU/TimesNewRoman(0)/m/it/12 Coloumb count method and sophisticated Kalman filter algorithms in a wireless
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 4--9
+\TU/TimesNewRoman(0)/m/it/12 communication network(BLE). The proposed Architecture measures synchronized
+ []
+
+) [7
+
+
+
+] [8
+
+] (main.toc [9
+
+] [10])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [11] [12
+
+] (main.lof [13
+
+] [14])
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [15] [16
+
+] (main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [17
+
+] [18
+
+] (Chap00/Preface.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 183.
+ [2] (Chap01/Chap01.tex) [3
+
+
+] [4
+
+] (Chap03/Chap03.tex
+Chapter 1.
+[5
+
+]
+File: Chap03/Figures/Basic_Antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/Basic_Antenna.PNG>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/sl' in size <12> not available
+(Font)              Font shape `TU/TimesNewRoman(0)/b/it' tried instead on input line 48.
+ [6]
+File: Chap03/Figures/Wire_antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/Wire_antenna.PNG>
+File: Chap03/Figures/PCB_Antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/PCB_Antenna.PNG>
+File: Chap03/Figures/Chip_Antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/Chip_Antenna.PNG>
+ [7]
+
+LaTeX Warning: Reference `fig: ANTENNA_RETUNRNLOSS' on page 8 undefined on input line 91.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+[8]
+File: Chap03/Figures/Antenna_ReturnLoss.PNG Graphic file (type bmp)
+<Chap03/Figures/Antenna_ReturnLoss.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+File: Chap03/Figures/Antenna_Bandwidth.PNG Graphic file (type bmp)
+<Chap03/Figures/Antenna_Bandwidth.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 158--162
+[]\TU/TimesNewRoman(0)/m/n/12 An isotropic dipole antenna radiates equally in all directions in the plane
+ []
+
+File: Chap03/Figures/Antenna_Radiation_Pattren.PNG Graphic file (type bmp)
+<Chap03/Figures/Antenna_Radiation_Pattren.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
+[]\TU/TimesNewRoman(0)/m/n/12 Nordic nRF52840[[]] is another Bluetooth hardware similar to the
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 178--184
+[]\TU/TimesNewRoman(0)/m/n/12 , However, we can choose any type of antenna and hardware for Bluetooth,
+ []
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+File: Chap03/Figures/MIFA_Antenna_radiation_direction.PNG Graphic file (type bmp)
+<Chap03/Figures/MIFA_Antenna_radiation_direction.PNG>
+ [12]
+File: Chap03/Figures/MIFA_Antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/MIFA_Antenna.PNG>
+File: Chap03/Figures/mifa_antenna_pcb_example.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_pcb_example.PNG>
+ [13]
+File: Chap03/Figures/MIFA_Antenna_S11.PNG Graphic file (type bmp)
+<Chap03/Figures/MIFA_Antenna_S11.PNG>
+File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG>
+File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_Antenna_gain_pattern_phi_0.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]\TU/TimesNewRoman(0)/m/n/10 (b) MIFA antenna Gain Radiation
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/mifa_antenna_3d.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_3d.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/mifa_antenna_effieciency.PNG Graphic file (type bmp)
+<Chap03/Figures/mifa_antenna_effieciency.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
+File: Chap03/Figures/IFA_antenna.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_antenna.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/IFA_antenna_reflecctions.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_antenna_reflecctions.PNG>
+File: Chap03/Figures/IFA_S11_Change.PNG Graphic file (type bmp)
+<Chap03/Figures/IFA_S11_Change.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(Chap03/Chap03_01_AntennaLayout.tex [15]
+File: Chap03/Figures/Nordic_ST_modules.PNG Graphic file (type bmp)
+<Chap03/Figures/Nordic_ST_modules.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/STM_BLE_Schematic.PNG Graphic file (type bmp)
+<Chap03/Figures/STM_BLE_Schematic.PNG>
+[16]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+File: Chap03/Figures/nordic_module_grounding.PNG Graphic file (type bmp)
+<Chap03/Figures/nordic_module_grounding.PNG>
+File: Chap03/Figures/Nordic_module_power_plane.PNG Graphic file (type bmp)
+<Chap03/Figures/Nordic_module_power_plane.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/Antenna_Feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Antenna_Feed.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/PGND_GNDRF_Isolation.PNG Graphic file (type bmp)
+<Chap03/Figures/PGND_GNDRF_Isolation.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+File: Chap03/Figures/Regular_Antenna_feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Regular_Antenna_feed.PNG>
+File: Chap03/Figures/Irregular_antenna_feed.PNG Graphic file (type bmp)
+<Chap03/Figures/Irregular_antenna_feed.PNG>
+
+Underfull \hbox (badness 2189) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Irregular Antenna shape and
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+File: Chap03/Figures/Top_vias.PNG Graphic file (type bmp)
+<Chap03/Figures/Top_vias.PNG>
+File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
+<Chap03/Figures/Bottom_vias.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20] [21]
+File: Chap03/Figures/power_supply_coupling.PNG Graphic file (type bmp)
+<Chap03/Figures/power_supply_coupling.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap03/Figures/matching_network_layout.PNG Graphic file (type bmp)
+<Chap03/Figures/matching_network_layout.PNG>
+File: Chap03/Figures/matching_network_circuit.PNG Graphic file (type bmp)
+<Chap03/Figures/matching_network_circuit.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] [23])) [24] (Chap04/Chap04.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|\TU/TimesNewRoman(0)/b/n/24.88 Architecture of Wireless
+ []
+
+(Chap04/Chap04_Active_Balancing_Topologies.tex
+Underfull \hbox (badness 1377) in paragraph at lines 4--10
+\TU/TimesNewRoman(0)/m/n/12 The boost converter’s input and output voltage ranges must be large enough to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+
+ []
+
+[25
+
+
+]
+File: Chap04/Figures/Type1a_ABMS.PNG Graphic file (type bmp)
+<Chap04/Figures/Type1a_ABMS.PNG>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+File: Chap04/Figures/Conventiaonal_buck_synch_buck.PNG Graphic file (type bmp)
+<Chap04/Figures/Conventiaonal_buck_synch_buck.PNG>
+File: Chap04/Figures/Conventiaonal_boost_synch_boost.PNG Graphic file (type bmp)
+<Chap04/Figures/Conventiaonal_boost_synch_boost.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
+<Chap04/Figures/Type2a_ABMS.PNG>
+
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [28]
+File: Chap04/Figures/Buck_boost_conventional.PNG Graphic file (type bmp)
+<Chap04/Figures/Buck_boost_conventional.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\TU/TimesNewRoman(0)/m/n/10 (a) Conventional Buck-Boost
+ []
+
+File: Chap04/Figures/Synchronous_buck_boost.PNG Graphic file (type bmp)
+<Chap04/Figures/Synchronous_buck_boost.PNG>
+
+Underfull \hbox (badness 1953) in paragraph at lines 103--104
+[]\TU/TimesNewRoman(0)/m/n/12 Figure 2.5[](a) depicts a potential buck-boost converter implementation. The
+ []
+
+File: Chap04/Figures/Type2abABMS.PNG Graphic file (type bmp)
+<Chap04/Figures/Type2abABMS.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 117--119
+\TU/TimesNewRoman(0)/m/n/12 The system’s implementation using high- and low-side buck-boost converters are
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 117--119
+\TU/TimesNewRoman(0)/m/n/12 sequentially rather than simultaneously. There are two phases to the balancing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+[29]
+File: Chap04/Figures/Type3a_ABMS.PNG Graphic file (type bmp)
+<Chap04/Figures/Type3a_ABMS.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+File: Chap04/Figures/Low_high_side_Converter_shematic.PNG Graphic file (type bmp)
+<Chap04/Figures/Low_high_side_Converter_shematic.PNG>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+File: Chap04/Figures/BMS_Architecture_border.PNG Graphic file (type bmp)
+<Chap04/Figures/BMS_Architecture_border.PNG>
+ [31] [32] (Chap04/Chap04_DC_DC_Converter.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|[]\TU/TimesNewRoman(0)/b/n/14.4 Multiphase Bidirectional DC/DC Current Controller
+ []
+
+[33]
+File: Chap04/Figures/DC_DC_Converter_bench_setup.PNG Graphic file (type bmp)
+<Chap04/Figures/DC_DC_Converter_bench_setup.PNG>
+ [34]) (Chap04/Chap04_SwitchMatrix.tex [35]
+File: Chap04/Figures/switch_matrix.PNG Graphic file (type bmp)
+<Chap04/Figures/switch_matrix.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 19--22
+\TU/TimesNewRoman(0)/m/n/12 By analyzing the criteria mentioned in the section, the choice is made to use
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/TimesNewRoman(0)/m/n/12 Drain current
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\TU/TimesNewRoman(0)/m/n/12 (continuous) at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/12 Peak diode recovery
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Static drain-source
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 @VGS = 10V,@ID =
+ []
+
+
+Overfull \hbox (85.24405pt too wide) in paragraph at lines 26--41
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]) (Chap04/Chap04_Switch_GateDriver.tex [38]
+File: Chap04/Figures/Inrsuh_current_of_LTC4321.PNG Graphic file (type bmp)
+<Chap04/Figures/Inrsuh_current_of_LTC4321.PNG>
+) (Chap04/Chap04_Current_Sense.tex [39]) (Chap04/Chap04_WirelessCommunication.tex)) [40] [41] [42
+
+] (Chap05/Chap05.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|\TU/TimesNewRoman(0)/b/n/24.88 Current Measurement For SoC
+ []
+
+(Chap05/Chap05_CurrentSensing.tex [43
+
+]
+File: Chap05/Figures/TMCS1107_HallSensor.PNG Graphic file (type bmp)
+<Chap05/Figures/TMCS1107_HallSensor.PNG>
+ [44]
+File: Chap05/Figures/INA_high_side_currentsense.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_high_side_currentsense.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 6445) has occurred while \output is active []
+
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+[]\TU/TimesNewRoman(0)/m/n/12 The INA238 can be utilized in accurate systems without undergoing
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 41--43
+\TU/TimesNewRoman(0)/m/n/12 multi-temperature calibration during production thanks to its low offset and gain
+ []
+
+File: Chap05/Figures/INA238_Simplified_Block_diagram.PNG Graphic file (type bmp)
+<Chap05/Figures/INA238_Simplified_Block_diagram.PNG>
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+ [46]
+Underfull \hbox (badness 1242) in paragraph at lines 80--81
+\TU/TimesNewRoman(0)/m/n/12 memory of the device, indicates the memory status. When the gadget is
+ []
+
+[47]
+File: Chap05/Figures/INA238_multi_alert.PNG Graphic file (type bmp)
+<Chap05/Figures/INA238_multi_alert.PNG>
+) (Chap05/Chap05_CurrentReadingSynchronization.tex
+Underfull \hbox (badness 2012) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 it is the main pillar in this project to acquire current measurements and other
+ []
+
+File: Chap05/Figures/INA_MultiWrite.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_MultiWrite.PNG>
+[48]
+File: Chap05/Figures/INA_synchronization_alert.PNG Graphic file (type bmp)
+<Chap05/Figures/INA_synchronization_alert.PNG>
+
+Underfull \hbox (badness 3568) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(0)/m/n/12 The INA238 conversion can be delayed to synchronize with other system
+ []
+
+[49] [50]
+File: Chap05/Figures/ShuntCurrent.png Graphic file (type bmp)
+<Chap05/Figures/ShuntCurrent.png>
+))
+Underfull \hbox (badness 1558) in paragraph at lines 8--212
+\TU/TimesNewRoman(0)/m/n/12 analysis finally we landed with INA2xx series sensors. In section 3.4[], I took
+ []
+
+[51] [52] (Chap06/Chap06.tex
+Chapter 4.
+(Chap06/Chap06_BatteryModeling.tex
+Underfull \hbox (badness 1173) in paragraph at lines 2--9
+\TU/TimesNewRoman(0)/m/n/12 (SOC) of lithium-ion batteries using two different equivalent circuit designs. It
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53
+
+
+]
+File: Chap06/Figures/Batt_Ckt.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Ckt.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54]
+Underfull \hbox (badness 5189) in paragraph at lines 29--31
+[]$[]$\TU/TimesNewRoman(0)/b/it/12 : \TU/TimesNewRoman(0)/m/n/12 Transient response in this model is
+ []
+
+File: Chap06/Figures/Batt_OCV_SOC.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_OCV_SOC.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55]
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Batt_Voltage ' on page 56 undefined on input line 77.
+
+[56] [57]
+File: Chap06/Figures/Batt_Pulsed_current_char.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Pulsed_current_char.PNG>
+ [58]
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+[59]
+Overfull \hbox (61.65562pt too wide) detected at line 232
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--261
+[]\TU/TimesNewRoman(0)/m/n/12 Estimating the values is required for the TTC model’s identification,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--261
+\OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SOC[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SOC[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; v[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ; v[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 3)\OML/cmm/m/it/12 ; v[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ; v[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 3)\OML/cmm/m/it/12 ; ^^\[]and^^\[]$
+ []
+
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [60]
+File: Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]\TU/TimesNewRoman(0)/m/n/10 (a) Ohmic Resistance $\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 =
+ []
+
+File: Chap06/Figures/Batt_Ch_Ohmic_Resistance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Ch_Ohmic_Resistance.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Ohmic Resistance
+ []
+
+File: Chap06/Figures/Batt_DisCh_OutPut_Voltage.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_DisCh_OutPut_Voltage.PNG>
+
+Underfull \hbox (badness 4328) in paragraph at lines 307--307
+[]\TU/TimesNewRoman(0)/m/n/10 (c) Output Voltage of the Battery
+ []
+
+File: Chap06/Figures/Batt_Ch_OutPut_Voltage.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Ch_OutPut_Voltage.PNG>
+
+Underfull \hbox (badness 3701) in paragraph at lines 309--309
+[]\TU/TimesNewRoman(0)/m/n/10 (d) Output Voltage of the Battery
+ []
+
+File: Chap06/Figures/Batt_DisCh_Resistance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_DisCh_Resistance.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]\TU/TimesNewRoman(0)/m/n/10 (e) Dynamic Resistance of the
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 311--311
+\TU/TimesNewRoman(0)/m/n/10 Battery $\OML/cmm/m/it/10 R[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 R[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 =
+ []
+
+File: Chap06/Figures/Batt_Ch_Resistance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Ch_Resistance.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]\TU/TimesNewRoman(0)/m/n/10 (f) Dynamic Resistance of the
+ []
+
+File: Chap06/Figures/Batt_DisCh_Capacitance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_DisCh_Capacitance.PNG>
+
+Underfull \hbox (badness 6792) in paragraph at lines 315--315
+[]\TU/TimesNewRoman(0)/m/n/10 (g) Dynamic Capacitance of the
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 315--315
+\TU/TimesNewRoman(0)/m/n/10 Battery $\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 =
+ []
+
+File: Chap06/Figures/Batt_Ch_Capacitance.PNG Graphic file (type bmp)
+<Chap06/Figures/Batt_Ch_Capacitance.PNG>
+
+Underfull \hbox (badness 7344) in paragraph at lines 317--317
+[]\TU/TimesNewRoman(0)/m/n/10 (h) Dynamic Capacitance of the
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 317--317
+\TU/TimesNewRoman(0)/m/n/10 Battery $\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 =
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Chap06/Chap06_Emulation.tex
+File: Chap06/Figures/Battery_Pack_modeling_Architec.PNG Graphic file (type bmp)
+<Chap06/Figures/Battery_Pack_modeling_Architec.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[61] [62] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [63]
+Underfull \hbox (badness 1014) in paragraph at lines 95--96
+[]\TU/TimesNewRoman(0)/m/n/12 The following code explores the basic programming of the chroma for BMS
+ []
+
+[64]
+File: Chap06/Figures/Chroma_Packet_delay.png Graphic file (type bmp)
+<Chap06/Figures/Chroma_Packet_delay.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 170--171
+\TU/TimesNewRoman(0)/m/n/12 6.11[](a) DC Power Analyzer is a multipurpose power system that combines the
+ []
+
+[65] [66]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
+[] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.c.1 Digital Multimeters 34460A :[] \TU/TimesNewRoman(0)/m/n/12 The only completely drop-in,
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 232--234
+\TU/TimesNewRoman(0)/m/n/12 SCPI-compatible alternative to the 34401A DMM in the market is the Digital
+ []
+
+
+Overfull \hbox (6.00433pt too wide) in paragraph at lines 237--238
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68] [69]
+Overfull \hbox (34.46011pt too wide) in paragraph at lines 338--339
+[]$\OML/cmm/m/it/12 Batt$ \TU/TimesNewRoman(0)/m/n/12 module name which will take $\OML/cmm/m/it/12 < Q[]; dt; SOC[]; i[]; BattModelParams\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SoC\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >$
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 356--392
+\TU/TimesNewRoman(0)/m/n/12 the updated battery voltages, calculating SoC, measuring batteries current). The
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 356--392
+\TU/TimesNewRoman(0)/m/n/12 algorithm describes the implementation of the battery pack for 8 batteries, we
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 356--392
+\TU/TimesNewRoman(0)/m/n/12 can extend even further just by changing the initial SoC array for the module.
+ []
+
+[70] [71]
+Overfull \hbox (67.5092pt too wide) in paragraph at lines 414--414
+\OML/cmm/m/it/12 BattPack\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; LoadCharger\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; MeterView\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; DataCollection\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; dt; SOC\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 [] \OML/cmm/m/it/12 >$  
+ []
+
+
+Overfull \hbox (1.46675pt too wide) in paragraph at lines 443--443
+[]|[]$\OML/cmm/m/it/12 DataCollection\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SOC\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; DCDCoutI; DCDCinI; ChargingI\OT1/cmr/m/n/12 )$  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]) (Chap06/Chap06_BatteryModeling_Results.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\TU/TimesNewRoman(0)/m/n/12 The following code, snippet illustrates the biased current simulation.
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 5--6
+\TU/TimesNewRoman(0)/m/n/12 ”$\OML/cmm/m/it/12 currents \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 self:batEmulator:BateryEmulatorCellCurrent$\TU/TimesNewRoman(0)/m/n/12 ” will fetch the
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 5--6
+\TU/TimesNewRoman(0)/m/n/12 ”$\OML/cmm/m/it/12 ibattBias$\TU/TimesNewRoman(0)/m/n/12 ” biased current is added and calculated as new open circuit voltage
+ []
+
+[74]
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Voltage_SOC.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Voltage_SOC.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Charging_Voltage_Cycles.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\TU/TimesNewRoman(0)/m/n/10 (a) Battery Pack Voltages Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]\TU/TimesNewRoman(0)/m/n/10 (b) Battery Pack Voltages Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Charging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Discharging_SOC_Cycles.png>
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_SOC_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_SOC_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\TU/TimesNewRoman(0)/m/n/10 (e) Battery Pack SOCs Vs Cycles
+ []
+
+File: Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png Graphic file (type bmp)
+<Chap06/Figures/PowerAnalyzerResults/Batt_Pack_Diff_SOC_Charging_Voltage_Cycles.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]\TU/TimesNewRoman(0)/m/n/10 (f) Battery Pack SOCs Vs Cycles
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 55--59
+[]\TU/TimesNewRoman(0)/m/n/12 The results in 4.7[] will enrich the battery modeling and power analyzer
+ []
+
+)
+Underfull \hbox (badness 1019) in paragraph at lines 11--13
+\TU/TimesNewRoman(0)/m/n/12 seen in Part II, implementing battery models with the script and emulating with
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]) [76] [77] [78] [79] [80] (Chap07/Chap07.tex
+Chapter 5.
+
+Underfull \hbox (badness 2065) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 The Lithium-ion batteries are the most popular varieties. Due to their safety,
+ []
+
+(Chap07/Chap07_CoulmbCounting.tex [81
+
+
+]) (Chap07/Chap07_KalmanFilter.tex [82]
+Underfull \hbox (badness 3375) in paragraph at lines 12--13
+\TU/TimesNewRoman(0)/m/n/12 This section outlines the fundamental design of a Kalman filter, which takes
+ []
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 14.
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [83] [84] [85]
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+File: Chap07/Figures/Kalman_principle.PNG Graphic file (type bmp)
+<Chap07/Figures/Kalman_principle.PNG>
+[86]
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingCurrent.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingCurrent.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[87]
+File: Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png>
+
+Underfull \hbox (badness 1997) in paragraph at lines 244--247
+\TU/TimesNewRoman(0)/m/n/12 Undoubtedly Kalman filter is the most robust and well-assimilated approach to
+ []
+
+[89] [90]
+File: Chap07/Figures/UKF_UT.PNG Graphic file (type bmp)
+<Chap07/Figures/UKF_UT.PNG>
+
+Underfull \hbox (badness 1845) in paragraph at lines 285--294
+[]\TU/TimesNewRoman(0)/m/n/12 Where $\OML/cmm/m/it/12 W[]; W[]$ \TU/TimesNewRoman(0)/m/n/12 separately the weight factors of the mean value and the
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+File: Chap07/Figures/SoC_estimation_based_on_UKF.PNG Graphic file (type bmp)
+<Chap07/Figures/SoC_estimation_based_on_UKF.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png>
+File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94] [95]
+File: Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png Graphic file (type bmp)
+<Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png>
+)) [96] (Chap_Miselleneous/Chap_Misellaneous.tex
+Chapter 6.
+(Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex
+File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_BOTTOM.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_BOTTOM.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER1.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER1.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER2.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_LAYER2.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97
+
+
+]
+File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/Nordic_TOP.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_BOTTOM.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/Nordic_BOTTOM.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER1.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER1.PNG>
+File: Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER2.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/Nordic_LAYER2.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG>
+) (Chap_Miselleneous/Chap04_Mise/Chap04_Mise.tex
+File: Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG>
+File: Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG>
+File: Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
+<Chap04/Figures/Type2a_ABMS.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap_Miselleneous/Chap04_Mise/Figures/Bi_buck_boost_low_side.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/Bi_buck_boost_low_side.PNG>
+
+Underfull \hbox (badness 1845) in paragraph at lines 78--78
+[]\TU/TimesNewRoman(0)/m/n/10 (a) Single operation bidirectional
+ []
+
+File: Chap_Miselleneous/Chap04_Mise/Figures/Bi_buck_boost_High_side.PNG Graphic file (type bmp)
+<Chap_Miselleneous/Chap04_Mise/Figures/Bi_buck_boost_High_side.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Chap_Miselleneous/Chap06_Mise/Chap06_Mise.tex
+Underfull \hbox (badness 1466) in paragraph at lines 4--37
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..1 Example 1:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 1 simulate a BMS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--37
+
+ []
+
+[100]
+Underfull \hbox (badness 1466) in paragraph at lines 39--67
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--67
+
+ []
+
+[101]
+File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
+<Chap06/Figures/keysight_n6705.PNG>
+File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
+<Chap06/Figures/DMM_34460A.PNG>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chap06/Figures/Chroma.PNG Graphic file (type bmp)
+<Chap06/Figures/Chroma.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/TimesNewRoman(0)/m/n/10 (a) 16CH Battery Cell
+ []
+
+File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
+<Chap06/Figures/Chroma_Output_wiring.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [102])) [103] [104] [105] [106] [107] [108
+
+] (Conclusion/Conclusion.tex (Conclusion/Conclusion_Chap01.tex [109
+
+])) [110] (main.bbl
+Underfull \hbox (badness 3019) in paragraph at lines 62--65
+\TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
+ []
+
+[111
+
+
+] [112]
+Underfull \hbox (badness 2809) in paragraph at lines 184--186
+[]\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 222--224
+[]\TU/TimesNewRoman(0)/m/n/12 A. Rahmoun and H. Biechl, “Parameters identification of equivalent circuit
+ []
+
+[113]) [114]
+runsystem(makeindex main.idx)...executed safely (allowed).
+
+ (main.ind) (main.aux (FrontPages.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2485 strings out of 475385
- 41889 string characters out of 2786718
- 386498 words of memory out of 3000000
- 23872 multiletter control sequences out of 15000+600000
- 469557 words of font info for 29 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 87i,0n,91p,796b,44s stack positions out of 10000i,1000n,20000p,200000b,80000s
-C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty:45:  ==> Fatal error occurred, no output PDF file produced!
+ 41094 strings out of 410532
+ 1020623 string characters out of 2817561
+ 2102523 words of memory out of 3000000
+ 61326 multiletter control sequences out of 15000+600000
+ 482885 words of font info for 118 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 87i,17n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+Output written on main.xdv (134 pages, 2069824 bytes).

@@ -1,0 +1,127 @@
+\contentsline {chapter}{}{iii}{}%
+\contentsline {chapter}{Acknowledgment}{v}{}%
+\contentsline {chapter}{Abstract}{vii}{}%
+\contentsline {chapter}{List of Figures}{xiii}{}%
+\contentsline {chapter}{List of Tables}{xvii}{}%
+\contentsline {chapter}{\numberline {1}Bluetooth Module Design}{5}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{5}{}%
+\contentsline {section}{\numberline {1.2}Antenna Basics :}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Antenna Types:}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.a}Wire Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.b} PCB Antenna :}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.1.c} Chip Antenna :}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}Antenna Parameters}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.a}Return loss :}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.b}Bandwidth :}{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.c}Radiation efficiency: }{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.d}Radiation pattern:}{10}{}%
+\contentsline {subsubsection}{\numberline {1.2.2.e}Gain :}{10}{}%
+\contentsline {section}{\numberline {1.3}Motivation for Designing BLE Modules }{10}{}%
+\contentsline {section}{\numberline {1.4}PCB Meandered Inverted-F Antenna (PIFA/MIFA)}{12}{}%
+\contentsline {subsection}{\numberline {1.4.1}Antenna used in Inventvm BLE modules :}{13}{}%
+\contentsline {subsection}{\numberline {1.4.2}S11 of the MIFA/PIFA antenna}{14}{}%
+\contentsline {subsection}{\numberline {1.4.3}MIFA/PIFA antennas 3D pattern :}{14}{}%
+\contentsline {section}{\numberline {1.5}Inverterd-F Antenna:}{14}{}%
+\contentsline {section}{\numberline {1.6}BLE Schematic and PCB layout}{15}{}%
+\contentsline {subsection}{\numberline {1.6.1}BluEnergy-355MC}{16}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.a}BluEnergy-355MC RF Schematic:}{16}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.b}BluEnergy-355MC RF Layout:}{17}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.c}Power Supply Decoupling Layout Considerations\cite {AN91445}}{21}{}%
+\contentsline {subsubsection}{\numberline {1.6.1.d}BluEnergy-355MC RF Matching Circuit Layout:}{22}{}%
+\contentsline {subsection}{\numberline {1.6.2}Summary of the RF layout Design guidelines :}{23}{}%
+\contentsline {section}{\numberline {1.7}Conclusion of the Chapter \ref {chap:BLE}}{24}{}%
+\contentsline {chapter}{\numberline {2}Architecture of Wireless Communication Active Balancing BMS}{25}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{25}{}%
+\contentsline {section}{\numberline {2.2}Active Balancing Topologies for BMS }{25}{}%
+\contentsline {subsection}{\numberline {2.2.1}\textit {Type Ia} : Combination of Buck and Boost Converter}{25}{}%
+\contentsline {subsection}{\numberline {2.2.2}\textit {Type Ia} : Combination of the Buck/Boost Converter :}{25}{}%
+\contentsline {subsection}{\numberline {2.2.3}\textit {Type Ib} : \textit {Type Ia} with a bidirectional converter :}{27}{}%
+\contentsline {subsection}{\numberline {2.2.4}\textit {Type IIa} : Buck-boost converter :}{28}{}%
+\contentsline {subsection}{\numberline {2.2.5}\textit {Type IIb} : Bidirectional buck-boost converter :}{29}{}%
+\contentsline {subsection}{\numberline {2.2.6}\textit {Type IIIa} : High - and low-side buck-boost converters :}{29}{}%
+\contentsline {section}{\numberline {2.3}Proposed Active Balancing Method}{31}{}%
+\contentsline {section}{\numberline {2.4}Overview of Active balancing BMS Architecture}{32}{}%
+\contentsline {section}{\numberline {2.5}Retrospect of BMS Hardware}{33}{}%
+\contentsline {subsection}{\numberline {2.5.1}Multiphase Bidirectional DC/DC Current Controller LM5170-Q1}{33}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.a}Definition of IC LM5170 Operation Modes:}{34}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.b}Bench setup and operation of the DC/DC Converter :}{34}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.c}The operation of the DC converter is as follows (The Figure \ref {fig:LM5170_DC_DC_Converter_Operation_Setup}) :}{35}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.d}Summary of the DC/DC Converter:}{36}{}%
+\contentsline {subsection}{\numberline {2.5.2}Switch Matrix :}{36}{}%
+\contentsline {subsubsection}{\numberline {2.5.2.a}The initiative understanding behind choosing the switch matrix MOSFET:}{36}{}%
+\contentsline {subsection}{\numberline {2.5.3}Matrix Switch Gate Driver :}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.3.a}LTC4231 :}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.3.b}Inrush Current Control by LTC4231 :}{39}{}%
+\contentsline {subsection}{\numberline {2.5.4}Current Sense :}{40}{}%
+\contentsline {subsection}{\numberline {2.5.5}Wireless Communication Hardware :}{40}{}%
+\contentsline {section}{\numberline {2.6}Summary of Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{40}{}%
+\contentsline {chapter}{\numberline {3}Current Measurement For SoC Estimation}{43}{}%
+\contentsline {section}{\numberline {3.1}Current Sensing}{43}{}%
+\contentsline {section}{\numberline {3.2}Hall Effect Current Sensors }{44}{}%
+\contentsline {subsection}{\numberline {3.2.1}TMCS1107xx Sensors :}{44}{}%
+\contentsline {section}{\numberline {3.3}Shunt Resistors for Battery Current Measurement}{45}{}%
+\contentsline {section}{\numberline {3.4}INA238/INA2xx}{46}{}%
+\contentsline {section}{\numberline {3.5}Current Measurements Synchronization}{48}{}%
+\contentsline {subsection}{\numberline {3.5.1}Simultaneous Write and Sequential Read :}{48}{}%
+\contentsline {subsection}{\numberline {3.5.2}Synchronizing by Delayed Measurements }{49}{}%
+\contentsline {paragraph}{\numberline {3.5.2..1}Implementation of Synchronizing by Delayed Measurements Algorithm:}{50}{}%
+\contentsline {section}{\numberline {3.6}Balancing Current Measurement}{50}{}%
+\contentsline {section}{\numberline {3.7}Summery of Chapter \ref {ch:Current_Measurement}}{51}{}%
+\contentsline {chapter}{\numberline {4}Battery Modeling and Emulation}{53}{}%
+\contentsline {section}{\numberline {4.1}Battery Modeling}{54}{}%
+\contentsline {subsection}{\numberline {4.1.1}Nomenclature of Battery Model}{54}{}%
+\contentsline {subsection}{\numberline {4.1.2}IR Model :}{55}{}%
+\contentsline {subsection}{\numberline {4.1.3}One-Time Constant Model }{56}{}%
+\contentsline {subsection}{\numberline {4.1.4}Two-Time Constant Model }{56}{}%
+\contentsline {subsection}{\numberline {4.1.5}Estimation of the Model Parameters}{57}{}%
+\contentsline {subsubsection}{\numberline {4.1.5.a}Charging and Discharging :}{57}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.1}Ohmic Resistance :}{58}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.2}Estimation of the OTC Model Parameters :}{59}{}%
+\contentsline {paragraph}{\numberline {4.1.5.a.3}Estimation of the TTC Model Parameters :}{59}{}%
+\contentsline {subsection}{\numberline {4.1.6}Experimental and Computational Results of SLPB120216216}{61}{}%
+\contentsline {section}{\numberline {4.2}Battery Emulation}{61}{}%
+\contentsline {subsection}{\numberline {4.2.1}Fundamental Instruments For Battery Emulation }{61}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.a}Chroma :}{62}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.1}Sepcifications of the Chroma :}{62}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.2}Output Wiring of the Chroma :}{63}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.3}Configuring the Chroma:}{63}{}%
+\contentsline {paragraph}{\numberline {4.2.1.a.4}Response Time of the Chroma :}{65}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.b}Load/Charger :}{65}{}%
+\contentsline {paragraph}{\numberline {4.2.1.b.1} Keysight N6705 DC Power Analyzer :}{65}{}%
+\contentsline {subsubsection}{\numberline {4.2.1.c}Meter View :}{67}{}%
+\contentsline {paragraph}{\numberline {4.2.1.c.1}Digital Multimeters 34460A :}{67}{}%
+\contentsline {subsection}{\numberline {4.2.2} Battery Modeling :}{69}{}%
+\contentsline {subsection}{\numberline {4.2.3}Battery Pack Modeling :}{70}{}%
+\contentsline {subsection}{\numberline {4.2.4}Power Analyzer Modeling}{73}{}%
+\contentsline {section}{\numberline {4.3}Discussion of The Battery Modeling Results}{74}{}%
+\contentsline {section}{\numberline {4.4}Summery of Chapter \ref {ch:Battery_Modeling_Emulation}}{76}{}%
+\contentsline {chapter}{\numberline {5}Battery SOC Estimation Algorithms}{81}{}%
+\contentsline {section}{\numberline {5.1}Coulomb Counting Algorithm (CC)}{81}{}%
+\contentsline {section}{\numberline {5.2}Kalman Filter}{82}{}%
+\contentsline {subsection}{\numberline {5.2.1}The Discrete Kalam Filter}{83}{}%
+\contentsline {subsection}{\numberline {5.2.2}Extended Kalman Filter}{85}{}%
+\contentsline {section}{\numberline {5.3}Extended Kalman Filter Results Discussion}{87}{}%
+\contentsline {subsection}{\numberline {5.3.1}Charging Mode of the LIPO Batteries :}{87}{}%
+\contentsline {subsection}{\numberline {5.3.2}Sampling Time $dt$ :}{87}{}%
+\contentsline {subsection}{\numberline {5.3.3}SOC estimation by Kalman Filter:}{89}{}%
+\contentsline {section}{\numberline {5.4}Limitations of the Kalman Filter for SoC Estimation }{89}{}%
+\contentsline {section}{\numberline {5.5}Future of the Kalman Filter}{90}{}%
+\contentsline {subsection}{\numberline {5.5.1}Unscented Kalman Filter}{90}{}%
+\contentsline {subsection}{\numberline {5.5.2}Adaptive Unscented Kalman Filter}{93}{}%
+\contentsline {section}{\numberline {5.6}Comparision of Kalman Algorithms Results}{95}{}%
+\contentsline {subsubsection}{\numberline {5.6.0.a}Convergence of Kalman Algorithms :}{95}{}%
+\contentsline {section}{\numberline {5.7}Summer of the Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{96}{}%
+\contentsline {chapter}{\numberline {6}Misellaneous}{97}{}%
+\contentsline {section}{\numberline {6.1}Chapter \ref {chap:BLE}}{97}{}%
+\contentsline {subsubsection}{\numberline {6.1.0.a}BLUeNRG-355mc BLE module Layout :}{97}{}%
+\contentsline {subsubsection}{\numberline {6.1.0.b}Nordic nrf52840 BLE module Layout :}{98}{}%
+\contentsline {section}{\numberline {6.2}Chapter \ref {ch:Architecture_Active_Balancing_BMS}}{98}{}%
+\contentsline {subsubsection}{\numberline {6.2.0.a} Design Example for the LTC4321 Gate Driver :}{98}{}%
+\contentsline {section}{\numberline {6.3}Chapter \ref {ch:Battery_Modeling_Emulation}}{100}{}%
+\contentsline {subsection}{\numberline {6.3.1}Chroma SCPI Commands Example Programs}{100}{}%
+\contentsline {paragraph}{\numberline {6.3.1..1}Example 1:}{100}{}%
+\contentsline {paragraph}{\numberline {6.3.1..2}Example 2:}{101}{}%
+\contentsline {section}{\numberline {6.4}Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{102}{}%
+\contentsline {subsection}{\numberline {6.4.1}Extended Kaman Filter Implementation}{102}{}%
+\contentsline {section}{\numberline {6.5}Chapter \ref {chap:BLE}}{109}{}%
+\contentsline {subsection}{\numberline {6.5.1}Future of BLE in BMS}{110}{}%
