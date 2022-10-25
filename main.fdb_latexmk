@@ -1,22 +1,22 @@
 # Fdb version 3
-["bibtex main"] 1666626338 "main.aux" "main.bbl" "main" 1666626365
+["bibtex main"] 1666701573 "main.aux" "main.bbl" "main" 1666701603
   "./Ref/IEEEtran.bst" 1660815198 59214 a90e64071cc7185c225b4d6ec93de903 ""
-  "FrontPages.aux" 1666626345 1341 a164f3291708039e03891b59655da697 "xelatex"
+  "FrontPages.aux" 1666701580 1341 a164f3291708039e03891b59655da697 "xelatex"
   "Ref/SampleReferences.bib" 1666366320 23333 dfb992df33c304e129c501f94dc745a4 ""
-  "main.aux" 1666626352 46630 1c635f1afa0b61d423615f09e2951c72 "xelatex"
+  "main.aux" 1666701587 46398 55076bf3c793e20a22a53fa6d4282af3 "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1666626365
+["makeindex main.idx"] 0 "main.idx" "main.ind" "main" 1666701603
   "main.idx" 0 -1 0 "xelatex"
   (generated)
   "main.ilg"
   "main.ind"
-["xdvipdfmx"] 1666626354 "main.xdv" "main.pdf" "main" 1666626365
-  "main.xdv" 1666626352 2069824 4f1d5beaa5ccbfde8c1a32bd728b1eae "xelatex"
+["xdvipdfmx"] 1666701590 "main.xdv" "main.pdf" "main" 1666701603
+  "main.xdv" 1666701588 2151284 4469ef940447b93f8aa56034563eb0d8 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1666626339 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1666626365
+["xelatex"] 1666701574 "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" "main.xdv" "main" 1666701603
   "BMS_Architecture_border-modified.PNG" 1663859351 149200 ae8b72f4279a03bd5818f50f0afea94f ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233955448 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -414,19 +414,23 @@
   "Chap_Miselleneous/Chap06_Mise/Chap06_Mise.tex" 1666075741 3069 aaeeae14379d9a13fe59a24c8c38468c ""
   "Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex" 1666173961 1154 2b9febbec939363178761c5db10e2c76 ""
   "Chap_Miselleneous/Chap_Misellaneous.tex" 1666076157 464 a09a95576c466e1035d59ff84f72cfa4 ""
-  "Conclusion/Conclusion.tex" 1666623102 795 c8778e3a234130ab73f17a5591f29d2e ""
-  "Conclusion/Conclusion_Chap01.tex" 1666626276 3409 73930ab895a99f04aadc7ca25d04294d ""
-  "FrontPages.aux" 1666626345 1341 a164f3291708039e03891b59655da697 "xelatex"
+  "Conclusion/Conclusion.tex" 1666701507 1464 73144b151c3d944ed1bf2fb219000115 ""
+  "Conclusion/Conclusion_Chap01.tex" 1666700133 3410 e15783a78cda16f7bda842d25fc01fc3 ""
+  "Conclusion/Conclusion_Chap02.tex" 1666700133 1517 317dff69a89af5414a3deff0aafe3f70 ""
+  "Conclusion/Conclusion_Chap03.tex" 1666700133 2929 cb3cdaaebb511dc629be45073d87b0c2 ""
+  "Conclusion/Conclusion_Chap04.tex" 1666700133 2457 62444a8598eb687f95dec8b5f27c799e ""
+  "Conclusion/Conclusion_Chap05.tex" 1666700910 1246 9191c4a6a7c3716a372f5717d8581d2b ""
+  "FrontPages.aux" 1666701580 1341 a164f3291708039e03891b59655da697 "xelatex"
   "FrontPages.tex" 1664181921 1984 adb6fc0f0af79066e867232a34379725 ""
   "NITR.cls" 1660815198 23742 48a561bc9b0c555c70e914557b721348 ""
   "c:/Users/Smplab/Documents/programing/My_Thesis/Thesis/main.tex" 1666605266 8881 ceef4a846e994fcf56898c0446648614 ""
-  "main.aux" 1666626352 46630 1c635f1afa0b61d423615f09e2951c72 "xelatex"
-  "main.bbl" 1666626339 11430 83a4c5b7ddddbd6b7ffb4dd719f5e770 "bibtex main"
+  "main.aux" 1666701587 46398 55076bf3c793e20a22a53fa6d4282af3 "xelatex"
+  "main.bbl" 1666701574 11430 83a4c5b7ddddbd6b7ffb4dd719f5e770 "bibtex main"
   "main.ind" 0 -1 0 "makeindex main.idx"
-  "main.lof" 1666626352 8720 a49fe87a9a0d497d1f2443cec37a2130 "xelatex"
-  "main.lot" 1666626352 473 169b8e347c4af6934d3e66b605de1db7 "xelatex"
+  "main.lof" 1666701588 8720 a49fe87a9a0d497d1f2443cec37a2130 "xelatex"
+  "main.lot" 1666701588 473 169b8e347c4af6934d3e66b605de1db7 "xelatex"
   "main.tex" 1666605266 8881 ceef4a846e994fcf56898c0446648614 ""
-  "main.toc" 1666626352 10831 0cabe013bd1ea665f238c477d1bdb43f "xelatex"
+  "main.toc" 1666701587 10681 ce0e8d85ada723701ee75653d9a6bb2d "xelatex"
   "unipv_logo.jpg" 1660815198 86573 3c340fad648ba4aa0b2082a54ef3441a ""
   (generated)
   "FrontPages.aux"

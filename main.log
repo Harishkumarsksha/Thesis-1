@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  24 OCT 2022 17:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  25 OCT 2022 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2265,15 +2265,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] (Conclusion/Conclusion.tex (Conclusion/Conclusion_Chap01.tex [109
 
-])) [110] (main.bbl
+]) (Conclusion/Conclusion_Chap02.tex [110]) (Conclusion/Conclusion_Chap03.tex) (Conclusion/Conclusion_Chap04.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--1
+
+ []
+
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+[112]) (Conclusion/Conclusion_Chap05.tex)) [113] [114
+
+] (main.bbl
 Underfull \hbox (badness 3019) in paragraph at lines 62--65
 \TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
  []
 
-[111
+[115
 
-
-] [112]
+] [116]
 Underfull \hbox (badness 2809) in paragraph at lines 184--186
 []\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
  []
@@ -2283,7 +2314,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 222--224
 []\TU/TimesNewRoman(0)/m/n/12 A. Rahmoun and H. Biechl, “Parameters identification of equivalent circuit
  []
 
-[113]) [114]
+[117]) [118]
 runsystem(makeindex main.idx)...executed safely (allowed).
 
  (main.ind) (main.aux (FrontPages.aux))
@@ -2295,12 +2326,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 41094 strings out of 410532
- 1020623 string characters out of 2817561
+ 41118 strings out of 410532
+ 1021395 string characters out of 2817561
  2102523 words of memory out of 3000000
- 61326 multiletter control sequences out of 15000+600000
+ 61338 multiletter control sequences out of 15000+600000
  482885 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (134 pages, 2069824 bytes).
+Output written on main.xdv (138 pages, 2151284 bytes).

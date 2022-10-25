@@ -123,5 +123,3 @@
 \contentsline {paragraph}{\numberline {6.3.1..2}Example 2:}{101}{}%
 \contentsline {section}{\numberline {6.4}Chapter \ref {ch:Battery_SOC_Estimation_Algorithms}}{102}{}%
 \contentsline {subsection}{\numberline {6.4.1}Extended Kaman Filter Implementation}{102}{}%
-\contentsline {section}{\numberline {6.5}Chapter \ref {chap:BLE}}{109}{}%
-\contentsline {subsection}{\numberline {6.5.1}Future of BLE in BMS}{110}{}%
