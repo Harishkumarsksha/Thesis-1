@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  25 OCT 2022 14:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.10.11)  26 OCT 2022 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,14 +1010,7 @@ Package: relsize 2013/03/29 ver 4.1
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (main.aux (FrontPages.aux)
-
-LaTeX Warning: Label `eq:Type1_cell_current' multiply defined.
-
-
-LaTeX Warning: Label `eq:Batt_OTC_Least_Square_solution' multiply defined.
-
-)
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
@@ -1247,12 +1240,57 @@ Underfull \vbox (badness 4036) has occurred while \output is active []
 
 
 ]) [6] (Chap00/Abstract.tex
-Underfull \hbox (badness 1281) in paragraph at lines 4--9
+Runaway argument?
+{ The enduring theme in the development of vehicle technology is "saf\ETC.
+Chap00/Abstract.tex:10: Paragraph ended before \text@command was complete.
+<to be read again> 
+                   \par 
+l.10 }
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 10--10
+\TU/TimesNewRoman(0)/m/n/12 Coloumb count method and sophisticated Kalman filter algorithms in a wireless
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 10--10
+\TU/TimesNewRoman(0)/m/n/12 communication network(BLE). The proposed Architecture measures synchronized
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 10--10
+\TU/TimesNewRoman(0)/m/it/12 theme in the development of vehicle technology is ”safety, energy conservation,
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 10--10
+\TU/TimesNewRoman(0)/m/it/12 and environmental protection.” With the current global energy crisis and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+
+ []
+
+Chap00/Abstract.tex:10: Too many }'s.
+<recently read> \egroup 
+                        
+l.10 }
+      
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 10--11
 \TU/TimesNewRoman(0)/m/it/12 Coloumb count method and sophisticated Kalman filter algorithms in a wireless
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 4--9
+Underfull \hbox (badness 2990) in paragraph at lines 10--11
 \TU/TimesNewRoman(0)/m/it/12 communication network(BLE). The proposed Architecture measures synchronized
  []
 
@@ -1262,29 +1300,32 @@ Underfull \hbox (badness 2990) in paragraph at lines 4--9
 
 ] [8
 
-] (main.toc [9
-
-] [10])
+]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [11] [12
+[9
 
-] (main.lof [13
+] [10
 
-] [14])
+]
+No file main.lof.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [15] [16
+[11
 
-] (main.lot)
+] [12
+
+]
+No file main.lot.
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [17
+[13
 
-] [18
+] [14
 
 ] (Chap00/Preface.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1294,39 +1335,76 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 183.
- [2] (Chap01/Chap01.tex) [3
+ [2] (Chap00/Introduction.tex
+
+Package natbib Warning: Citation `Real_Time_SOC_Estimation_Based_On_EKF_And_UKF_PTorin_Lei' on page 3 undefined on input line 2.
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 4--5
+[]\TU/TimesNewRoman(0)/m/it/12 At present, the world heading towards safe and green energy. One of the
+ []
+
+) [3
 
 
 ] [4
 
+] (Chap01/Chap01.tex) [5
+
+] [6
+
 ] (Chap03/Chap03.tex
 Chapter 1.
-[5
+
+Underfull \hbox (badness 1057) in paragraph at lines 8--12
+\TU/TimesNewRoman(0)/m/it/12 radiation patterns, efficiency, etc... It is very unusual to use a wide variety of
+ []
+
+[7
 
 ]
 File: Chap03/Figures/Basic_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Basic_Antenna.PNG>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/sl' in size <12> not available
 (Font)              Font shape `TU/TimesNewRoman(0)/b/it' tried instead on input line 48.
- [6]
+ [8]
 File: Chap03/Figures/Wire_antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Wire_antenna.PNG>
 File: Chap03/Figures/PCB_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/PCB_Antenna.PNG>
 File: Chap03/Figures/Chip_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/Chip_Antenna.PNG>
- [7]
+ [9]
 
-LaTeX Warning: Reference `fig: ANTENNA_RETUNRNLOSS' on page 8 undefined on input line 91.
+LaTeX Warning: Reference `fig: ANTENNA_RETUNRNLOSS' on page 10 undefined on input line 91.
+
+
+Package natbib Warning: Citation `AN91445' on page 10 undefined on input line 91.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-[8]
+
+LaTeX Warning: Reference `eq:Antenna_Returnloss' on page 10 undefined on input line 93.
+
+
+LaTeX Warning: Reference `fig:ANTENNA_RETUNRNLOSS' on page 10 undefined on input line 94.
+
+
+LaTeX Warning: Reference `tb:ANTENNA_RETURNlOSS_TABLE' on page 10 undefined on input line 94.
+
+
+Package natbib Warning: Citation `AN91445' on page 10 undefined on input line 95.
+
+[10]
 File: Chap03/Figures/Antenna_ReturnLoss.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_ReturnLoss.PNG>
+
+
+Package natbib Warning: Citation `AN91445' on page 11 undefined on input line 132.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
@@ -1337,15 +1415,45 @@ File: Chap03/Figures/Antenna_Bandwidth.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
+
+LaTeX Warning: Reference `fig:ANTENNA_BANDWIDTH' on page 11 undefined on input line 141.
+
+
+Package natbib Warning: Citation `AN91445' on page 11 undefined on input line 144.
+
+
+LaTeX Warning: Reference `eq:Antenna_Returnloss' on page 11 undefined on input line 148.
+
+
+Package natbib Warning: Citation `AN91445' on page 11 undefined on input line 151.
+
+[11]
+
+Package natbib Warning: Citation `AN91445' on page 12 undefined on input line 155.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 154--156
+\TU/TimesNewRoman(0)/m/it/12 Radiation pattern indicates the directional property of radiation, that is, which
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 158--162
-[]\TU/TimesNewRoman(0)/m/n/12 An isotropic dipole antenna radiates equally in all directions in the plane
+LaTeX Warning: Reference `fig:ANTENNA_RADIATION_PATTERN' on page 12 undefined on input line 159.
+
+
+Package natbib Warning: Citation `AN91445' on page 12 undefined on input line 161.
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 158--162
+[]\TU/TimesNewRoman(0)/m/it/12 An isotropic dipole antenna radiates equally in all directions in the plane
  []
+
+
+Package natbib Warning: Citation `AN91445' on page 12 undefined on input line 167.
 
 File: Chap03/Figures/Antenna_Radiation_Pattren.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_Radiation_Pattren.PNG>
@@ -1353,27 +1461,82 @@ File: Chap03/Figures/Antenna_Radiation_Pattren.PNG Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
-[]\TU/TimesNewRoman(0)/m/n/12 Nordic nRF52840[[]] is another Bluetooth hardware similar to the
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 12 undefined on input line 178.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 12 undefined on input line 178.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 12 undefined on input line 179.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_SOFTWARESTACK_GUIDE' on page 12 undefined on input line 179.
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 178--184
+[]\TU/TimesNewRoman(0)/m/it/12 Nordic nRF52840[\TU/TimesNewRoman(0)/b/n/12 ? \TU/TimesNewRoman(0)/m/it/12 ] is another Bluetooth hardware similar to the
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 178--184
-[]\TU/TimesNewRoman(0)/m/n/12 , However, we can choose any type of antenna and hardware for Bluetooth,
+Underfull \hbox (badness 1062) in paragraph at lines 178--184
+[]\TU/TimesNewRoman(0)/m/it/12 , However, we can choose any type of antenna and hardware for Bluetooth,
  []
 
-[10]
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [13]
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 14 undefined on input line 188.
+
 File: Chap03/Figures/MIFA_Antenna_radiation_direction.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna_radiation_direction.PNG>
- [12]
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 14 undefined on input line 198.
+
+
+LaTeX Warning: Reference `fig:MIFA_RADIATION_DIRECTION' on page 14 undefined on input line 198.
+
+
+Package natbib Warning: Citation `PIFA2017Cheuk' on page 14 undefined on input line 200.
+
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 14 undefined on input line 200.
+
+[14]
 File: Chap03/Figures/MIFA_Antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna.PNG>
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 15 undefined on input line 206.
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 15 undefined on input line 206.
+
+
+LaTeX Warning: Reference `fig:MIFA_Antenna_1' on page 15 undefined on input line 211.
+
+
+Package natbib Warning: Citation `NXPBLE_Antenna_Guide' on page 15 undefined on input line 211.
+
 File: Chap03/Figures/mifa_antenna_pcb_example.PNG Graphic file (type bmp)
 <Chap03/Figures/mifa_antenna_pcb_example.PNG>
- [13]
+
+LaTeX Warning: Reference `tb:MIFA_ANTENNA_SIMULATION_PARAMETERS' on page 15 undefined on input line 220.
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 15 undefined on input line 247.
+
+
+Package natbib Warning: Citation `NXP_AN11994_Antenna_Guide' on page 15 undefined on input line 247.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:MIFA_S11' on page 15 undefined on input line 252.
+
+[15]
 File: Chap03/Figures/MIFA_Antenna_S11.PNG Graphic file (type bmp)
 <Chap03/Figures/MIFA_Antenna_S11.PNG>
 File: Chap03/Figures/mifa_Antenna_gain_pattern_phi_90.PNG Graphic file (type bmp)
@@ -1398,37 +1561,96 @@ File: Chap03/Figures/mifa_antenna_effieciency.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
+
+LaTeX Warning: Reference `fig:IFA_Antenna_1' on page 16 undefined on input line 285.
+
+
+LaTeX Warning: Reference `tb:MIFA_ANTENNA_SIMULATION_PARAMETERS' on page 16 undefined on input line 285.
+
 File: Chap03/Figures/IFA_antenna.PNG Graphic file (type bmp)
 <Chap03/Figures/IFA_antenna.PNG>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:IFA_Antenna_reflection' on page 16 undefined on input line 294.
 
 File: Chap03/Figures/IFA_antenna_reflecctions.PNG Graphic file (type bmp)
 <Chap03/Figures/IFA_antenna_reflecctions.PNG>
+
+LaTeX Warning: Reference `fig:IFA_S11_Change' on page 16 undefined on input line 301.
+
+
+LaTeX Warning: Reference `fig:IFA_Antenna_1' on page 16 undefined on input line 301.
+
 File: Chap03/Figures/IFA_S11_Change.PNG Graphic file (type bmp)
 <Chap03/Figures/IFA_S11_Change.PNG>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(Chap03/Chap03_01_AntennaLayout.tex [15]
-File: Chap03/Figures/Nordic_ST_modules.PNG Graphic file (type bmp)
-<Chap03/Figures/Nordic_ST_modules.PNG>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Chap03/Figures/STM_BLE_Schematic.PNG Graphic file (type bmp)
-<Chap03/Figures/STM_BLE_Schematic.PNG>
 [16]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(Chap03/Chap03_01_AntennaLayout.tex
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 17 undefined on input line 4.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 17 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:Nordic_ST_modules' on page 17 undefined on input line 4.
+
+File: Chap03/Figures/Nordic_ST_modules.PNG Graphic file (type bmp)
+<Chap03/Figures/Nordic_ST_modules.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 17 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 17 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 17 undefined on input line 14.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 17 undefined on input line 15.
+
 [17]
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 18 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 18 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:STM_BLE_Schematic' on page 18 undefined on input line 18.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_BOM' on page 18 undefined on input line 18.
+
+File: Chap03/Figures/STM_BLE_Schematic.PNG Graphic file (type bmp)
+<Chap03/Figures/STM_BLE_Schematic.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 18 undefined on input line 28.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 19 undefined on input line 36.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 File: Chap03/Figures/nordic_module_grounding.PNG Graphic file (type bmp)
 <Chap03/Figures/nordic_module_grounding.PNG>
 File: Chap03/Figures/Nordic_module_power_plane.PNG Graphic file (type bmp)
@@ -1436,6 +1658,9 @@ File: Chap03/Figures/Nordic_module_power_plane.PNG Graphic file (type bmp)
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:Antenna_Feed_clearence' on page 20 undefined on input line 49.
 
 File: Chap03/Figures/Antenna_Feed.PNG Graphic file (type bmp)
 <Chap03/Figures/Antenna_Feed.PNG>
@@ -1447,7 +1672,16 @@ File: Chap03/Figures/PGND_GNDRF_Isolation.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
+
+LaTeX Warning: Reference `en:RFGND_isolation_benifits' on page 20 undefined on input line 70.
+
+
+LaTeX Warning: Reference `fig:PGND_GNDRF_Isolation' on page 20 undefined on input line 70.
+
+[20]
+
+LaTeX Warning: Reference `fig:Antenna_Feed_Shape' on page 21 undefined on input line 71.
+
 File: Chap03/Figures/Regular_Antenna_feed.PNG Graphic file (type bmp)
 <Chap03/Figures/Regular_Antenna_feed.PNG>
 File: Chap03/Figures/Irregular_antenna_feed.PNG Graphic file (type bmp)
@@ -1460,7 +1694,10 @@ Underfull \hbox (badness 2189) in paragraph at lines 78--78
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19]
+
+LaTeX Warning: Reference `fig:Antenna_Feed_Shape' on page 21 undefined on input line 84.
+
+[21]
 File: Chap03/Figures/Top_vias.PNG Graphic file (type bmp)
 <Chap03/Figures/Top_vias.PNG>
 File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
@@ -1469,30 +1706,100 @@ File: Chap03/Figures/Bottom_vias.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21]
+
+LaTeX Warning: Reference `fig:BLE_PCB_ground_and_power_planes' on page 22 undefined on input line 97.
+
+
+Package natbib Warning: Citation `AN91445' on page 22 undefined on input line 100.
+
+[22]
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 103.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 104.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 105.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 107.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 108.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 109.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 110.
+
+
+Package natbib Warning: Citation `AN91445' on page 23 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:Power_Supply_Decoupling' on page 23 undefined on input line 111.
+
 File: Chap03/Figures/power_supply_coupling.PNG Graphic file (type bmp)
 <Chap03/Figures/power_supply_coupling.PNG>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:Antenna_matching_network' on page 23 undefined on input line 123.
+
+
+LaTeX Warning: Reference `fig:Antenna_matching_network' on page 23 undefined on input line 124.
+
+[23]
 File: Chap03/Figures/matching_network_layout.PNG Graphic file (type bmp)
 <Chap03/Figures/matching_network_layout.PNG>
 File: Chap03/Figures/matching_network_circuit.PNG Graphic file (type bmp)
 <Chap03/Figures/matching_network_circuit.PNG>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] [23])) [24] (Chap04/Chap04.tex
+[24] [25])
+
+LaTeX Warning: Reference `chap:BLE' on page 26 undefined on input line 311.
+
+
+LaTeX Warning: Reference `chap:BLE' on page 26 undefined on input line 312.
+
+
+LaTeX Warning: Reference `chap:BLE' on page 26 undefined on input line 314.
+
+
+LaTeX Warning: Reference `chap:BLE' on page 26 undefined on input line 315.
+
+
+Package natbib Warning: Citation `MIFA_Design_Losito' on page 26 undefined on input line 316.
+
+
+Package natbib Warning: Citation `MIFA_IFA_difference_Kanan' on page 26 undefined on input line 316.
+
+
+LaTeX Warning: Reference `chap:miselleneous' on page 26 undefined on input line 318.
+
+
+LaTeX Warning: Reference `fig:BLUeNRG-355mc_BLE_Layout' on page 26 undefined on input line 318.
+
+
+LaTeX Warning: Reference `fig:Nordic_nrf52840_BLE_Layout' on page 26 undefined on input line 318.
+
+) [26] (Chap04/Chap04.tex
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-|\TU/TimesNewRoman(0)/b/n/24.88 Architecture of Wireless
- []
-
 (Chap04/Chap04_Active_Balancing_Topologies.tex
-Underfull \hbox (badness 1377) in paragraph at lines 4--10
-\TU/TimesNewRoman(0)/m/n/12 The boost converter’s input and output voltage ranges must be large enough to
+
+LaTeX Warning: Reference `fig:Type 1a Active Battery Balancing' on page 27 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:Type 1a Active Battery Balancing' on page 27 undefined on input line 8.
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 4--10
+\TU/TimesNewRoman(0)/m/it/12 The boost converter’s input and output voltage ranges must be large enough to
  []
 
 
@@ -1500,20 +1807,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--10
 
  []
 
-[25
+[27
 
 
 ]
 File: Chap04/Figures/Type1a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type1a_ABMS.PNG>
 
+
+LaTeX Warning: Reference `eq:Type1_cell_current' on page 28 undefined on input line 18.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [28]
+
+LaTeX Warning: Reference `fig:Conventional Buck (a) and synchronous Buck(b) Conveter' on page 29 undefined on input line 45.
+
+
+LaTeX Warning: Reference `fig:Conventional Boost (a) and synchronous Boost(b) Conveter' on page 29 undefined on input line 45.
+
 File: Chap04/Figures/Conventiaonal_buck_synch_buck.PNG Graphic file (type bmp)
 <Chap04/Figures/Conventiaonal_buck_synch_buck.PNG>
 File: Chap04/Figures/Conventiaonal_boost_synch_boost.PNG Graphic file (type bmp)
 <Chap04/Figures/Conventiaonal_boost_synch_boost.PNG>
+
+LaTeX Warning: Reference `fig:Type1b Active Balancing Circuit ' on page 29 undefined on input line 61.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
@@ -1522,12 +1842,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2a_ABMS.PNG>
 
+LaTeX Warning: Reference `fig:Type2a Buck-boost converter' on page 29 undefined on input line 73.
+
+
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [27]
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
- [28]
+ [29] [30]
 File: Chap04/Figures/Buck_boost_conventional.PNG Graphic file (type bmp)
 <Chap04/Figures/Buck_boost_conventional.PNG>
 
@@ -1538,23 +1858,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
 File: Chap04/Figures/Synchronous_buck_boost.PNG Graphic file (type bmp)
 <Chap04/Figures/Synchronous_buck_boost.PNG>
 
-Underfull \hbox (badness 1953) in paragraph at lines 103--104
-[]\TU/TimesNewRoman(0)/m/n/12 Figure 2.5[](a) depicts a potential buck-boost converter implementation. The
+LaTeX Warning: Reference `fig:Type2a Typical Buck boost' on page 31 undefined on input line 103.
+
+
+LaTeX Warning: Reference `fig:Type2a Typical Buck boost' on page 31 undefined on input line 103.
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 103--104
+[]\TU/TimesNewRoman(0)/m/it/12 Figure [](a) depicts a potential buck-boost converter implementation. The
  []
+
+
+LaTeX Warning: Reference `fig: Type2b active balancing architecture' on page 31 undefined on input line 106.
+
+
+Package natbib Warning: Citation `Active_Balancing_Thesis_Raber' on page 31 undefined on input line 106.
 
 File: Chap04/Figures/Type2abABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2abABMS.PNG>
 
+LaTeX Warning: Reference `fig:Type2a Typical Buck boost' on page 31 undefined on input line 113.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 117--119
-\TU/TimesNewRoman(0)/m/n/12 The system’s implementation using high- and low-side buck-boost converters are
+LaTeX Warning: Reference `fig:Type3a active balancing architecture' on page 31 undefined on input line 117.
+
+
+Package natbib Warning: Citation `Active_Balancing_Thesis_Raber' on page 31 undefined on input line 117.
+
+
+Package natbib Warning: Citation `Active_Balancing_Thesis_Raber' on page 31 undefined on input line 118.
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 117--119
+\TU/TimesNewRoman(0)/m/it/12 The system’s implementation using high- and low-side buck-boost converters are
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 117--119
-\TU/TimesNewRoman(0)/m/n/12 sequentially rather than simultaneously. There are two phases to the balancing
+Underfull \hbox (badness 1117) in paragraph at lines 117--119
+\TU/TimesNewRoman(0)/m/it/12 sequentially rather than simultaneously. There are two phases to the balancing
  []
 
 
@@ -1562,65 +1906,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-[29]
+[31]
 File: Chap04/Figures/Type3a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type3a_ABMS.PNG>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:Type3a active balancing architecture' on page 32 undefined on input line 126.
+
+
+LaTeX Warning: Reference `fig:Typical Schematics of the Low side and High Side buck boost Converter' on page 32 undefined on input line 127.
+
+
+LaTeX Warning: Reference `fig:Type3a active balancing architecture' on page 32 undefined on input line 128.
+
 )
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 32 undefined on input line 9.
+
 File: Chap04/Figures/Low_high_side_Converter_shematic.PNG Graphic file (type bmp)
 <Chap04/Figures/Low_high_side_Converter_shematic.PNG>
 
+LaTeX Warning: Reference `fig:High_Low_DC_DC_Shematic' on page 32 undefined on input line 16.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [32]
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 33 undefined on input line 18.
+
 File: Chap04/Figures/BMS_Architecture_border.PNG Graphic file (type bmp)
 <Chap04/Figures/BMS_Architecture_border.PNG>
- [31] [32] (Chap04/Chap04_DC_DC_Converter.tex
+
+Underfull \hbox (badness 1122) in paragraph at lines 18--25
+\TU/TimesNewRoman(0)/m/it/12 Figure[] shows the overview of the Inventvm wireless BMS architecture. From
+ []
+
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [33] [34]
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 35 undefined on input line 35.
+
+(Chap04/Chap04_DC_DC_Converter.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 |[]\TU/TimesNewRoman(0)/b/n/14.4 Multiphase Bidirectional DC/DC Current Controller
  []
 
-[33]
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 35 undefined on input line 2.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 35 undefined on input line 6.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 35 undefined on input line 11.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 35 undefined on input line 11.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 35 undefined on input line 14.
+
+[35]
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 36 undefined on input line 20.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 36 undefined on input line 22.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 36 undefined on input line 28.
+
+
+Package natbib Warning: Citation `TI_LM5170_User_Datasheet' on page 36 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:LM5170_DC_DC_Converter_Operation_Setup' on page 36 undefined on input line 35.
+
 File: Chap04/Figures/DC_DC_Converter_bench_setup.PNG Graphic file (type bmp)
 <Chap04/Figures/DC_DC_Converter_bench_setup.PNG>
- [34]) (Chap04/Chap04_SwitchMatrix.tex [35]
+
+Package natbib Warning: Citation `TI_LM5170_BatteryTesting_Solution' on page 36 undefined on input line 39.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 36 undefined on input line 39.
+
+
+Package natbib Warning: Citation `TI_LM5170_BatteryTesting_Solution' on page 36 undefined on input line 39.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 36 undefined on input line 39.
+
+[36]
+
+LaTeX Warning: Reference `fig:LM5170_DC_DC_Converter_Operation_Setup' on page 37 undefined on input line 43.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 37 undefined on input line 48.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 37 undefined on input line 49.
+
+
+Package natbib Warning: Citation `TI_LM5170_EVM_User_Guide' on page 37 undefined on input line 50.
+
+[37]) (Chap04/Chap04_SwitchMatrix.tex
 File: Chap04/Figures/switch_matrix.PNG Graphic file (type bmp)
 <Chap04/Figures/switch_matrix.PNG>
+
+
+Package natbib Warning: Citation `Active_Balancing_Thesis_Raber' on page 38 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Active_Balancing_Thesis_Raber' on page 38 undefined on input line 6.
+
+
+LaTeX Warning: Reference `fig:Mosfet_Switch_Matrix' on page 38 undefined on input line 9.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Package natbib Warning: Citation `Switch_MatrixFET_STD20NF06L' on page 38 undefined on input line 20.
+
+
+LaTeX Warning: Reference `fig:Mosfet_Switch_Matrix' on page 38 undefined on input line 20.
+
+
+Package natbib Warning: Citation `Switch_MatrixFET_STD20NF06L' on page 38 undefined on input line 21.
+
+
 Underfull \hbox (badness 2088) in paragraph at lines 19--22
-\TU/TimesNewRoman(0)/m/n/12 By analyzing the criteria mentioned in the section, the choice is made to use
+\TU/TimesNewRoman(0)/m/it/12 By analyzing the criteria mentioned in the section, the choice is made to use
  []
 
-[36]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\TU/TimesNewRoman(0)/m/n/12 Drain current
+[]|\TU/TimesNewRoman(0)/m/it/12 Drain current
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\TU/TimesNewRoman(0)/m/n/12 (continuous) at
+\TU/TimesNewRoman(0)/m/it/12 (continuous) at
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\TU/TimesNewRoman(0)/m/n/12 Peak diode recovery
+[]|\TU/TimesNewRoman(0)/m/it/12 Peak diode recovery
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\TU/TimesNewRoman(0)/m/n/12 Static drain-source
+[]|\TU/TimesNewRoman(0)/m/it/12 Static drain-source
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 38--38
-[]|\TU/TimesNewRoman(0)/m/n/12 @VGS = 10V,@ID =
+Underfull \hbox (badness 1496) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/it/12 @VGS = 10V,@ID =
  []
 
 
@@ -1631,90 +2078,280 @@ Overfull \hbox (85.24405pt too wide) in paragraph at lines 26--41
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]) (Chap04/Chap04_Switch_GateDriver.tex [38]
+ [39]) (Chap04/Chap04_Switch_GateDriver.tex
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 40 undefined on input line 2.
+
+
+LaTeX Warning: Reference `fig:Typical Bidirectional circuit of the LM5170' on page 40 undefined on input line 2.
+
+
+LaTeX Warning: Reference `fig:Mosfet_Switch_Matrix' on page 40 undefined on input line 2.
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 40 undefined on input line 2.
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 40 undefined on input line 4.
+
+[40]
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 41 undefined on input line 8.
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 41 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig: LTC4231 Application circuit and the Operational waveform ' on page 41 undefined on input line 10.
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 41 undefined on input line 11.
+
+
+LaTeX Warning: Reference `eq:LTC4321_Inrush_current' on page 41 undefined on input line 14.
+
 File: Chap04/Figures/Inrsuh_current_of_LTC4321.PNG Graphic file (type bmp)
 <Chap04/Figures/Inrsuh_current_of_LTC4321.PNG>
-) (Chap04/Chap04_Current_Sense.tex [39]) (Chap04/Chap04_WirelessCommunication.tex)) [40] [41] [42
+
+LaTeX Warning: Reference `fig: LTC4231 Inrush Control by Limiting Vgate Slew' on page 41 undefined on input line 25.
+
+
+LaTeX Warning: Reference `chap:miselleneous' on page 41 undefined on input line 27.
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 41 undefined on input line 27.
+
+) (Chap04/Chap04_Current_Sense.tex [41]
+
+LaTeX Warning: Reference `ch:Current_Measurement' on page 42 undefined on input line 5.
+
+
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 42 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sec:INA238' on page 42 undefined on input line 5.
+
+) (Chap04/Chap04_WirelessCommunication.tex
+
+LaTeX Warning: Reference `chap:BLE' on page 42 undefined on input line 2.
+
+
+Package natbib Warning: Citation `BLNRG355_STEVAL_GUIDE' on page 42 undefined on input line 2.
+
+
+Package natbib Warning: Citation `NORDIC_nrf52840_USERGUIDE' on page 42 undefined on input line 2.
+
+)
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 42 undefined on input line 43.
+
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 42 undefined on input line 44.
+
+
+LaTeX Warning: Reference `fig:High_Low_DC_DC_Shematic' on page 42 undefined on input line 45.
+
+
+LaTeX Warning: Reference `fig:High_Low_DC_DC_Shematic' on page 42 undefined on input line 45.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 42 undefined on input line 46.
+
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 42 undefined on input line 46.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 42 undefined on input line 46.
+
+) [42] [43] [44
 
 ] (Chap05/Chap05.tex
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-|\TU/TimesNewRoman(0)/b/n/24.88 Current Measurement For SoC
+|\TU/TimesNewRoman(0)/b/it/24.88 Current Measurement For SoC
  []
 
-(Chap05/Chap05_CurrentSensing.tex [43
+(Chap05/Chap05_CurrentSensing.tex
+
+Package natbib Warning: Citation `TI_Current_Sensing' on page 45 undefined on input line 2.
+
+[45
 
 ]
+
+Package natbib Warning: Citation `TI_Hall_Current_Sensing_TMCS1107' on page 46 undefined on input line 7.
+
+
+Package natbib Warning: Citation `TI_Hall_Current_Sensing_TMCS1107' on page 46 undefined on input line 8.
+
 File: Chap05/Figures/TMCS1107_HallSensor.PNG Graphic file (type bmp)
 <Chap05/Figures/TMCS1107_HallSensor.PNG>
- [44]
+
+Package natbib Warning: Citation `TI_Hall_Current_Sensing_TMCS1107' on page 46 undefined on input line 24.
+
+[46]
+
+LaTeX Warning: Reference `fig:INA_high_side_currentsense' on page 47 undefined on input line 27.
+
 File: Chap05/Figures/INA_high_side_currentsense.PNG Graphic file (type bmp)
 <Chap05/Figures/INA_high_side_currentsense.PNG>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 6445) has occurred while \output is active []
+LaTeX Warning: Reference `sec:INA238' on page 47 undefined on input line 36.
 
- [45]
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
+ [47]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
-[]\TU/TimesNewRoman(0)/m/n/12 The INA238 can be utilized in accurate systems without undergoing
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 41--43
-\TU/TimesNewRoman(0)/m/n/12 multi-temperature calibration during production thanks to its low offset and gain
+[]\TU/TimesNewRoman(0)/m/it/12 The INA238 can be utilized in accurate systems without undergoing
  []
 
 File: Chap05/Figures/INA238_Simplified_Block_diagram.PNG Graphic file (type bmp)
 <Chap05/Figures/INA238_Simplified_Block_diagram.PNG>
 
-Underfull \vbox (badness 1484) has occurred while \output is active []
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 48 undefined on input line 48.
 
- [46]
-Underfull \hbox (badness 1242) in paragraph at lines 80--81
-\TU/TimesNewRoman(0)/m/n/12 memory of the device, indicates the memory status. When the gadget is
+
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 48 undefined on input line 48.
+
+
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 48 undefined on input line 51.
+
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [48]
+
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 49 undefined on input line 67.
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(0)/m/it/12 Conversion ready enable — When an ADC conversion is finished and the
  []
 
-[47]
+
+LaTeX Warning: Reference `fig:INA238_multi_alert' on page 49 undefined on input line 83.
+
+[49]
 File: Chap05/Figures/INA238_multi_alert.PNG Graphic file (type bmp)
 <Chap05/Figures/INA238_multi_alert.PNG>
 ) (Chap05/Chap05_CurrentReadingSynchronization.tex
-Underfull \hbox (badness 2012) in paragraph at lines 2--3
-\TU/TimesNewRoman(0)/m/n/12 it is the main pillar in this project to acquire current measurements and other
+
+LaTeX Warning: Reference `sec:INA238' on page 50 undefined on input line 2.
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/it/12 it is the main pillar in this project to acquire current measurements and other
  []
+
+
+Package natbib Warning: Citation `INA238_User_Datasheet' on page 50 undefined on input line 5.
+
+
+LaTeX Warning: Reference `fig:INA2xx_Simultaneous_Write_and_Sequential_Read' on page 50 undefined on input line 5.
 
 File: Chap05/Figures/INA_MultiWrite.PNG Graphic file (type bmp)
 <Chap05/Figures/INA_MultiWrite.PNG>
-[48]
+
+LaTeX Warning: Reference `fig:INA2xx_Simultaneous_Write_and_Sequential_Read' on page 50 undefined on input line 14.
+
+[50]
 File: Chap05/Figures/INA_synchronization_alert.PNG Graphic file (type bmp)
 <Chap05/Figures/INA_synchronization_alert.PNG>
 
-Underfull \hbox (badness 3568) in paragraph at lines 25--26
-[]\TU/TimesNewRoman(0)/m/n/12 The INA238 conversion can be delayed to synchronize with other system
- []
 
-[49] [50]
+LaTeX Warning: Reference `fig:INA_synchronization_alert' on page 51 undefined on input line 25.
+
+[51]
+
+LaTeX Warning: Reference `fig:INA_synchronization_alert' on page 52 undefined on input line 36.
+
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 52 undefined on input line 42.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 52 undefined on input line 42.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 52 undefined on input line 42.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `algo:PowerAnalyzer_Modeling' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sec:INA2XX_synch_delayed_method' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `fig:Battery_Balancing_Current' on page 52 undefined on input line 43.
+
+
+LaTeX Warning: Reference `fig:Battery_Balancing_Current' on page 52 undefined on input line 45.
+
+
+LaTeX Warning: Reference `sec:INA238' on page 52 undefined on input line 45.
+
+[52]
 File: Chap05/Figures/ShuntCurrent.png Graphic file (type bmp)
 <Chap05/Figures/ShuntCurrent.png>
-))
-Underfull \hbox (badness 1558) in paragraph at lines 8--212
-\TU/TimesNewRoman(0)/m/n/12 analysis finally we landed with INA2xx series sensors. In section 3.4[], I took
- []
+)
 
-[51] [52] (Chap06/Chap06.tex
+LaTeX Warning: Reference `ch:Current_Measurement' on page 53 undefined on input line 6.
+
+
+LaTeX Warning: Reference `ch:Current_Measurement' on page 53 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:INA238' on page 53 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:Battery_Balancing_Current' on page 53 undefined on input line 8.
+
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 53 undefined on input line 8.
+
+) [53] [54] (Chap06/Chap06.tex
 Chapter 4.
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 55 undefined on input line 4.
+
 (Chap06/Chap06_BatteryModeling.tex
-Underfull \hbox (badness 1173) in paragraph at lines 2--9
-\TU/TimesNewRoman(0)/m/n/12 (SOC) of lithium-ion batteries using two different equivalent circuit designs. It
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 55 undefined on input line 2.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 55 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 55 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 55 undefined on input line 8.
+
+
+Package natbib Warning: Citation `UniPadua_Giacomo' on page 55 undefined on input line 8.
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 2--9
+\TU/TimesNewRoman(0)/m/it/12 (SOC) of lithium-ion batteries using two different equivalent circuit designs. It
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53
+ [55
 
 
 ]
@@ -1722,38 +2359,228 @@ File: Chap06/Figures/Batt_Ckt.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_Ckt.PNG>
 
 
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 56 undefined on input line 15.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 56 undefined on input line 15.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 56 undefined on input line 15.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 56 undefined on input line 15.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54]
+
+LaTeX Warning: Reference `fig:Battery_OCV_Vs_Soc' on page 56 undefined on input line 21.
+
+
+Package natbib Warning: Citation `Batt_Modeling_Kharisma' on page 56 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 56 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Batt_Modeling_Kharisma' on page 56 undefined on input line 28.
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 22--29
+\TU/TimesNewRoman(0)/m/it/12 a resistor’s internal value’s physical signal. From this, one can calculate
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 22--29
+\TU/TimesNewRoman(0)/m/it/12 of the current pulse. The optimal 2-D lookup table is selected using the
+ []
+
+[56]
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 57 undefined on input line 30.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 57 undefined on input line 30.
+
+
+Package natbib Warning: Citation `Batt_Modeling_Kharisma' on page 57 undefined on input line 30.
+
+
 Underfull \hbox (badness 5189) in paragraph at lines 29--31
-[]$[]$\TU/TimesNewRoman(0)/b/it/12 : \TU/TimesNewRoman(0)/m/n/12 Transient response in this model is
+[]$[]$\TU/TimesNewRoman(0)/b/it/12 : \TU/TimesNewRoman(0)/m/it/12 Transient response in this model is
  []
 
 File: Chap06/Figures/Batt_OCV_SOC.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_OCV_SOC.PNG>
 
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 57 undefined on input line 36.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 57 undefined on input line 36.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55]
 
-LaTeX Warning: Reference `eq:Discrete_OTC_Batt_Voltage ' on page 56 undefined on input line 77.
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 57 undefined on input line 41.
 
-[56] [57]
+
+LaTeX Warning: Reference `eq:Batt_IR_equation' on page 57 undefined on input line 42.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 57 undefined on input line 45.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 57 undefined on input line 49.
+
+[57]
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 58 undefined on input line 63.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 58 undefined on input line 68.
+
+
+LaTeX Warning: Reference `eq:OTC_Voltage ' on page 58 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:OTC_Batt_Voltage ' on page 58 undefined on input line 69.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 58 undefined on input line 69.
+
+
+Package natbib Warning: Citation `UniPadua_Giacomo' on page 58 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Voltage ' on page 58 undefined on input line 77.
+
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Batt_Voltage ' on page 58 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 58 undefined on input line 89.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 58 undefined on input line 94.
+
+
+Package natbib Warning: Citation `UniPadua_Giacomo' on page 58 undefined on input line 95.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+
+LaTeX Warning: Reference `eq:TTC_Voltage1 ' on page 59 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eq:TTC_Voltage2 ' on page 59 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eq:TTC_Batt_Voltage ' on page 59 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eq:Discrete_TTC_Voltage1 ' on page 59 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:Discrete_TTC_Voltage2 ' on page 59 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:Discrete_TTC_Batt_Voltage ' on page 59 undefined on input line 108.
+
+
+LaTeX Warning: Reference `fig:Battery_Current_Pulse' on page 59 undefined on input line 121.
+
+
+LaTeX Warning: Reference `fig:Battery_Current_Pulse' on page 59 undefined on input line 123.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 60 undefined on input line 131.
+
+
+Package natbib Warning: Citation `UniPadua_Giacomo' on page 60 undefined on input line 131.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 60 undefined on input line 137.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 60 undefined on input line 147.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 60 undefined on input line 151.
+
 File: Chap06/Figures/Batt_Pulsed_current_char.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_Pulsed_current_char.PNG>
- [58]
+
+Package natbib Warning: Citation `Internal_Resistance_LIPO_Batt_Gogoana' on page 60 undefined on input line 164.
+
+
+LaTeX Warning: Reference `eq:Batt_Ohmic_Resistance' on page 60 undefined on input line 165.
+
+[60]
+
+Package natbib Warning: Citation `Internal_Resistance_LIPO_Batt_Gogoana' on page 61 undefined on input line 178.
+
+
+LaTeX Warning: Reference `eq:OTC_Voltage ' on page 61 undefined on input line 182.
+
+
+LaTeX Warning: Reference `eq:OTC_Batt_Voltage ' on page 61 undefined on input line 182.
+
+
+LaTeX Warning: Reference `eq:Batt_OTC_Diff_Eq_Sol' on page 61 undefined on input line 183.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 61 undefined on input line 183.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 175--184
+\TU/TimesNewRoman(0)/m/it/12 voltage measurements during the subintervals S2 and S4 are used, as in these
+ []
+
+
+LaTeX Warning: Reference `eq:Batt_OTC_Diff_Eq_Sol' on page 61 undefined on input line 193.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
-[59]
+
+LaTeX Warning: Reference `eq:Batt_OTC_Least_Square_solution' on page 61 undefined on input line 196.
+
+
+LaTeX Warning: Reference `eq:Batt_OTC_C_OTC' on page 61 undefined on input line 196.
+
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
+
+ [61]
+
+LaTeX Warning: Reference `eq:Batt_TTC_Diff_Eq_Sol' on page 62 undefined on input line 225.
+
+
 Overfull \hbox (61.65562pt too wide) detected at line 232
 [][]
  []
 
 
+LaTeX Warning: Reference `eq:Batt_TTC_Diff_Eq_Sol' on page 62 undefined on input line 257.
+
+
+LaTeX Warning: Reference `eq:Batt_OTC_Least_Square_solution' on page 62 undefined on input line 260.
+
+
+LaTeX Warning: Reference `eq:Batt_TTC_C_TTC' on page 62 undefined on input line 260.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 256--261
-[]\TU/TimesNewRoman(0)/m/n/12 Estimating the values is required for the TTC model’s identification,
+[]\TU/TimesNewRoman(0)/m/it/12 Estimating the values is required for the TTC model’s identification,
  []
 
 
@@ -1762,9 +2589,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--261
  []
 
 
-Underfull \vbox (badness 3029) has occurred while \output is active []
+Underfull \hbox (badness 1584) in paragraph at lines 256--261
+\TU/TimesNewRoman(0)/m/it/12 in Equations []. In this case an exponential function with two-time constants
+ []
 
- [60]
+
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+ [62]
 File: Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG Graphic file (type bmp)
 <Chap06/Figures/Batt_DisCh_Ohmic_Resistance.PNG>
 
@@ -1837,42 +2669,113 @@ Underfull \hbox (badness 2384) in paragraph at lines 317--317
  []
 
 
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 63 undefined on input line 318.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 63 undefined on input line 318.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (Chap06/Chap06_Emulation.tex
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 63 undefined on input line 3.
+
+
+Package natbib Warning: Citation `UKEMPT_AHMAD2012' on page 63 undefined on input line 3.
+
 File: Chap06/Figures/Battery_Pack_modeling_Architec.PNG Graphic file (type bmp)
 <Chap06/Figures/Battery_Pack_modeling_Architec.PNG>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61] [62] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [63]
-Underfull \hbox (badness 1014) in paragraph at lines 95--96
-[]\TU/TimesNewRoman(0)/m/n/12 The following code explores the basic programming of the chroma for BMS
- []
+
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 63 undefined on input line 14.
+
+[63]
+
+Package natbib Warning: Citation `Chroma_UserManual' on page 64 undefined on input line 25.
+
+
+LaTeX Warning: Reference `fig:Chroma' on page 64 undefined on input line 25.
 
 [64]
+
+LaTeX Warning: Reference `fig:Chroma' on page 65 undefined on input line 44.
+
+
+LaTeX Warning: Reference `fig:Chroma' on page 65 undefined on input line 64.
+
+
+Package natbib Warning: Citation `Chroma_UserManual' on page 65 undefined on input line 64.
+
+
+Package natbib Warning: Citation `Chroma_UserManual' on page 65 undefined on input line 70.
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [65]
+Underfull \hbox (badness 1389) in paragraph at lines 95--96
+[]\TU/TimesNewRoman(0)/m/it/12 The following code explores the basic programming of the chroma for BMS
+ []
+
+[66]
+
+Package natbib Warning: Citation `Chroma_UserManual' on page 67 undefined on input line 151.
+
+
+LaTeX Warning: Reference `fig:Chroma_Packet_delay' on page 67 undefined on input line 154.
+
 File: Chap06/Figures/Chroma_Packet_delay.png Graphic file (type bmp)
 <Chap06/Figures/Chroma_Packet_delay.png>
-
+[67]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 170--171
-\TU/TimesNewRoman(0)/m/n/12 6.11[](a) DC Power Analyzer is a multipurpose power system that combines the
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 68 undefined on input line 166.
+
+
+LaTeX Warning: Reference `fig:keysight_n6705_DMM_34460A' on page 68 undefined on input line 170.
+
+
+Package natbib Warning: Citation `Keysight_N6705_DC_Power_Analyzer' on page 68 undefined on input line 170.
+
+
+Package natbib Warning: Citation `Keysight_N6705_DC_Power_Analyzer' on page 68 undefined on input line 172.
+
+
+Package natbib Warning: Citation `Keysight_N6705_DC_Power_Analyzer' on page 68 undefined on input line 183.
+
+[68]
+
+Package natbib Warning: Citation `Keysight_N6705_DC_Power_Analyzer' on page 69 undefined on input line 217.
+
+
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 69 undefined on input line 220.
+
+
+LaTeX Warning: Reference `fig:keysight_n6705_DMM_34460A' on page 69 undefined on input line 221.
+
+
+LaTeX Warning: Reference `fig:BMS Architecture' on page 69 undefined on input line 221.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 220--222
+\TU/TimesNewRoman(0)/m/it/12 Measurements include DC/DC converter input/output current measurements, and
  []
 
-[65] [66]
+
+Package natbib Warning: Citation `Keysight_34460A_DMM' on page 69 undefined on input line 232.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 232--234
-[] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.c.1 Digital Multimeters 34460A :[] \TU/TimesNewRoman(0)/m/n/12 The only completely drop-in,
+[] []|\TU/TimesNewRoman(0)/b/n/12 4.2.1.c.1 Digital Multimeters 34460A :[] \TU/TimesNewRoman(0)/m/it/12 The only completely drop-in,
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 232--234
-\TU/TimesNewRoman(0)/m/n/12 SCPI-compatible alternative to the 34401A DMM in the market is the Digital
+Underfull \hbox (badness 2521) in paragraph at lines 232--234
+\TU/TimesNewRoman(0)/m/it/12 SCPI-compatible alternative to the 34401A DMM in the market is the Digital
  []
 
 
@@ -1880,30 +2783,54 @@ Overfull \hbox (6.00433pt too wide) in paragraph at lines 237--238
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-[67]
+[69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68] [69]
-Overfull \hbox (34.46011pt too wide) in paragraph at lines 338--339
-[]$\OML/cmm/m/it/12 Batt$ \TU/TimesNewRoman(0)/m/n/12 module name which will take $\OML/cmm/m/it/12 < Q[]; dt; SOC[]; i[]; BattModelParams\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SoC\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >$
+ [70]
+
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 71 undefined on input line 301.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Overfull \hbox (32.47379pt too wide) in paragraph at lines 338--339
+[]$\OML/cmm/m/it/12 Batt$ \TU/TimesNewRoman(0)/m/it/12 module name which will take $\OML/cmm/m/it/12 < Q[]; dt; SOC[]; i[]; BattModelParams\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SoC\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 >$
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 356--392
-\TU/TimesNewRoman(0)/m/n/12 the updated battery voltages, calculating SoC, measuring batteries current). The
+LaTeX Warning: Reference `eq:coulomb_soc' on page 72 undefined on input line 341.
+
+[72]
+
+LaTeX Warning: Reference `eq:Discrete_eOTC_Batt_Voltage ' on page 73 undefined on input line 348.
+
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Voltage ' on page 73 undefined on input line 349.
+
+
+LaTeX Warning: Reference `eq:coulomb_soc' on page 73 undefined on input line 350.
+
+
+LaTeX Warning: Reference `algo:Battery_Modeling' on page 73 undefined on input line 356.
+
+
+LaTeX Warning: Reference `algo:Battery_Pack_Modeling' on page 73 undefined on input line 356.
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 356--392
+\TU/TimesNewRoman(0)/m/it/12 The battery pack module will instantiate the $\OML/cmm/m/it/12 BattModel$ []\TU/TimesNewRoman(0)/m/it/12 , a module created
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 356--392
-\TU/TimesNewRoman(0)/m/n/12 algorithm describes the implementation of the battery pack for 8 batteries, we
+Underfull \hbox (badness 3148) in paragraph at lines 356--392
+\TU/TimesNewRoman(0)/m/it/12 in algorithm [] which will manage several batteries depending on the user’s
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 356--392
-\TU/TimesNewRoman(0)/m/n/12 can extend even further just by changing the initial SoC array for the module.
- []
+Underfull \vbox (badness 2310) has occurred while \output is active []
 
-[70] [71]
+ [73] [74]
 Overfull \hbox (67.5092pt too wide) in paragraph at lines 414--414
 \OML/cmm/m/it/12 BattPack\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; LoadCharger\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; MeterView\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; DataCollection\OT1/cmr/m/n/12 ()\OML/cmm/m/it/12 ; dt; SOC\OT1/cmr/m/n/12 []\OML/cmm/m/it/12 ; V[]\OT1/cmr/m/n/12 [] \OML/cmm/m/it/12 >$  
  []
@@ -1916,25 +2843,24 @@ Overfull \hbox (1.46675pt too wide) in paragraph at lines 443--443
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]) (Chap06/Chap06_BatteryModeling_Results.tex
+ [75]
+
+LaTeX Warning: Reference `fig:Battery_Pack_modeling_Architec' on page 76 undefined on input line 447.
+
+) (Chap06/Chap06_BatteryModeling_Results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [76]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\TU/TimesNewRoman(0)/m/n/12 The following code, snippet illustrates the biased current simulation.
+[]\TU/TimesNewRoman(0)/m/it/12 The following code, snippet illustrates the biased current simulation.
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 5--6
-\TU/TimesNewRoman(0)/m/n/12 ”$\OML/cmm/m/it/12 currents \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 self:batEmulator:BateryEmulatorCellCurrent$\TU/TimesNewRoman(0)/m/n/12 ” will fetch the
+Underfull \hbox (badness 2189) in paragraph at lines 5--6
+\TU/TimesNewRoman(0)/m/it/12 ”$\OML/cmm/m/it/12 currents \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 self:batEmulator:BateryEmulatorCellCurrent$\TU/TimesNewRoman(0)/m/it/12 ” will fetch the
  []
 
-
-Underfull \hbox (badness 1521) in paragraph at lines 5--6
-\TU/TimesNewRoman(0)/m/n/12 ”$\OML/cmm/m/it/12 ibattBias$\TU/TimesNewRoman(0)/m/n/12 ” biased current is added and calculated as new open circuit voltage
- []
-
-[74]
+[77]
 File: Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png Graphic file (type bmp)
 <Chap06/Figures/PowerAnalyzerResults/Batt_Charging_Voltage_SOC.png>
 File: Chap06/Figures/PowerAnalyzerResults/Batt_Discharging_Voltage_SOC.png Graphic file (type bmp)
@@ -1983,44 +2909,196 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 55--59
-[]\TU/TimesNewRoman(0)/m/n/12 The results in 4.7[] will enrich the battery modeling and power analyzer
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 56.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 56.
+
+
+LaTeX Warning: Reference `fig:Battery_OCV_Vs_Soc' on page 78 undefined on input line 56.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:Single_Batt_Modeling_Results' on page 78 undefined on input line 58.
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 55--59
+[]\TU/TimesNewRoman(0)/m/it/12 The results in [] will enrich the battery modeling and power analyzer
  []
 
+
+LaTeX Warning: Reference `fig:Batt_Pack_Modeling_Results' on page 78 undefined on input line 60.
+
+
+LaTeX Warning: Reference `fig:Batt_Pack_Modeling_Results' on page 78 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:Batt_Pack_Modeling_Results' on page 78 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:Batt_Pack_Modeling_Results' on page 78 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:Batt_Pack_Modeling_Results' on page 78 undefined on input line 61.
+
 )
-Underfull \hbox (badness 1019) in paragraph at lines 11--13
-\TU/TimesNewRoman(0)/m/n/12 seen in Part II, implementing battery models with the script and emulating with
- []
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 78 undefined on input line 10.
+
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 78 undefined on input line 11.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]) [76] [77] [78] [79] [80] (Chap07/Chap07.tex
+ [78]) [79] [80] [81] [82] [83] [84
+
+] (Chap07/Chap07.tex
 Chapter 5.
 
-Underfull \hbox (badness 2065) in paragraph at lines 2--3
-\TU/TimesNewRoman(0)/m/n/12 The Lithium-ion batteries are the most popular varieties. Due to their safety,
+Package natbib Warning: Citation `Coulomb_Counting_SOC_Estimation' on page 85 undefined on input line 2.
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/it/12 The Lithium-ion batteries are the most popular varieties. Due to their safety,
  []
 
-(Chap07/Chap07_CoulmbCounting.tex [81
+(Chap07/Chap07_CoulmbCounting.tex [85
+
+]) (Chap07/Chap07_KalmanFilter.tex
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 86 undefined on input line 5.
 
 
-]) (Chap07/Chap07_KalmanFilter.tex [82]
-Underfull \hbox (badness 3375) in paragraph at lines 12--13
-\TU/TimesNewRoman(0)/m/n/12 This section outlines the fundamental design of a Kalman filter, which takes
+LaTeX Warning: Reference `sec:Batt_Modeling' on page 86 undefined on input line 5.
+
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 86 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sec:Batt_model_parameters_estimation' on page 86 undefined on input line 6.
+
+
+LaTeX Warning: Reference `eq:OTC_Voltage ' on page 86 undefined on input line 6.
+
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Voltage ' on page 86 undefined on input line 6.
+
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 86 undefined on input line 6.
+
+[86]
+
+Package natbib Warning: Citation `SOC_Estimation_KalmanFilter_Ahmad' on page 87 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:KalamanFilter' on page 87 undefined on input line 9.
+
+
+Package natbib Warning: Citation `SOC_Estimation_KalmanFilter_Liu' on page 87 undefined on input line 9.
+
+
+Package natbib Warning: Citation `LIPO_Batt_Parameters_identification_Rahmoun' on page 87 undefined on input line 12.
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 12--13
+\TU/TimesNewRoman(0)/m/it/12 This section outlines the fundamental design of a Kalman filter, which takes
  []
+
+
+LaTeX Warning: Reference `eq:Discrete_State_Equation' on page 87 undefined on input line 14.
 
 LaTeX Font Info:    Trying to load font information for U+euf on input line 14.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [83] [84] [85]
+)
+
+LaTeX Warning: Reference `eq:Discrete_Measurement_Output_Equation' on page 87 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq:Discrete_State_Equation' on page 87 undefined on input line 24.
+
+
+Package natbib Warning: Citation `SOC_Estimation_KalmanFilter_Ahmad' on page 87 undefined on input line 25.
+
+
+LaTeX Warning: Reference `eq:Discrete_Measurement_Output_Equation' on page 87 undefined on input line 26.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 35--37
+[]\TU/TimesNewRoman(0)/m/it/12 Given a system model, a known control input $\OML/cmm/m/it/12 u[]$\TU/TimesNewRoman(0)/m/it/12 , a known measurement $\OML/cmm/m/it/12 y[]$\TU/TimesNewRoman(0)/m/it/12 ,
+ []
+
+[87]
+
+Package natbib Warning: Citation `SOC_Estimation_KalmanFilter_Ahmad' on page 88 undefined on input line 42.
+
+[88]
+
+LaTeX Warning: Reference `eq:Kalam_state_and_covaraince_initialize' on page 89 undefined on input line 111.
+
+
+Package natbib Warning: Citation `ADIJ_MARTIN2017' on page 89 undefined on input line 120.
+
+
+LaTeX Warning: Reference `eq:Discrete_OTC_Voltage ' on page 89 undefined on input line 122.
+
+[89]
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 90 undefined on input line 140.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
+
+LaTeX Warning: Reference `fig:Battery_Equivalent_circuit' on page 90 undefined on input line 144.
+
+
+LaTeX Warning: Reference `eq:Batt_Kalman_State_function_tylor_expansion' on page 90 undefined on input line 181.
+
+
+LaTeX Warning: Reference `eq:Batt_Kalman_function_tylor_expansion_Bk' on page 90 undefined on input line 181.
+
 File: Chap07/Figures/Kalman_principle.PNG Graphic file (type bmp)
 <Chap07/Figures/Kalman_principle.PNG>
-[86]
+
+LaTeX Warning: Reference `fig:Kalman_Filter_Principle' on page 90 undefined on input line 197.
+
+
+LaTeX Warning: Reference `algo:Discrete_Kalman_Filter_Algorithm_Flow_Chart' on page 90 undefined on input line 198.
+
+
+LaTeX Warning: Reference `sec:Extended Kaman Filter Implementation' on page 90 undefined on input line 198.
+
+
+Underfull \vbox (badness 1028) has occurred while \output is active []
+
+ [90]
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/BatteryChargingVoltage.png>
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingCurrent.png Graphic file (type bmp)
@@ -2033,34 +3111,67 @@ File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError.png Graphic f
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[87]
+[91]
 File: Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/Charging-curve-for-Lithium-polymer-battery.png>
 
+
+LaTeX Warning: Reference `fig:Charging_Battery_Kalman_Filter_Results' on page 92 undefined on input line 228.
+
+
+LaTeX Warning: Reference `fig:Charging_Battery_Kalman_Filter_Results' on page 92 undefined on input line 228.
+
+
+LaTeX Warning: Reference `eq:Discrete_Noise_Covariance' on page 92 undefined on input line 229.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]
+ [92]
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_dt0_01.png>
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_dt0_01.png>
 
-Underfull \hbox (badness 1997) in paragraph at lines 244--247
-\TU/TimesNewRoman(0)/m/n/12 Undoubtedly Kalman filter is the most robust and well-assimilated approach to
+
+LaTeX Warning: Reference `fig:Charging_Battery_Kalman_Filter_Results_SamplingTime_1mS' on page 93 undefined on input line 240.
+
+
+LaTeX Warning: Reference `fig:Charging_Battery_Kalman_Filter_Results' on page 93 undefined on input line 240.
+
+
+LaTeX Warning: Reference `fig:Kalman_Filter_Principle' on page 93 undefined on input line 244.
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 244--247
+\TU/TimesNewRoman(0)/m/it/12 Undoubtedly Kalman filter is the most robust and well-assimilated approach to
  []
 
-[89] [90]
+[93]
+
+Package natbib Warning: Citation `Comparision_EKF_UKF_He' on page 94 undefined on input line 254.
+
+[94]
+
+Package natbib Warning: Citation `Comparision_EKF_UKF_He' on page 95 undefined on input line 271.
+
+
+LaTeX Warning: Reference `fig:UKF_UT_Transformation' on page 95 undefined on input line 286.
+
 File: Chap07/Figures/UKF_UT.PNG Graphic file (type bmp)
 <Chap07/Figures/UKF_UT.PNG>
 
-Underfull \hbox (badness 1845) in paragraph at lines 285--294
-[]\TU/TimesNewRoman(0)/m/n/12 Where $\OML/cmm/m/it/12 W[]; W[]$ \TU/TimesNewRoman(0)/m/n/12 separately the weight factors of the mean value and the
+Underfull \hbox (badness 1810) in paragraph at lines 285--294
+[]\TU/TimesNewRoman(0)/m/it/12 Where $\OML/cmm/m/it/12 W[]; W[]$ \TU/TimesNewRoman(0)/m/it/12 separately the weight factors of the mean value and the
  []
 
-[91]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
+
+
+LaTeX Warning: Reference `eq:UKF_state_initialization' on page 96 undefined on input line 300.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--304
@@ -2092,15 +3203,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
+
+LaTeX Warning: Reference `fig:SoC_estimation_based_on_UKF' on page 96 undefined on input line 338.
+
 File: Chap07/Figures/SoC_estimation_based_on_UKF.PNG Graphic file (type bmp)
 <Chap07/Figures/SoC_estimation_based_on_UKF.PNG>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Package natbib Warning: Citation `Adaptive_UKF_for_SOC_Estimation' on page 96 undefined on input line 347.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92] [93]
+ [96]
+
+Package natbib Warning: Citation `LIPO_AUKF_Meng' on page 97 undefined on input line 351.
+
+
+Package natbib Warning: Citation `Comparision_EKF_UKF_He' on page 97 undefined on input line 351.
+
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
@@ -2115,6 +3239,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
+
+LaTeX Warning: Reference `fig:Kalman_Algorithms_Battery_Charing_SOC_Comparision' on page 98 undefined on input line 397.
+
+
+LaTeX Warning: Reference `fig:Kalman_Algorithms_Battery_Charing_SOC_Comparision' on page 98 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig:Kalman_Algorithms_Battery_Charing_SOC_Comparision' on page 98 undefined on input line 398.
+
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 98 undefined on input line 399.
+
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOC_Comparriosn.png>
 File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.png Graphic file (type bmp)
@@ -2122,11 +3258,25 @@ File: Chap07/pyKalmanFilter/Python/Figures/BatteryChargingSOCError_Comparrison.p
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94] [95]
+ [98]
+
+LaTeX Warning: Reference `fig:Kalman_Algorithms_Convergence' on page 99 undefined on input line 410.
+
+[99]
 File: Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png Graphic file (type bmp)
 <Chap07/pyKalmanFilter/Python/Figures/KalmanAlgorithms_convergence.png>
-)) [96] (Chap_Miselleneous/Chap_Misellaneous.tex
+)
+
+LaTeX Warning: Reference `ch:Battery_SOC_Estimation_Algorithms' on page 100 undefined on input line 7.
+
+
+LaTeX Warning: Reference `ch:Battery_SOC_Estimation_Algorithms' on page 100 undefined on input line 8.
+
+) [100] (Chap_Miselleneous/Chap_Misellaneous.tex
 Chapter 6.
+
+LaTeX Warning: Reference `chap:BLE' on page 101 undefined on input line 2.
+
 (Chap_Miselleneous/Chap03_Mise/Chap03_Mise.tex
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_TOP.PNG>
@@ -2143,7 +3293,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97
+ [101
 
 
 ]
@@ -2161,13 +3311,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap03_Mise/Figures/BLUeNRG_Schematic.PNG>
-) (Chap_Miselleneous/Chap04_Mise/Chap04_Mise.tex
+)
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 102 undefined on input line 4.
+
+(Chap_Miselleneous/Chap04_Mise/Chap04_Mise.tex
 File: Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap04_Mise/Figures/LM5170_Typical_ciruit.PNG>
 File: Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap04_Mise/Figures/Switch_FET.PNG>
 File: Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG Graphic file (type bmp)
 <Chap_Miselleneous/Chap04_Mise/Figures/LTC4231.PNG>
+
+
+LaTeX Warning: Reference `fig: LTC4231 Application circuit and the Operational waveform ' on page 102 undefined on input line 24.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
@@ -2178,10 +3336,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[98]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
+
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 103 undefined on input line 41.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
@@ -2189,9 +3350,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig: LTC4231 Application circuit and the Operational waveform ' on page 103 undefined on input line 54.
 
- [99]
+
+Package natbib Warning: Citation `LTC4231_User_Datasheet' on page 103 undefined on input line 55.
+
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [103]
 File: Chap04/Figures/Type2a_ABMS.PNG Graphic file (type bmp)
 <Chap04/Figures/Type2a_ABMS.PNG>
 
@@ -2210,9 +3377,17 @@ File: Chap_Miselleneous/Chap04_Mise/Figures/Bi_buck_boost_High_side.PNG Graphic 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chap_Miselleneous/Chap06_Mise/Chap06_Mise.tex
-Underfull \hbox (badness 1466) in paragraph at lines 4--37
-[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..1 Example 1:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 1 simulate a BMS
+)
+
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 104 undefined on input line 6.
+
+(Chap_Miselleneous/Chap06_Mise/Chap06_Mise.tex
+
+Package natbib Warning: Citation `Chroma_UserManual' on page 104 undefined on input line 5.
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 4--37
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..1 Example 1:[] \TU/TimesNewRoman(0)/m/it/12 The following commands in example 1 simulate a BMS
  []
 
 
@@ -2225,9 +3400,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--37
 
  []
 
-[100]
-Underfull \hbox (badness 1466) in paragraph at lines 39--67
-[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/n/12 The following commands in example 2 simulate a BMS
+[104]
+Underfull \hbox (badness 2173) in paragraph at lines 39--67
+[] []|\TU/TimesNewRoman(0)/b/n/12 6.3.1..2 Example 2:[] \TU/TimesNewRoman(0)/m/it/12 The following commands in example 2 simulate a BMS
  []
 
 
@@ -2240,7 +3415,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--67
 
  []
 
-[101]
+[105]
 File: Chap06/Figures/keysight_n6705.PNG Graphic file (type bmp)
 <Chap06/Figures/keysight_n6705.PNG>
 File: Chap06/Figures/DMM_34460A.PNG Graphic file (type bmp)
@@ -2261,11 +3436,36 @@ File: Chap06/Figures/Chroma_Output_wiring.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [102])) [103] [104] [105] [106] [107] [108
+)
 
-] (Conclusion/Conclusion.tex (Conclusion/Conclusion_Chap01.tex [109
+LaTeX Warning: Reference `ch:Battery_SOC_Estimation_Algorithms' on page 106 undefined on input line 8.
 
-]) (Conclusion/Conclusion_Chap02.tex [110]) (Conclusion/Conclusion_Chap03.tex) (Conclusion/Conclusion_Chap04.tex
+(Chap_Miselleneous/Chap07_Mise/Chap07_Mise.tex [106])) [107] [108] [109] [110] [111] [112
+
+] (Conclusion/Conclusion.tex (Conclusion/Conclusion_Chap01.tex
+
+LaTeX Warning: Reference `chap:BLE' on page 113 undefined on input line 1.
+
+
+LaTeX Warning: Reference `chap:BLE' on page 113 undefined on input line 2.
+
+[113
+
+]) (Conclusion/Conclusion_Chap02.tex
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 114 undefined on input line 1.
+
+
+LaTeX Warning: Reference `ch:Architecture_Active_Balancing_BMS' on page 114 undefined on input line 2.
+
+[114]) (Conclusion/Conclusion_Chap03.tex
+
+LaTeX Warning: Reference `ch:Current_Measurement' on page 115 undefined on input line 1.
+
+
+LaTeX Warning: Reference `ch:Current_Measurement' on page 115 undefined on input line 2.
+
+) (Conclusion/Conclusion_Chap04.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--1
 
  []
@@ -2275,15 +3475,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--1
 
  []
 
-[111]
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
+[115]
 
- []
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 116 undefined on input line 1.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
-
- []
+LaTeX Warning: Reference `ch:Battery_Modeling_Emulation' on page 116 undefined on input line 3.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--9
@@ -2295,43 +3492,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
  []
 
-[112]) (Conclusion/Conclusion_Chap05.tex)) [113] [114
 
-] (main.bbl
-Underfull \hbox (badness 3019) in paragraph at lines 62--65
-\TU/TimesNewRoman(0)/m/n/12 diagrams,” \TU/TimesNewRoman(0)/m/it/12 PRZEGLĄD ELEKTROTECHNICZNY (Electrical Review), ISSN
- []
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
-[115
-
-] [116]
-Underfull \hbox (badness 2809) in paragraph at lines 184--186
-[]\TU/TimesNewRoman(0)/m/n/12 C. A. INC, “16ch battery cell simulator,” \TU/TimesNewRoman(0)/m/it/12 Chroma ATE Applications and
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 222--224
-[]\TU/TimesNewRoman(0)/m/n/12 A. Rahmoun and H. Biechl, “Parameters identification of equivalent circuit
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
  []
 
-[117]) [118]
+[116]) (Conclusion/Conclusion_Chap05.tex
+
+LaTeX Warning: Reference `ch:Battery_SOC_Estimation_Algorithms' on page 117 undefined on input line 1.
+
+
+LaTeX Warning: Reference `ch:Battery_SOC_Estimation_Algorithms' on page 117 undefined on input line 3.
+
+)) [117] [118
+
+]
+No file main.bbl.
 runsystem(makeindex main.idx)...executed safely (allowed).
 
- (main.ind) (main.aux (FrontPages.aux))
+(main.ind)
+
+Package natbib Warning: There were undefined citations.
+
+(main.aux (FrontPages.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 41118 strings out of 410532
- 1021395 string characters out of 2817561
- 2102523 words of memory out of 3000000
- 61338 multiletter control sequences out of 15000+600000
- 482885 words of font info for 118 fonts, out of 8000000 for 9000
+ 41010 strings out of 410532
+ 1018221 string characters out of 2817561
+ 2072570 words of memory out of 3000000
+ 61235 multiletter control sequences out of 15000+600000
+ 482901 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,117p,1676b,1886s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (138 pages, 2151284 bytes).
+Output written on main.xdv (134 pages, 1947712 bytes).
