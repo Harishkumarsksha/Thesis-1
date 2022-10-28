@@ -1,0 +1,46 @@
+\chapter{Architecture of Wireless Communication Active Balancing BMS}\label{ch:Architecture_Active_Balancing_BMS}
+\section{Introduction}
+There are plenty of topologies dedicated to the BMS active balancing, for instance, cell-to-cell charge balancing, cell-to-stack or stack-to-cell charge sharing, and stack charge sharing. Among such wide techniques cell to stack and stack-cell, charge-sharing techniques gain the upper hand because of their robustness and safety measures against the battery.
+\section{Active Balancing Topologies for BMS }
+
+\input{Chap04/Chap04_Active_Balancing_Topologies}
+\section{Proposed Active Balancing Method}
+The proposed architecture for the BMS active balancing is very similar to the \textit{type IIa and IIb} active balancing. In the proposed topologies the charge is transferred either from imbalance cell to stack or vice versa.
+A bidirectional high and low-side buck-boost converter is used in the proposed architecture in place of the typical (unidirectional) buck-boost converter. Refer\ref{fig:BMS Architecture} to the Architecture to see how the switch matrix is set up to connect each battery node to the DC/DC converter's low side. The top of the battery pack is directly attached to the high side of the DC/DC converter.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap04/Figures/Low_high_side_Converter_shematic.PNG}
+	\caption{Shematic of the High/Low side DC/DC converter } 
+	\label{fig:High_Low_DC_DC_Shematic}
+\end{figure}
+The proposed architecture\ref{fig:High_Low_DC_DC_Shematic} gives more control over the balancing current that is flowing in the DC/DC controller. One of the acute advantages of the input(With High side shunt Resistance) and output current(With Low side shunt Resistance) to the DC/DC converter. The section gives a more elaborative description and technical details of this configuration.
+\section{Overview of Active balancing BMS Architecture}
+Figure\ref{fig:BMS Architecture} shows the overview of the Inventvm wireless BMS architecture. From the Hardware point of view, the Architecture is separated into two parts one Cell Management Unit (CMU) which sits on each battery. The other one is MMU which is on the main motherboard to control the overall functionality of the BMS. The working procedure of the architecture is as follows
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Chap04/Figures/BMS_Architecture_border.PNG}
+	\caption{BMS Architecture} 
+	\label{fig:BMS Architecture}
+\end{figure}
+\begin{itemize}
+	\item The CMUs of each battery contains Bluetooth modules, for our applications we have used BLUeNRG-355mc which will sense the live battery voltage and the temperature of the battery(using NTC).
+	\item CMUs will synchronize with the master present on the MMU. According to the master request, all the CMUs Bluetooth will send the data to the Master in the given time slot.
+	\item On request of the controller, the master(BLE on MMU) will collect packets from all the slaves(CMUs) and hand over the decoded data (Voltages of the Batteries and Temperature measurements) to the Controller on the MMU.
+	\item The controller in this project is the PC, it could be a microcontroller also. The controller will be responsible for running all the BMS algorithms and detecting which node needs to be balanced depending on the CMU's battery voltages.
+	\item In this particular project, the controller will use LabVIEW and python to build a complete BMS model and algorithm.
+	\item Through the open circuit voltage(Battery voltages) received from the CMU, the controller will calculate the initial SoC(The open circuit voltage directly proportional initial SoC of the battery "manufacturer open circuit voltage to SoC curve").
+	\item Once the controller finds the imbalance node through the initial SoC estimation from the open circuit voltages of the battery, the switch matrix is switched to the imbalance node and directly connected to the low side(Output) of the DC/DC converter.
+	\item Depending on the battery imbalance the controller will configure the DC/DC converter either in buck or boost mode.
+	\item During the Balancing, the input and output current of the DC/DC is monitored to calculate the balancing current, if the balancing current reached the threshold the DC/DC converter current is dropped.
+	\item If the batteries are charging during the balancing the charging current \textit{$I_{ch}$}(Figure \ref{fig:BMS Architecture}) is also monitored through the pack current sensor.
+\end{itemize}
+\section{Retrospect of BMS Hardware}
+\input{Chap04/Chap04_DC_DC_Converter}
+\input{Chap04/Chap04_SwitchMatrix}
+\input{Chap04/Chap04_Switch_GateDriver}
+\input{Chap04/Chap04_Current_Sense}
+\input{Chap04/Chap04_WirelessCommunication}
+\section{Summary of Chapter \ref{ch:Architecture_Active_Balancing_BMS}}
+The initial phase of the chapter \ref{ch:Architecture_Active_Balancing_BMS} summarizes the different topologies of the BMS active balancing, more or less, many of the topologies remained on the shelf, because of the less robustness and clumsy implementation.
+The proposed topology\ref{fig:High_Low_DC_DC_Shematic} for the BMS active balancing is inherited from topology \textit{Type IIa} and topology \textit{Type IIb}. Currently, by using the proposed methodology\ref{fig:High_Low_DC_DC_Shematic}, we can successfully perform the active balancing for batteries.
+The active balancing BMS architecture\ref{fig:BMS Architecture} will give a much broader view in this chapter \ref{ch:Architecture_Active_Balancing_BMS}, but in this architecture\ref{fig:BMS Architecture}, I have not discussed how to calculate the SoC and SoH but following Chapters(SoC and SoH calculation chapter not yet updated) will give more extravagance on the SoC and SoH calculation and synchronization methods of the voltage and current. I have succeeded in explaining most of the BMS hardware except the current sensors because I have dedicated a separate chapter to explaining the current acquisition and synchronization(Current and Voltage synchronization chapter not yet updated) of the measurements.

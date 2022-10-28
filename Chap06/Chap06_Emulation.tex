@@ -1,0 +1,448 @@
+\section{Battery Emulation}
+
+\textit{Part I} of the chapter \ref{ch:Battery_Modeling_Emulation} described extensively the LIPO Battery Modeling and equivalent circuit analysis. The \textit{Part II} of the chapter gives more extravagance to the Battery model implemented in real-time. \textit{Part II} will also talk about different instrumentation and configurations. I have used and python environment to implement the system, the reason behind choosing python as a coding environment is, python is a high-level used and most compatible with different instruments. The basis for implementing the battery model is the data that is collected for the SLPB120216216 by Ahmad RAHMOUN, Helmuth BIECHL. Gratitude to \textit{Ahmad RAHMOUN and Helmuth BIECHL} for their paper\cite{UKEMPT_AHMAD2012} \textit{"Modelling of Li-ion batteries using equivalent circuit diagrams"} this paper became the bedrock for this module implementation. Following the upcoming sections is the continuation of the \textit{Part I} battery modeling with the coding environment.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Chap06/Figures/Battery_Pack_modeling_Architec.PNG}
+	\caption{Architecture of the Battery Pack Modeling/Emulation For BMS}
+	\label{fig:Battery_Pack_modeling_Architec}
+\end{figure}
+
+\subsection{Fundamental Instruments For Battery Emulation }
+
+Figure \ref{fig:Battery_Pack_modeling_Architec} shows the architecture of the Battery modeling and the emulation, for the external view the architecture looks very clumsy and dusky, but I have followed the modular approach in this architecture to extend the model to a one-time constant or two-time constant even three. The proposed architecture can handle multiple current sourcing, sinking, and measuring instruments without disturbing the overall system. Before diving into the architecture and modular approach, it is good to understand what kind of instruments can be used. And their specifications for the BMS applications. The following section can give brief information on the instruments and their configurations.
+
+\subsubsection{Chroma :}
+% \begin{figure}[h]
+% 	\centering
+% 	\subfigure[16CH Battery Cell Simulator 87001]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma.PNG}}
+%     \qquad
+% 	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}}
+% 	\caption{16CH Battery Cell Simulator 87001}
+% 	\label{fig:Chroma}
+% \end{figure}
+The 87001 16CH Battery Cell Simulator can simulate the cell to perform charge and discharge behavior for BMS testing. It can simulate up to 480 battery cells in series with voltage and current measurement functions. It can receive IPC's commands in real-time, store the measured values temporarily and return them to the IPC \cite{Chroma_UserManual}.Chroma has two communication one through the ethernet and CAN bus, for facilitating the modular and easy communication I preferred ethernet for this particular project, we can also use the can bus when we test the emulator with the real-time vehicle setup. Figure \ref{fig:Chroma}(a) shows the 16CH chroma which I have used in the lab.
+
+\paragraph{Sepcifications of the Chroma :}
+
+\begin{itemize}
+    \item This simulator has built a DC Power Supply with 1Φ110~220V±10$\%$VLN input power.
+    \item Each unit has 16 channels output that can set parameters, start and end time respectively.
+    \item The channel can be a constant voltage source with a constant current function.
+    \item Maximum 30 sets of 87001 simulators can be connected in series for use and can simulate the battery cell voltage of a 480-cell battery pack (2000V/4.2V) in series.
+    \item High-precision output and measurement that are used in laboratories for testing product specifications and characteristics.
+    \item No display panel and operation buttons but using LED lights to indicate the standalone unit status.
+    \item Each channel has 2 current ranges (2 Current: (-5A~+5A, -0.5A~+0.5A) ).
+    \item The operating interface uses the internet to give commands, control output measurement and read data via an external PC. The communication interface is Ethernet with SCPI protocol specification.
+    \item Channels can be connected in series/parallel across a standalone unit with up to two batteries connected in parallel.
+    \item Noise < 60db (output terminal 5V/5A/16CH)
+    \item \textbf{Auto Range Select }
+            \begin{itemize}
+                \item The CC automatically switches to the proper range according to the set current.
+                \item The CV automatically switches to the mapping range according to the upper limit current.
+            \end{itemize} \ref{fig:Chroma}(a)
+    \item \textbf{Current Range Select }
+            \begin{itemize}
+                \item When 5A is in use, performing CC(Constant Current) charge for 500uA may have a bigger error.
+                \item When 500mA is in use, performing CC charge for 5A will prompt a warning and stop execution.
+            \end{itemize}
+
+    \item \textbf{Data Transmission :} The data transmission interval is 10ms * paralleled unit no. The minimum data transmission interval is Δ10ms for one unit and Δ20ms for two units, and so forth.
+    
+\end{itemize}
+
+\paragraph{Output Wiring of the Chroma :}
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.4\textwidth]{Chap06/Figures/Chroma_Output_wiring.PNG}
+% 	\caption{Chroma Output Wiring to the BMS} 
+% 	\label{fig:Chroma_Output_wiring}
+% \end{figure}
+
+\begin{itemize}
+    \item The figure \ref{fig:Chroma}(b) is the parallel connection diagram of two simulators \cite{Chroma_UserManual}. (Same for serial connection.)
+    \item The 87001 is a 4-wire measurement. The SENSE wire and BMS connection point should be as close as possible to the BMS input terminal to avoid voltage differences due to line losses.
+\end{itemize}
+
+\paragraph{Configuring the Chroma:}
+
+For Programing the Chroma I took the help of the pyvisa library, which can use to interface with instruments using different protocols. The first setup is the NI (National Instrument) driver in PC to identify the instrument (install NI Max application in PC), through the NI driver, pyvisa can communicate through the VISA virtual port. The piece of code shows how to configure the visa port for the chroma(or any battery emulator commands that are more generalized) \cite{Chroma_UserManual}.
+
+% \lstinputlisting[language=python]{Chap06/Code/Chroma.py}
+\begin{lstlisting}[language=Python, caption=VISA parameters set for Chroma]
+    #VISA commands for the Chroma
+    set_visa_attribute(pyvisa.constants.VI_ATTR_MAX_QUEUE_LENGTH, 50)
+    #Time Out Value 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_TMO_VALUE, 2000) 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_TERMCHAR_EN, 
+                        pyvisa.constants.VI_TRUE)
+    set_visa_attribute(pyvisa.constants.VI_ATTR_TERMCHAR, 0xA) 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_SEND_END_EN, 
+                       pyvisa.constants.VI_TRUE) 
+    
+    set_visa_attribute(pyvisa.constants.VI_ATTR_SUPPRESS_END_EN, 
+                       pyvisa.constants.VI_TRUE)
+    set_visa_attribute(pyvisa.constants.VI_ATTR_FILE_APPEND_EN, 
+                       pyvisa.constants.VI_FALSE) 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_IO_PROT, 1) 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_TCPIP_NODELAY, 
+                       pyvisa.constants.VI_TRUE) 
+    set_visa_attribute(pyvisa.constants.VI_ATTR_TCPIP_KEEPALIVE, 
+                       pyvisa.constants.VI_TRUE)
+\end{lstlisting}
+
+The following code explores the basic programming of the chroma for BMS application:
+
+\begin{lstlisting}[language=Python, caption=Basic BMS Program for Chroma]
+    #Basic Program for Chroma to configure the cells
+    chroma.query('*IDN?\n') # identify the instrument
+    #Query the output sampling time
+    chroma.query('SIM:CONF:SAMP:TIME?\n') 
+
+    #number of BMS(each Chroma is One BMS) are parallel
+    chroma.write(f'SYST:SLAVE:PARA {self.noOfBMS}\n')
+    chroma.write(f'SYST:SLAVE:SCAN {self.noOfBMS}\n')
+
+    #Chroma Status commands
+    chroma.query('SYSTem:FRAME:STATe? 0\n')
+    chroma.query('SYST:FRAME:CHAN:STATe? 1\n')
+    chroma.query('SYST:FRAME:CHAN:NUMB? 0\n')
+    chroma.write('SIM:CONF:CHAN:ACT 65535\n')
+    chroma.write('SIM:CONF:CLE\n'
+
+    ''' BMS configurations '''
+    #Number of the BMS 1
+    chroma.write(f'SIM:CONF:BMS:NUMB {noOfBMS}\n')
+    #No cells use in the BMS testing #1 BMS , #2 Cells 
+    chroma.write(f'SIM:CONF:CELL:NUMB {noOfBMS},{noOfBMSCells}\n')
+    #BMS 1, CellStart 1, Cellend 2, 
+    # Cell parallel to the channel1 , # Current Range 2  - 5.0 A
+    chroma.write(f'SIM:CONF:CELL:PARA {noOfBMS},{noOfBMS},
+    {noOfBMStestingCells},{paralleBMSchannel},{cellCurrent_5A}\n') 
+
+    ''' Output Parameters Set '''
+
+    ''' # BMS start  1 ,# BMS end 1 ,#set the start cell 1, 
+    # set the end cell 1, # set the cell voltage 4.0 ,
+     # set the Current of the cell 0.5A '''
+
+    chroma.write(f'SIM:PROG:CELL {noOfBMS},{noOfBMS},{cellNo},
+    {cellNo},{cellVoltage},{cellCurrent5A}\n') 
+
+    # Switch on all the cells immediately
+    chroma.write('SIM:OUTP:IMM\n') 
+
+    '''### check if there is any error 
+    in the Chroma while setting the voltages 
+    ### if there is no error enable
+     all the cells outputs''' 
+
+    time.sleep(10)
+    # Check the configuration Error 
+    self.chroma.query('SYST:ERR?\n')
+
+    # Switch on all the cells
+    self.chroma.write('SIM:OUTP ON \n')  
+    time.sleep(1) # give some time to switch on the emulator 
+
+\end{lstlisting}
+
+The above-attached code is just a basic code for the BMS application which can give a better idea about the basic chroma(Battery emulator) for more SCPI commands of the chroma follow the user manual\cite{Chroma_UserManual} and for the detailed class-based skeleton follow \textcolor{blue}{here}. %\href{}{here}.
+
+\paragraph{Response Time of the Chroma :}
+During battery, balancing it is essential to capture the battery voltage, in reality, this is not the problem because we might be dealing with the actual batteries which do not need voltage updates to the batteries. When we deal with any instruments (battery emulators) it is essential to update the battery (Cell) voltages and battery currents. In this particular project, chroma is used as the battery emulator. Chroma is being communicated through a python script to update its parameters via ethernet. The fundamental response time of the chroma for every request is 10ms, that being said for our application few 100ms time duration is good enough for calculating the batteries SoC. Perhaps I made some demonstration of the chroma response time and the number of packets, figure \ref{fig:Chroma_Packet_delay} shows the round robbin delay of 8 cells current and voltage fetch from chroma.
+The results are quite adequate, over 10k packet request chroma has missed one or two chances of delaying 500ms, which still satisfies a few million packets.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Chap06/Figures/Chroma_Packet_delay.png}
+	\caption{Chroma Response Time for Voltage and Current Request }
+	\label{fig:Chroma_Packet_delay}
+\end{figure}
+
+\subsubsection{Load/Charger :}
+
+In the setup\ref{fig:Battery_Pack_modeling_Architec} load or charger is used across the series cells (battery pack) which can only supply current or sink current from the pack. For this particular architecture, I have preferred e Keysight N6705 DC Power Analyze as a load or charger. All the controls have been passed through the power analyzer module through the script.
+
+\paragraph{ Keysight N6705 DC Power Analyzer :}
+
+The Keysight N6705 Figure \ref{fig:keysight_n6705_DMM_34460A}(a) DC Power Analyzer is a multipurpose power system that combines the capabilities of an oscilloscope, a data logger, and a DC voltage source with numerous outputs \cite{Keysight_N6705_DC_Power_Analyzer}.
+
+The Keysight N6705 has up to four programmable outputs as a multiple-output DC source. The power levels of the available power modules range from 20 W to 500 W, with different voltage and current combinations, and they offer a wide range of performance capabilities. Additionally, each output can generate arbitrary (Arb) waveforms, allowing you to program. Standardized voltage and current waveforms, or create your own. With Keysight N678xA SMUs (Source/Measure Units) have a multi-quadrant power mesh with distinct voltage and sources of current priority \cite{Keysight_N6705_DC_Power_Analyzer}.
+
+% \begin{figure}[h]
+% 	\centering
+% 	\subfigure[4 Channel keysight N6705 Power Supply]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/keysight_n6705.PNG}}
+%     \qquad
+% 	\subfigure[Chroma Output Wiring to the BMS]{\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}}
+% 	\caption{ keysight N6705 Power Supply and DMM 34460A }
+% 	\label{fig:keysight_n6705_DMM_34460A}
+% \end{figure}
+
+The Keysight N6705's Meter View shows the average output voltage and current as a measurement system. Scope View, which you can modify using the vertical and horizontal sliders, displays waveforms. The Data Logger View records average and peak voltage and current measurements over a long period and plots the data \cite{Keysight_N6705_DC_Power_Analyzer}.
+
+The setup allows configuring the DC power supply as a charger or load, by setting the current direction.  The following program shows the typical program for load/chargers:
+
+\begin{lstlisting}[language=Python, caption=Load/Charger Configuration for Keysight N6705's]
+
+    #find the resource
+    rm = pyvisa.ResourceManager()
+    #open the instrument by the id 
+    loadCh = rm.open_resource('USB0::0x0957::0x0F07:
+                    :MY50000622::INSTR')
+    #Identify Keysight N6705's
+    loadCh.query('*IDN?\n')
+    
+    '''Configure Power analyzer channels 1 and 3 in 
+    2 quadrants to sink or source current; that presumes 
+    Load or Charger'''
+    loadCh.write('EMUL PS2Q,(@1,3)')
+
+    # Eneable current priority for channels 1 and 3
+    loadCh.write('FUNC CURR,(@1,3)')
+    
+    # Set currnet range for 1 and 3 channel  1Amp
+    loadCh.write('SOUR:CURR:RANG 1.02,(@1,3)')
+    loadCh.write('CURR 1,(@1,3)')
+    
+    #Set Voltage limt for 28V
+    loadCh.write('VOLT:LIM 28,(@1,3)')
+
+    # Switch on Channel 1 and channel 3
+    loadCh.write('OUTP ON,(@1,3)')
+    
+\end{lstlisting}
+
+The above program is just an example of programming channel 1 and channel 3, we can couple the power supply channels for programming and trigger at the same time ($OUTP:COUP:CHAN$ \textit{1,2 ; Couple channel 1 and 2}). For more details and programming examples, refer to the keysight N6705B datasheet \cite{Keysight_N6705_DC_Power_Analyzer}.
+
+\subsubsection{Meter View :}
+The proposed architecture \ref{fig:Battery_Pack_modeling_Architec} encounters a meter view, which meter view allows the collaboration of various measuring instruments which can be directly controlled. A meter view in the architecture is directly controlled by the power analyzer module. Measurements include DC/DC converter input/output current measurements, and battery pack current measurements. The current measurement setup in the system is very much critical, hence we can measure the shunt voltage, and we can calculate the current flow (if shunt resistance is known). Measurement view is so much modular that we can have as many measuring instruments in the setup, and we log the data without disturbing the setup.
+In the architecture, keysight 34470A DMM  \ref{fig:keysight_n6705_DMM_34460A}(b) has been employed for shunt voltage measurements (Battery Pack Current, DC/DC input/output current; Fig \ref{fig:BMS Architecture}). The following sections will give more detailed information about the multimeter and configuration.
+
+\paragraph{Digital Multimeters 34460A :}
+
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.4\textwidth]{Chap06/Figures/DMM_34460A.PNG}
+% 	\caption{Keysight Technologies Digital Multimeters 34460A}
+% 	\label{fig:keysight_DMM_34460A}
+% \end{figure}
+
+The only completely drop-in, SCPI-compatible alternative to the 34401A DMM in the market is the Digital Multimeters 34461A \cite{Keysight_34460A_DMM}. Although some other DMMs claim to be 34401A SCPI compatible, they only support a limited number of SCPI commands. The same design team that produced the 34401A also produced the Truevolt DMMs. When developing the Truevolt family of DMMs, the team kept 34401A measures, dependability, and familiarity in mind. Consequently, people may use it without having to spend hours learning how.
+The following basic programming for DMM gives more insights into communication and configuration for measurement setup :
+
+\begin{lstlisting}[language=Python, caption=DMM Keysight 34401A's Meauring/Configuration ]
+    rm = visa.ResourceManager()
+    ''' usb_id='USB0::0x2A8D::0x1301::MY57216238::INSTR' VISA id of DMM 
+    Open VISA port
+    '''
+    mul_34461A = rm.open_resource(usb_id)
+
+    #Identify DMM
+    mul_34461A.query('*IDN?')
+    #Rest DMM
+    mul_34461A.write('*RST')
+    #Check for Error
+    mul_34461A.query('SYST:ERR?')  
+    # set NPLC to speed up the measurements
+    mul_34461A.write('VOLT:DC:NPLC 0.02')  
+
+    ''' Configure DMM for Voltage measurements '''
+    mul_34461A.write(':FUNC "VOLT:DC"') 
+    if range in range_list:
+            range_auto = ':VOLT:DC:RANG:AUTO '
+            range_val = ';:VOLT:DC:RANG '
+            res_com = ';:VOLT:DC:RES '
+
+            if range == -1:
+                range_auto_cmd = 'ON'
+                range_val = ''
+                range_val_str = ''
+                res_com = ''
+                res_val_str = ''
+            else:
+                range_auto_cmd = 'OFF'
+                range_val_str = str(range)
+                if range == 0.1 or range == 1:
+                    res = 1e-6
+                elif range == 10:
+                    res = 1e-5
+                elif range == 100:
+                    res = 1e-4    
+                else:   
+                    res = 1e-3
+                res_val_str = str(res)
+
+            com = range_auto + range_auto_cmd +  range_val + 
+            range_val_str + res_com + res_val_str
+
+            #wite the Command
+            mul_34461A.write(com) 
+            mul_34461A.write('VOLT:IMP:AUTO ON')
+            array = []
+            while count>0:
+                if count > 4:
+                    cnt = 4
+                else:
+                    cnt = count 
+                array.append(self.read_value(cnt))
+                count -= 4 
+            return(sum(array)/len(array))   
+        else:
+            return('ERR: Wrong range')   
+
+    # Fetch the voltage 
+    def Volt(self):
+        return float(mul_34461A.query('READ?')) 
+\end{lstlisting}
+
+\subsection{ Battery Modeling :}
+The above sections have described the hardware and instrument setup in the Battery Emulation architecture \ref{fig:Battery_Pack_modeling_Architec}. After understanding the background and programming setup for instruments it is easy to understand the Battery modeling algorithms. The following sections can discretize the Battery emulation architecture and explain the algorithms.
+
+\begin{algorithm}[H]\label{algo:Battery_Modeling}
+    \DontPrintSemicolon
+    \SetAlgoLined
+    \KwData{$BattModel$ = $<Q_{tot},dt,SOC_0,V_{batt},V_{oc},SoC,i_{batt},BattModelParams(SoC)>$}
+    \SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+    \Input{$Q_{tot}$,  $dt$ , $SOC_0$ }
+    \Output{$V_{batt}$,$V_{OTC_(k+1)}$,$SOC$}
+    Initialization\;
+
+        $Q_{tot} \leftarrow$ Total Batt Capacity $\mathcal{N})$(0.1 ~ 100) Ah\\
+        $SOC_0 \leftarrow$ Initial SoC ($SoC_{(k)})$ $\mathcal{N}$ (0 ~ 1) \\
+        $dt \leftarrow$  Measurement Sampling time $\mathcal{N}$(0 ~ 1000) mS \\   
+        $i_{batt} \leftarrow$ = 0 ; initial battery current $i_{batt(k)}$\\  
+        $V_{OC(k)}   = BattModelParams.VOC(SoC_{(k)})$ \CommentSty{BatteryOpen ckt Voltage $ f(SoC_0)$}\\
+        \For{k $\leftarrow 0$ \KwTo iters}{
+            $R_{0(k)} = BattModelParams(SoC_{(k)})$\\
+            $C_{OTC(k)} = BattModelParams.COTC(SoC_{(k)})$\\
+            $R_{OTC(k)} = BattModelParams.ROTC(SoC_{(k)})$ \CommentSty{Battery OTC Dynamic Components $ f(SoC)$}\\
+            $V_{OC(k)}   = BattModelParams.VOC(SoC_{(k)})$ \CommentSty{BatteryOpen ckt Voltage $ f(SoC)$}\\
+            $V_{batt(k)} = V_{OC(k)} - V_{OTC(k)} - R_0(k)\times i_{batt(k)}$\\
+            $V_{OTC(k+1)} = V_{OTC(k)} \times exp^{ \frac{- dt} { C_{OTC(k)} * R_{OTC(k)} }} +  R_{OTC(k)}\times ( 1 - exp^{ \frac{- dt} { C_{OTC(k)} * R_{OTC(k)} }})\times i_{batt(k)}$\\
+            $SoC(k+1) = SoC(k) - i_{batt(k)}\times \frac{dt} {Q_{tot} * 3600}$ \CommentSty{Coloumb SOC}\\
+            $i_{batt(k+1)} \leftarrow$  $i_{battNew}$ \CommentSty{the latest Battery current measurement}\\
+
+            }
+    \Return{$V_{batt(k)},SoC_{(k)},V_{OTC(k+1)} $}\\
+    \caption{Battery Modeling Algorithm}
+\end{algorithm}
+
+
+The section shows the basic battery modeling algorithm, the explanation is as follows:
+\begin{equation}\label{eq:coulomb_soc}
+    SoC(k+1) =  SoC(k)  \pm dt\times \frac{i_{batt(k)}}{Q_{tot}}
+\end{equation}
+\begin{itemize}
+    \item $Batt$ module name which will take  $<Q_{tot},dt,SOC_0,i_{batt},BattModelParams(SoC)>$ inputs and produces $V_{batt},V_{OC},SoC>$ as the outputs
+    \item Initialization of the algorithm parameters
+    \begin{itemize}
+        \item $<Q_{tot}$ is the total capacity of the battery and $dt$ measurement time used to calculate the battery SoC for instance by the coulomb count eq :\ref{eq:coulomb_soc}
+        \item $SOC_0$ initial SoC which can help to extract the open circuit voltage($V_{OC}$) of the battery at first instance, when $i_{Batt}$ = 0 the $V_{OC}$ is same as $V_{Batt}$
+        \item Open circuit voltage($V_{OC}$) is the function of the SoC, the $V_{OC}$ can directly extract from the Battery Voltage/SoC curve which will be provided by the battery manufacturer 
+        \item $BattModelParams(SoC)$ module take SoC as input provide the Battery modeling parameters $V_{OC},R_0,C_{OTC},R_{OTC}$ by interpolating SoC with the manufacturer provided battery component lookup tables 
+    \end{itemize}
+    \item Iterate the for (k) loop  from 0 to N -1
+    \item For every $SoC(k)$ $BattModelParams(SoC_{(k)})$ will provide $k^{th}$ updated batter parameters $V_{OC(k)},R_{0(k)},C_{OTC(k)},R_{OTC(k)}$
+    \item Battery voltage is calculated by the equation \ref{eq:Discrete_eOTC_Batt_Voltage } ; initial $V_{OTC}$ = 0 , $\because i_{batt} = 0$ 
+    \item The updated onetime constant voltage of the battery $V_{OTC(k+1)}$ is calculated by the equation \ref{eq:Discrete_OTC_Voltage }
+    \item Update the $SOC_(k+1)$ by any SoC calculating algorithms for instance Coulomb count \ref{eq:coulomb_soc} or Kalman etc
+    \item The battery current $i_{batt}$ updated with the latest current acquisition made in $dt$ delay 
+    \item $Batt$ module will return updated {$V_{batt(k)},SoC_{(k+1)},V_{OTC(k+1)} $} battery voltages and SOC
+\end{itemize}
+
+\subsection{Battery Pack Modeling :}
+The battery pack module will instantiate the $BattModel$ \ref{algo:Battery_Modeling}, a module created in algorithm \ref{algo:Battery_Pack_Modeling}  which will manage several batteries depending on the user's requirements(setting the updated battery voltages, calculating SoC, measuring batteries current). The algorithm describes the implementation of the battery pack for 8 batteries, we can extend even further just by changing the initial SoC array for the module.
+\begin{algorithm}[H]\label{algo:Battery_Pack_Modeling}   
+\DontPrintSemicolon
+    \SetAlgoLined
+    \KwData{$BattPack$ = $<Q_{tot},dt,N_{Batts},SOC_0[] ,V_{batt}[],V_{oc}[],SOC[],i_{batt}[],$
+                        $BattModel(), Chroma(V_{Batt})[]>$}
+
+    \SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+    \Input{$Q_{tot}$,  $dt$ , $SOC_0[]$ }
+    \Output{$V_{batt}[]$,$SOC[]$}
+    Initialization\;
+    $Q_{tot} \leftarrow$ Total Batt Capacity  $\mathcal{N} $(0.1 $\sim $ 100) Ah\\
+    $SOC_0[] \leftarrow$ Initial SoC ($SoC_{(k)}[]$) $\mathcal{N}$ [1 $\cdots$  8] (0 $\sim $ 1) \\
+    $N_{Batts} = len(SOC_0[])$ \CommentSty{No of Cells in BATT Pack}\\
+    $dt \leftarrow$  Measurement Sampling time $\mathcal{N}$(0 $\sim $ 1000) mS \\   
+    $i_{batt}[] \leftarrow$ = 0 ; initial battery current $i_{batt(k)}$ [1  $\cdots$ $N_{Batts}$]\\  
+    $Batt = []$ \CommentSty{Store $BattModel()$ instances}
+
+    \CommentSty{Initialize Chroma Channels}\\
+    $Chroma(V_{Cell}=default (4V),N_{Batts} )$
+
+    \CommentSty{Initialize $N_{Batts}$ Battery Model instances\\
+        with $SoC_0$
+    }\\
+    \For{i $\leftarrow 0$ \KwTo $N_{Batts} - 1$}{
+        $Batt[i] = BattModel(SOC_0[i] ,Q_{tot},dt)$
+    }
+
+    \For{k $\leftarrow 0$ \KwTo $N_{Batts}$}{
+        $i_{batt}[k] \leftarrow = Chroma.Currents[k]$ \\
+        $[V_{batt}[k],V_{oc}[k]] = Batt[k].battVoltage(i_{batt}[k])$\\
+        $SoC[k] = Batt[k].CoulombSOC()$
+        $Chroma.VoltageSet(cellNo=k,V_{Cell}=V_{OC}[k])$
+    }
+    \Return{$V_{batt}[], SOC[] $}\\
+    \caption{Battery Pack Modeling Algorithm}
+\end{algorithm}
+
+\begin{itemize}
+    \item The battery pack module will operate everything on batch-wise like Soc, current, and voltage as arrays ($SOC_0[] ,V_{batt}[],V_{oc}[],SOC[],i_{batt}[]$).
+    \item Initialize $Q_{tot},dt , SoC_0[]$ is the initial soc of the batteries which can be declared as an array the length $N_{Batt} = len(SoC_0[])$ of the array determines the number of batteries used in the battery pack.
+    \item $i_{batt}[] = 0$ array initialized to zero because there is no current flow at t=0, and declare  $Batt[] = len([],N_{Batt})$ empty array of $N_{Batt}$ size to store the BatteryModel module instance, each instance will operate individually as a battery.
+    \item Initialize and configure chroma for $N_{Batt}$ channels in series with an initial voltage of 4v and a maximum current of 5A  $Chroma(V_{Cell}=default (4V),N_{Batts} )$.
+    \item Collect the $N_{Batt}$ Battery Model instance in the Batt array;  each  Battery Model module will take initial parameters $SoC_0, Q_{tot} and dt$ as inputs.
+    \item Iterate for (k) loop 0 to $N_{Batt} -1$ to emulate each battery from $Batt[k]$ instances
+        \begin{itemize}
+            \item Measure $i_{batt}[k]$ of $k^{th}$ battery from chroma; $Chroma.Currents[k]$ can provide the current flowing in the $k^{th}$ of the chroma
+            \item $k^{th}$ battery model instance function $Batt[k].battVoltage(i_{batt}[k])$ newly calculated battery voltage and $SoC(k)$ corresponding open circuit voltage $V_{OC}$
+            \item $SoC[k] = Batt[k].CoulombSOC()$ will calculate the updated SoC by the newly acquired $i_{batt}(k)$
+            \item Set the $k^{th}$ battery/channel voltage of the chroma to newly estimated $V_{OC}$
+        \end{itemize}
+    \item The loop will return  $N_{Batt}$ batteries updated $SOC[]$ and $V_{batt}[]$
+\end{itemize}
+
+\subsection{Power Analyzer Modeling}
+\begin{algorithm}[H]\label{algo:PowerAnalyzer_Modeling}
+    \DontPrintSemicolon
+    \SetAlgoLined
+    \KwData{$PowerAnalyzer$ = $<BattPack(), LoadCharger() , MeterView() , DataCollection(),dt, SOC[] , V_{Batt}[]>$}
+    \SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+    \Input{$BatteryPack(), LoadCharger() , MeterView()$ }
+    \Output{$SOC[] , V_{Batt}[]$}
+    Initialization all the instruments with VISA USB id\;
+    $dt \leftarrow$  Measurement Sampling time $\mathcal{N}$(0 $\sim $ 1000) mS \\   
+    $battPack = BattPack()$; $loadCharger = LoadCharger()$; $meterView = MeterView()$ \\
+    $BattLowV = 2.5 ; Volts$; $BattHighV = 4.2; Volts$ \\
+    $DCDCShunt$ = 3$e^{-3}$ ; $\Omega$; $PackShunt$ = 500$e^{-6}$ ; $\Omega$\\
+    $SOC[] = [] , V_{Batt}[] = []$ \\
+    \CommentSty{ Tigger DC/DC Converter}\\
+    $meterView.Digilent.TriggerDCDC()$\\
+    \While{$TRUE$}{
+        \CommentSty{Battery Safety Area}\\
+        \If{$min(V_{Batt}[]) !=  BattLowVoltage |  Max(V_{Batt}[]) !=  BattLowVoltage$}{
+            \CommentSty{BattPack() $N_{Batts}$ = 8 data as single array} \\
+            $[SOC[], V_{Batt}[] ]  = BattPack()$ \\
+            $DCDCoutI = meterView.DCDCoutShuntV() / DCDCShunt$ \\
+            $DCDCinI = meterView.DCDCinShuntV() / DCDCShunt$ \\
+            $ChargingI = meterView.PackTopShuntV() / PackShunt$\\
+            $DataCollection(SOC[], V_{Batt}[],DCDCoutI,DCDCinI,ChargingI)$\\
+        }
+        \Else{
+            \CommentSty{break the Loop}\\
+            $Clearall();$\\
+            $break;$ \\       
+            }
+        $Delay(dt)$\\
+    }
+    \caption{Power Analyzer Modeling Algorithm}
+\end{algorithm}
+
+
+Power Analyzer will integrate the complete setup \ref{fig:Battery_Pack_modeling_Architec}, which includes meter-views, battery packs, and data collection.  The loop in the power analyzer will continuously run until the batteries enter the safety of operation. The loop will be iterated by delaying every $dt$ for calculating soc and measuring the battery parameters (chroma).
+The PowerAnalyzer module will parallelly execute the DataCollection Module to log the DC/DC Converter input/output current, Battery Voltages, and SoC of the batteries. In the algorithm, I have collected shunt voltages instead of collecting directly current because in the system the shunt resistance values are known, and also measuring current needs to break the circuit loops or needed expense current probes.

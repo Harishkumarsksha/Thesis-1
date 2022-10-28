@@ -1,0 +1,47 @@
+\section{Introduction}\label{Guidelines}
+Submission of a synopsis or extended abstract is one of the mandatory requirements before submitting a doctoral or master thesis. It is not just a longer version of an abstract. It is as good as a research paper that conveys the essence of the thesis without overlooking the importance of introduction and conclusion. A synopsis should include the following~\textemdash~
+\begin{itemize}
+	\item Introduction
+	\item Aim
+	\item Method
+	\item Results
+	\item Conclusion
+	\item Limitations
+	\item References
+	\item Dissemination
+\end{itemize}
+
+\noindent A synopsis is a self-contained, capsule description of the thesis that must make sense all by itself. Typical length of a synopsis should be between 5 and 10. Pages must of A4 dimension with 25mm margin on all four sides. The entire dissertation must be written using only a single font including all the texts inside graphs, figures, block diagrams, etc. While writing captions of tables and figures, the font size should be decreased by one point. Similarly, the font size of bibliography and index should also be lessened by a point. Students are advised to use the following in the body text~\textemdash
+\begin{itemize}
+\item[] serif fonts like Times New Roman (TNR) of size 12pt \\
+or \\
+\textsf{sans-serif fonts like Arial of size 11pt}. 
+\end{itemize}
+Needless to say that the use of font should be uniform throughout. Headings, Titles \textit{etc.} should use fonts as given below in Table~\ref{tab-fonts}.
+{
+\linespread{1}
+\begin{table}[h]
+\centering
+\caption{Font sizes to be used in the dissertation}
+\begin{tabular}{l C{25mm} C{25mm} c} 
+\toprule
+{Item} & Arial & {TNR} & {Justification}\\
+\midrule\midrule
+Main Text & 11 normal & 12 normal & Justified \\
+\midrule
+Sub-sub Heading & 11 bold & 12 bold & Left \\
+\midrule
+Sub Heading & 13 bold & 14 bold & Left \\
+\midrule
+Heading$^{\#}$ & 16 bold & 17 bold & Left \\
+\midrule
+Chapter Title & 22 bold & 24 bold & Center \\
+\midrule
+Chapter Number & 16 bold & 17 bold & Left \\
+\bottomrule
+\multicolumn{4}{l}{$^{\#}$Add serial number with one decimal place.} 
+\end{tabular}
+\label{tab-fonts}
+\end{table}
+}
+\par The class file \texttt{NITR.cls} can be used to prepare a synopsis. One needs to invoke the statement ``\texttt{\textbackslash synopsisCoverPage}'' in the main ``\texttt{.tex}'' file with ``\texttt{\textbackslash docType(4)}'' and all necessary data in the ``\texttt{FrontPages.tex}''. The text of the synopsis can be written in ``\texttt{./SynopsisText/SynopsisText.tex}''.
