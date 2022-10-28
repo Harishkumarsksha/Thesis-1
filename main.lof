@@ -1,0 +1,81 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Basic dipole Antenna\relax }}{10}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Wire Antenna\relax }}{11}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces PCB Antenna\relax }}{11}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Chip Antenna\relax }}{12}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Antenna Return loss\relax }}{13}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Antenna Bandwidth\relax }}{14}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Antenna Radiation Pattren\relax }}{15}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces MIFA/PIFA antenna radiation direction\relax }}{16}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces PCB Inverted Meandered F type Antenna \cite {NXP_AN11994_Antenna_Guide} \relax }}{17}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces BLE module PCB with the MIFA/PIFA antenna placement\relax }}{17}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces MIFA/PIFA antenna S11 return loss\relax }}{18}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces MIFA Antenna Gain Radiation Pattren\relax }}{19}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces MIFA/PIFA antenna 3D radiation Pattren\relax }}{19}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces MIFA/PIFA antenna efficiency Simulation Results\relax }}{20}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces IFA antenna design and the placement\relax }}{21}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces IFA antenna S11 and S22\relax }}{22}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces IFA antenna S11 Variation by changing the length and hinge width\relax }}{23}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces BluEnergy-355MC(right) and Nordic Modules(left) \relax }}{23}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces BluEnergy-355MC Module Core circuit \relax }}{24}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces BLE PCB ground and power planes\relax }}{24}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Antenna Feed Line clearence\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Power Ground and RF Ground Isolated with Inductor\relax }}{25}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Antenna Feed Shape\relax }}{26}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Vias placement on BLE board\relax }}{26}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Power Supply Decoupling\relax }}{27}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces BLE Antenna Matching Network\relax }}{27}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Type Ia}: Active Battery Balancing\relax }}{30}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Conventional Buck (a) and synchronous Buck(b) Conveter\relax }}{31}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Conventional Boost (a) and synchronous Boost(b) Conveter\relax }}{31}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Type IIa} : Buck-boost converter \relax }}{32}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Typical Buck-Boost Converters\relax }}{33}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Type IIb} active balancing architecture \relax }}{34}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Type IIIa} active balancing architecture\relax }}{35}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Shematic of the High/Low side DC/DC converter \relax }}{35}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces BMS Architecture\relax }}{36}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces LM5170 DC/DC Converter Operation Setup \cite {TI_LM5170_BatteryTesting_Solution},\cite {TI_LM5170_EVM_User_Guide} \relax }}{39}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Typical Mosfet switch matrix for 8 batteries \cite {Active_Balancing_Thesis_Raber} \relax }}{41}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Inrush Control by Limiting $V_{GATE}$ Slew\relax }}{43}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces TMCS1107xx Hall sensor Block diagram\relax }}{49}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces INA238 High-Side Shunt Current Sensing\relax }}{50}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces INA238 Simplified Block diagram \cite {INA238_User_Datasheet}\relax }}{50}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces INA238 Multi-Alert Configuration\relax }}{52}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces INA2xx Simultaneous Write and Sequential Read\relax }}{53}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces INA2xx Delayed Synchronization\relax }}{53}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Battery Balancing Current\relax }}{55}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Battery equivalent circuit diagrams. (a) internal resistance model (IR), (b) one-time constant model (OTC), (c) two time constants model (TTC) \cite {UKEMPT_AHMAD2012},\cite {UKEMPT_AHMAD2012} \relax }}{59}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Battery OCV Vs Soc for SLPB120216216 Cell \cite {UKEMPT_AHMAD2012}\relax }}{60}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Characteristic waveforms for battery output voltage and current during charging and discharging of lithium-ion cells.\relax }}{62}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces LIPo Battery SLPB120216216 Simulated Results \cite {UKEMPT_AHMAD2012} \relax }}{81}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Architecture of the Battery Pack Modeling/Emulation For BMS\relax }}{82}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Chroma Response Time for Voltage and Current Request \relax }}{82}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Single Battery Modeling Characteristics with PowerAnalyzer \relax }}{83}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Battery Pack Modeling Characteristics with PowerAnalyzer(3 Cells) \relax }}{84}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Discrete Kalman Filter Algorithm Flow Chart\relax }}{88}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Kalman Filter Principle\relax }}{91}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Charging Battery Kalman Filter Results\relax }}{92}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Charging Profile of the LIPO Batteries\relax }}{92}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Charging Battery Kalman Filter Results Smaplingtime $dt$ = 1mS\relax }}{93}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces UKF UT Transformation \relax }}{95}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces SoC estimation based on UKF \relax }}{97}{}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Kalman Algorithms Battery Charing SOC Comparision\relax }}{99}{}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Kalman Algorithms Convergence \relax }}{100}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{101}{}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces BLUeNRG-355mc BLE Module Layout\relax }}{102}{}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{102}{}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Nordic nrf52840 BLE module Layout\relax }}{103}{}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces BLUeNRG-355mc BLE Complete Schematic\relax }}{104}{}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Typical Bidirectional circuit of the LM5170\relax }}{108}{}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces STD20NF06L Application typical circuit and package\relax }}{109}{}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces LTC4231 Application circuit and the Operational waveform \relax }}{110}{}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces \textit {Type Ib} Active Balancing Circuit\relax }}{110}{}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Typical Schematics of the Low side and High Side buck-boost Converter\relax }}{110}{}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces keysight N6705 Power Supply and DMM 34460A \relax }}{110}{}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces 16CH Battery Cell Simulator 87001\relax }}{111}{}%
